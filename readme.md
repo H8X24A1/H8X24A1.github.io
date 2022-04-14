@@ -7,32 +7,18 @@ icon: home
 
 [HXA.io](https://hxa.io) is your **[MDRN.WORK]** solutions provider.
 
-Here you can find :icon-info: information for how to use our products.
-
-#### :icon-shield-check: Enjoy!
-
-
-
-Both [internal](README.md) and [external](https://example.com) links work.
-
-![Your logo](logo/HXA_logo_dark.png)
-
-Another paragraph with **bold**, _italic_, ~~strikethrough~~, and `code` samples.
+!!!
+Here you can find information how to use our products.
+!!!
 
 ---
 
-## Lists
++++ Lists
 
-- First item
-- Second item
-- Third item
+- [x] First item
+- [x] Second item
+- [x] Third item
 
-1. First item
-2. Second item
-3. Third item
++++
 
-> "Cool! This is a quotation."
-
-!!!
-Need to draw attention to something? Use an alert.
-!!!
+#### :icon-shield-check: Enjoy!
