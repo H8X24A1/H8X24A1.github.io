@@ -2,6 +2,8 @@
 
 ### Test with New Repository Name
 
+Change Label Color
+
 This is a paragraph.
 
 Both [internal](README.md) and [external](https://example.com) links work.
