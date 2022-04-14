@@ -6,8 +6,10 @@ branding:
   logo: logo/HXA_logo.png
   logoDark: logo/HXA_logo_dark.png
   label: Docs
-    text: "#e0061c"
-    background: "#ffffff"
+  colors:
+    label:
+      text: "#e0061c"
+      background: "#ffffff"
 links:
   - text: HXA.io Product Website
     link: https://hxa.io
