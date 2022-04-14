@@ -3,8 +3,8 @@ output: .retype
 url: #https://docs.hxa.io
 branding:
   #title: HXA.io
-  logo: https://hxa.io/files/hxa/logo/HXAio_185x50px_blk.png
-  logoDark: https://api.hxa.io/images/HXA_logo.png
+  logo: logo/HXA_logo.png
+  logoDark: logo/HXA_logo_dark.png
   label: Documentation
 links:
   - text: HXA.io Product Website
