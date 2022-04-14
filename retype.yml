@@ -8,11 +8,11 @@ branding:
 links:
   - text: HXA.io Product Website
     link: https://hxa.io
-    icon: https://hxa.io/files/hxa/logo/ico/HXA_favicon_32x32px.ico
+    icon: #https://hxa.io/files/hxa/logo/ico/HXA_favicon_32x32px.ico
     target: blank
   - text: HXA Portal
     link: https://portal.hxa.io
-    icon: https://hxa.io/files/hxa/logo/ico/HXA_favicon_32x32px.ico
+    icon: #https://hxa.io/files/hxa/logo/ico/HXA_favicon_32x32px.ico
     target: blank
 favicon: https://hxa.io/files/hxa/logo/ico/HXA_favicon_32x32px.ico
 footer:
