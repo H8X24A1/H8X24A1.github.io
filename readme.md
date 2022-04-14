@@ -8,7 +8,7 @@ This is a paragraph.
 
 Both [internal](README.md) and [external](https://example.com) links work.
 
-![Your logo](logo.png)
+![Your logo](logo/HXA_logo_dark.png)
 
 Another paragraph with **bold**, _italic_, ~~strikethrough~~, and `code` samples.
 
