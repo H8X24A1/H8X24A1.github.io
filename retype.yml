@@ -1,0 +1,19 @@
+input: .
+output: .retype
+url: https://docs.hxa.io
+branding:
+  #title: HXA.io
+  logoDark: https://api.hxa.io/images/HXA_logo.png
+  label:  Documentation
+links:
+  - text: HXA.io Product Website
+    link: https://hxa.io
+    icon: https://hxa.io/files/hxa/logo/ico/HXA_favicon_32x32px.ico
+    target: blank
+  - text: HXA Portal
+    link: https://portal.hxa.io
+    icon: https://hxa.io/files/hxa/logo/ico/HXA_favicon_32x32px.ico
+    target: blank
+favicon: https://hxa.io/files/hxa/logo/ico/HXA_favicon_32x32px.ico
+footer:
+  copyright: "&copy; Copyright . [HXA.io by NT-Technologies GmbH](https://hxa.io) All rights reserved."
