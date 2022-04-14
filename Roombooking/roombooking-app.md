@@ -1,5 +1,5 @@
 ---
-label: Roombooking App
+label: HXA Room Booking App
 icon: note
 ---
-# Roombooking App
+# HXA Room Booking App
