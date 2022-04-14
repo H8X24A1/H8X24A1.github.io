@@ -1,5 +1,5 @@
 ---
-label: Roombooking Portal
+label: HXA Room Booking Portal
 icon: browser
 ---
-# Roombooking Portal
+# HXA Room Booking Portal
