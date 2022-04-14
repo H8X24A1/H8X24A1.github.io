@@ -6,6 +6,7 @@ Change Label Color
 
 This is a paragraph.
 
+
 Both [internal](README.md) and [external](https://example.com) links work.
 
 ![Your logo](logo/HXA_logo_dark.png)
