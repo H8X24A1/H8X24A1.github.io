@@ -1,10 +1,16 @@
-# Page title here
+---
+label: Welcome
+icon: home
+---
 
-### Test with New Repository Name
+# Welcome to HXA.io
 
-Change Label Color
+[HXA.io](https://hxa.io) is your **[MDRN.WORK]** solutions provider.
 
-This is a paragraph.
+Here you can find :icon-info: information for how to use our products.
+
+#### :icon-shield-check: Enjoy!
+
 
 
 Both [internal](README.md) and [external](https://example.com) links work.
