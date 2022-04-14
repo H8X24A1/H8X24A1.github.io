@@ -2,9 +2,9 @@ input: .
 output: .retype
 url: https://docs.hxa.io
 branding:
-  #title: HXA.io
-  logo: logo/HXA_logo.png
-  logoDark: logo/HXA_logo_dark.png
+  title: HXA.io
+  #logo: logo/HXA_logo.png
+  #logoDark: logo/HXA_logo_dark.png
   label: Docs
   #colors:
   #  label:
@@ -13,11 +13,11 @@ branding:
 links:
   - text: HXA.io Product Website
     link: https://hxa.io
-    icon: logo/HXA_icon.png
+    #icon: logo/HXA_icon.png
     target: blank
   - text: HXA.io Portal
     link: https://portal.hxa.io
-    icon: logo/HXA_icon.png
+    #icon: logo/HXA_icon.png
     target: blank
 footer:
   copyright: "&copy; Copyright . [HXA.io by NT-Technologies GmbH](https://hxa.io) All rights reserved."
