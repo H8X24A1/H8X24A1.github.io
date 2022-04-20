@@ -11,6 +11,8 @@ icon: home
 Here you can find information how to use our products.
 !!!
 
+Content will follow soon.
+
 ---
 
 +++ Lists
