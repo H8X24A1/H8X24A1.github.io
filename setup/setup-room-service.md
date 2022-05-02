@@ -1,4 +1,5 @@
 ---
 label: Setup Room Service
-icon: ☕
+icon: milestone
+order: 500
 ---
