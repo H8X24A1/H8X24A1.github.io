@@ -1,5 +1,5 @@
 ---
 label: App Service Information
-icon: issue-closed
+icon: information
 order: 600
 ---
