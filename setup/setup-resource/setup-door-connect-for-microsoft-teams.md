@@ -1,5 +1,5 @@
 ---
 label: Setup Door Connect for Microsoft Teams
-icon: home
+icon: bell
 order: 800
 ---
