@@ -1,5 +1,5 @@
 ---
 label: Purchase License
-icon: check
+icon: shield-check
 order: 1000
 ---
