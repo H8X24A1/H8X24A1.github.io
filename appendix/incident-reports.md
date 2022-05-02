@@ -1,5 +1,5 @@
 ---
 label: Incident Reports
-icon: issue-closed
+icon: report
 order: 500
 ---
