@@ -1,5 +1,5 @@
 ---
 label: Setup Room Board
-icon: calendar
+icon: browser
 order: 900
 ---
