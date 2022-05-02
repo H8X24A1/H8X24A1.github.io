@@ -1,5 +1,5 @@
 ---
 label: App Service Information
-icon: information
+icon: info
 order: 600
 ---
