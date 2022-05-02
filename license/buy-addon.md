@@ -1,5 +1,5 @@
 ---
 label: Buy AddOn
-icon: package-depends
+icon: package-dependents
 order: 700
 ---
