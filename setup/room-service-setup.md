@@ -1,5 +1,5 @@
 ---
-label: Setup Room Service
+label: Room Service Setup
 icon: milestone
 order: 500
 ---
