@@ -1,5 +1,5 @@
 ---
-label: Setup Room Booking
+label: Room Booking Setup
 icon: calendar
 order: 1000
 ---
