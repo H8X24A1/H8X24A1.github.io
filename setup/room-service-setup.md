@@ -1,5 +1,5 @@
 ---
 label: Room Service Setup
-icon: milestone
+icon: hubot
 order: 500
 ---
