@@ -7,7 +7,7 @@ order: 400
 ==- Organization
 ...
 
-==- Organisation user
+==- Organization user
 ...
 
 ==- Subscription
