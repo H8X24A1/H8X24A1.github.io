@@ -4,31 +4,31 @@ icon: code-square
 order: 400
 ---
 
-==- Organisation
-Als Organisation wird ... bezeichnet
+==- Organization
+...
 
-==- Benutzer einer Organisation
-ist ein Benutzer mit bestimmten vom Admin festgelegten Rechten.
+==- Organisation user
+...
 
-==- Abonnement
-ist irgendwas mit Lizenzen
+==- Subscription
+...
 
-==- Lizenz
-kannst du kaufen
+==- License
+...
 
 ==- Connector
-Verbindungaccount zu Exchange
-
-==- Ressource
 ...
 
-==- Kalender
+==- Resource
 ...
 
-==- Gerät
+==- Calendar
 ...
 
-==- Ereignis Protokoll
+==- Device
+...
+
+==- Event protocol
 ...
 
 ===
