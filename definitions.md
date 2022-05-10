@@ -1,7 +1,7 @@
 ---
 label: Definitions
 icon: code-square
-order: 400
+order: 300
 ---
 
 ==- Organization
