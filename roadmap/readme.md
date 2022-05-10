@@ -1,7 +1,10 @@
 ---
+label: Roadmap
+order: 500
 icon: paste
+
 ---
-+++ Planned :unverified:
-- [x] :shield-checked: New `feature` one 
-- [x] :shield-checked: New `feature` two
++++ Planned :icon-unverified:
+- [x] :icon-shield-checked: New `feature` one 
+- [x] :icon-shield-checked: New `feature` two
 +++
