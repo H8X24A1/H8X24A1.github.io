@@ -22,7 +22,7 @@ A license gives the permission to use a specific product or service.
 A connector is needed to establish a connection between the HXA.io system and a Microsoft service like Microsoft Exchange Online or Microsoft Teams. For HXA.io Roombooking a connection to an on-premise Exchange is possible too.
 
 ==- Resource
-A resource is a type of container where all information and settings of calendar and devices are stored in.
+A resource is a type of container where all information and settings of room calendar and devices are stored in.
 
 ==- Calendar
 With calendar we mean the calendar of a room mailbox or resource mailbox to schedule your resources.
