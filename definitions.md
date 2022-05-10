@@ -42,6 +42,4 @@ A connector is needed to establish a connection between the HXA.io system and a 
 ==- Microsoft Teams channel
 ...
 
-
-
 ===
