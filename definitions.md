@@ -28,10 +28,10 @@ A connector is needed to establish a connection between the HXA.io system and a 
 ==- Device
 ...
 
-==- Microsoft Teams Team
+==- Microsoft Teams team
 ...
 
-==- Microsoft Teams Channel
+==- Microsoft Teams channel
 ...
 
 ==- Event protocol
