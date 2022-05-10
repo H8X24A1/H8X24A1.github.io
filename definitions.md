@@ -4,7 +4,7 @@ icon: code-square
 order: 300
 ---
 
-## HXA.io definitions
+### HXA.io definitions
 
 ==- Organization
 An organzation is a type of container which contains the main information, users, subscriptions, licenses and all types of entities of a company.
@@ -34,12 +34,25 @@ A connector is needed to establish a connection between the HXA.io system and a 
 ...
 ===
 
-## Microsoft definitions
+
+### Microsoft definitions
 
 ==- Microsoft Teams team
 ...
 
 ==- Microsoft Teams channel
+...
+
+==- Microsoft resources
+...
+
+==- Microsoft resource mailbox
+...
+
+==- Microsoft equipment mailbox
+...
+
+==- Microsoft workspace mailbox
 ...
 
 ===
