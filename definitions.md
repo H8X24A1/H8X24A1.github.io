@@ -14,10 +14,10 @@ An organzation user is a part of an organization that can have different permiss
 A subscription is a type of container to store the purchased licenses.
 
 ==- License
-...
+A license gives the permission to use a specific product or service.
 
 ==- Connector
-...
+A connector is needed to establish a connection between the HXA.io system and a Microsoft service like Microsoft Exchange Online or Microsoft Teams. For HXA.io Roombooking a connection to an on-premise Exchange is possible too.
 
 ==- Resource
 ...
