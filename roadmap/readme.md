@@ -5,6 +5,6 @@ icon: paste
 
 ---
 +++ Planned :icon-unverified:
-- [x] :icon-shield-checked: New `feature` one 
-- [x] :icon-shield-checked: New `feature` two
+- [x] :icon-shield-check: New `feature` one 
+- [x] :icon-shield-check: New `feature` two
 +++
