@@ -33,6 +33,7 @@ A connector is needed to establish a connection between the HXA.io system and a 
 ==- Event protocol
 ...
 
+
 # Microsoft definitions
 
 ==- Microsoft Teams team
