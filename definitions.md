@@ -47,7 +47,11 @@ A connector is needed to establish a connection between the HXA.io system and a 
 ...
 
 ==- Microsoft resource mailbox
-...
+There are two types of resource mailboxes:
+- Room mailboxes: location specific resources such as conference rooms, auditoriums, etc. 
+- Equipment mailboxes: not location specific resources such as beamers, cars, etc.
+
+
 
 ==- Microsoft equipment mailbox
 ...
