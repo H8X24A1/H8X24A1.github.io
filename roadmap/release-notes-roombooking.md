@@ -8,10 +8,9 @@ Release date: 2021-11-25
 
 +++ New :icon-shield-check:
 - [x]  Add-on Feature Room Service
-- [x]  User Interface Improvements
--- Add button for Room Service feature to the Dashboard if it is enabled
--- Quick booking modal overworked
--- Classic View Font Size extended
+- [x]  Add button for Room Service feature to the Dashboard if it is enabled
+- [x] Quick booking modal overworked
+- [x] Classic View Font Size extended
 
 +++ Fixed :icon-bug:
 - [x] General bug fixes and performance improvements
