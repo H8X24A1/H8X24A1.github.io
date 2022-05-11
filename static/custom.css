@@ -1,9 +1,6 @@
-:root
+:root {
 
-a.hover:text-blue-800 {
-    color: #e0061c
-}
+--text-blue-800: #e0061c;
+--text-blue-200: #e67b86;
 
-a.hover:dark:text-blue-200 {
-    color: #e67b86
 }
