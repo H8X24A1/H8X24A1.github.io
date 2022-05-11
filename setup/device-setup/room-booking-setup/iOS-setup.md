@@ -1,5 +1,5 @@
 ---
 label: iOS Setup
 icon: device-desktop
-order: 700
+order: 1000
 ---
