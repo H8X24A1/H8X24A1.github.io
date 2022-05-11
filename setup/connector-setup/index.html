@@ -11,24 +11,27 @@
     <!-- Primary Meta Tags -->
     <title>Connector Setup</title>
     <meta name="title" content="Connector Setup">
+    <meta name="description" content="There are three types of connectors in HXA.io products to connect to Microsoft services:" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/setup/connector-setup/">
     <meta property="og:title" content="Connector Setup">
+    <meta property="og:description" content="There are three types of connectors in HXA.io products to connect to Microsoft services:">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.hxa.io/setup/connector-setup/">
     <meta property="twitter:title" content="Connector Setup">
+    <meta property="twitter:description" content="There are three types of connectors in HXA.io products to connect to Microsoft services:">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=2.2.705571256168" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.2.705577842148" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.2.705571256168" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.2.705577842148" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.705571256168" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.705577842148" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -170,6 +173,68 @@
         <span>Connector Setup</span>
     </h1>
 </doc-anchor-target>
+<p>There are three types of connectors in HXA.io products to connect to Microsoft services:</p>
+<ul>
+<li>Microsoft Exchange OnPremise (via EWS)</li>
+<li>Microsoft Exchange Online (Office 365)</li>
+<li>Microsoft Teams</li>
+</ul>
+<doc-anchor-target id="microsoft-exchange-online-office-365">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#microsoft-exchange-online-office-365">#</doc-anchor-trigger>
+        <span>Microsoft Exchange Online (Office 365)</span>
+    </h2>
+</doc-anchor-target>
+<p>There are two types of connectors to connect to Microsoft Exchange Online (Office 365):</p>
+<ul>
+<li>via Microsoft Office 365 Application account or</li>
+<li>via Microsoft Office 365 Service account</li>
+</ul>
+<doc-anchor-target id="setup-via-microsoft-office-365-application-account">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-via-microsoft-office-365-application-account">#</doc-anchor-trigger>
+        <span>Setup via Microsoft Office 365 Application account</span>
+    </h3>
+</doc-anchor-target>
+<p>Connecting the HXA.io Connector as an installed application using an application account is a very easy setup that you don&#x27;t have to worry about later. This method, which requires an account with the Global Administrator role, installs an application for HXA.io for the entire Microsoft Office 365 tenant. The benefit of this is that you don&#x27;t have to worry about keeping permissions up to date when adding new resource mailboxes, for example.</p>
+<p>Use a Microsoft 365 application account to access all information and accounts within your organization with a single connector.</p>
+<ul>
+<li>To do this, log in to the HXA.io portal at <a href="https://portal.hxa.io">https://portal.hxa.io</a>.</li>
+<li>Open the menu item &quot;Settings&quot; -&gt; &quot;Connectors&quot;.</li>
+<li>Connect an Office 365 connector and select the type application account.</li>
+<li>A window then opens asking you to authenticate using a Microsoft account.</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Please note that the account used for authentication must have Global Administration permissions with in the organization in order to grant access authorization for an application account.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="setup-via-microsoft-office-365-service-account">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-via-microsoft-office-365-service-account">#</doc-anchor-trigger>
+        <span>Setup via Microsoft Office 365 Service account</span>
+    </h3>
+</doc-anchor-target>
+<p>A Service account offers more configuration options and makes sense for organizations that want the highest level of control (e.g. over permissions, logs, etc.). The service account should have Application Impersonation access to all room calendars to be managed within the HXA.io tenant.</p>
+<p>Use a Microsoft 365 user/service account if you want to authorize a single connector to access custom and shared calendars.</p>
+<ul>
+<li>To do this, log in to the HXA.io portal at <a href="https://portal.hxa.io">https://portal.hxa.io</a>.</li>
+<li>In the menu, open &quot;Settings&quot; -&gt; &quot;Connectors&quot;</li>
+<li>Connect an Office 365 connector and select the type User/Service account.</li>
+<li>A window then opens asking you to authenticate using a Microsoft account.</li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->
