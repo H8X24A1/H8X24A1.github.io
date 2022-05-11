@@ -1,5 +1,5 @@
 ---
-label: HXA System Setup
+label: HXA System
 icon: device-desktop
 order: 700
 ---
