@@ -20,7 +20,7 @@ Release date: 2021-11-25
 ## v2.2.0
 Release date: 2021-08-13
 
-+++ New :icon-shiled-check:
++++ New :icon-shield-check:
 - [x] The maximum number of people allowed in the room is shown on the display
 - [x] Possibilty of defining event names for selection when booking directly on the display
 - [x] Automation for even-dependent conol of IP relays and RGBW controllers for LED strips
@@ -45,7 +45,6 @@ Release date: 2020-06-10
 
 +++ New :icon-shield-check:
 - [x] Creation of additional event titles for bookings made on the display
-+++
 
 +++ Fixed :icon-bug:
 - [x] General bug fixes
@@ -56,7 +55,6 @@ Release date: 2020-05-22
 
 +++ New :icon-shield-check:
 - [x] Optimized the check-out feature
-+++
 
 +++ Fixed :icon-bug:
 - [x] General bug fixes
