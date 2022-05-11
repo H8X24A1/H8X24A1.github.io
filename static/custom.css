@@ -1,0 +1,9 @@
+:root
+
+a.hover:text-blue-800 {
+    color: #e0061c
+}
+
+a.hover:dark:text-blue-200 {
+    color: #e67b86
+}
