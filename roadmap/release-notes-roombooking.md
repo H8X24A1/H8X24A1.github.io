@@ -63,6 +63,6 @@ Release date: 2020-05-22
 Release date: 2020-04-16
 
 +++ New :icon-shield-check:
-- [x] Final Release of HXA Room Booking Application in [Microsoft Store target="blank"](https://www.microsoft.com/en-us/p/hxa-room-booking/9n84shckpxxb), [Apple Store target="blank"](https://apps.apple.com/us/app/hxa-room-booking/id1432519436) and [Google Play target="blank"](https://play.google.com/store/apps/details?id=com.hxa.roombooking)
+- [x] Final Release of HXA Room Booking Application in [Microsoft Store](https://www.microsoft.com/en-us/p/hxa-room-booking/9n84shckpxxb), [Apple Store](https://apps.apple.com/us/app/hxa-room-booking/id1432519436) and [Google Play](https://play.google.com/store/apps/details?id=com.hxa.roombooking)
 +++
 
