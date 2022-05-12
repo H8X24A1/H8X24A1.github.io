@@ -14,3 +14,19 @@
 .text-blue-300 .text-blue-200 {
     color: #e67b86 !important;
 }
+
+.dark .dark\:text-blue-800 .dark\:text-blue-700 .dark\:text-blue-500 .dark\:.text-blue-400 {
+    color: #e0061c !important;
+}
+
+.dark .dark\:text-blue-300 .dark\:text-blue-200 {
+    color: #e67b86 !important;
+}
+
+.md\:text-blue-800 .md\:text-blue-700 .md\:text-blue-500 .md\:text-blue-400 {
+    color: #e0061c !important;
+}
+
+.md\:text-blue-300 .md\:text-blue-200 {
+    color: #e67b86 !important;
+}
