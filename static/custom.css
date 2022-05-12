@@ -81,11 +81,11 @@ a {
 }
 
 .border-blue-100 {
-    border-color: #e0061c !important;
+    border-color: #e67b86 !important;
 }
 
 .border-blue-300 {
-    border-color: #e0061c !important;
+    border-color: #e67b86 !important;
 }
 
 .hover\:border-blue-300:hover {
@@ -93,7 +93,7 @@ a {
 }
 
 .dark .dark\:border-blue-400 {
-    border-color: #e0061c !important;
+    border-color: #e67b86 !important;
 }
 
 .dark .dark\:hover\:border-blue-200:hover {
