@@ -76,6 +76,11 @@ a {
 
 */
 
+
+.dark .docs-markdown a:not(.no-link), .dark .docs-markdown h1 .header-anchor-trigger, .dark .docs-markdown h2 .header-anchor-trigger, .dark .docs-markdown h3 .header-anchor-trigger, .dark .docs-markdown h4 .header-anchor-trigger, .dark .docs-markdown h5 .header-anchor-trigger, .dark .docs-markdown h6 .header-anchor-trigger {
+    color: #e67b86 !important;
+  }
+
 .border-blue-500 {
     border-color: #e0061c !important;
 }
