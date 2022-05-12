@@ -1,32 +1,69 @@
-:root {
 
---text-blue-800: #e0061c;
---text-blue-500: #e0061c;
---text-blue-400: #e0061c;
---text-blue-200: #e67b86;
-
-}
-
-.text-blue-800 .text-blue-700 .text-blue-500 .text-blue-400 {
+.text-blue-500 {
     color: #e0061c !important;
 }
 
-.text-blue-300 .text-blue-200 {
-    color: #e67b86 !important;
-}
-
-.dark .dark\:text-blue-800 .dark\:text-blue-700 .dark\:text-blue-500 .dark\:.text-blue-400 {
+.text-blue-600 {
     color: #e0061c !important;
 }
 
-.dark .dark\:text-blue-300 .dark\:text-blue-200 {
+.text-blue-300 {
     color: #e67b86 !important;
 }
 
-.md\:text-blue-800 .md\:text-blue-700 .md\:text-blue-500 .md\:text-blue-400 {
+.text-blue-700 {
     color: #e0061c !important;
 }
 
-.md\:text-blue-300 .md\:text-blue-200 {
+
+.hover\:text-blue-700:hover {
+    color: #e0061c !important;
+}
+
+.hover\:text-blue-800:hover {
+    color: #e0061c !important;
+}
+
+.hover\:text-blue-900:hover {
+    color: #e0061c !important;
+}
+
+.hover\:text-blue-500:hover {
+    color: #e0061c !important;
+}
+
+.group:hover .group-hover\:text-blue-500 {
+    color: #e0061c !important;
+}
+
+.dark .dark\:text-blue-400 {
+    color: #e0061c !important;
+}
+
+.dark .dark\:text-blue-300 {
     color: #e67b86 !important;
+}
+
+.dark .dark\:hover\:text-blue-200:hover {
+    color: #e67b86 !important;
+}
+
+.dark .dark\:hover\:text-blue-100:hover {
+    color: #e67b86 !important;
+}
+
+.dark .dark\:hover\:text-blue-400:hover {
+    color: #e67b86 !important;
+}
+
+.dark .dark\:focus\:text-blue-100:focus {
+    color: #e67b86 !important;
+}
+
+.dark .group:hover .dark\:group-hover\:text-blue-400 {
+    color: #e67b86 !important;
+}
+
+.md\:text-blue-500 {
+    color: #e0061c !important;
 }
