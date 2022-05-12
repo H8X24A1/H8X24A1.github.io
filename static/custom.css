@@ -6,3 +6,11 @@
 --text-blue-200: #e67b86;
 
 }
+
+.text-blue-800 .text-blue-700 .text-blue-500 .text-blue-400 {
+    color: #e0061c !important;
+}
+
+.text-blue-300 .text-blue-200 {
+    color: #e67b86 !important;
+}
