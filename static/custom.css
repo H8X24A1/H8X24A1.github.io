@@ -67,3 +67,32 @@
 .md\:text-blue-500 {
     color: #e0061c !important;
 }
+
+a {
+    color: #e0061c !important;
+}
+
+
+.border-blue-500 {
+    color: #e0061c !important;
+}
+
+.border-blue-100 {
+    color: #e0061c !important;
+}
+
+.border-blue-300 {
+    color: #e0061c !important;
+}
+
+.hover\:border-blue-300:hover {
+    color: #e67b86 !important;
+}
+
+.dark .dark\:border-blue-400 {
+    color: #e0061c !important;
+}
+
+.dark .dark\:hover\:border-blue-200:hover {
+    color: #e67b86 !important;
+}
