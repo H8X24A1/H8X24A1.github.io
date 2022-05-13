@@ -1,0 +1,150 @@
+
+.text-blue-500 {
+    color: #e0061c !important;
+}
+
+.text-blue-600 {
+    color: #e0061c !important;
+}
+
+.text-blue-300 {
+    color: #e67b86 !important;
+}
+
+.text-blue-700 {
+    color: #e0061c !important;
+}
+
+
+.hover\:text-blue-700:hover {
+    color: #e0061c !important;
+}
+
+.hover\:text-blue-800:hover {
+    color: #e0061c !important;
+}
+
+.hover\:text-blue-900:hover {
+    color: #e0061c !important;
+}
+
+.hover\:text-blue-500:hover {
+    color: #e0061c !important;
+}
+
+.group:hover .group-hover\:text-blue-500 {
+    color: #e0061c !important;
+}
+
+.dark .dark\:text-blue-400 {
+    color: #e0061c !important;
+}
+
+.dark .dark\:text-blue-300 {
+    color: #e67b86 !important;
+}
+
+.dark .dark\:hover\:text-blue-200:hover {
+    color: #e67b86 !important;
+}
+
+.dark .dark\:hover\:text-blue-100:hover {
+    color: #e67b86 !important;
+}
+
+.dark .dark\:hover\:text-blue-400:hover {
+    color: #e67b86 !important;
+}
+
+.dark .dark\:focus\:text-blue-100:focus {
+    color: #e67b86 !important;
+}
+
+.dark .group:hover .dark\:group-hover\:text-blue-400 {
+    color: #e67b86 !important;
+}
+
+.md\:text-blue-500 {
+    color: #e0061c !important;
+}
+
+/*
+
+a {
+    color: #e67b86 !important;
+}
+
+*/
+
+
+.dark .docs-markdown a:not(.no-link), .dark .docs-markdown h1 .header-anchor-trigger, .dark .docs-markdown h2 .header-anchor-trigger, .dark .docs-markdown h3 .header-anchor-trigger, .dark .docs-markdown h4 .header-anchor-trigger, .dark .docs-markdown h5 .header-anchor-trigger, .dark .docs-markdown h6 .header-anchor-trigger {
+    color: #e67b86 !important;
+}
+
+.dark .docs-copyright a {
+    color: #e67b86 !important;
+}
+
+.border-blue-500 {
+    border-color: #e67b86 !important;
+}
+
+.border-blue-100 {
+    border-color: #e67b86 !important;
+}
+
+.border-blue-300 {
+    border-color: #e67b86 !important;
+}
+
+.hover\:border-blue-300:hover {
+    border-color: #e67b86 !important;
+}
+
+.dark .dark\:border-blue-400 {
+    border-color: #e67b86 !important;
+}
+
+.dark .dark\:hover\:border-blue-200:hover {
+    border-color: #e67b86 !important;
+}
+
+
+.bg-blue-500 {
+    background-color: #e0061c !important;
+}
+
+/* 
+.bg-blue-100 {
+    background-color: #e67b86 !important;
+}
+
+*/
+
+.bg-blue-300 {
+    background-color: #e67b86 !important;
+}
+
+.bg-blue-200 {
+    background-color: #e67b86 !important;
+}
+
+.hover\:bg-blue-700:hover {
+    background-color: #e0061c !important;
+}
+
+.hover\:bg-blue-100:hover {
+    background-color: #e67b86 !important;
+}
+
+.hover\:bg-blue-200:hover {
+    background-color: #e67b86 !important;
+}
+
+.dark .dark\:bg-blue-400 {
+    background-color: #e67b86 !important;
+}
+
+.dark .dark\:hover\:bg-blue-200:hover {
+    background-color: #e67b86 !important;
+}
