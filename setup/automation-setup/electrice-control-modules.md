@@ -3,9 +3,9 @@ label: Electrice Control Modules
 icon: cpu
 order: 1000
 ---
-# Setup Electrice Control Modules
+# Setup Electric Control Modules
 
-First Setup your supported IP Relay or RGB/W Module.
+## Setup your supported IP Relay or RGB/W Module.
 
 ### Supported Vendors and Devices
 
