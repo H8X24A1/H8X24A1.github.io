@@ -3,7 +3,7 @@ label: Control Module
 icon: cpu
 order: 1000
 ---
-# Setup Controle Module
+# Setup Control Module
 
 First Setup your supported IP Relay or RGB/W Module.
 
