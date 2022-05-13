@@ -21,3 +21,11 @@ First Setup your supported IP Relay or RGB/W Module.
 +++ Rutenbeck
  - Rutenbeck TCR IP 4
 +++
+
+## Setup Shelly Device
+
+
+## Setup Rutenbeck Device
+
+
+## Create a Control Module in HXA.io Portal
