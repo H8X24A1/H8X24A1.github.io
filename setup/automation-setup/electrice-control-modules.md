@@ -1,5 +1,5 @@
 ---
-label: Control Module
+label: Electrice Control Modules
 icon: cpu
 order: 1000
 ---
