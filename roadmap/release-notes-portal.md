@@ -4,7 +4,7 @@ icon: paste
 order: 1000
 ---
 
-## v.0.9.6.3
+## v.0.9.8
 Release date: 2022-13-05
 
 +++ New :icon-shield-check:
@@ -15,7 +15,7 @@ Release date: 2022-13-05
 - [x] Improvements in translation
 +++
 
-## v.0.9.6.2
+## v.0.9.7
 Release date: 2022-18-04
 
 +++ New :icon-shield-check:
@@ -26,7 +26,7 @@ Release date: 2022-18-04
 - [x] Improvements in Automation Module
 +++
 
-## v.0.9.6.1
+## v.0.9.6
 Release date: 2021-25-11
 
 +++ New :icon-shield-check:
