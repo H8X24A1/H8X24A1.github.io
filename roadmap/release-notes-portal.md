@@ -7,7 +7,7 @@ order: 1000
 ## v.0.9.6.3
 Release date: 2022-13-05
 
-++ New :icon-shield-check:
++++ New :icon-shield-check:
 - [x] Feature for Multi-user, role and permissions management added
 
 +++ Fixed :icon-bug:
@@ -18,7 +18,7 @@ Release date: 2022-13-05
 ## v.0.9.6.2
 Release date: 2022-18-04
 
-++ New :icon-shield-check:
++++ New :icon-shield-check:
 - [x] Message Center added to dasboard
 
 +++ Fixed :icon-bug:
