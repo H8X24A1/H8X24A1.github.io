@@ -27,11 +27,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=2.2.706015993493" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.2.706019962889" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.2.706015993493" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.2.706019962889" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.706015993493" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.706019962889" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -177,17 +177,11 @@
 </doc-anchor-target>
 <p>Control modules are devices like IP relays or smart lightbulbs. For example you can use them to turn on the lights in the meeting room at start automatically.
 To setup a new control module, a correctly to the internet connected control device (e.g. Shelly1) is required.</p>
-<doc-anchor-target id="setup-your-supported-ip-relay-or-rgbw-module">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-your-supported-ip-relay-or-rgbw-module">#</doc-anchor-trigger>
-        <span>Setup your supported IP Relay or RGB/W Module.</span>
-    </h2>
-</doc-anchor-target>
 <doc-anchor-target id="supported-vendors-and-devices">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#supported-vendors-and-devices">#</doc-anchor-trigger>
         <span>Supported Vendors and Devices</span>
-    </h3>
+    </h2>
 </doc-anchor-target>
 <doc-tabs>
 <doc-tab id="shelly">
@@ -210,23 +204,29 @@ To setup a new control module, a correctly to the internet connected control dev
 </doc-tab>
 </doc-tabs>
 <doc-anchor-target id="setup-shelly-device">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#setup-shelly-device">#</doc-anchor-trigger>
         <span>Setup Shelly Device</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="1-connect-your-shelly-device-to-the-power-grid">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#1-connect-your-shelly-device-to-the-power-grid">#</doc-anchor-trigger>
+        <span>1. Connect your Shelly device to the power grid.</span>
     </h3>
 </doc-anchor-target>
-<ol>
-<li>Connect your Shelly device to the power grid.</li>
-</ol>
 <ul>
 <li>Now a new wifi network with name starting &quot;shelly&quot; is available.</li>
 <li>Connect to this wifi network.</li>
-<li>Open your browser and open IP address 196.168.33.1 (standard shelly IP address).</li>
-<li>Now you can see the menu of device.</li>
+<li>Open your browser and open IP address 196.168.33.1 (standard Shelly IP address).</li>
+<li>Now you can see the menu of the device.</li>
 </ul>
-<ol start="2">
-<li>Secure your device with a password.</li>
-</ol>
+<doc-anchor-target id="2-secure-your-device-with-a-password">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#2-secure-your-device-with-a-password">#</doc-anchor-trigger>
+        <span>2. Secure your device with a password.</span>
+    </h3>
+</doc-anchor-target>
 <ul>
 <li>Click on &quot;Internet &amp; Security&quot; in the menu.</li>
 <li>Open the drop down menu &quot;RESTRICT LOGIN&quot;.</li>
@@ -235,20 +235,26 @@ To setup a new control module, a correctly to the internet connected control dev
 <li>Enter a secure password.</li>
 <li>Click &quot;Save&quot;.</li>
 </ul>
-<ol start="3">
-<li>Enter a device name.</li>
-</ol>
+<doc-anchor-target id="3-enter-a-device-name">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3-enter-a-device-name">#</doc-anchor-trigger>
+        <span>3. Enter a device name.</span>
+    </h3>
+</doc-anchor-target>
 <ul>
-<li>Click of &quot;Settings&quot; in the menu.</li>
-<li>Open drop down menu &quot;DEVICE NAME&quot;.</li>
-<li>Enter a name which describes the device well with following attributes:</li>
+<li>Click on &quot;Settings&quot; in the menu.</li>
+<li>Open the drop down menu &quot;DEVICE NAME&quot;.</li>
+<li>Enter a device name which describes the device well with following attributes:</li>
 <li>Type of device (relay, color bulb, ...).</li>
 <li>Location of device.</li>
 <li>Click &quot;Save&quot;.</li>
 </ul>
-<ol start="4">
-<li>Setup wifi connection.</li>
-</ol>
+<doc-anchor-target id="4-setup-wifi-connection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#4-setup-wifi-connection">#</doc-anchor-trigger>
+        <span>4. Setup wifi connection.</span>
+    </h3>
+</doc-anchor-target>
 <ul>
 <li>If you use the device in larger networks, you should enable AP Roaming</li>
 <li>Open drop down menu &quot;WIFI MODE - Client&quot;.</li>
@@ -276,9 +282,12 @@ To setup a new control module, a correctly to the internet connected control dev
 <li>Enter the password of the wifi network.</li>
 <li>Click &quot;Save&quot; and disconnect from the network.</li>
 </ul>
-<ol start="5">
-<li>Now your device is configured correctly, connected to the internet and can be used as control module.</li>
-</ol>
+<doc-anchor-target id="5-now-your-device-is-configured-correctly-connected-to-the-internet-and-can-be-used-as-control-module">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#5-now-your-device-is-configured-correctly-connected-to-the-internet-and-can-be-used-as-control-module">#</doc-anchor-trigger>
+        <span>5. Now your device is configured correctly, connected to the internet and can be used as control module.</span>
+    </h3>
+</doc-anchor-target>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
