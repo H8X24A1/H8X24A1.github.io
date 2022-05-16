@@ -41,8 +41,10 @@ To setup a new control module, a correctly to the internet connected control dev
  - Click on "Settings" in the menu.
  - Open the drop down menu "DEVICE NAME".
  - Enter a device name which describes the device well with following attributes:
- -- Type of device (relay, color bulb, ...).
- -- Location of device.
+ :::
+ - Type of device (relay, color bulb, ...).
+ - Location of device.
+ :::
  - Click "Save".
 ### 4. Setup wifi connection.
  - If you use the device in larger networks, you should enable AP Roaming
