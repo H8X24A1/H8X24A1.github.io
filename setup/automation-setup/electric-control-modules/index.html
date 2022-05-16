@@ -11,27 +11,27 @@
     <!-- Primary Meta Tags -->
     <title>Setup Electric Control Modules</title>
     <meta name="title" content="Setup Electric Control Modules">
-    <meta name="description" content="Shelly 1" />
+    <meta name="description" content="Control modules are devices like IP relays or smart lightbulbs." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/setup/automation-setup/electric-control-modules/">
     <meta property="og:title" content="Setup Electric Control Modules">
-    <meta property="og:description" content="Shelly 1">
+    <meta property="og:description" content="Control modules are devices like IP relays or smart lightbulbs.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.hxa.io/setup/automation-setup/electric-control-modules/">
     <meta property="twitter:title" content="Setup Electric Control Modules">
-    <meta property="twitter:description" content="Shelly 1">
+    <meta property="twitter:description" content="Control modules are devices like IP relays or smart lightbulbs.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=2.2.706010281412" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.2.706015993493" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.2.706010281412" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.2.706015993493" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.706010281412" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.706015993493" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -175,6 +175,8 @@
         <span>Setup Electric Control Modules</span>
     </h1>
 </doc-anchor-target>
+<p>Control modules are devices like IP relays or smart lightbulbs. For example you can use them to turn on the lights in the meeting room at start automatically.
+To setup a new control module, a correctly to the internet connected control device (e.g. Shelly1) is required.</p>
 <doc-anchor-target id="setup-your-supported-ip-relay-or-rgbw-module">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#setup-your-supported-ip-relay-or-rgbw-module">#</doc-anchor-trigger>
@@ -208,22 +210,103 @@
 </doc-tab>
 </doc-tabs>
 <doc-anchor-target id="setup-shelly-device">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#setup-shelly-device">#</doc-anchor-trigger>
         <span>Setup Shelly Device</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
+<ol>
+<li>Connect your Shelly device to the power grid.</li>
+</ol>
+<ul>
+<li>Now a new wifi network with name starting &quot;shelly&quot; is available.</li>
+<li>Connect to this wifi network.</li>
+<li>Open your browser and open IP address 196.168.33.1 (standard shelly IP address).</li>
+<li>Now you can see the menu of device.</li>
+</ul>
+<ol start="2">
+<li>Secure your device with a password.</li>
+</ol>
+<ul>
+<li>Click on &quot;Internet &amp; Security&quot; in the menu.</li>
+<li>Open the drop down menu &quot;RESTRICT LOGIN&quot;.</li>
+<li>Check the checkbox &quot;Restrict the web interface of the Shelly device with Username and Password&quot;.</li>
+<li>You can change the username &quot;admin&quot; if you want.</li>
+<li>Enter a secure password.</li>
+<li>Click &quot;Save&quot;.</li>
+</ul>
+<ol start="3">
+<li>Enter a device name.</li>
+</ol>
+<ul>
+<li>Click of &quot;Settings&quot; in the menu.</li>
+<li>Open drop down menu &quot;DEVICE NAME&quot;.</li>
+<li>Enter a name which describes the device well with following attributes:</li>
+<li>Type of device (relay, color bulb, ...).</li>
+<li>Location of device.</li>
+<li>Click &quot;Save&quot;.</li>
+</ul>
+<ol start="4">
+<li>Setup wifi connection.</li>
+</ol>
+<ul>
+<li>If you use the device in larger networks, you should enable AP Roaming</li>
+<li>Open drop down menu &quot;WIFI MODE - Client&quot;.</li>
+<li>Enable &quot;Connect the Shelly device to existing WIFI Network&quot;.</li>
+<li>Enter the name (SSID) of the network your want to connect to</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>The Shelly device must be in the same network as the HXA.io System device or a route must be defined.</p>
+        </div>
+    </div>
+</div>
+<ul>
+<li>Enter the password of the wifi network.</li>
+<li>Click &quot;Save&quot; and disconnect from the network.</li>
+</ul>
+<ol start="5">
+<li>Now your device is configured correctly, connected to the internet and can be used as control module.</li>
+</ol>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>We recommend to update the firmware of your Shelly device.</p>
+        </div>
+    </div>
+</div>
 <doc-anchor-target id="setup-rutenbeck-device">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#setup-rutenbeck-device">#</doc-anchor-trigger>
         <span>Setup Rutenbeck Device</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <doc-anchor-target id="create-a-control-module-in-hxaio-portal">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#create-a-control-module-in-hxaio-portal">#</doc-anchor-trigger>
         <span>Create a Control Module in HXA.io Portal</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 
                                 
