@@ -47,7 +47,9 @@ To setup a new control module, a correctly to the internet connected control dev
  !!!
  - Click "Save".
 ### 4. Setup wifi connection
- - If you use the device in larger networks, you should enable AP Roaming
+ !!!
+ If you use the device in larger networks, you should enable AP Roaming
+ !!!
  - Open drop down menu "WIFI MODE - Client".
  - Enable "Connect the Shelly device to existing WIFI Network".
  - Enter the name (SSID) of the network your want to connect to
