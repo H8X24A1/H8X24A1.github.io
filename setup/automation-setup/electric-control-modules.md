@@ -30,14 +30,14 @@ To setup a new control module, a correctly to the internet connected control dev
  - Connect to this wifi network.
  - Open your browser and open IP address 196.168.33.1 (standard Shelly IP address).
  - Now you can see the menu of the device.
-### 2. Secure your device with a password.
+### 2. Secure your device with a password
  - Click on "Internet & Security" in the menu.
  - Open the drop down menu "RESTRICT LOGIN".
  - Check the checkbox "Restrict the web interface of the Shelly device with Username and Password".
  - You can change the username "admin" if you want.
  - Enter a secure password.
  - Click "Save".
-### 3. Enter a device name.
+### 3. Enter a device name
  - Click on "Settings" in the menu.
  - Open the drop down menu "DEVICE NAME".
  !!!
@@ -46,7 +46,7 @@ To setup a new control module, a correctly to the internet connected control dev
  - Location of device.
  !!!
  - Click "Save".
-### 4. Setup wifi connection.
+### 4. Setup wifi connection
  - If you use the device in larger networks, you should enable AP Roaming
  - Open drop down menu "WIFI MODE - Client".
  - Enable "Connect the Shelly device to existing WIFI Network".
@@ -66,3 +66,17 @@ We recommend to update the firmware of your Shelly device.
 
 
 ## Create a Control Module in HXA.io Portal
+
+### 1. Login to HXA.io Portal.
+- https://portal.hxa.io
+- Navigate to "Automation" -> "Control Module".
+### 2. Click the green button "Add control module" and choose between:
+- Relay
+- RGB/W (a controller for RGBW LED stripes)
+- Bulb (a controllable LED lightbulb)
+### 3. Setup device
+- Set a device name.
+- Enter the IP address of your device.
+- Enter the location of your device (optional).
+- Choose device type (Shelly1, Shelly4Pro or Rutenbeck TCR IP 4).
+### Click Save.
