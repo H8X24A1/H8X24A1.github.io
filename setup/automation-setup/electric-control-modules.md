@@ -79,4 +79,4 @@ We recommend to update the firmware of your Shelly device.
 - Enter the IP address of your device.
 - Enter the location of your device (optional).
 - Choose device type (Shelly1, Shelly4Pro or Rutenbeck TCR IP 4).
-### Click Save.
+### 4. Click Save
