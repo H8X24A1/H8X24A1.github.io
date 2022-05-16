@@ -19,7 +19,7 @@ Release date: 2022-13-05
 Release date: 2022-18-04
 
 +++ New :icon-shield-check:
-- [x] Message Center added to dasboard
+- [x] Message Center added to Dashboard
 
 +++ Fixed :icon-bug:
 - [x] Improvements in Room Service Module
