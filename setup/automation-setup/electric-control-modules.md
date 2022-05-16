@@ -26,7 +26,7 @@ To setup a new control module, a correctly to the internet connected control dev
 ## Setup Shelly Device
 
 ### 1. Connect your Shelly device to the power grid.
- - Now a new wifi network with name starting "shelly" is available.
+ - Now a new wifi network with name prefix "shelly" is available.
  - Connect to this wifi network.
  - Open your browser and open IP address 196.168.33.1 (standard Shelly IP address).
  - Now you can see the menu of the device.
