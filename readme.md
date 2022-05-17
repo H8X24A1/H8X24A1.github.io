@@ -7,20 +7,12 @@ icon: home
 
 [HXA.io](https://hxa.io) is your **[MDRN.WORK]** solutions provider.
 
+
+![](/images/HXA_EN_Hello_860x538_tr.png)
+
 !!!
 Here you can find information how to use our products.
 !!!
 
-Content will follow soon.
-
----
-
-+++ Lists
-
-- [x] First item
-- [x] Second item
-- [x] Third item
-
-+++
 
 #### :icon-shield-check: Enjoy!
