@@ -3,7 +3,7 @@ label: Welcome
 icon: home
 ---
 
-# Welcome to HXA.io
+# Welcome to the HXA.io Documentation Library
 
 [HXA.io](https://hxa.io) is your **[MDRN.WORK]** solutions provider.
 
@@ -11,7 +11,7 @@ icon: home
 ![](/images/HXA_EN_Hello_860x538_tr.png)
 
 !!!
-Here you can find information how to use our products.
+Here you can find information how to setup and use our products.
 !!!
 
 
