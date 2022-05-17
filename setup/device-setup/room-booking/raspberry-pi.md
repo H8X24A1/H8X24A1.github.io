@@ -17,11 +17,11 @@ Still there is no security enhancement or hardening included for the Raspberry P
 
 ### Download Raspberry Pi OS Image
 
-Go to [](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit) and download the version Raspberry Pi OS Desktop. (The middle-sized version - around 1200 MB)
+Go to https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit and download the version Raspberry Pi OS Desktop. (The middle-sized version - around 1200 MB)
 
 ### Flash Image to SD-Card
 
-Go to balenaEtcher - Flash OS images to SD cards & USB drives and download the software balena Etcher, start the software and choose the downloaded image as source and your SD-Card as target.
+Go to https://www.balena.io/etcher/ and download the software balena Etcher, start the software and choose the downloaded image as source and your SD-Card as target.
 
 ### Next Steps
 
