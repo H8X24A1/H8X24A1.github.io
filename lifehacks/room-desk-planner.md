@@ -42,3 +42,6 @@ The employee will receive a confirmation of the booking with an .ics file to add
 
 So Microsoft Bookings can be a great help in planning the occupation of the rooms and desks in your offices!
 
+To make this solution more comfortable we recommend to use our HXA Room Booking Applicatin or HXA Room Booking System on the Rooms or Desk to visualize the booked Status on the Resource (Rooms or Desks) and add some cool features like Check-in/ Check-out or auto-cancel a appointment of no one will come to the Room or Desk in the booked time span to bring the Resource back to the pool for Quick Booking.
+
+Our HXA Room Board Application can help to display the Rooms and Desks they are free or booked for a hole area or space like a flight board on an Air Port.
