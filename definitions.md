@@ -1,7 +1,7 @@
 ---
 label: Definitions
 icon: code-square
-order: 300
+order: 200
 ---
 
 ### HXA.io definitions
