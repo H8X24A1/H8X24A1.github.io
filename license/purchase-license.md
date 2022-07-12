@@ -12,7 +12,7 @@ In our shop you can purchase the licenses for all the features you need.
 - [x] Once you log in go to "Shop"
 - [x] Choose the licenses you need by adding them to card.
 
-![](images/HXA.io_purchase_license_02.png)
+![](/images/HXA.io_purchase_license_02.png)
 +++
 
 +++ 2. Second step
