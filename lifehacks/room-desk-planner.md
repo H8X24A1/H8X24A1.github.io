@@ -5,17 +5,19 @@ order: 100
 ---
 # Use Microsoft Bookings as Room and Desk planner with HXA.io
 
-Microsoft Bookings let employees and all kind of people inside and outside of the organization track, manage and organize appointments in one place. This will leads us to use Microsoft Bookings to order a Room or an Workplace over an Web Page.
+Microsoft Bookings let employees and all kind of people inside and outside of the organization track, manage and organize appointments in one place. This will lead us to use Microsoft Bookings to order a Room or an Workplace over a Web Page.
 
 ### Requirements
 
 To use Microsoft Bookings you need an Microsoft Office 365 license including the Exchange Online Plan. You can order Microsoft 365 licenses via https://www.nettask.de/de/produkte/office-365.html.
 
-## Configuration of Microsoft Bookings for Room and Dask planning
+## Configuration of Microsoft Bookings for Room and Desk planning
 
+!!!
 Make sure that Microsoft Bookings is enabled for your organization in the settings of the Microsoft 365 admin center.
+!!!
 
-If you do not have priviusly created an Room mailbox for a Room or Desk, create a new Room mailbox in Exchange admin center and set the Booking delegates: Automatically accept or decline booking requests.
+If you do not have priviously created a Room mailbox for a Room or Desk, create a new Room mailbox in Exchange admin center and set the Booking delegates: Automatically accept or decline booking requests.
 
 Open Bookings via the app launcher and add a booking calendar, for your department or office building.
 
