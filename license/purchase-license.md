@@ -19,8 +19,7 @@ In our shop you can purchase the licenses for all the features you need.
 - [x] Go to cart
 - [x] Enter your invoice information
 - [x] Choose your payment method
-
-:icon-alert: [!badge Maybe your have to create a new payment method first]
+- [x] [!badge :icon-alert: (Maybe your have to create a new payment method first)]
 
 :icon-shield-check: Finish the order
 
