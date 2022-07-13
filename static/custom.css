@@ -4,8 +4,8 @@
 }
 
 .text-blue-600 {
-    color: #e0061c !important;
-}
+    color: #cbcbcb !important;
+  }
 
 .text-blue-300 {
     color: #e67b86 !important;
@@ -128,6 +128,11 @@ a {
 .bg-blue-200 {
     background-color: #e67b86 !important;
 }
+
+.bg-blue-100 {
+    --tw-bg-opacity: 1;
+    background-color: #d7d7d7 !important;
+  }
 
 .hover\:bg-blue-700:hover {
     background-color: #e0061c !important;
