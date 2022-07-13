@@ -30,7 +30,8 @@ In our shop you can purchase the licenses for all the features you need.
 
 +++ 3. Third Step
 - [x] Navigate to "Licenses"
-:icon-shield-check: Enjoy your new features.
+
+:icon-smiley: Enjoy your new features.
 
 ![](/images/HXA.io_purchase_license_04.png)
 +++
