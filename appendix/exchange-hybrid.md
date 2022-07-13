@@ -7,6 +7,6 @@ A hybrid deployment allows organizations to extend the feature-rich experience a
 
 ### Sources
 
-[!ref target="blank" text="Microsoft - Docs :: Exchange Hybrid"](hhttps://docs.microsoft.com/en-us/exchange/exchange-hybrid)
+[!ref target="blank" text="Exchange Hybrid"](https://docs.microsoft.com/en-us/exchange/exchange-hybrid)
 
 
