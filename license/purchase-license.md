@@ -10,7 +10,7 @@ In our shop you can purchase the licenses for all the features you need.
 +++ 1. First step
 - [x] Go to [HXA.io Portal](https://portal.hxa.io) page and type in your username and password
 - [x] Once you log in go to "Shop"
-- [x] Choose the licenses you need by adding them to card
+- [x] Choose the licenses you need by adding them to cart
 
 ![](/images/HXA.io_purchase_license_02.png)
 +++
