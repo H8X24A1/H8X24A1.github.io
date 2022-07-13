@@ -1,4 +1,5 @@
 ---
+title: HXA.io DOCS - Buy System Bundle
 label: Buy System Bundle
 icon: archive
 order: 500
