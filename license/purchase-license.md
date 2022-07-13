@@ -17,17 +17,18 @@ In our shop you can purchase the licenses for all the features you need.
 
 +++ 2. Second step
 - [x] Go to cart
-- [x] Enter your payment information
+- [x] Enter your invoice information
+- [x] Choose your payment method information (maybe your have to create a new payment method first)
 - [x] Finish the order
 
-![]()
+![](/images/HXA.io_purchase_license_03.png)
 +++
 
 
 +++ 3. Third Step
 :icon-shield-check: Enjoy your new features.
 
-![]()
+![](/images/HXA.io_purchase_license_04.png)
 +++
 
 
