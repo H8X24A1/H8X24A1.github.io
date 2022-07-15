@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.711218173714">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.711218383836">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,11 +30,12 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=2.4.0.711218173714" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=2.4.0.711218383836" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=2.4.0.711218173714" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=2.4.0.711218383836" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=2.4.0.711218173714" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=2.4.0.711218383836" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=2.4.0.711218383836" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -200,6 +201,25 @@
 <li>When you&#x27;re finished, click Save to create the room mailbox.</li>
 </ol>
 <p>Once you&#x27;ve created your room mailbox, you can edit your room mailbox to update info about booking options, MailTips and mailbox delegation. Check out the Use the Classic Exchange admin center section below to change room mailbox properties.</p>
+<doc-anchor-target id="use-exchange--powershell-to-create-a-room-mailbox-in-exchange-onpremise-or-exchange-online">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#use-exchange--powershell-to-create-a-room-mailbox-in-exchange-onpremise-or-exchange-online">#</doc-anchor-trigger>
+        <span>Use Exchange  PowerShell to create a room mailbox in Exchange OnPremise or Exchange Online</span>
+    </h2>
+</doc-anchor-target>
+<p>This example creates a room mailbox with the following configuration:</p>
+<ul>
+<li>The mailbox&#x27;s name is ConfRoom1. This name will also be used to create the room&#x27;s email address.</li>
+<li>The display name in the Classic Exchange admin center and the address book will be Conference Room 1.</li>
+<li>The Room switch specifies that this mailbox will be created as a room mailbox.</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-powershell"><code v-pre class="language-powershell">New-Mailbox -Name ConfRoom1 -DisplayName &quot;Conference Room 1&quot; -Room</code></pre>
+</doc-codeblock></div>
+<p>How do you know this worked?</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-powershell"><code v-pre class="language-powershell">Get-Mailbox &lt;Name&gt; | Format-List Name,RecipientTypeDetails,PrimarySmtpAddress</code></pre>
+</doc-codeblock></div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -266,6 +286,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Create and manage room mailboxes", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Create and manage room mailboxes", level: 3, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
