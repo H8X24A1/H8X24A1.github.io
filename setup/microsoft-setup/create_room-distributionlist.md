@@ -33,4 +33,4 @@ This example converts the distribution group, building 34 conference rooms, to a
 Set-DistributionGroup -Identity "Building 34 Conference Rooms" -RoomList
 ```
 
-[!ref](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes#create-a-room-list)
+[!ref target="blank" text="Create a room list"](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes#create-a-room-list)
