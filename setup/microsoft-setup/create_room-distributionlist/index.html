@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.711204377004">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.711204664297">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,11 +30,12 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=2.4.0.711204377004" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=2.4.0.711204664297" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=2.4.0.711204377004" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=2.4.0.711204664297" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=2.4.0.711204377004" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=2.4.0.711204664297" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=2.4.0.711204664297" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -195,8 +196,7 @@
 </doc-anchor-target>
 <p>This example creates a room list for building 32.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<div class="codeblock-title">ps</div>
-<pre class="language-none"><code v-pre class="language-none">New-DistributionGroup -Name &quot;Building 32 Conference Rooms&quot; -OrganizationalUnit &quot;contoso.com/rooms&quot; -RoomList</code></pre>
+<pre class="language-powershell"><code v-pre class="language-powershell">New-DistributionGroup -Name &quot;Building 32 Conference Rooms&quot; -OrganizationalUnit &quot;contoso.com/rooms&quot; -RoomList</code></pre>
 </doc-codeblock></div>
 <doc-anchor-target id="use-exchange-powershell-to-add-a-room-to-a-room-list">
     <h3>
@@ -206,7 +206,7 @@
 </doc-anchor-target>
 <p>This example adds confroom3223 to the building 32 room list.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">Add-DistributionGroupMember -Identity &quot;Building 32 Conference Rooms&quot; -Member confroom3223@contoso.com</code></pre>
+<pre class="language-powershell"><code v-pre class="language-powershell">Add-DistributionGroupMember -Identity &quot;Building 32 Conference Rooms&quot; -Member confroom3223@contoso.com</code></pre>
 </doc-codeblock></div>
 <doc-anchor-target id="use-exchange-powershell-to-convert-a-distribution-group-to-a-room-list">
     <h3>
@@ -217,7 +217,7 @@
 <p>You may already have created distribution groups in the past that contain your conference rooms. You don&#x27;t need to recreate them; we can convert them quickly into a room list.</p>
 <p>This example converts the distribution group, building 34 conference rooms, to a room list.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">Set-DistributionGroup -Identity &quot;Building 34 Conference Rooms&quot; -RoomList</code></pre>
+<pre class="language-powershell"><code v-pre class="language-powershell">Set-DistributionGroup -Identity &quot;Building 34 Conference Rooms&quot; -RoomList</code></pre>
 </doc-codeblock></div>
 
                                 
@@ -285,6 +285,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Create room distribution list", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Create room distribution list", level: 3, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
