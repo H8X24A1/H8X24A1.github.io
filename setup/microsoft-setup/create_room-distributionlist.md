@@ -8,7 +8,7 @@ order: 99
 
 To summarize rooms and workspaces into groups you have to create a distribution group from type -RoomList via Exchange PowerShell. Room lists are specially marked distribution groups that you can use the same way you use distribution groups.
 
-## Exchange OnPremise and Online
+## Exchange OnPremise and Exchange Online
 
 ### Use Exchange PowerShell to create a room list
 
@@ -32,3 +32,5 @@ This example converts the distribution group, building 34 conference rooms, to a
 ```powershell
 Set-DistributionGroup -Identity "Building 34 Conference Rooms" -RoomList
 ```
+
+[!ref](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes#create-a-room-list)
