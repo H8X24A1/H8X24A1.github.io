@@ -33,6 +33,6 @@ This example converts the distribution group, building 34 conference rooms, to a
 Set-DistributionGroup -Identity "Building 34 Conference Rooms" -RoomList
 ```
 
-### Source of Information
+### Source of information
 
 [!badge variant="info" Badgtarget="blank" text="Create a room list"](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes#create-a-room-list)
