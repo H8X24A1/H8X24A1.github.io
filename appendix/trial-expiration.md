@@ -1,5 +1,5 @@
 ---
-title: HXA.io DOCS - Trial Expiration
+title: Trial Expiration - HXA.io DOCS
 label: Trial Expiration
 icon: beaker
 order: 800

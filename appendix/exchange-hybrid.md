@@ -1,5 +1,5 @@
 ---
-title: HXA.io DOCS - Exchange Hybrid
+title: Exchange Hybrid - HXA.io DOCS
 label: Exchange Hybrid
 icon: server
 order: 1000

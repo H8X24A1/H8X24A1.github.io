@@ -1,5 +1,5 @@
 ---
-title: HXA.io DOCS - Incident Reports
+title: Incident Reports - HXA.io DOCS
 label: Incident Reports
 icon: report
 order: 500

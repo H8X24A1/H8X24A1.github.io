@@ -1,5 +1,5 @@
 ---
-title: HXA.io DOCS - Room and Desk Planner
+title: Room and Desk Planner - HXA.io DOCS
 label: Room and Desk Planner
 icon: calendar
 order: 100

@@ -1,5 +1,5 @@
 ---
-title: HXA.io DOCS - Free License
+title: Free License - HXA.io DOCS
 label: Free License
 icon: gift
 order: 1000

@@ -1,5 +1,5 @@
 ---
-title: HXA.io DOCS - Buy Hardware
+title: Buy Hardware - HXA.io DOCS
 label: Buy Hardware
 icon: device-mobile
 order: 600

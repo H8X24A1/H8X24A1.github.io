@@ -1,5 +1,5 @@
 ---
-title: HXA.io DOCS - Languages
+title: Languages - HXA.io DOCS
 label: Languages
 icon: globe
 order: 900
