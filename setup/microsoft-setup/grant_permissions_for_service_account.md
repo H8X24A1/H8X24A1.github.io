@@ -2,7 +2,7 @@
 title: Grant permission for service account- Microsoft Exchange - HXA.io DOCS
 label: Grant permission for service account
 icon: paste
-order: 98
+order: 99
 ---
 # Grant permission for service account
 
@@ -20,9 +20,11 @@ In Exchange Server, you can use the Exchange admin center (EAC) or the Exchange 
 2. In the list of mailboxes, select the mailbox that you want to assign permissions for, and then click Edit.
 3. On the mailbox properties page that opens, click Mailbox delegation and configure one or more of the following permissions.
    - Full Access: The delegate can open the mailbox and do anything except send messages.
-   To assign permissions to delegates, click Add Add icon. under the appropriate permission. A dialog box appears that lists the users or groups that can have the permission assigned to them. Select the user or group from the list, and then click Add. Repeat this process as many times as necessary. You can also search for users or groups in the search box by typing all or part of the name, and then clicking Search Search icon. When you're finished selecting delegates, click OK. 
+
+        To assign permissions to delegates, click Add Add icon. under the appropriate permission. A dialog box appears that lists the users or groups that can have the permission assigned to them. Select the user or group from the list, and then click Add. Repeat this process as many times as necessary. You can also search for users or groups in the search box by typing all or part of the name, and then clicking Search Search icon. When you're finished selecting delegates, click OK. 
    
-   To remove a permission from a delegate, select the delegate in the list under the appropriate permission, and then click Remove Remove icon..
+        To remove a permission from a delegate, select the delegate in the list under the appropriate permission, and then click Remove Remove icon.
+
 4. When you're finished, click Save.
 
 ### Source of information
