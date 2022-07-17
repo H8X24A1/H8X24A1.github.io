@@ -2,7 +2,7 @@
 title: Create room distribution list - Microsoft Exchange - HXA.io DOCS
 label: Create room distribution list
 icon: paste
-order: 99
+order: 98
 ---
 # Create room distribution list
 
