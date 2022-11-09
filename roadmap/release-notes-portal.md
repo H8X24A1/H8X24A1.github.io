@@ -7,8 +7,8 @@ order: 1000
 ## v.0.9.11
 Release date: 2022-11-18
 
-+++ New :icon-shield-check:
-- [x] Working logout
++++ Fixed :icon-bug:
+- [x] The logout did not work correctly in some cases. This has been fixed.
 +++
 
 ## v.0.9.10

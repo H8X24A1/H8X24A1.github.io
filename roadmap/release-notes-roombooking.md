@@ -3,7 +3,7 @@ label: HXA.io Room Booking
 icon: paste
 order: 900
 ---
-## v2.2.4
+## v2.4.0
 Release date: 2022-11-18
 +++ New :icon-shield-check:
 - [x] Upload individual background images for all 3 statuses (available, pending, busy)
