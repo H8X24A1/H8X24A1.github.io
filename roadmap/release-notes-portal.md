@@ -4,8 +4,15 @@ icon: paste
 order: 1000
 ---
 
+## v.0.9.11
+Release date: 2022-11-18
+
++++ New :icon-shield-check:
+- [x] Working logout
++++
+
 ## v.0.9.10
-Release date: 2022-13-05
+Release date: 2022-05-13
 
 +++ New :icon-shield-check:
 - [x] Feature for Multi-user, role and permissions management added
@@ -16,7 +23,7 @@ Release date: 2022-13-05
 +++
 
 ## v.0.9.9
-Release date: 2022-18-04
+Release date: 2022-04-18
 
 +++ New :icon-shield-check:
 - [x] Message Center added to Dashboard
@@ -27,7 +34,7 @@ Release date: 2022-18-04
 +++
 
 ## v.0.9.6
-Release date: 2021-25-11
+Release date: 2021-11-25
 
 +++ New :icon-shield-check:
 - [x] Add-on feature Room Service added
