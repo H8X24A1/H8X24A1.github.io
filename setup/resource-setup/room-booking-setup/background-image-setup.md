@@ -15,7 +15,12 @@ To customize your Room Booking device you can change the background images of th
 - [x] Scroll down to "Branding settings"
 - [x] Upload the background images for every status by clicking on "Add" (resolution: 1920 x 1080 pixels; max file size: 1024 kB)
 
-![](/images/HXA.io_upload_background_image.png)
+![](/images/HXA.io_upload_background_image_01.png)
+
+- [x] :icon-shield-check: Enjoy your individual background images
+
+![](/images/HXA.io_upload_background_image_02.png)
+
 +++
 
 
