@@ -1,5 +1,5 @@
 ---
-label: Room Booking Setup
+label: Quick Meeting Title Setup
 icon: calendar
 order: 1000
 ---
@@ -33,3 +33,7 @@ Hint: do not forget to save
 
 ![](https://community.hxa.io/uploads/default/original/1X/5a148fa1e309588a44e109d5b6da42b188958925.jpeg)
 +++
+
+
+### How To customize background image for the roombooking app
+
