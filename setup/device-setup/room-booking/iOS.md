@@ -17,7 +17,7 @@ order: 1000
 +++
 
 +++ 2. Second step
-- [x] Start the HXA Room Booking App on your Android device 
+- [x] Start the HXA Room Booking App on your iOS device 
 - [x] You will be asked to register your device -> Click or press "Register"
 
 ![Click or Press "Register" to get shown the registration code](/images/HXA.io_device_registration.png)
@@ -28,7 +28,7 @@ order: 1000
 - [x] Add a device to your ressource
 - [x] Enter the registration code shown on your Android device
 
-![Registration code shown on your Android device](/images/HXA.io_registration_code.png)
+![Registration code shown on your iOS device](/images/HXA.io_registration_code.png)
 
 ![Enter registration code on adding device to your ressource](/images/HXA.io_registration_code_02.png)
 +++
