@@ -8,7 +8,7 @@ order: 900
 
 
 +++ 1. First step
-[-![](/images/playstore256x80.png)](https://play.google.com/store/apps/details?id=com.hxa.roombooking)
+[![](/images/playstore256x80.png)](https://play.google.com/store/apps/details?id=com.hxa.roombooking)
 
 - [x] Download and install the HXA Room Booking App via [Google Play](https://play.google.com/store/apps/details?id=com.hxa.roombooking)
 
