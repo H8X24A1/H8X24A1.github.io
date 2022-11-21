@@ -26,7 +26,7 @@ order: 1000
 - [x] If still not happend, [add a connector to your setup](/setup/connector-setup.md)
 - [x] Create a new ressource or edit an existing one
 - [x] Add a device to your ressource
-- [x] Enter the registration code shown on your Android device
+- [x] Enter the registration code shown on your iOS device
 
 ![Registration code shown on your iOS device](/images/HXA.io_registration_code.png)
 
