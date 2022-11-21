@@ -33,23 +33,33 @@ Go to https://www.balena.io/etcher/ and download the software balena Etcher, sta
 
 - Download the configration script package:
 
-`wget https://script.roombooking.hxa.io/raspberry-pi/HXA-RB-RASPI-Rollout-Script.zip`
+```bash
+wget https://script.roombooking.hxa.io/raspberry-pi/HXA-RB-RASPI-Rollout-Script.zip
+```
 
 - Unzip the zip-file:
 
-`unzip HXA-RB-RASPI-Rollout-Script.zip`
+```bash
+unzip HXA-RB-RASPI-Rollout-Script.zip
+```
 
 - Go to unzipped directory:
 
-`cd HXA-RB-RASPI-Rollout-Script`
+```bash
+cd HXA-RB-RASPI-Rollout-Script
+```
 
 - Make script-file executable:
 
-`chmod +x HXA-RB-RASPI-Rollout-Script.sh`
+```bash
+chmod +x HXA-RB-RASPI-Rollout-Script.sh
+```
 
 - Start the script:
 
-`sudo ./HXA-RB-RASPI-Rollout-Script.sh`
+```bash
+sudo ./HXA-RB-RASPI-Rollout-Script.sh
+```
 
 - After performing deployment, the the script automatically removes some unnecessary software and then performing a system update. Therefore you should not perform an update while the first system configuration.
 
