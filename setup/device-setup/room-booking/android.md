@@ -16,20 +16,20 @@ order: 900
 +++
 
 +++ 2. Second step
-- [x] Start the App
-- [x] Go to the [HXA.io Portal](https://portal.hxa.io)
+- [x] Start the App on your Android device
+- [x] Go to the [HXA.io Portal](https://portal.hxa.io) on your administration device
 - [x] Create or edit a ressource
 - [x] Add a device to your ressource
 - [x] Enter the registration code shown on your Android device
 
-![](/images/HXA.io_registration_code.png)
+![Registration code shown on your Android device](/images/HXA.io_registration_code.png)
 
-![](/images/HXA.io_registration_code_02.png)
+![Enter registration code on adding device to your ressource](/images/HXA.io_registration_code_02.png)
 +++
 
 
 +++ 3. Third Step
-:icon-shield-check: Enjoy your the HXA Room Booking on your Android device.
+:icon-shield-check: Enjoy the HXA Room Booking App on your Android device.
 
 +++
 
