@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.722361248569">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.722361521194">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,11 +30,12 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../../resources/css/retype.css?v=2.4.0.722361248569" rel="stylesheet" />
+    <link href="../../../../resources/css/retype.css?v=2.4.0.722361521194" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../../resources/js/config.js?v=2.4.0.722361248569" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../../resources/js/config.js?v=2.4.0.722361521194" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../../resources/js/lunr.js?v=2.4.0.722361248569" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../../resources/js/lunr.js?v=2.4.0.722361521194" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../../resources/js/prism.js?v=2.4.0.722361521194" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -244,23 +245,33 @@
 <li><p>Download the configration script package:</p>
 </li>
 </ul>
-<p><code v-pre>wget https://script.roombooking.hxa.io/raspberry-pi/HXA-RB-RASPI-Rollout-Script.zip</code></p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">wget https://script.roombooking.hxa.io/raspberry-pi/HXA-RB-RASPI-Rollout-Script.zip</code></pre>
+</doc-codeblock></div>
 <ul>
 <li>Unzip the zip-file:</li>
 </ul>
-<p><code v-pre>unzip HXA-RB-RASPI-Rollout-Script.zip</code></p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">unzip HXA-RB-RASPI-Rollout-Script.zip</code></pre>
+</doc-codeblock></div>
 <ul>
 <li>Go to unzipped directory:</li>
 </ul>
-<p><code v-pre>cd HXA-RB-RASPI-Rollout-Script</code></p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">cd HXA-RB-RASPI-Rollout-Script</code></pre>
+</doc-codeblock></div>
 <ul>
 <li>Make script-file executable:</li>
 </ul>
-<p><code v-pre>chmod +x HXA-RB-RASPI-Rollout-Script.sh</code></p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">chmod +x HXA-RB-RASPI-Rollout-Script.sh</code></pre>
+</doc-codeblock></div>
 <ul>
 <li>Start the script:</li>
 </ul>
-<p><code v-pre>sudo ./HXA-RB-RASPI-Rollout-Script.sh</code></p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">sudo ./HXA-RB-RASPI-Rollout-Script.sh</code></pre>
+</doc-codeblock></div>
 <ul>
 <li><p>After performing deployment, the the script automatically removes some unnecessary software and then performing a system update. Therefore you should not perform an update while the first system configuration.</p>
 </li>
@@ -333,6 +344,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Raspberry Pi", level: 4, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Raspberry Pi", level: 4, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
