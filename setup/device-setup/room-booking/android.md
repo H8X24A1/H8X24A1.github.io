@@ -8,9 +8,9 @@ order: 900
 
 
 +++ 1. First step
-- [x] Download and install the HXA Room Booking App via ![https://play.google.com/store/apps/details?id=com.hxa.roombooking](Google Play)
+- [x] Download and install the HXA Room Booking App via ![Google Play](https://play.google.com/store/apps/details?id=com.hxa.roombooking)
 
-![https://play.google.com/store/apps/details?id=com.hxa.roombooking](/images/playstore256x80.png)
+![](https://play.google.com/store/apps/details?id=com.hxa.roombooking)(/images/playstore256x80.png)
 ![](/images/HXA.io_roombooking_app_on_google_play.png)
 +++
 
