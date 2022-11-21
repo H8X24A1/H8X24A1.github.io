@@ -4,7 +4,7 @@ icon: device-desktop
 order: 900
 ---
 
-# How to setup the Room Booking App on an Android device
+# How to setup the Room Booking App on your Android device
 
 
 +++ 1. First step
