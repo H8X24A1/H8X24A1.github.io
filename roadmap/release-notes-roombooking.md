@@ -3,6 +3,14 @@ label: HXA.io Room Booking
 icon: paste
 order: 900
 ---
+
+## v2.5.0
+Release date: 2022-11-18
++++ New :icon-shield-check:
+- [x] Running meetings can now be extended 15 minutes before they expire
++++ Fixed :icon-bug:
+- [x] General performance improvements
++++
 ## v2.4.1
 Release date: 2022-11-18
 +++ New :icon-shield-check:
@@ -13,8 +21,8 @@ Release date: 2022-11-18
 Release date: 2021-11-25
 
 +++ New :icon-shield-check:
-- [x]  Add-on Feature Room Service
-- [x]  Add button for Room Service feature to the Dashboard if it is enabled
+- [x] Add-on Feature Room Service
+- [x] Add button for Room Service feature to the Dashboard if it is enabled
 - [x] Quick booking modal overworked
 - [x] Classic View Font Size extended
 
