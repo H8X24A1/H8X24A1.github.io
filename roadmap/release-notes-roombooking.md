@@ -5,7 +5,7 @@ order: 900
 ---
 
 ## v2.5.0
-Release date: 2022-11-18
+Release date: 2022-11-21
 +++ New :icon-shield-check:
 - [x] Running meetings can now be extended 15 minutes before they expire
 +++ Fixed :icon-bug:
