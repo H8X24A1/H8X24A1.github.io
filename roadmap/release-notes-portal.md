@@ -4,6 +4,16 @@ icon: paste
 order: 1000
 ---
 
+## v.0.9.14
+Release date: 2023-01-26
+
++++ New :icon-shield-check:
+- [x] Room Booking: Now you can select the devices, where the "extend event functionality" should be activated-
+- [x] Now you can see the creation date of a resource.
+- [x] Now you can see a section in the Event Log that will point you to the knowledgebase where you can read the FAQ for specific error codes.
+- [x] Now you have better overview of app versions and when a device was last seen online in the device overview list.
++++
+
 ## v.0.9.11
 Release date: 2022-11-18
 
