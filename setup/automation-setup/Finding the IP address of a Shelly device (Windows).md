@@ -5,7 +5,7 @@ order: 900
 ---
 # Finding the IP address of a Shelly device (Windows)
 
-+++
++++ Folow these steps
 
 To find out the IP address of a device you need the "Advanced IP Scanner".
 Here you find the download:
