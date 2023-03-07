@@ -1,7 +1,7 @@
 ---
 label: Finding the IP address of a Shelly device (Windows)
 icon: cpu
-order: 900
+order: 800
 ---
 # Finding the IP address of a Shelly device (Windows)
 
