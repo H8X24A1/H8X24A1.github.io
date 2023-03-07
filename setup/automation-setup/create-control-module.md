@@ -4,8 +4,6 @@ icon: cpu
 order: 900
 ---
 
-## Create a Control Module in HXA.io Portal
-
 ### 1. Login to HXA.io Portal.
 - https://portal.hxa.io
 - Navigate to "Automation" -> "Control Module".
