@@ -4,7 +4,7 @@ icon: rocket
 order: 900
 ---
 
-# Getting starte
+# Getting started
 
 !!!
 This documentation supports the admin to carry out the necessary steps to installation of the HXA.io applications and systems easily and quickly.
