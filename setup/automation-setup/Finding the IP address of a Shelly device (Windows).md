@@ -5,7 +5,11 @@ order: 900
 ---
 # Finding the IP address of a Shelly device (Windows)
 
-To find out the IP address of a device you need the "Advanced IP Scanner". You can download it [!ref target="blank" text="here"](https://www.advanced-ip-scanner.com/).
++++
+
+To find out the IP address of a device you need the "Advanced IP Scanner".
+Here you find the download:
+[!ref target="blank" text="Advanced IP Scanner"](https://www.advanced-ip-scanner.com/)
 
 - Once downloaded, open the program, select your language and click OK.
 - The following menu should pop up.
@@ -27,3 +31,5 @@ To find out the IP address of a device you need the "Advanced IP Scanner". You c
 
 - You can now find the right device using the previously defined name (see top center) if there are several devices in the network.
 - The address of the menu page is the IP address of the device.
+
++++
