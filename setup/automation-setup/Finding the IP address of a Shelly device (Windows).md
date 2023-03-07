@@ -8,7 +8,7 @@ order: 900
 +++ Folow these steps
 
 To find out the IP address of a device you need the "Advanced IP Scanner".
-Here you find the download:
+Here you can find the download:
 [!ref target="blank" text="Advanced IP Scanner"](https://www.advanced-ip-scanner.com/)
 
 - Once downloaded, open the program, select your language and click OK.
