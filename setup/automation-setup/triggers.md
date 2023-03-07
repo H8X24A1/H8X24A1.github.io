@@ -1,7 +1,7 @@
 ---
 label: Triggers
 icon: cpu
-order: 900
+order: 800
 ---
 # Setup Triggers
 
