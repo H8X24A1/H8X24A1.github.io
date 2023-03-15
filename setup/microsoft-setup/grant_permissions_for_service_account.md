@@ -6,7 +6,7 @@ order: 99
 ---
 # Grant permission for service account
 
-When a resource mailbox is created in Microsoft  Exchange a login disabled Active Directory user object will be made for this new resource mailbox. It is important is, to hold this object disabled regarding the Microsoft licensing requirements. So the only way to access this kind of Mailboxes via an interface like HXA.io is to create a new Logon allowed Active Directory user object that gets full permissions on the created resource mailbox. It's later called Service Account.
+When a resource mailbox is created in Microsoft Exchange a login disabled Active Directory user object will be made for this new resource mailbox. It is important, to hold this object disabled regarding the Microsoft licensing requirements. So the only way to access this kind of Mailboxes via an interface like HXA.io is to create a new logon allowed Active Directory user object that gets full permissions on the created resource mailbox. It's later called Service Account or delegate. If you use Microsoft Office 365 (Exchange Online) and you want to usa a HXA.io App Connector then you have not to create this service account but you can.
 
 ## Manage permission for service account
 
