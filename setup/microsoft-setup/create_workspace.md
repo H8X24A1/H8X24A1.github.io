@@ -49,7 +49,7 @@ Import-Module ExchangeOnlineManagement
 # Connect to Exchange Online
 Connect-ExchangeOnline
 ```
-# Create the Workspace Resource.
+### Create the Workspace Resource.
 
 ```powershell
 New-Mailbox -Name "<WorkspaceName>" -Alias "<WorkspaceAlias>" -OrganizationalUnit "example.com/Users" -Room -RoomMailboxPassword (ConvertTo-SecureString -String "<Password>" -AsPlainText -Force) | Set-Mailbox -type Workspace
@@ -60,7 +60,7 @@ For example:
 New-Mailbox -Name "Workspace A" -Alias "workspaceA" -OrganizationalUnit "example.com/Users" -Room -RoomMailboxPassword (ConvertTo-SecureString -String "P@ssw0rd" -AsPlainText -Force) | Set-Mailbox -type Workspace
 ```
 
-# Set the Workspace Resource properties.
+### Set the Workspace Resource properties.
 
 ```powershell
 Set-CalendarProcessing -Identity "<WorkspaceAlias>" -AutomateProcessing AutoAccept -DeleteComments $false -DeleteSubject $false -AddOrganizerToSubject $true -AllowConflicts $false  -ResourceCapacity "<capacity>"
