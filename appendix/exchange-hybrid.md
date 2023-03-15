@@ -25,8 +25,18 @@ A hybrid deployment allows organizations to extend the feature-rich experience a
 
 Overall, configuring Exchange Hybrid requires careful planning and attention to detail, as well as a solid understanding of both the on-premises Exchange environment and Exchange Online. Microsoft provides detailed documentation and tools to help organizations configure Exchange Hybrid, but it's still important to have a clear understanding of the process and the requirements involved.
 
+In general HXA.io takes care of customers they are using Hybrid Environments.
+
 ### Sources
 
 [!ref target="blank" text="Exchange Hybrid"](https://docs.microsoft.com/en-us/exchange/exchange-hybrid)
 
+## Support
 
+HXA.io is dedicated to providing top-notch support to our customers who use hybrid environments. We understand that hybrid solutions can be complex and require specialized attention, which is why we strive to provide the best possible support to ensure our software runs smoothly in these environments.
+
+If you encounter any issues while using our software in a hybrid scenario, we recommend that you reach out to our support team. Our experts will work diligently to diagnose and resolve any problems you may be experiencing.
+
+Please note that to access our support services, customers are required to have an active support plan. This plan ensures that you have access to our team's expertise and resources, allowing us to assist you in the most effective and efficient manner possible.
+
+At HXA.io, we value our customers and their satisfaction is our top priority. We are committed to providing the highest level of support possible and will do our utmost to ensure that our software runs smoothly in your hybrid environment.
