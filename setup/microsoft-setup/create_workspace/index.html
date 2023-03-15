@@ -9,32 +9,33 @@
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Room and Desk Planner - HXA.io DOCS</title>
-    <meta name="title" content="Room and Desk Planner - HXA.io DOCS">
-    <meta name="description" content="Microsoft Bookings let employees and all kind of people inside and outside of the organization track, manage and organize appointments in one place." />
+    <title>Create and manage workspaces - Microsoft Exchange - HXA.io DOCS</title>
+    <meta name="title" content="Create and manage workspaces - Microsoft Exchange - HXA.io DOCS">
+    <meta name="description" content="Microsoft Workspace Resources are useful for managing shared spaces like meeting rooms, workspaces, and other resources in an organization." />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.hxa.io/lifehacks/room-desk-planner/" />
+    <link rel="canonical" href="https://docs.hxa.io/setup/microsoft-setup/create_workspace/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.hxa.io/lifehacks/room-desk-planner/">
-    <meta property="og:title" content="Room and Desk Planner - HXA.io DOCS">
-    <meta property="og:description" content="Microsoft Bookings let employees and all kind of people inside and outside of the organization track, manage and organize appointments in one place.">
+    <meta property="og:url" content="https://docs.hxa.io/setup/microsoft-setup/create_workspace/">
+    <meta property="og:title" content="Create and manage workspaces - Microsoft Exchange - HXA.io DOCS">
+    <meta property="og:description" content="Microsoft Workspace Resources are useful for managing shared spaces like meeting rooms, workspaces, and other resources in an organization.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.hxa.io/lifehacks/room-desk-planner/">
-    <meta property="twitter:title" content="Room and Desk Planner - HXA.io DOCS">
-    <meta property="twitter:description" content="Microsoft Bookings let employees and all kind of people inside and outside of the organization track, manage and organize appointments in one place.">
+    <meta property="twitter:url" content="https://docs.hxa.io/setup/microsoft-setup/create_workspace/">
+    <meta property="twitter:title" content="Create and manage workspaces - Microsoft Exchange - HXA.io DOCS">
+    <meta property="twitter:description" content="Microsoft Workspace Resources are useful for managing shared spaces like meeting rooms, workspaces, and other resources in an organization.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.732202470159" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=2.4.0.732202470159" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.732202470159" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.732202470159" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=2.4.0.732202470159" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=2.4.0.732202470159" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=2.4.0.732202470159" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -51,7 +52,7 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-2xl">
                             <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">HXA.io</span>
                         </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Documentation</span>
                     </div>
@@ -174,26 +175,39 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="use-microsoft-bookings-as-room-and-desk-planner-with-hxaio" class="break-words">
+<doc-anchor-target id="creating-and-manage-a-microsoft-workspace-resource-using-powershell-and-exchange-online-admin-center" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#use-microsoft-bookings-as-room-and-desk-planner-with-hxaio">#</doc-anchor-trigger>
-        <span>Use Microsoft Bookings as Room and Desk planner with HXA.io</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creating-and-manage-a-microsoft-workspace-resource-using-powershell-and-exchange-online-admin-center">#</doc-anchor-trigger>
+        <span>Creating and manage a Microsoft Workspace Resource using PowerShell and Exchange Online Admin Center</span>
     </h1>
 </doc-anchor-target>
-<p>Microsoft Bookings let employees and all kind of people inside and outside of the organization track, manage and organize appointments in one place. This will lead us to use Microsoft Bookings to order a Room or an Workplace over a Web Page.</p>
-<doc-anchor-target id="requirements">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#requirements">#</doc-anchor-trigger>
-        <span>Requirements</span>
-    </h3>
-</doc-anchor-target>
-<p>To use Microsoft Bookings you need an Microsoft Office 365 license including the Exchange Online Plan. You can order Microsoft 365 licenses via <a href="https://www.nettask.de/de/produkte/office-365.html">https://www.nettask.de/de/produkte/office-365.html</a>.</p>
-<doc-anchor-target id="configuration-of-microsoft-bookings-for-room-and-desk-planning">
+<p>Microsoft Workspace Resources are useful for managing shared spaces like meeting rooms, workspaces, and other resources in an organization. By creating a workspace resource, you can manage bookings and reservations in Outlook Online. In this guide, we will walk you through the process of creating a Microsoft Workspace Resource in Exchange Online using both PowerShell commands and the Exchange Online Admin Center.</p>
+<p>Before you begin, make sure you have the following:</p>
+<p>Admin access to the Exchange Online Admin Center.
+PowerShell with the Exchange Online Management module installed.
+Global admin or Exchange admin permissions in your organization.</p>
+<doc-anchor-target id="creating-a-microsoft-workspace-resource-using-exchange-online-admin-center-eoac">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#configuration-of-microsoft-bookings-for-room-and-desk-planning">#</doc-anchor-trigger>
-        <span>Configuration of Microsoft Bookings for Room and Desk planning</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creating-a-microsoft-workspace-resource-using-exchange-online-admin-center-eoac">#</doc-anchor-trigger>
+        <span>Creating a Microsoft Workspace Resource using Exchange Online Admin Center (EOAC)</span>
     </h2>
 </doc-anchor-target>
+<ol>
+<li><p>Access the Exchange Online Admin Center:
+Log in to your Microsoft 365 admin account and navigate to the Exchange Online Admin Center (EOAC) by clicking on &quot;Admin centers&quot; and then &quot;Exchange&quot;. Or go to <a href="https://admin.exchange.microsoft.com">https://admin.exchange.microsoft.com</a> and sign in with your admin credentials.</p>
+</li>
+<li><p>Create the Workspace resource:
+In the EOAC, go to &quot;Recipients&quot; in the left-hand menu, and then click on the &quot;Resources&quot; tab.</p>
+</li>
+<li><p>Click on the &quot;+&quot; icon and select either &quot;Room mailbox&quot; or &quot;Equipment mailbox&quot;, depending on the type of Workspace resource you want to create.</p>
+</li>
+<li><p>Fill in the required information:
+Provide a name, email address, capacity (if applicable), and any other relevant information for the new Workspace resource. Click on &quot;Save&quot; to create the resource.</p>
+</li>
+<li><p>Configure additional settings:
+Once the resource is created, you can click on it in the Resources list to access and configure additional settings, such as booking options, delegate permissions, and custom properties.</p>
+</li>
+</ol>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -207,26 +221,44 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Make sure that Microsoft Bookings is enabled for your organization in the settings of the Microsoft 365 admin center.</p>
+<p>Don&#x27;t forget to assign the workspace mailbox to a room list that it will come available to select this workspace calendar in HXA.io Resource Management. Please notice that it can take up to 24 hours that the workspace can be used and w displayed in the calendar selection of the HXA Resource Management.</p>
         </div>
     </div>
 </div>
-<p>If you do not have priviously created a Room mailbox for a Room or Desk, create a new Room mailbox in Exchange admin center and set the Booking delegates: Automatically accept or decline booking requests.</p>
-<p>Open Bookings via the app launcher and add a booking calendar, for your department or office building.</p>
-<p>For example. Add the bookable desks as Staff. Search for the right room mailbox and set the room/desk number as initials.</p>
-<p>Build a new service for the use of a desk, for instance for the whole day.</p>
-<p>You can assign “staff” (resources) to this service (in case of meeting special requirements), or do not assign if every resource should be available for this service. After saving there’s a URL available to share a page for this service.</p>
-<p>Now we’re all set to create and publish the booking page to make it available for the people. To keep the booking page for internal use only, enable the access control settings otherwise it will com available in public.</p>
-<p>Adjust the settings for the Scheduling policy, Email notifications, Staff and Availability to your needs.</p>
-<p>Publish the booking page to make it available via the URL that is shown.</p>
-<p>Now we can test/use the published booking page by opening it.
-Select a service (desk for whole or half day), day plus start time, and the staff (resource).</p>
-<p>Add your details and click the Book button.</p>
-<p>This will add the booking to the booking calendar and the calendar of the room mailbox.</p>
-<p>The employee will receive a confirmation of the booking with an .ics file to add to his/her calendar, and the option to manage the booking in case of rescheduling or cancelling it.</p>
-<p>So Microsoft Bookings can be a great help in planning the occupation of the rooms and desks in your offices!</p>
-<p>To make this solution more comfortable we recommend to use our HXA Room Booking Applicatin or HXA Room Booking System on the Rooms or Desk to visualize the booked Status on the Resource (Rooms or Desks) and add some cool features like Check-in/ Check-out or auto-cancel a appointment of no one will come to the Room or Desk in the booked time span to bring the Resource back to the pool for Quick Booking.</p>
-<p>Our HXA Room Board Application can help to display the Rooms and Desks they are free or booked for a hole area or space like a flight board on an Air Port.</p>
+<doc-anchor-target id="use-exchange--powershell-to-create-a-room-mailbox-in-exchange-onpremise-or-exchange-online">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#use-exchange--powershell-to-create-a-room-mailbox-in-exchange-onpremise-or-exchange-online">#</doc-anchor-trigger>
+        <span>Use Exchange  PowerShell to create a room mailbox in Exchange OnPremise or Exchange Online</span>
+    </h2>
+</doc-anchor-target>
+<p>Connect to Exchange Online PowerShell:
+Before you can create a Workspace resource using PowerShell, you need to connect to Exchange Online. Replace the placeholders with your desired values, and then run the following command:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-powershell"><code v-pre class="language-powershell"># Install Exchange Online Management module if not already installed
+Install-Module -Name ExchangeOnlineManagement
+
+# Import Module
+Import-Module ExchangeOnlineManagement
+
+# Connect to Exchange Online
+Connect-ExchangeOnline</code></pre>
+</doc-codeblock></div>
+<p>#Create the Workspace Resource.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-powershell"><code v-pre class="language-powershell">New-Mailbox -Name &quot;&lt;WorkspaceName&gt;&quot; -Alias &quot;&lt;WorkspaceAlias&gt;&quot; -OrganizationalUnit &quot;example.com/Users&quot; -Room -RoomMailboxPassword (ConvertTo-SecureString -String &quot;&lt;Password&gt;&quot; -AsPlainText -Force) | Set-Mailbox -type Workspace</code></pre>
+</doc-codeblock></div>
+<p>For example:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-powershell"><code v-pre class="language-powershell">New-Mailbox -Name &quot;Workspace A&quot; -Alias &quot;workspaceA&quot; -OrganizationalUnit &quot;example.com/Users&quot; -Room -RoomMailboxPassword (ConvertTo-SecureString -String &quot;P@ssw0rd&quot; -AsPlainText -Force) | Set-Mailbox -type Workspace</code></pre>
+</doc-codeblock></div>
+<p>#Set the Workspace Resource properties.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-powershell"><code v-pre class="language-powershell">Set-CalendarProcessing -Identity &quot;&lt;WorkspaceAlias&gt;&quot; -AutomateProcessing AutoAccept -DeleteComments $false -DeleteSubject $false -AddOrganizerToSubject $true -AllowConflicts $false</code></pre>
+</doc-codeblock></div>
+<p>For example:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-powershell"><code v-pre class="language-powershell">Set-CalendarProcessing -Identity &quot;workspaceA&quot; -AutomateProcessing AutoAccept -DeleteComments $false -DeleteSubject $false -AddOrganizerToSubject $true -AllowConflicts $false</code></pre>
+</doc-codeblock></div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -236,20 +268,20 @@ Select a service (desk for whole or half day), day plus start time, and the staf
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../appendix/current-incidents/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../setup/microsoft-setup/create_room-mailbox/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Current Incidents</span>
+                                                <span class="block mt-1">Create and manage room mailboxes</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../definitions/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../setup/microsoft-setup/grant_permissions_for_service_account/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Definitions</span>
+                                                <span class="block mt-1">Grant permission for service account</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -293,6 +325,6 @@ Select a service (desk for whole or half day), day plus start time, and the staf
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Room and Desk Planner", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Create and manage workspaces", level: 3, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
