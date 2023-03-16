@@ -9,6 +9,7 @@ Release date: 2023-03-15
 
 +++Fixed :icon-bug:
 - [x] Fixed a bug that will show a connection lost message but the connection still exists in the background
+- [x] Fixed a bug in the HXA Systems Display Device in the led light controller
 
 ## 2.5.1
 Release date: 2023-03-15
