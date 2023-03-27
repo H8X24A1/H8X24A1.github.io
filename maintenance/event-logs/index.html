@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.732970653534">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.733228205357">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Event Logs</title>
-    <meta name="title" content="Event Logs">
+    <title>Connector Not Reachable:</title>
+    <meta name="title" content="Connector Not Reachable:">
+    <meta name="description" content="The Event Log on HXA.io is an essential tool for administrators seeking to monitor and manage the performance of their connectors." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/maintenance/event-logs/" />
@@ -18,20 +19,22 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/maintenance/event-logs/">
-    <meta property="og:title" content="Event Logs">
+    <meta property="og:title" content="Connector Not Reachable:">
+    <meta property="og:description" content="The Event Log on HXA.io is an essential tool for administrators seeking to monitor and manage the performance of their connectors.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.hxa.io/maintenance/event-logs/">
-    <meta property="twitter:title" content="Event Logs">
+    <meta property="twitter:title" content="Connector Not Reachable:">
+    <meta property="twitter:description" content="The Event Log on HXA.io is an essential tool for administrators seeking to monitor and manage the performance of their connectors.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.732970653534" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.733228205357" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.732970653534" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.733228205357" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.732970653534" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.733228205357" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -171,12 +174,103 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="event-logs" class="break-words">
+<doc-anchor-target id="introduction">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
+        <span>Introduction</span>
+    </h2>
+</doc-anchor-target>
+<p>The Event Log on HXA.io is an essential tool for administrators seeking to monitor and manage the performance of their connectors. It provides detailed information about the status and health of each connector, helping administrators identify and resolve potential issues. This article will explore the types of error messages found in the Event Log and offer guidance on how to address common connector problems such as reachability, connection, and authentication failures.</p>
+<doc-anchor-target id="what-is-the-event-log-on-hxaio">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-the-event-log-on-hxaio">#</doc-anchor-trigger>
+        <span>What is the Event Log on HXA.io?</span>
+    </h2>
+</doc-anchor-target>
+<p>The Event Log is a central repository that records critical information about events and activities occurring within the HXA.io platform. It serves as a valuable resource for troubleshooting and diagnosing issues related to connectors, which are responsible for facilitating communication between HXA.io and external systems. By reviewing the Event Log, administrators can gain insights into the operational status of their connectors and take appropriate action to resolve issues as they arise.</p>
+<doc-anchor-target id="types-of-error-messages-in-the-event-log">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#types-of-error-messages-in-the-event-log">#</doc-anchor-trigger>
+        <span>Types of Error Messages in the Event Log</span>
+    </h2>
+</doc-anchor-target>
+<p>The Event Log contains various types of error messages, some of which are specific to connectors. Here are the most common connector-related error messages:</p>
+<p>+++</p>
+<doc-anchor-target id="connector-not-reachable" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#event-logs">#</doc-anchor-trigger>
-        <span>Event Logs</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#connector-not-reachable">#</doc-anchor-trigger>
+        <span>Connector Not Reachable:</span>
     </h1>
 </doc-anchor-target>
+<p>This error indicates that the connector is not accessible due to a network issue, server downtime, or other connectivity problems. The message may also provide additional information about the cause of the issue.
++++</p>
+<p>+++</p>
+<doc-anchor-target id="connection-not-allowed">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#connection-not-allowed">#</doc-anchor-trigger>
+        <span>Connection Not Allowed:</span>
+    </h1>
+</doc-anchor-target>
+<p>This error occurs when a connector is unable to establish a connection with the external system, often due to security or firewall settings. The error message will typically include details about the specific connection issue.
++++</p>
+<p>+++</p>
+<doc-anchor-target id="authentication-not-successful">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#authentication-not-successful">#</doc-anchor-trigger>
+        <span>Authentication Not Successful:</span>
+    </h1>
+</doc-anchor-target>
+<p>This error arises when the connector fails to authenticate with the external system, usually because of incorrect or expired credentials. The error message will provide information about the authentication failure and suggest potential solutions.
++++</p>
+<doc-anchor-target id="troubleshooting-connector-issues">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#troubleshooting-connector-issues">#</doc-anchor-trigger>
+        <span>Troubleshooting Connector Issues</span>
+    </h2>
+</doc-anchor-target>
+<p>To resolve connector issues identified in the Event Log, follow these steps:</p>
+<doc-anchor-target id="verify-connectivity">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#verify-connectivity">#</doc-anchor-trigger>
+        <span>Verify Connectivity:</span>
+    </h1>
+</doc-anchor-target>
+<p>Check the connector&#x27;s configuration settings to ensure they are accurate and up-to-date. Verify that the external system is online and reachable, and that the connector&#x27;s IP address is whitelisted in the external system&#x27;s firewall, if applicable.</p>
+<doc-anchor-target id="review-security-settings">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#review-security-settings">#</doc-anchor-trigger>
+        <span>Review Security Settings:</span>
+    </h1>
+</doc-anchor-target>
+<p>Examine the security settings of the external system and ensure that the connector is granted the necessary permissions to establish a connection. Update any outdated settings, if required.</p>
+<doc-anchor-target id="check-credentials">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#check-credentials">#</doc-anchor-trigger>
+        <span>Check Credentials:</span>
+    </h1>
+</doc-anchor-target>
+<p>Confirm that the connector&#x27;s authentication credentials (e.g., username, password, API key, or access token) are correct and have not expired. Update the credentials if necessary and reattempt the connection.</p>
+<doc-anchor-target id="consult-documentation">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#consult-documentation">#</doc-anchor-trigger>
+        <span>Consult Documentation:</span>
+    </h1>
+</doc-anchor-target>
+<p>Refer to the connector&#x27;s documentation for specific troubleshooting steps, as certain issues may be unique to the particular connector.</p>
+<doc-anchor-target id="contact-support">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#contact-support">#</doc-anchor-trigger>
+        <span>Contact Support:</span>
+    </h1>
+</doc-anchor-target>
+<p>If the issue persists, reach out to HXA.io&#x27;s support team for assistance. Provide a detailed description of the problem, including relevant error messages from the Event Log and any steps you have already taken to address the issue.</p>
+<doc-anchor-target id="conclusion">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#conclusion">#</doc-anchor-trigger>
+        <span>Conclusion</span>
+    </h2>
+</doc-anchor-target>
+<p>The Event Log on HXA.io is a valuable resource for monitoring and troubleshooting connector issues. By regularly reviewing the log and addressing error messages related to reachability, connection, and authentication, administrators can ensure the optimal performance of their connectors and maintain seamless communication between HXA.io and external systems.</p>
 
                                 
                                 <!-- Required only on API pages -->
