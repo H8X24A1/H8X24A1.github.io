@@ -15,18 +15,15 @@ The Event Log is a central repository that records critical information about ev
 
 The Event Log contains various types of error messages, some of which are specific to connectors. Here are the most common connector-related error messages:
 
-+++
-# Connector Not Reachable:
++++ Connector Not Reachable:
 This error indicates that the connector is not accessible due to a network issue, server downtime, or other connectivity problems. The message may also provide additional information about the cause of the issue.
 +++
 
-+++
-# Connection Not Allowed:
++++ Connection Not Allowed:
 This error occurs when a connector is unable to establish a connection with the external system, often due to security or firewall settings. The error message will typically include details about the specific connection issue.
 +++
 
-+++
-# Authentication Not Successful:
++++ Authentication Not Successful:
 This error arises when the connector fails to authenticate with the external system, usually because of incorrect or expired credentials. The error message will provide information about the authentication failure and suggest potential solutions.
 +++
 ## Troubleshooting Connector Issues
