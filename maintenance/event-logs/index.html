@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.733228205357">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.733228421513">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Connector Not Reachable:</title>
-    <meta name="title" content="Connector Not Reachable:">
+    <title>Verify Connectivity:</title>
+    <meta name="title" content="Verify Connectivity:">
     <meta name="description" content="The Event Log on HXA.io is an essential tool for administrators seeking to monitor and manage the performance of their connectors." />
 
     <!-- Canonical -->
@@ -19,22 +19,22 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/maintenance/event-logs/">
-    <meta property="og:title" content="Connector Not Reachable:">
+    <meta property="og:title" content="Verify Connectivity:">
     <meta property="og:description" content="The Event Log on HXA.io is an essential tool for administrators seeking to monitor and manage the performance of their connectors.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.hxa.io/maintenance/event-logs/">
-    <meta property="twitter:title" content="Connector Not Reachable:">
+    <meta property="twitter:title" content="Verify Connectivity:">
     <meta property="twitter:description" content="The Event Log on HXA.io is an essential tool for administrators seeking to monitor and manage the performance of their connectors.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.733228205357" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.733228421513" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.733228205357" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.733228421513" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.733228205357" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.733228421513" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -195,33 +195,24 @@
     </h2>
 </doc-anchor-target>
 <p>The Event Log contains various types of error messages, some of which are specific to connectors. Here are the most common connector-related error messages:</p>
-<p>+++</p>
-<doc-anchor-target id="connector-not-reachable" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#connector-not-reachable">#</doc-anchor-trigger>
-        <span>Connector Not Reachable:</span>
-    </h1>
-</doc-anchor-target>
-<p>This error indicates that the connector is not accessible due to a network issue, server downtime, or other connectivity problems. The message may also provide additional information about the cause of the issue.
-+++</p>
-<p>+++</p>
-<doc-anchor-target id="connection-not-allowed">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#connection-not-allowed">#</doc-anchor-trigger>
-        <span>Connection Not Allowed:</span>
-    </h1>
-</doc-anchor-target>
-<p>This error occurs when a connector is unable to establish a connection with the external system, often due to security or firewall settings. The error message will typically include details about the specific connection issue.
-+++</p>
-<p>+++</p>
-<doc-anchor-target id="authentication-not-successful">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#authentication-not-successful">#</doc-anchor-trigger>
-        <span>Authentication Not Successful:</span>
-    </h1>
-</doc-anchor-target>
-<p>This error arises when the connector fails to authenticate with the external system, usually because of incorrect or expired credentials. The error message will provide information about the authentication failure and suggest potential solutions.
-+++</p>
+<doc-tabs>
+<doc-tab id="connector-not-reachable">
+<template #title>Connector Not Reachable:</template>
+<p>This error indicates that the connector is not accessible due to a network issue, server downtime, or other connectivity problems. The message may also provide additional information about the cause of the issue.</p>
+</doc-tab>
+</doc-tabs>
+<doc-tabs>
+<doc-tab id="connection-not-allowed">
+<template #title>Connection Not Allowed:</template>
+<p>This error occurs when a connector is unable to establish a connection with the external system, often due to security or firewall settings. The error message will typically include details about the specific connection issue.</p>
+</doc-tab>
+</doc-tabs>
+<doc-tabs>
+<doc-tab id="authentication-not-successful">
+<template #title>Authentication Not Successful:</template>
+<p>This error arises when the connector fails to authenticate with the external system, usually because of incorrect or expired credentials. The error message will provide information about the authentication failure and suggest potential solutions.</p>
+</doc-tab>
+</doc-tabs>
 <doc-anchor-target id="troubleshooting-connector-issues">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#troubleshooting-connector-issues">#</doc-anchor-trigger>
@@ -229,7 +220,7 @@
     </h2>
 </doc-anchor-target>
 <p>To resolve connector issues identified in the Event Log, follow these steps:</p>
-<doc-anchor-target id="verify-connectivity">
+<doc-anchor-target id="verify-connectivity" class="break-words">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#verify-connectivity">#</doc-anchor-trigger>
         <span>Verify Connectivity:</span>
