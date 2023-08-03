@@ -1,5 +1,5 @@
 ---
-label: SPARO App admin documentation
+label: Sparo App admin documentation
 icon: rocket
 order: 100
 ---
