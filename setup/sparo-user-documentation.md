@@ -4,7 +4,7 @@ icon: rocket
 order: 90
 ---
 
-# Get Sparo App
+## Get Sparo App
 
 +++ 1. First step
 [![](/images/playstore256x80.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
@@ -14,16 +14,18 @@ order: 90
 [![](/images/hxa.io_sparo_app_on_google_play.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
 +++
 
-# Start up and login
+## Start up and login
 
 +++ 2. Second step
 - [x] Start the HXA Sparo App on your Android device
 
 <img src="/images/hxa.io_sparo_sign_in.png" width="200">
 
+
 - [x] Choose your language
 
 <img src="/images/hxa.io_sparo_choose_language.png" width="200">
+
 
 - [x] Login with your MS 365 Company- or School account.
 
@@ -31,7 +33,7 @@ order: 90
 
 +++
 
-# Available resources list
+## Available resources list
 
 Now you get shown a list of all current available rooms and workspaces of your company.
 
