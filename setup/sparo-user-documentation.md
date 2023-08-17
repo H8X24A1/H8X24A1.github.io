@@ -25,7 +25,7 @@ order: 90
 
 <img src="/images/hxa.io_sparo_choose_language.png" width="200">
 
-- [x] Login with your MS 365 enterprise credentials
+- [x] Login with your MS 365 Company- or School account.
 
 <img src="/images/hxa.io_sparo_ms365_login.png" width="200">
 
@@ -33,7 +33,7 @@ order: 90
 
 # Available resources list
 
-Now you get shown a list of all current available rooms and workspaces of your enterprise.
+Now you get shown a list of all current available rooms and workspaces of your company.
 
 <img src="/images//images/hxa.io_sparo_list.png" width="200">
 
