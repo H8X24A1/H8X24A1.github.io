@@ -27,7 +27,7 @@ order: 90
 <img src="/images/hxa.io_sparo_choose_language.png" width="200">
 
 
-- [x] Login with your MS 365 Company- or School account.
+- [x] Login with your Microsoft 365 Company- or School account.
 
 <img src="/images/hxa.io_sparo_ms365_login.png" width="200">
 
