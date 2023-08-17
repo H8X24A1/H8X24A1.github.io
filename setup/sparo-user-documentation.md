@@ -43,6 +43,8 @@ You can see the capacity of each resource and by touching the booking button you
 
 If you want to book a resource for an appointment in the future, choose the filter option. There you can set a time frame to show all available resources in this time frame to book your meeting room or workspace.
 
+<img src="/images//images/hxa.io_sparo_list_filter.png" width="200">
+
 It's just simple as that.
 
 Enjoy. :)
