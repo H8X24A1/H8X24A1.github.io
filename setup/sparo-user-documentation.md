@@ -9,7 +9,7 @@ order: 90
 
 - [x] Download and install the HXA Room Booking App via [Google Play](https://play.google.com/store/apps/details?id=com.hxa.sparo)
 
-![](/images/HXA.io_sparo_app_on_google_play.png)
+[![](/images/HXA.io_sparo_app_on_google_play.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
 +++
 
 +++ 2. Second step
