@@ -13,12 +13,12 @@ order: 90
 +++
 
 +++ 2. Second step
-- [x] Start the HXA Sparo App on your Android device 
-![](/images/HXA.io_sparo_sign_in.png)
+- [x] Start the HXA Sparo App on your Android device
+<img src="/images/HXA.io_sparo_sign_in.png" width="200">
 - [x] Choose your language
-![](/images/HXA.io_sparo_choose_language.png)
+<img src="/images/HXA.io_sparo_choose_language.png" width="200">
 - [x] Login with your MS 365 enterprise credentials
-![](/images/![](/images/HXA.io_sparo_sign_in.png).png)
+<img src="/images/![](/images/HXA.io_sparo_sign_in.png).png" width="200">
 +++
 
 Now you get shown all current available rooms and workspaces of your enterprise.
