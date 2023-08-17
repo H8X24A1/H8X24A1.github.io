@@ -18,7 +18,7 @@ order: 90
 
 +++ 2. Second step
 - [x] Start the HXA Sparo App on your Android device
-<img src="/images/HXA.io_sparo_sign_in.png" width="200">
+<img src="/images/HXA.io_sparo_sign.png" width="200">
 - [x] Choose your language
 <img src="/images/HXA.io_sparo_choose_language.png" width="200">
 - [x] Login with your MS 365 enterprise credentials
