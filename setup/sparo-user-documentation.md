@@ -18,12 +18,15 @@ order: 90
 
 +++ 2. Second step
 - [x] Start the HXA Sparo App on your Android device
+
 <img src="/images/hxa.io_sparo_sign.png" width="200">
 
 - [x] Choose your language
+
 <img src="/images/hxa.io_sparo_choose_language.png" width="200">
 
 - [x] Login with your MS 365 enterprise credentials
+
 <img src="/images/hxa.io_sparo_ms365_login.png" width="200">
 
 +++
@@ -31,6 +34,7 @@ order: 90
 # Available resources list
 
 Now you get shown a list of all current available rooms and workspaces of your enterprise.
+
 <img src="/images//images/hxa.io_sparo_list.png" width="200">
 
 You can see the capacity of each resource and by touching the booking button you can quick book the resource for now. Simply choose the planned duration and the resource is booked.
