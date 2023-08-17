@@ -37,15 +37,15 @@ order: 90
 
 Now you get shown a list of all current available rooms and workspaces of your company.
 
-<img src="/images//images/hxa.io_sparo_list.jpg" width="200">
+<img src="/images/hxa.io_sparo_list.jpg" width="200">
 
 You can see the capacity of each resource and by touching the booking button you can quick book the resource for now. Simply choose the planned duration and the resource is booked.
 
-<img src="/images//images/hxa.io_sparo_list.jpg" width="200">
+<img src="/images/hxa.io_sparo_list.jpg" width="200">
 
 If you want to book a resource for an appointment in the future, choose the filter option. There you can set a time frame to show all available resources in this time frame to book your meeting room or workspace.
 
-<img src="/images//images/hxa.io_sparo_list_filter.jpg" width="200">
+<img src="/images/hxa.io_sparo_list_filter.jpg" width="200">
 
 It's just simple as that.
 
