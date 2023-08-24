@@ -4,6 +4,17 @@ icon: paste
 order: 900
 ---
 
+## v2.6.5
+Release date: 2023-08-24
+
++++ New :icon-shield-check:
+- [x] We have added a loading animation after pressing the "Quick Booking" Button on the Dashboard. This will help users to understand that the system is working on delivering the "Quick Booking" Modal. This is useful in cases when connection issues to the backend will happen and the system runs in a delay so that the "Quick Booking Modal" will not open directly after the button is pressed.
+- [x] We have added more time options to extend a meeting at "Extend Meeting" functionality 
++++ Fixed :icon-bug:
+- [x] General performance improvements
++++
+
+
 ## 2.6.2
 Release date: 2023-03-15
 
