@@ -17,19 +17,30 @@ order: 90
 ## Start up and login
 
 +++ 2. Second step
+
 - [x] Start the HXA Sparo App on your Android device
+
 <br><br>
+
 <img src="/images/hxa.io_sparo_sign_in.png" width="200">
 
+<br><br>
 
 - [x] Choose your language
+
 <br><br>
+
 <img src="/images/hxa.io_sparo_choose_language.png" width="200">
 
+<br><br>
 
 - [x] Login with your Microsoft 365 Company- or School account.
+
 <br><br>
+
 <img src="/images/hxa.io_sparo_ms365_login.png" width="200">
+
+<br><br>
 
 +++
 
@@ -38,15 +49,25 @@ order: 90
 Now you get shown a list of all current available rooms and workspaces of your company.
 
 <img src="/images/hxa.io_sparo_list.png" width="200">
+
 <br><br>
+
 You can see the capacity of each resource and by touching the booking button you can quick book the resource for now. Simply choose the planned duration and the resource is booked.
 
-<img src="/images/hxa.io_sparo_planned_booking.png" width="200">
 <br><br>
+
+<img src="/images/hxa.io_sparo_planned_booking.png" width="200">
+
+<br><br>
+
 If you want to book a resource for an appointment in the future, choose the filter option. There you can set a time frame to show all available resources in this time frame to book your meeting room or workspace.
 
-<img src="/images/hxa.io_sparo_list_filter.jpg" width="200">
 <br><br>
-It's just simple as that.
 
+<img src="/images/hxa.io_sparo_list_filter.jpg" width="200">
+
+<br><br>
+
+It's just simple as that.
+<br><br>
 Enjoy. :)
