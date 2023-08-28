@@ -3,9 +3,17 @@ label: HXA.io Sparo
 icon: paste
 order: 1100
 ---
+## v1.1
+Release date: End of Q3 2023
+
++++ New:icon-shield-check:
+- [x] Add Resources to your favorite list and book directly from the list of your favorites
+- [x] Schedule whole day bookings
+
++++
 
 ## v1.0
-Release date: 2023-08-24
+Release date: 2023-06-06
 
 +++ New :icon-shield-check:
 - [x] Book your ideal workspace in Microsoft 365 with the HXA Sparo App. Fast bookings, diverse options, and seamless integration await you!
