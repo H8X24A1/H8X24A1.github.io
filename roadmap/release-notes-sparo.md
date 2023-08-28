@@ -9,7 +9,7 @@ Release date: End of Q3 2023
 +++ New:icon-shield-check:
 - [x] Add Resources to your favorite list and book directly from the list of your favorites.
 - [x] Schedule whole day bookings.
-+++
+
 +++Fixed :icon-bug:
 - [x] General performance improvements.
 +++
