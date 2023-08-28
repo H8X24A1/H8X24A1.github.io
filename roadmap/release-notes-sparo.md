@@ -15,7 +15,7 @@ Release date: End of Q3 2023
 +++
 
 ## v1.0
-Release date: 2023-06-06
+Release date: 2023-07-12
 
 +++ New :icon-shield-check:
 - [x] Book your ideal workspace in Microsoft 365 with the HXA Sparo App. Fast bookings, diverse options, and seamless integration await you!

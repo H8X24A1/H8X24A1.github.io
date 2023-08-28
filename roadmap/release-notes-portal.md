@@ -4,6 +4,15 @@ icon: paste
 order: 1000
 ---
 
+## v.0.9.20
+Release date: 2023-07-12
+
++++ New :icon-shield-check:
+- [x] New connector type "Microsoft Office 365 Azure Active Directory (Microsoft Entry)" to connect to Microsoft 365 to enable backend access for HXA Sparo application.
+- [x] Import Microsoft 365 Users in the section "User and Roles" to allow this user the usage of HXA Sparo.
+- [x] You can buy now HXA Sparo licenses in the Shop.
++++
+
 ## v.0.9.14
 Release date: 2023-01-26
 
