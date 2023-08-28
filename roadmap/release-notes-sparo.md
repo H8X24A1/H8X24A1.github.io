@@ -3,13 +3,15 @@ label: HXA.io Sparo
 icon: paste
 order: 1100
 ---
-## v1.1
+## v1.X
 Release date: End of Q3 2023
 
 +++ New:icon-shield-check:
-- [x] Add Resources to your favorite list and book directly from the list of your favorites
-- [x] Schedule whole day bookings
-
+- [x] Add Resources to your favorite list and book directly from the list of your favorites.
+- [x] Schedule whole day bookings.
++++
++++Fixed :icon-bug:
+- [x] General performance improvements.
 +++
 
 ## v1.0
