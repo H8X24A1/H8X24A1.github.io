@@ -1,5 +1,5 @@
 ---
-label: HXA.io Portal
+label: HXA.io DOCS - HXA Portal
 icon: paste
 order: 1000
 ---
