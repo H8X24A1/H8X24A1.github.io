@@ -1,5 +1,6 @@
 ---
-label: HXA.io DOCS - HXA Sparo App descripton
+title: HXA.io DOCS - HXA Sparo App descripton
+label: HXA Sparo App descripton
 icon: paste
 order: 1100
 ---

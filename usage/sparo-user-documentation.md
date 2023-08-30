@@ -1,4 +1,5 @@
 ---
+title:HXA io DOCS - Sparo App user documentation
 label: Sparo App user documentation
 icon: rocket
 order: 90

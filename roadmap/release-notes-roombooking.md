@@ -1,5 +1,6 @@
 ---
-label: HXA.io DOCS - HXA Room Booking
+title: HXA.io DOCS - HXA Room Booking
+label: HXA Room Booking
 icon: paste
 order: 900
 ---
