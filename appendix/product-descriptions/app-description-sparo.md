@@ -4,7 +4,7 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
-# Sparo App User Documentation
+# Sparo App descripton
 
 ## Introduction:
 Sparo App, a brainchild of NT Technologies GmbH and powered by HXA, is a revolutionary tool designed for the modern professional. In today's fast-paced world, where every minute counts, Sparo App emerges as a beacon of efficiency, allowing users to seamlessly book workspaces within Microsoft 365, irrespective of the device they're using.
