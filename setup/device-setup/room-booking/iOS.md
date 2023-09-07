@@ -23,8 +23,8 @@ order: 1000
 ![Click or Press "Register" to get shown the registration code](/images/HXA.io_device_registration.png)
 
 - [x] Go to the [HXA.io Portal](https://portal.hxa.io) on your administration device
-- [x] If still not happend, [add a connector to your setup](/setup/connector-setup.md)
-- [x] Create a new ressource or edit an existing one
+- [x] If no connecor previusly created, [add a connector to your setup](/setup/connector-setup.md)
+- [x] Create a [new ressource](/setup/resource-setup/room-booking-setup/resource-setup.md) or edit an existing one
 - [x] Add a device to your ressource
 - [x] Enter the registration code shown on your iOS device
 
