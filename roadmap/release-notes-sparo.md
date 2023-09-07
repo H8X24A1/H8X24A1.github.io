@@ -1,5 +1,6 @@
 ---
-label: HXA.io Sparo
+titile: HXA.io DOCS - HXA Sparo
+label: HXA Sparo
 icon: paste
 order: 1100
 ---
