@@ -1,7 +1,7 @@
 ---
 label: Quick Meeting Title Setup
 icon: calendar
-order: 1000
+order: 900
 ---
 
 # How to setup the Quick Meeting Title

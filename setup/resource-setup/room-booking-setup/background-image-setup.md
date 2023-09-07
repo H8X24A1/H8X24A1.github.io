@@ -1,7 +1,7 @@
 ---
 label: Background Image Setup
 icon: calendar
-order: 900
+order: 700
 ---
 
 # How to setup the background image of your device

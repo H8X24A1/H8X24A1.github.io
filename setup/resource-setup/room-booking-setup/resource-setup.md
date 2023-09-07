@@ -1,7 +1,7 @@
 ---
 label: Resource setup
 icon: calendar
-order: 900
+order: 1000
 ---
 
 # Add resource
