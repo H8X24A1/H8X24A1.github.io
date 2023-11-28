@@ -19,5 +19,5 @@ Release date: 2023-11-10
 Release date: 2021-06-08
 
 +++ New :icon-shield-check:
-- [x] Final Release of HXA Room Booking Application in [Progressive Web App](hhttps://app.roomboard.hxa.io)
+- [x] Final Release of HXA Room Booking Application as [Progressive Web App](hhttps://app.roomboard.hxa.io)
 +++
