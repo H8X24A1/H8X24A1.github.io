@@ -16,6 +16,15 @@ Release date: 2023-08-24
 +++
 
 
+## 2.6.3
+Release date: 2023-04-17
+
++++Fixed :icon-bug:
+- [x] Fixed a bug that will show a connection lost message but the connection still exists in the background
+- [x] Fixed an issue with Android 10 which device prevents the WiFi connection from being established from within the HXA Room Booking application
++++
+
+
 ## 2.6.2
 Release date: 2023-03-15
 
