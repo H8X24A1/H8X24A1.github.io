@@ -87,7 +87,7 @@ Release date: 2021-08-13
 +++ New :icon-shield-check:
 - [x] The maximum number of people allowed in the room is shown on the display
 - [x] Possibilty of defining event names for selection when booking directly on the display
-- [x] Automation for even-dependent conol of IP relays and RGBW controllers for LED strips
+- [x] Automation for even-dependent control of IP relays and RGBW controllers for LED strips
 
 +++ Fixed :icon-bug:
 - [x] General bug fixes and performance improvements
