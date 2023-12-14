@@ -4,6 +4,17 @@ label: HXA Room Booking
 icon: paste
 order: 900
 ---
+## v2.7.0
+Release date: 2023-12-06
++++ New :icon-shield-check:
+- [x] Introducing a new, less distracting Silent Light Mode with a smooth color mode for the display, designed to show event status in a more subdued manner.
+- [x] Presenting our first gimmick feature: a festive Christmas mode that adds snowfall effects on the display and a Christmas hat icon on current or upcoming events.
++++ Improved :icon-thumbsup:
+- [x] Devices can now automatically re-register without physical intervention after initial connection. This update also includes a feature for devices to continually attempt reconnection if they had a valid session previously.
++++ Fixed :icon-bug:
+- [x] Enhanced the event time countdown in classic mode to accurately display full progress (100%) and resolved previously reported visibility issues.
++++
+
 
 ## v2.6.5
 Release date: 2023-08-24
