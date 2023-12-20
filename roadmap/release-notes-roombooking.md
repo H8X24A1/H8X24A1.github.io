@@ -6,7 +6,7 @@ order: 900
 ---
 
 ## v2.7.1
-Platform: Apple iOS#
+Platform: Apple iOS  
 Release date: 2023-12-20
 +++ Fixed
 - [x] We have seen in some Scenarios on Apple iOS issues after the update to 2.7.0 that the registration page will show "Your device will be re registered, please wait." We have fixed this issue.
