@@ -14,7 +14,7 @@ Release date: 2023-12-20
 
 
 ## v2.7.0
-Platform: Progressive Web App | Apple iOS | Android OS | HXA Display
+Platform: Progressive Web App | Apple iOS | Android OS | Microsoft Windows | HXA Display
 Release date: 2023-12-06
 +++ New :icon-shield-check:
 - [x] Introducing a new, less distracting Silent Light Mode with a smooth color mode for the display, designed to show event status in a more subdued manner.
