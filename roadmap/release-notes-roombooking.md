@@ -6,7 +6,7 @@ order: 900
 ---
 
 ## v2.7.1
-Platform: Apple iOS 
+Platform: Apple iOS
 Release date: 2023-12-20
 +++ Fixed
 - [x] We have seen in some Scenarios on Apple iOS issues after the update to 2.7.0 that the registration page will show "Your device will be re registered, please wait." We have fixed this issue.
@@ -15,7 +15,6 @@ Release date: 2023-12-20
 
 ## v2.7.0
 Platform: Progressive Web App | Apple iOS | Android OS | Microsoft Windows | HXA Display
-
 Release date: 2023-12-06
 +++ New :icon-shield-check:
 - [x] Introducing a new, less distracting Silent Light Mode with a smooth color mode for the display, designed to show event status in a more subdued manner.
