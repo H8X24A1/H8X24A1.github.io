@@ -5,7 +5,7 @@ icon: paste
 order: 900
 ---
 
-=== Apple iOS
+
 
 ## v2.7.2
 Platform: Apple iOS  
@@ -17,10 +17,16 @@ Release date: 2024-01-30
 - [x] We have fixed a bug where the language change was not working on the Login page.
 +++
 
-===
-
-
 ## v2.7.1
+Platform: Progressive Web App | Android OS | Microsoft Windows | HXA Display  
+Release date: 2024-01-30
++++ New :icon-shield-check:
+- [x] Introducing the Automatic Christmas Gimmick Activation feature – an enhancement to brighten your experience during the most wonderful time of the year.
++++ Fixed :icon-bug:
+- [x] We fixed a critical bug affecting users who book long-term series events and regular events on the same day. Specifically, when both types of events are scheduled for the same day, an issue occurred that prevented users from checking in for either event.
+- [x] We have fixed a bug where the language change was not working on the Login page.
++++
+
 Platform: Apple iOS  
 Release date: 2023-12-20
 +++ Fixed :icon-bug:
@@ -28,8 +34,9 @@ Release date: 2023-12-20
 +++
 
 
+
 ## v2.7.0
-Platform: Progressive Web App | Apple iOS | Android OS | Microsoft Windows | HXA Display  
+Platform: Progressive Web App | Apple iOS | Android OS | HXA Display  
 Release date: 2023-12-06
 +++ New :icon-shield-check:
 - [x] Introducing a new, less distracting Silent Light Mode with a smooth color mode for the display, designed to show event status in a more subdued manner.
