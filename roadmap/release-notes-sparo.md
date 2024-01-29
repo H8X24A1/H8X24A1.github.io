@@ -8,7 +8,7 @@ order: 1100
 ## v1.4.0
 Release date: 2024-01-30
 
-+++ Enhancements:
++++ Improved :icon-thumbsup:
 - [x] Enhanced Loading Time: Experience a significant boost in app performance with our high-impact loading time optimization. Get faster access to all your workspace and room booking needs without the wait.
 - [x] Calendar Functionality Improved: Say goodbye to the frustrating 'jumping calendar' issue. We've ironed out this bug, ensuring a smoother, more reliable scheduling experience. Now, booking your workspace or meeting room is more seamless than ever.
 - [x] User Interface Enhancements: Dive into a more intuitive and user-friendly app environment. Our latest UI fixes and improvements make navigating through the app more effortless and enjoyable, enhancing your overall booking experience.
@@ -20,7 +20,7 @@ Release date: 2023-10-02
 +++ New :icon-shield-check:
 - [x] All-Day Booking - Users can now book for the entire day, offering more flexibility in scheduling.
 
-+++ Enhancements:
++++ Improved :icon-thumbsup:
 - [x] Navigation Bar Highlighting - The active icon on the navigation bar is now more prominently highlighted, making it easier to identify the current page or section.
 - [x] Layout Update for Editing and Booking Pages - We've revamped the layout on the editing and booking pages. Additionally, users can now select an end date for their bookings.
 - [x] Loading Time Optimization - Significant improvements have been made to reduce loading times across the platform, ensuring a faster and more responsive user experience.
@@ -36,6 +36,7 @@ Release date: 2023-10-25
 
 +++ Fixed :icon-bug:
 - [x] Bug fix Correction of an error when displaying the time period within the schedule booking which is available via the favorites.
++++
 
 ## v1.2.2
 Release date: 2023-1020
@@ -46,7 +47,7 @@ Release date: 2023-1020
 - [x] Enhanced search
 - [x] Resource Management
 
-+++ Enhancements:
++++ Improved :icon-thumbsup:
 - [x] iPad Design Update
 - [x] Performance Enhancements
 
