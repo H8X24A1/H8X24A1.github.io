@@ -5,23 +5,25 @@ icon: paste
 order: 900
 ---
 
-==- Apple iOS
+=== Apple iOS
+
 ## v2.7.2
 Platform: Apple iOS  
 Release date: 2024-01-30
 +++ New :icon-shield-check:
 - [x] Introducing the Automatic Christmas Gimmick Activation feature – an enhancement to brighten your experience during the most wonderful time of the year.
-+++Fixed :icon-bug:
++++ Fixed :icon-bug:
 - [x] We fixed a critical bug affecting users who book long-term series events and regular events on the same day. Specifically, when both types of events are scheduled for the same day, an issue occurred that prevented users from checking in for either event.
 - [x] We have fixed a bug where the language change was not working on the Login page.
 +++
+
 ===
 
 
 ## v2.7.1
 Platform: Apple iOS  
 Release date: 2023-12-20
-+++ Fixed
++++ Fixed :icon-bug:
 - [x] We have seen in some Scenarios on Apple iOS issues after the update to 2.7.0 that the registration page will show "Your device will be re registered, please wait." We have fixed this issue.
 +++
 
