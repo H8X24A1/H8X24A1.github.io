@@ -17,5 +17,3 @@ For unbroken communication, the HXA.io Devices need an unblocked communication f
 65.52.142.0/24
 
 51.144.7.0/24
-
-31533
