@@ -1,6 +1,6 @@
 ---
 label: Firewall Setup
-icon: icon-shield
+icon: shield
 order: 3000
 ---
 
