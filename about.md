@@ -16,7 +16,7 @@ order: 1000
 +++
 +++ Represented by
 
-Marco Rutzke, Gustav Rutzke
+Marco Rutzke
 +++
 +++ VAT Number
 
