@@ -18,7 +18,7 @@ Release date: 2024-03-07
 +++ Fixed :icon-bug:
 - [x] Fixed a problem in suggestions and ideas form 
 - [x] Fixed a problem in the bottom menu
-
++++
 
 ## v1.4.0
 Release date: 2024-01-30
