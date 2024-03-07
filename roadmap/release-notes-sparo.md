@@ -5,6 +5,21 @@ icon: paste
 order: 1100
 ---
 
+## v1.4.1
+Release date: 2024-03-07
++++ New :icon-shield-check:
+- [x] We implement a functionality to zoo maps in Mobile and Web Version
+- [x] We added a new function that will allow to set a duration inside the Quick Booking so that the End-Time is automatically calculated
+
++++ Improved :icon-thumbsup:
+- [x] We have made some general design improvements
+- [x] We have done some small design improvements so that the text will fit better to the button size
+
++++ Fixed :icon-bug:
+- [x] Fixed a problem in suggestions and ideas form 
+- [x] Fixed a problem in the bottom menu
+
+
 ## v1.4.0
 Release date: 2024-01-30
 
