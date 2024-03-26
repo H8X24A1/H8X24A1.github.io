@@ -11,11 +11,11 @@ Release date: 2024-03-26
 +++ Improved :icon-thumbsup:
 - [x] Enhanced clarity for users encountering an error while quick booking.
 - [x] Refined layout for both Quick Booking and Scheduled Booking for enhanced usability.
-- [x] Enhanced design of the QR view for a more user-friendly experience.
+- [x] Enhanced design of the QR scan view for a more user-friendly experience.
 
 +++ Fixed :icon-bug:
 - [x] Rectified map display to ensure it appears at the minimum required size upon launch.
-- [x] Added display of event organizer on the event details page for better clarity.
+- [x] Added the organizer display to the "My Bookings" page in the "Invitations" tab for better clarity.
 - [x] Redesigned components in the registration page to fit the layout.
 +++
 
