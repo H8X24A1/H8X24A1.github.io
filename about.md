@@ -4,6 +4,9 @@ icon: star
 order: 1000
 ---
 
++++ Our Vision
+- We are changing the way we work tomorrow in office spaces and in constant transition to other workplaces. We revolutionize the use of workplaces and devices and make buildings more efficient through intelligent automation.
++++
 +++ Company Information
 - NT Technologies GmbH
 - Zillplatz 9-10
@@ -16,7 +19,7 @@ order: 1000
 +++
 +++ Represented by
 
-Marco Rutzke
+Marco Rutzke 
 +++
 +++ VAT Number
 

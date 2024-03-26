@@ -5,6 +5,31 @@ icon: paste
 order: 1100
 ---
 
+## v1.4.3
+Release date: 2024-03-26
+
++++ Improved :icon-thumbsup:
+- [x] Enhanced clarity for users encountering an error while quick booking.
+- [x] Refined layout for both Quick Booking and Scheduled Booking for enhanced usability.
+- [x] Enhanced design of the QR view for a more user-friendly experience.
+
++++ Fixed :icon-bug:
+- [x] Rectified map display to ensure it appears at the minimum required size upon launch.
+- [x] Added display of event organizer on the event details page for better clarity.
+- [x] Redesigned components in the registration page to fit the layout.
++++
+
+## v1.4.2
+Release date: 2024-03-19
++++ Improved :icon-thumbsup:
+- [x] My Booking Section: We have changed the tabs' naming to fit all content criteria and make it easier for the user to differentiate between bookings and invitations.
+
+
++++ Fixed :icon-bug:
+- [x] QR scan  Fix: Fixed the QR scan page to enhance the quality of this feature and make it easier for users to scan via the application.
+- [x] Questions and Feedback Fix:  Enhance the feedback questions to be able to deliver our point of view to the users, get accurate feedback, and act according to it.
++++
+
 ## v1.4.1
 Release date: 2024-03-07
 +++ New :icon-shield-check:

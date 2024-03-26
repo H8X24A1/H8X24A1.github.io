@@ -4,9 +4,9 @@ icon: shield
 order: 3000
 ---
 
-### What is the IP Address Range that should allow the firewall to unblock communication between the HXA.io Application and the HXA.io API?
+### First we need to configure the Firewall Setup to have a stable connection between the HXA.io Application and the HXA.io API.
 
-For unbroken communication, the HXA.io Devices need an unblocked communication from the Local Network to the HXA.io API IP Address Ranges
+ The HXA.io Devices need an unblocked communication betweeen the Local Network and the HXA.io API IP Address Ranges which are mentioned below:
 
 168.63.108.0/24
 
@@ -17,3 +17,5 @@ For unbroken communication, the HXA.io Devices need an unblocked communication f
 65.52.142.0/24
 
 51.144.7.0/24
+
+Therefore please add the IP ranges to your firewall to have them passthrough any securtiy block you may encounter within you netwrok.
