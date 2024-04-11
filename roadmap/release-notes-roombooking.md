@@ -5,6 +5,15 @@ icon: paste
 order: 900
 ---
 
+## v2.9.0
+Platform: Progressive Web App | HXA Display  
+Release date: 2024-03-25
+
+
+## v2.9.0
+Platform: Apple iOS | Android OS | Microsoft Windows
+Release date: 2024-03-25
+
 
 
 ## v2.7.2
@@ -16,6 +25,7 @@ Release date: 2024-01-30
 - [x] We fixed a critical bug affecting users who book long-term series events and regular events on the same day. Specifically, when both types of events are scheduled for the same day, an issue occurred that prevented users from checking in for either event.
 - [x] We have fixed a bug where the language change was not working on the Login page.
 +++
+
 
 ## v2.7.1
 Platform: Progressive Web App | Android OS | Microsoft Windows | HXA Display  
@@ -32,7 +42,6 @@ Release date: 2023-12-20
 +++ Fixed :icon-bug:
 - [x] We have seen in some Scenarios on Apple iOS issues after the update to 2.7.0 that the registration page will show "Your device will be re registered, please wait." We have fixed this issue.
 +++
-
 
 
 ## v2.7.0
