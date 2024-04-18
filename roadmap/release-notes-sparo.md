@@ -5,7 +5,7 @@ icon: paste
 order: 1100
 ---
 ## v1.4.4
-Release date: 2024-03-19
+Release date: 2024-04-12
 
 +++ Improved :icon-thumbsup:
 - [x] Users can now add a title to events on the QR page.
