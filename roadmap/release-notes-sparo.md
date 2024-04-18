@@ -4,6 +4,18 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+## v1.4.4
+Release date: 2024-03-19
+
++++ Improved :icon-thumbsup:
+- [x] Users can now add a title to events on the QR page.
+- [x] Enhanced the naming conventions for lists on the 'My Bookings' page.
+- [x] Improved the messages that appear to the users after registration.
+
++++ Fixed :icon-bug:
+- [x] Corrected translation errors in the feedback page between German and English languages.
+- [x] Resolved issues with the event subject area.
++++
 
 ## v1.4.3
 Release date: 2024-03-26
