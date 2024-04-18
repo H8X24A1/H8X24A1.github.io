@@ -8,13 +8,13 @@ order: 1100
 Release date: 2024-04-12
 
 +++ Improved :icon-thumbsup:
-- [x] Users can now add a title to events on the QR page.
+- [x] Users can now add a title to events if they are booked via QR.
 - [x] Enhanced the naming conventions for lists on the 'My Bookings' page.
 - [x] Improved the messages that appear to the users after registration.
 
 +++ Fixed :icon-bug:
 - [x] Corrected translation errors in the feedback page between German and English languages.
-- [x] Resolved issues with the event subject area.
+- [x] Resolved issues with the event subject area on some booking pages.
 +++
 
 ## v1.4.3
