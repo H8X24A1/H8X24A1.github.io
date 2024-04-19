@@ -10,10 +10,6 @@ Platform: Progressive Web App | HXA Display
 Release date: 2024-03-25
 
 
-## v2.9.0
-Platform: Apple iOS | Android OS | Microsoft Windows
-Release date: 2024-03-25
-
 ## v2.8.0
 Platform: Android OS | Apple iOS | Progressive web App | HXA Display | Microsoft Windows
 Release date: 2024-03-19
