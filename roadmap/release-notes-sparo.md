@@ -8,7 +8,7 @@ order: 1100
 Release date: 2024-04-12
 
 +++ Improved :icon-thumbsup:
-- [x] Users can now add a title to events if they are booked via QR.
+- [x] Users can now add a title to events if they are booked via QR-code.
 - [x] Enhanced the naming conventions for lists on the 'My Bookings' page.
 - [x] Improved the messages that appear to the users after registration.
 

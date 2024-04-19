@@ -14,7 +14,15 @@ Release date: 2024-03-25
 Platform: Apple iOS | Android OS | Microsoft Windows
 Release date: 2024-03-25
 
-
+## v2.8.0
+Platform: Apple iOS | Android OS | Microsoft Windows
+Release date: 2024-03-19
++++ New :icon-shield-check:
+- [x] The Quick Booking on the Dashboard now includes a slider for easier time selection, improving the booking process.
+- [x] Adjust the maximum time for Quick Bookings via the HXA Portal Resource's advanced settings, offering greater flexibility to fit your organization's needs.
++++ Fixed :icon-bug:
+- [x] We've resolved an issue where the Quick Booking Modal closed prematurely. It now remains open until the booking is completed or canceled, for a seamless experience
++++
 
 ## v2.7.2
 Platform: Apple iOS  
