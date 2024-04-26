@@ -22,6 +22,6 @@ order: 900
 +++
 
 +++ 3. Third Step
-:icon-shield-check: Enjoy the HXA Room Booking App on your Android device.
+:icon-shield-check: Enjoy the HXA Room Board.
 
 +++
