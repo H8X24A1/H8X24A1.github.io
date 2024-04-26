@@ -20,6 +20,7 @@ In this guide, we'll walk you through the process of connecting our mini PC to a
 +++ 1. First step
 **Check Ports on Mini PC and Television:**
    - Identify the available ports on your mini PC and television. Most modern televisions and mini PCs have HDMI ports.
+![Overview of all Ports from the Mini PC](/images/minipc-overview.png)
 +++
 
 
