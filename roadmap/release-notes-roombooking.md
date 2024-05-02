@@ -18,7 +18,7 @@ Release date: 2024-05-02
 
 
 ## v2.9.0
-Platform: HXA Display  
+Platform: HXA Display
 Release date: 2024-05-02
 +++ New :icon-shield-check:
 - [x] Introducing the HXA Display Manager Background Application to easily handle automation of HXA Room Booking Application updates.
