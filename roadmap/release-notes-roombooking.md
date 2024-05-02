@@ -5,9 +5,34 @@ icon: paste
 order: 900
 ---
 
+
+## v3.0.0
+Platform: HXA Display
+Release date: 2024-05-02
++++ Introducing :icon-shield-check:
+- [x] A new function that allows to use of custom event titles in the Quick Booking Modal.
+- [x] We introduce a new function that allows us to save energy by dimming the brightness of the Status LED and LCD brightness.
++++ Fixed :icon-bug:
+- [x] We've resolved a CORS issue when some automation requests were sent to local network addresses.
++++
+
+
 ## v2.9.0
-Platform: Progressive Web App | HXA Display  
+Platform: HXA Display  
+Release date: 2024-05-02
++++ New :icon-shield-check:
+- [x] Introducing the HXA Display Manager Background Application to easily handle automation of HXA Room Booking Application updates.
++++
+
+Platform: Progressive Web App | Apple iOS | Android OS | Microsoft Windows
 Release date: 2024-03-25
++++ Introducing :icon-shield-check:
+- [x] A new function that allows to use of custom event titles in the Quick Booking Modal.
++++ Improved :icon-shield-check:
+- [x] We improve the layout on smaller screen sizes like screens with 7 inches.
++++ Fixed :icon-bug:
+- [x] We've resolved a CORS issue when some automation requests were sent to local network addresses.
++++
 
 
 ## v2.8.0
