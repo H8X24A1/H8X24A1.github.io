@@ -43,7 +43,7 @@ Here's a sample command to configure working hours:
 ```powershell
 Set-MailboxCalendarConfiguration -Identity user@domain.com -WorkHoursStartTime 08:00 -WorkHoursEndTime 17:00 -WorkingDays Monday, Tuesday, Wednesday, Thursday, Friday
 ```
-[!ref](https://learn.microsoft.com/en-us/powershell/module/exchange/set-mailboxcalendarconfiguration?view=exchange-ps)
+[!ref Set-MailboxCalendarConfiguration](https://learn.microsoft.com/en-us/powershell/module/exchange/set-mailboxcalendarconfiguration?view=exchange-ps)
 
 
 !!!
