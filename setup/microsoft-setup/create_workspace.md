@@ -51,6 +51,8 @@ Once the resource is created, you can click on it in the Resources list to acces
 Don't forget to assign the workspace mailbox to a room list that it will come available to select this workspace calendar in [!ref target="blank" text="HXA.io Portal"](https://hxa.io/)  - Resource Management. Please notice that it can take up to 24 hours that the workspace can be used and w displayed in the calendar selection of the HXA Resource Management.
 !!!
 
+
+
 ## Use Exchange  PowerShell to create a room mailbox in Exchange OnPremise or Exchange Online
 
 Connect to Exchange Online PowerShell:
