@@ -5,7 +5,18 @@ icon: paste
 order: 800
 ---
 
-## Upcoming v.1.3.0
+## v.1.4.0
+Platform: Microsoft Windows
+Release date: 2024-05-13
+
++++ New :icon-shield-check:
+
+- [x] Release of HXA Room Board in Microsoft Store for Windows
+https://www.microsoft.com/store/productId/9P5GHWQ8TDBP?ocid=pdpshare
+
+
+## v.1.3.0
+Platform: Progressive Web App
 Release date: 2024-04-10
 
 +++ New :icon-shield-check:
@@ -13,6 +24,7 @@ Release date: 2024-04-10
 
 
 ## v.1.2.0
+Platform: Progressive Web App
 Release date: 2024-01-10
 
 +++ New :icon-shield-check:
@@ -20,6 +32,7 @@ Release date: 2024-01-10
 
 
 ## v.1.1.0
+Platform: Progressive Web App
 Release date: 2023-11-10
 
 +++ New :icon-shield-check:
@@ -31,6 +44,7 @@ Release date: 2023-11-10
 
 
 ## v.1.0.0
+Platform: Progressive Web App
 Release date: 2021-06-08
 
 +++ New :icon-shield-check:
