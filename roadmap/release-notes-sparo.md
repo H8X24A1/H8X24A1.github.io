@@ -4,6 +4,24 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+
+## v1.5.0
+Release date: 2024-04-30
+
++++ Improved :icon-thumbsup:
+- [x] We have changed the position of the icons for confirming or rejecting an invitation.
+- [x] If a booking is planned using the Schedule Booking function, the timesliders now update the relevant fields during the time selection.
+- [x] The zooming function in the map has been improved so that it no longer jerks.
+- [x] To enable combining workspaces located in the same room into a future conference booking, we will differentiate workspaces with a capacity of only one person by assigning them a laptop icon, ensuring clarity and ease of use.
+
++++ Fixed :icon-bug:
+- [x] We handle an issue where the wrong Addresses of Resources can lead problems to show the map.
+- [x] We have fixed an issue that causes resource booking when navigating on the map.
+- [x] If the maximum capacity configuration was missing on the resources, the map could not be displayed correctly. This has been fixed.
+- [x] When inviting another participant to a meeting, the organizer's status incorrectly shows as "Pending" in the participants' list, so we  adjust it to always display the organizer at the top with the correct status.
+- [x] We handle a problem where the map cant be deleted in some cases.
++++
+
 ## v1.4.4
 Release date: 2024-04-12
 
