@@ -5,6 +5,23 @@ icon: paste
 order: 1100
 ---
 
+## v1.6.0
+Release date: 2024-05-29
+
++++ Improved :icon-thumbsup:
+- [x] The Accept/Decline icons in "My Bookings" have been repositioned for better usability.
+- [x] Dynamic value updates are now available via the time slider when scheduling bookings.
+- [x] The zoom function in maps has been made smoother for a better user experience.
+- [x] Workspaces with a capacity of 1 now have their own default icon for easier identification.
+
++++ Fixed :icon-bug:
+- [x] We handle an issue where the wrong Addresses of Resources can lead problems to show the map.
+- [x] Problems encountered when booking resources have been fixed.
+- [x] The maximum capacity of resources is now correctly displayed in the map view.
+- [x] The organizer's status is now shown in the first position in the participant list for better visibility.
+- [x] The error that occurred when deleting maps has been fixed.
++++
+
 ## v1.5.0
 Release date: 2024-04-30
 
