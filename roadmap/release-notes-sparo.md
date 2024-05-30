@@ -26,17 +26,17 @@ Release date: 2024-05-29
 Release date: 2024-04-30
 
 +++ Improved :icon-thumbsup:
-- [x] We have changed the position of the icons for confirming or rejecting an invitation.
-- [x] If a booking is planned using the Schedule Booking function, the timesliders now update the relevant fields during the time selection.
-- [x] The zooming function in the map has been improved so that it no longer jerks.
-- [x] To enable combining workspaces located in the same room into a future conference booking, we will differentiate workspaces with a capacity of only one person by assigning them a laptop icon, ensuring clarity and ease of use.
+- [x] Added a "My Status" option to the quick booking and scheduled booking to display the user status.
+- [x] Enabled room booking directly through the map view page.
+- [x] The user can now delete an event by swiping to the left.
+- [x] You can now book an event by tapping on its name, and it will direct the user to the details page.
+- [x] The map page will now be refreshed when the user navigates to another page and returns to the map page.
 
 +++ Fixed :icon-bug:
-- [x] We handle an issue where the wrong Addresses of Resources can lead problems to show the map.
-- [x] We have fixed an issue that causes resource booking when navigating on the map.
-- [x] If the maximum capacity configuration was missing on the resources, the map could not be displayed correctly. This has been fixed.
-- [x] When inviting another participant to a meeting, the organizer's status incorrectly shows as "Pending" in the participants' list, so we  adjust it to always display the organizer at the top with the correct status.
-- [x] We handle a problem where the map cant be deleted in some cases.
+- [x]  Resolved the white page issue that appears when resuming the app on the booking overview page.
+- [x]  Addressed the bug that occurs when loading multiple maps.
+- [x]  Reduced loading time in the booking overview.
+- [x]  Fixed the bug in floor maps when applying filters on the floor label value.
 +++
 
 ## v1.4.4
