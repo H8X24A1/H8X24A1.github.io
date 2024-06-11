@@ -10,7 +10,7 @@ Release date: 2024-06-11
 
 +++ Improved :icon-thumbsup:
 - [x] Added an Update button on the Map Page to refresh the "Floor Plan"     when Users will stay longer on this page.
-- [x] Users can set s standard status "Show As" from the settings page to use this on the booking page.
+- [x] Users can set a standard status "Show As" from the settings page to use this on the booking page.
 - [x] Users can mark maps as favorites to review them anytime without filtering the map list.
 - [x] Added an icon to indicate series events in the List of booking page.
 - [x] Refactored all toast notifications into a toast service to improve loading performance.
@@ -18,7 +18,7 @@ Release date: 2024-06-11
 +++ Fixed :icon-bug:
 - [x] Fixed the wrong toast that appears in the floormap when email address is not correct.
 - [x] Disabled the ability to change event time on the edit page if the "Till End of Day" toggle is on.
-- [x] Fixed the highlighted slider issue when multiple sliders are available in the booking page.
+- [x] Fixed the highlighted slider issue when multiple sliders are available in the scheduled booking page.
 
 +++
 
