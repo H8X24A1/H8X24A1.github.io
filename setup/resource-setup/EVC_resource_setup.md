@@ -36,7 +36,7 @@ These devices can be controlled using a Shelly connected to the HXA device via I
 +++
 
 +++ 2. Second Step: Connecting a Device to an HXA Environmental Control Resource
-- [x] 1. Visit the provided link on the device: LINK HTTPS://xxxxxxx.
+- [x] 1. Visit the provided link on the device: LINK https://app.evc.hxa.io/
 - [x] 2. Copy the registration code 
 
 ![Registration code shown on your device](/images/HXA.io_EVC_setup_register_device.png)
@@ -64,3 +64,14 @@ These devices can be controlled using a Shelly connected to the HXA device via I
      -  Button order.
 
 +++
+
++++ 4. Third Step: Setting Up EVC Resource image 
+You can change the image that appears in HXA Environement control portal.
+
+- [x] 1. Log in to HXa Portal
+- [x] 2. Select the EVC resource you wish to change the image.
+- [x] 3. Click on the three dots and choose edit.
+- [x] 4. Scroll down the image module
+- [x] 5. Click choose file , and choose the image you wish to place.
++++
+![Setup EVC image](/images/HXA.io_EVC_SETUP_image.png)
