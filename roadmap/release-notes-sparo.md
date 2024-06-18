@@ -5,6 +5,21 @@ icon: paste
 order: 1100
 ---
 
+## v1.7.1
+Release date: 2024-06-18
+
++++ Improved :icon-thumbsup:
+- [x] Added  “Tentatively ” response to the invitations.
+- [x] Add a notification on "List of my bookings" tab, to noitify the users that they have been invited to a meeting.
+- [x] Enhance the speed of fetching the icon image for the resource.
+
++++ Fixed :icon-bug:
+- [x] Update organization users after removing a floor plan.
+- [x] Enhance the Book Now functions, so that the app performance would be faster.
+- [x] Fix a bug in the availability on floor maps
+
++++
+
 ## v1.7.0
 Release date: 2024-06-11
 
