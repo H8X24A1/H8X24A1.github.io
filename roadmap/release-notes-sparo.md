@@ -9,14 +9,13 @@ order: 1100
 Release date: 2024-06-18
 
 +++ Improved :icon-thumbsup:
-- [x] Added  “Tentatively ” response to the invitations.
-- [x] Add a notification on "List of my bookings" tab, to noitify the users that they have been invited to a meeting.
-- [x] Enhance the speed of fetching the icon image for the resource.
+- [x] Added another response “Tentatively ” option in the invitation page so that users can respond with it.
+- [x] Users can now see notifications on "List of my bookings" tab to noitify that they have been invited to a meeting.
+- [x] The images of the resources appears faster than before.
 
 +++ Fixed :icon-bug:
-- [x] Update organization users after removing a floor plan.
-- [x] Enhance the Book Now functions, so that the app performance would be faster.
-- [x] Fix a bug in the availability on floor maps
+- [x] Enhance the "Book Now" functions, So that the app performance would be faster.
+- [x] Fix a bug in the availability resources on floor maps.
 
 +++
 
