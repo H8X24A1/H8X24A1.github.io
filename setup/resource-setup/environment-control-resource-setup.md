@@ -1,14 +1,12 @@
 ---
-label: EVC Resource Setup
+label: Envoronment Control Resource Setup
 icon: browser
 order: 900
 ---
 
+We are excited to introduce our new service: HXA Environment Control.
 
-Inspired by the concept of green energy and environmental sustainability, Nettask is committed to offering eco-friendly services and promoting energy savings.
-
-We are excited to introduce our new service: HXA Environmental Control.
-HXA Environmental Control allows you to manage:
+HXA Environment Control allows you to manage:
 - Air conditioning
 - Ventilation
 - Desk movement (Up/down)
@@ -22,7 +20,7 @@ These devices can be controlled using a Shelly connected to the HXA device via I
 
 
 
-+++ 1. First step : Setting Up an Environmental Control Device on the HXA Portal
++++ 1. First step : Setting Up an Environment Control Device on the HXA Portal
 - [x] 1. Log in to the HXA portal and navigate to Resources.
 - [x] 2. Add a new Resource: EVC.
 - [x]3. Follow these 5 steps for setup:
@@ -35,7 +33,7 @@ These devices can be controlled using a Shelly connected to the HXA device via I
 
 +++
 
-+++ 2. Second Step: Connecting a Device to an HXA Environmental Control Resource
++++ 2. Second Step: Connecting a Device to an HXA Environment Control Resource
 - [x] 1. Visit the provided link on the device: LINK https://app.evc.hxa.io/
 - [x] 2. Copy the registration code 
 
@@ -46,15 +44,15 @@ These devices can be controlled using a Shelly connected to the HXA device via I
 ![Registration code shown on your device to the portal](/images/HXA.io_EVC_setup_device_portal.png)
 
 - [x] 4. Paste the device code and wait for the success message.
-- [x] 5. The display device will then direct you to the HXA Environmental Control portal.
+- [x] 5. The display device will then direct you to the HXA Environment Control portal.
 
 
 
 +++
 
-+++ 3. Third Step: Setting Up Environmental Control Buttons
++++ 3. Third Step: Setting Up Environment Control Buttons
 - [x] 1. In the HXA Portal, navigate to the desired resource and click Edit.
-- [x] 2. Scroll down to Environmental Control Buttons and click Add.
+- [x] 2. Scroll down to Environment Control Buttons and click Add.
 - [x] 3. Complete the following fields:
      -  Name of the button.
      -  Icon representing the device.
