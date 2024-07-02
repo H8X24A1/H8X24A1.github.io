@@ -4,6 +4,21 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+## v1.8.0
+Release date: 2024-07-02
+
++++ Improved :icon-thumbsup:
+
+- [x] Re-design the layout of the response icons in the invitation page.
+- [x] Reduce the Log-in waiting time.
+- [x] Users are now able to easily move the setting button up and down in the map page.
+
++++ Fixed :icon-bug:
+- [x] Resolved the problem to edit an event even if it is booked till end of day.
+- [x] The long time waiting issue when the user quit and resume to app is now resolved .
+- [x] End Date in recurrence filter is now showing on IOS devices.
+
++++
 
 ## v1.7.1
 Release date: 2024-06-18
