@@ -9,7 +9,7 @@ Release date: 2024-07-02
 
 +++ Improved :icon-thumbsup:
 
-- [x] We have redesigned the status response layout for improved readability and display of detailed invitation information.
+- [x] We have redesigned the status response layout in the invitation page for improved readability and display of detailed invitation information.
 - [x] Reduce the Log-in waiting time.
 - [x] Users are now able to easily move the setting button up and down in the map page.
 
