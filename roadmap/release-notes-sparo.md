@@ -9,7 +9,7 @@ Release date: 2024-07-02
 
 +++ Improved :icon-thumbsup:
 
-- [x] We have redesigned the status response layout on the My bookings invitation page for improved readability and display of detailed invitation information.
+- [x] We redesigned the layout in the Response Status section on the My Bookings - Invitation page to improve readability and display of detailed invitation information.
 - [x] We reduced the App Log-in waiting time.
 - [x] Users are now able to easily move the setting button up and down on the map page.
 
