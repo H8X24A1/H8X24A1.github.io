@@ -9,14 +9,16 @@ Release date: 2024-07-02
 
 +++ Improved :icon-thumbsup:
 
-- [x] We have redesigned the status response layout in the invitation page for improved readability and display of detailed invitation information.
+- [x] We have redesigned the status response layout on the My bookings invitation page for improved readability and display of detailed invitation information.
 - [x] We reduced the App Log-in waiting time.
-- [x] Users are now able to easily move the setting button up and down in the map page.
+- [x] Users are now able to easily move the setting button up and down on the map page.
+
 
 +++ Fixed :icon-bug:
-- [x] Resolved the problem to edit an event even if it is booked till end of day.
-- [x] The long time waiting issue when the user quit and resume to app is now resolved .
-- [x] End Date in recurrence filter is now showing on iOS devices.
+- [x] Resolved the problem of editing an event even if it is booked till the end of the day.
+- [x] The long-time waiting issue when the user quits and resumes to app is now resolved.
+- [x] End Date in the recurrence filter is now showing on iOS devices.
+
 
 +++
 
