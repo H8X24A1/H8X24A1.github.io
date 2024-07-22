@@ -4,6 +4,23 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+## v1.8.1
+Release date: 2024-07-22
+
++++ Improved :icon-thumbsup:
+
+- [x] Display the working hours of the users from microsoft on the settings page, allowing 
+- [x] Changed the shape of pictures of rooms and workspaces to circles.
+- [x] Double confirmation was added when a user wants to remove a resource from favorites.
+- [x] Disabled book events until the end of the day if it is part of a series. 
+
+
++++ Fixed :icon-bug:
+- [x] The recurrence end date in series booking is now displayed correctly on iOS devices.
+- [x] The layout of the favorite map has been adjusted for better usability.
+
+
++++
 ## v1.8.0
 Release date: 2024-07-02
 
