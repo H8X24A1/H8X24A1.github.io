@@ -9,10 +9,10 @@ Release date: 2024-07-22
 
 +++ Improved :icon-thumbsup:
 
-- [x] Display the working hours of the users from microsoft on the settings page, allowing 
+- [x] Fetch the users' working hours from Microsoft and display it on the settings page.
 - [x] Changed the shape of pictures of rooms and workspaces to circles.
 - [x] Double confirmation was added when a user wants to remove a resource from favorites.
-- [x] Disabled book events until the end of the day if it is part of a series. 
+- [x] Disabled the "until the end of the day" in event booking  if its a series booking. 
 
 
 +++ Fixed :icon-bug:
