@@ -4,6 +4,23 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+
+## v1.8.2
+Release date: 2024-08-12
+
++++ Improved :icon-thumbsup:
+
+- [x] Optimized our code for faster navigation to "My Bookings" after booking an event.
+- [x] Updated map shapes to support new designs.
+- [x] Disabled start date edits for quick booking events on the "Edit" page.
+- [x] Improve login/logout loading animation.
+
+
++++ Fixed :icon-bug:
+- [x] Fixed infinite loading when quitting and resuming the app.
+- [x] Aligned "Repeat" event icons and response options on "My Bookings" and "Invitations" pages.
+
++++
 ## v1.8.1
 Release date: 2024-07-22
 
