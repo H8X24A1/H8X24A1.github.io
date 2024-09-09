@@ -5,6 +5,19 @@ icon: paste
 order: 1100
 ---
 
+## v2.0.0
+Release date: 2024-08-26
+
++++ Improved :icon-thumbsup:
+- [x] Implementation of advanced caching for available and favorite resources.
+- [x] Added user notification update when pressing "Book now."
+- [x] Introduced an option in the setting page to select date and time formats based on regional settings.
+
+
++++ Fixed :icon-bug:
+- [x] Resolved layout and functionality issues caused by updated dependencies.
+
++++
 ## v1.8.2
 Release date: 2024-08-12
 
