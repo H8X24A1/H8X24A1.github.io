@@ -5,6 +5,21 @@ icon: paste
 order: 1100
 ---
 
+## v2.1.0
+Release date: 2024-09-10
+
++++ Improved :icon-thumbsup:
+- [x] Reduced the waiting time for the map page to load.
+- [x] Added a feature that allows users to manually refresh available resources and favorites by scrolling down, ensuring real-time syncing .
+- [x] Implemented caching for the "My Booking" page to enhance user experience and minimize the loading time for the booking list.
+
+
++++ Fixed :icon-bug:
+- [x] Centered the filter description window after filter selection.
+
+
++++
+
 ## v2.0.0
 Release date: 2024-08-26
 
