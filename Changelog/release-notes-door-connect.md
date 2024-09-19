@@ -1,6 +1,6 @@
 ---
 title: HXA.io DOCS - HXA Door Connect for Microsoft Teams
-label: HXA.io Door Connect
+label: HXA Door Connect
 icon: paste
 order: 700
 ---
