@@ -5,21 +5,24 @@ icon: rocket
 order: 90
 ---
 
-## Get Sparo App
 
 +++ 1. First step
+
+## Get Sparo App
+
 [![](/images/sparo/playstore256x80.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
 
-- [x] Download and install the HXA Room Booking App via [Google Play](https://play.google.com/store/apps/details?id=com.hxa.sparo) or [Apple App Store](https://apps.apple.com/de/app/hxa-sparo/id1672352267)
+- [x] Download and install the HXA Room Booking App via [!ref target="blank" text="Google Play"](https://play.google.com/store/apps/details?id=com.hxa.sparo) or [!ref target="blank" text="Apple App Store"](https://apps.apple.com/de/app/hxa-sparo/id1672352267)
 
 [![](/images/sparo/hxa.io_sparo_app_on_google_play.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
 
++++ 2. Second step
 
 ## Start up and login
 
-+++ 2. Second step
 
-- [x] Start the HXA Sparo App on your Android device
+
+- [x] Start the HXA Sparo App on your Android or iOS device
 
 <img src="/images/sparo/hxa.io_sparo_sign_in.png" width="200">
 
