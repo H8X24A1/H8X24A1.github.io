@@ -6,17 +6,17 @@ order: 90
 ---
 
 
-+++ 1. Download
++++ Download
 
 ## Get Sparo App
 
 [![](/images/sparo/playstore256x80.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
 
-- [x] Download and install the HXA Room Booking App via [!ref target="blank" text="Google Play"](https://play.google.com/store/apps/details?id=com.hxa.sparo) or [!ref target="blank" text="Apple App Store"](https://apps.apple.com/de/app/hxa-sparo/id1672352267)
+- [x] Download and install the HXA Room Booking App via [!ref target="blank" text="Google Play"](https://play.google.com/store/apps/details?id=com.hxa.sparo)  [!ref target="blank" text="Apple App Store"](https://apps.apple.com/de/app/hxa-sparo/id1672352267)
 
 [![](/images/sparo/hxa.io_sparo_app_on_google_play.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
 
-+++ 2. Login
++++ Login
 
 ## Start up and login
 
@@ -79,6 +79,9 @@ Enjoy. :)
 
 
 +++ Series Booking
+
+
++++ Scan QR Code
 
 
 +++
