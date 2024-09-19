@@ -48,17 +48,14 @@ Now you get shown a list of all current available rooms and workspaces of your c
 
 <img src="/images/sparo/hxa.io_sparo_list.png" width="200">
 
-<br><br>
-
-You can see the capacity of each resource and by touching the booking button you can quick book the resource for now. Simply choose the planned duration and the resource is booked.
-
-<img src="/images/sparo/hxa.io_sparo_quick_booking.png" width="200">
 
 
 
 +++ Quick Booking
 
+You can see the capacity of each resource and by touching the booking button you can quick book the resource for now. Simply choose the planned duration and the resource is booked.
 
+<img src="/images/sparo/hxa.io_sparo_quick_booking.png" width="200">
 
 +++ Scheduled Booking
 
