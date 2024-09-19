@@ -20,8 +20,6 @@ order: 90
 
 ## Start up and login
 
-
-
 - [x] Start the HXA Sparo App on your Android or iOS device
 
 <img src="/images/sparo/hxa.io_sparo_sign_in.png" width="200">
