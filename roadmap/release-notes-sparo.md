@@ -17,6 +17,8 @@ Release date: 2024-09-20
 - [x] Fixed layout issues in the favorite maps area.
 - [x] Fixed an issue when inviting external users.
 
++++
+
 ## v2.1.0
 Release date: 2024-09-10
 
