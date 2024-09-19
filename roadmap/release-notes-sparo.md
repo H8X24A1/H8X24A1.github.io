@@ -5,6 +5,18 @@ icon: paste
 order: 1100
 ---
 
+## v2.1.1
+Release date: 2024-09-20
+
++++ Improved :icon-thumbsup:
+- [x] General improvements
+- [x] Improvement of the rounding of a booking duration to 5-minute intervals.
+
+
++++ Fixed :icon-bug:
+- [x] Fixed layout issues in the favorite maps area.
+- [x] Fixed an issue when inviting external users.
+
 ## v2.1.0
 Release date: 2024-09-10
 
