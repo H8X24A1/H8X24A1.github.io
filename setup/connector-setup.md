@@ -6,8 +6,9 @@ order: 900
 
 There are three types of connectors in HXA.io products to connect to Microsoft services:
 - Microsoft Exchange OnPremise (via EWS)
-- Microsoft Exchange Online (Office 365)
-- Microsoft Teams
+- Microsoft Exchange Online (Office 365) [Supported Types: Application or Service]
+- Microsoft Entra ID [Supported Types: Application]
+- Microsoft Teams [Supported Types: Service]
 
 ## Microsoft Exchange Online (Office 365)
 There are two types of connectors to connect to Microsoft Exchange Online (Office 365):
