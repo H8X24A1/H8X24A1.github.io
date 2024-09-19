@@ -1,13 +1,13 @@
 ---
-title: HXA.io DOCS - Import Users from Azure AD
-label: Import Users from Azure AD
+title: HXA.io DOCS - Import Users from Azure AD (Entra ID)
+label: Import Users from Azure AD (Entra ID)
 icon: rocket
 order: 100
 ---
 
 ## To simplify the creation of Users we allow to import Users from Microsoft Azure AD (New: Entra ID)
 
-## Import Azure AD User
+### Import Azure AD User
 
 NOTE: Please ensure you have a Microsoft Azure AD (Entra ID) Connector setup before.
 
