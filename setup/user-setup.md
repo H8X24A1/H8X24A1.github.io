@@ -1,6 +1,6 @@
 ---
-title: HXA.io DOCS - Import Users from Azure AD (Entra ID)
-label: Import Users from Azure AD (Entra ID)
+title: HXA.io DOCS - User Setup
+label: User Setup
 icon: rocket
 order: 100
 ---
