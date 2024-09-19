@@ -1,12 +1,12 @@
 ---
-title: HXA io DOCS - Sparo App user documentation
+title: HXA.io DOCS - Sparo App user documentation
 label: HXA Sparo
 icon: rocket
 order: 90
 ---
 
 
-+++ 1. First step
++++ 1. Download
 
 ## Get Sparo App
 
@@ -16,7 +16,7 @@ order: 90
 
 [![](/images/sparo/hxa.io_sparo_app_on_google_play.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
 
-+++ 2. Second step
++++ 2. Login
 
 ## Start up and login
 
@@ -63,3 +63,22 @@ If you want to book a resource for an appointment in the future, choose the filt
 It's just simple as that.
 <br><br>
 Enjoy. :)
+
++++ Favorites
+
+
++++ Quick Booking
+
+
+
++++ Scheduled Booking
+
+
++++ Filter
+
+
+
++++ Series Booking
+
+
++++

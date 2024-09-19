@@ -16,5 +16,5 @@ The user who creates the Organization (Tenant) at first is the major account own
 Enter your official organization name. This will be your primary identifier within the system.
 
 - [X] Address and Contact Information
-Provide your physical address, main phone number, and general email address. Accurate contact details help us stay connected with your organization.
+Provide your physical address, main phone number, and country information. Accurate contact details help us stay connected with your organization.
 
