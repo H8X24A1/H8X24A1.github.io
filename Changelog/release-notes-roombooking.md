@@ -5,6 +5,25 @@ icon: paste
 order: 900
 ---
 
+## v3.2.1
+Platform: HXA Display  
+Release date: 2024-05-02
++++ Introducing :icon-shield-check:
+- [x] The possibiliy to scan more than one NFC Tag , and each user will be added to the Quick Booking Event as participants.
++++ Fixed :icon-bug:
+- [x] Improve in layout for the Quick booking Modal.
+
+
+
++++
+
+## v3.1.0
+Platform: HXA Display  
+Release date: 2024-05-02
++++ Introducing :icon-shield-check:
+- [x] Functionality to read an NFC tag and add the quick booking event to the calendar of the user.
+
++++
 
 ## v3.0.0
 Platform: HXA Display  
