@@ -13,7 +13,7 @@ There are three types of connectors in HXA.io products to connect to Microsoft s
 ## Microsoft Exchange Online (Office 365)
 There are two types of connectors to connect to Microsoft Exchange Online (Office 365):
 - via Microsoft Office 365 Application account or
-- via Microsoft Office 365 Service account
+- via Microsoft Office 365 Service account with Application Impersonation Role Setuped
 
 ### Setup via Microsoft Office 365 Application account
 
