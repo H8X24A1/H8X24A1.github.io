@@ -8,7 +8,7 @@ order: 900
 ## v3.2.1
 Platform: HXA Display  
 Release date: 2024-05-02
-+++ Improved  :icon-shield-check:
++++ Improved :icon-thumbsup:
 - [x] The possibiliy to scan more than one NFC Tag , and each user will be added to the Quick Booking Event as participants.
 +++ Fixed :icon-bug:
 - [x] Improve in layout for the Quick booking Modal.
@@ -20,7 +20,7 @@ Release date: 2024-05-02
 ## v3.1.0
 Platform: HXA Display  
 Release date: 2024-05-02
-+++ Improved  :icon-shield-check:
++++ Improved :icon-thumbsup:
 - [x] Functionality to read an NFC tag and add the quick booking event to the calendar of the user.
 
 +++
@@ -28,7 +28,7 @@ Release date: 2024-05-02
 ## v3.0.0
 Platform: HXA Display  
 Release date: 2024-05-02
-+++ Improved  :icon-shield-check:
++++ Improved :icon-thumbsup:
 - [x] A new function that allows to use of custom event titles in the Quick Booking Modal.
 - [x] We introduce a new function that allows us to save energy by dimming the brightness of the Status LED and LCD brightness.
 +++ Fixed :icon-bug:
