@@ -4,7 +4,7 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
-
+-
 ## v2.1.1
 Release date: 2024-09-20
 
