@@ -40,3 +40,8 @@ Use a Microsoft 365 user/service account if you want to authorize a single conne
 - In the menu, open "Settings" -> "Connectors"
 - Connect an Office 365 connector and select the type User/Service account.
 - A window then opens asking you to authenticate using a Microsoft account.
+
+
+## Microsoft Entra ID
+
+This connector type is required to set up the HXA Sparo application and only supports the application account type. A prerequisite for setting up this connector is that the account must be mail-enabled, meaning the account used to configure the connector requires at least a Microsoft Exchange Online Plan 1 license.
