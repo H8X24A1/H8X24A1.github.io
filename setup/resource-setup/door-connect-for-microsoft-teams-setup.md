@@ -36,39 +36,51 @@ Create a New Doorbell under Notification Buttons:
 
 +++ Create Ring Button
 
-#### Add New Doorbell
+### Add New Doorbell
 
 Navigate to the Notification Buttons area in your system.
 Click on Add New Doorbell.
 Enter the required settings, such as the name, doorbell type, and notification settings.
 Save the new doorbell and test its functionality.
 
-#### Customize Button Title
+### Notification Destination
+Specify which channel the doorbell bot should send the notification to for your team.
+
+### Customize Button Title
+After creating the doorbell, please select a name for it.
+
+### Customize Notification to the Guest (Initiator)
+Specify which channel the doorbell bot should send the notification to for your team.
 
 
-#### Customize Notification to the Guest (Initiator)
+### Customize Information messages
+Enter the message that will be displayed to the waiting guest on their device. For example:
+
+#### Confirmation message:
+"We'll be with you in a moment."
+
+#### Message during waiting:
+"Please be patient while we try to reach a member of staff. Please maintain eye contact with the screen."
+
+#### Message if failed:
+"We cannot currently send anyone to you personally. Please contact us by phone or email."
+
+### Configure Default messages
+#### Write an informational message for the team, for example:
+"Please confirm this post by replying or clicking 'LIKE'. Only then open the door."
+
+### Setup Photo Settings
+Here, you can choose whether to take a photo of the initiator and whether to require consent to the privacy policy.
+
+
+### Configure extended concerns
+Add specific concerns that the initiator can choose from. Examples: "A delivery person is at the door" or "Someone with an appointment is here."
+
+
+### Configure Access Settings
+Configure access rights here.
 
 
 
-#### Customize Information messages
-
-
-
-#### Configure Default messages
-
-
-
-#### Setup Photo Settings
-
-
-
-#### Configure extended concerns
-
-
-
-#### Configure Access Settings
-
-
-
-
-#### Register Device
+### Register Device
+Press "Register" on your device, then enter the code displayed under the "Devices" tab in the resource section.
