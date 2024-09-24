@@ -11,32 +11,32 @@ order: 800
 
 
 
-### Customize Button Title
+#### Customize Button Title
 
 
-### Customize Notification to the Guest (Initiator)
-
-
-
-### Customize Information messages
+#### Customize Notification to the Guest (Initiator)
 
 
 
-### Configure Default messages
+#### Customize Information messages
 
 
 
-### Setup Photo Settings
+#### Configure Default messages
 
 
 
-### Configure extended concerns
+#### Setup Photo Settings
 
 
 
-### Configure Access Settings
+#### Configure extended concerns
+
+
+
+#### Configure Access Settings
 
 
 
 
-### Register Device
+#### Register Device
