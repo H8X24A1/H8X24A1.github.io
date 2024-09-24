@@ -13,6 +13,7 @@ For Android Users:
 Open the Google Play Store on your device.
 Search for the app by entering its name in the search bar.
 Select the app from the list of results and click on Install.
+
 For iOS Users:
 
 Open the Apple App Store on your iPhone or iPad.
