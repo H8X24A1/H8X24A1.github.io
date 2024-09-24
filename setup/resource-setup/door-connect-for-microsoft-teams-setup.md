@@ -72,23 +72,17 @@ Enter the message that will be displayed to the waiting guest on their device. F
 ### Setup Photo Settings
 Here, you can choose whether to take a photo of the initiator and whether to require consent to the privacy policy.
 
++++ Extended Concerns
 
 ### Configure extended concerns
 Add specific concerns that the initiator can choose from. Examples: "A delivery person is at the door" or "Someone with an appointment is here."
 
 
++++ Access Settings
+
 ### Configure Access Settings
 Configure access rights here.
 
 
-
-### Register Device
++++ Register Device
 Press "Register" on your device, then enter the code displayed under the "Devices" tab in the resource section.
-
-
-+++ Extended Concerns
-
-
-
-+++ Access Settings
-
