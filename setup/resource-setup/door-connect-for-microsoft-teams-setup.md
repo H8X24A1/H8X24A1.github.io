@@ -81,7 +81,12 @@ Add specific concerns that the initiator can choose from. Examples: "A delivery 
 +++ Access Settings
 
 ### Configure Access Settings
-Configure access rights here.
+Configure access rights for the KENTIX Door Locks here.
+
+- [+]Setup an PIN for employees they need to open the door.
+- [+]Add the KENTIX Door Lock URL
+- [+]Add the TOKEN you get out from the KENTIX System for this specific Door Lock.
+
 
 
 +++ Register Device
