@@ -8,28 +8,28 @@ order: 800
 
 +++ Create Ring Button
 
-#### Customize Button Title
++++ Customize Button Title
 
 
-#### Customize Notification to the Guest (Initiator)
-
-
-
-#### Customize Information messages
++++ Customize Notification to the Guest (Initiator)
 
 
 
-#### Configure Default messages
-
-
-#### Setup Photo Settings
-
-
-#### Configure extended concerns
++++ Customize Information messages
 
 
 
-#### Configure Access Settings
++++ Configure Default messages
+
+
++++ Setup Photo Settings
+
+
++++ Configure extended concerns
+
+
+
++++ Configure Access Settings
 
 
 
