@@ -6,7 +6,11 @@ order: 800
 
 +++ Download
 
+l
+
 +++ Create Ring Button
+
+
 
 +++ Customize Button Title
 
@@ -22,7 +26,9 @@ order: 800
 +++ Configure Default messages
 
 
+
 +++ Setup Photo Settings
+
 
 
 +++ Configure extended concerns
@@ -30,7 +36,6 @@ order: 800
 
 
 +++ Configure Access Settings
-
 
 
 
