@@ -20,7 +20,7 @@ Open the Apple App Store on your iPhone or iPad.
 Enter the name of the app in the search bar.
 Select the app from the search results and click on Get to start the installation.
 
-+++ Create the Ressource
++++ Create the Resource
 
 Log in to your system.
 Go to the Resources section and click on Add Resource.
