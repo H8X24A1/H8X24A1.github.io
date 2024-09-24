@@ -84,3 +84,11 @@ Configure access rights here.
 
 ### Register Device
 Press "Register" on your device, then enter the code displayed under the "Devices" tab in the resource section.
+
+
++++ Extended Concerns
+
+
+
++++ Access Settings
+
