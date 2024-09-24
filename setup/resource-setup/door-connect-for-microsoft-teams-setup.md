@@ -36,6 +36,8 @@ Create a New Doorbell under Notification Buttons:
 
 +++ Create Ring Button
 
+#### Add New Doorbell
+
 Navigate to the Notification Buttons area in your system.
 Click on Add New Doorbell.
 Enter the required settings, such as the name, doorbell type, and notification settings.
