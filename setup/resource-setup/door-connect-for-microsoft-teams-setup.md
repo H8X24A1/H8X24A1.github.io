@@ -4,7 +4,7 @@ icon: bell
 order: 800
 ---
 
-+++ Download
++++ Download App or Buy Device
 
 ### To install the app, follow these instructions:
 
