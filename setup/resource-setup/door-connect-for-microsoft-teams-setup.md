@@ -23,7 +23,7 @@ Select the app from the search results and click on Get to start the installatio
 +++ Create the Resource
 
 Log in to your system.
-Go to the Resources section and click on Add Resource.
+Go to the Reources section and click on Add Resource.
 Enter the required information for the resource and select the Door Connect License.
 Save the resource.
 Connect to the Connector:
