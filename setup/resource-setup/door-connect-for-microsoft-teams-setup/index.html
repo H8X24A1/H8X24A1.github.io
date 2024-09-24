@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.780483434605">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.780499580616">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.6.0.780483434605" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.6.0.780499580616" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.6.0.780483434605" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.6.0.780499580616" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.6.0.780483434605" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.6.0.780499580616" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -220,63 +220,105 @@ Create a New Doorbell under Notification Buttons:</p>
 <doc-tab v-cloak id="create-ring-button">
 <template #title>Create Ring Button</template>
 <doc-anchor-target id="add-new-doorbell">
-    <h4>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#add-new-doorbell">#</doc-anchor-trigger>
         <span>Add New Doorbell</span>
-    </h4>
+    </h3>
 </doc-anchor-target>
 <p>Navigate to the Notification Buttons area in your system.
 Click on Add New Doorbell.
 Enter the required settings, such as the name, doorbell type, and notification settings.
 Save the new doorbell and test its functionality.</p>
+<doc-anchor-target id="notification-destination">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#notification-destination">#</doc-anchor-trigger>
+        <span>Notification Destination</span>
+    </h3>
+</doc-anchor-target>
+<p>Specify which channel the doorbell bot should send the notification to for your team.</p>
 <doc-anchor-target id="customize-button-title">
-    <h4>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#customize-button-title">#</doc-anchor-trigger>
         <span>Customize Button Title</span>
-    </h4>
+    </h3>
 </doc-anchor-target>
+<p>After creating the doorbell, please select a name for it.</p>
 <doc-anchor-target id="customize-notification-to-the-guest-initiator">
-    <h4>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#customize-notification-to-the-guest-initiator">#</doc-anchor-trigger>
         <span>Customize Notification to the Guest (Initiator)</span>
-    </h4>
+    </h3>
 </doc-anchor-target>
+<p>Specify which channel the doorbell bot should send the notification to for your team.</p>
 <doc-anchor-target id="customize-information-messages">
-    <h4>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#customize-information-messages">#</doc-anchor-trigger>
         <span>Customize Information messages</span>
+    </h3>
+</doc-anchor-target>
+<p>Enter the message that will be displayed to the waiting guest on their device. For example:</p>
+<doc-anchor-target id="confirmation-message">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#confirmation-message">#</doc-anchor-trigger>
+        <span>Confirmation message:</span>
     </h4>
 </doc-anchor-target>
-<doc-anchor-target id="configure-default-messages">
+<p>&quot;We&#x27;ll be with you in a moment.&quot;</p>
+<doc-anchor-target id="message-during-waiting">
     <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#message-during-waiting">#</doc-anchor-trigger>
+        <span>Message during waiting:</span>
+    </h4>
+</doc-anchor-target>
+<p>&quot;Please be patient while we try to reach a member of staff. Please maintain eye contact with the screen.&quot;</p>
+<doc-anchor-target id="message-if-failed">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#message-if-failed">#</doc-anchor-trigger>
+        <span>Message if failed:</span>
+    </h4>
+</doc-anchor-target>
+<p>&quot;We cannot currently send anyone to you personally. Please contact us by phone or email.&quot;</p>
+<doc-anchor-target id="configure-default-messages">
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#configure-default-messages">#</doc-anchor-trigger>
         <span>Configure Default messages</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="write-an-informational-message-for-the-team-for-example">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#write-an-informational-message-for-the-team-for-example">#</doc-anchor-trigger>
+        <span>Write an informational message for the team, for example:</span>
     </h4>
 </doc-anchor-target>
+<p>&quot;Please confirm this post by replying or clicking &#x27;LIKE&#x27;. Only then open the door.&quot;</p>
 <doc-anchor-target id="setup-photo-settings">
-    <h4>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#setup-photo-settings">#</doc-anchor-trigger>
         <span>Setup Photo Settings</span>
-    </h4>
+    </h3>
 </doc-anchor-target>
+<p>Here, you can choose whether to take a photo of the initiator and whether to require consent to the privacy policy.</p>
 <doc-anchor-target id="configure-extended-concerns">
-    <h4>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#configure-extended-concerns">#</doc-anchor-trigger>
         <span>Configure extended concerns</span>
-    </h4>
+    </h3>
 </doc-anchor-target>
+<p>Add specific concerns that the initiator can choose from. Examples: &quot;A delivery person is at the door&quot; or &quot;Someone with an appointment is here.&quot;</p>
 <doc-anchor-target id="configure-access-settings">
-    <h4>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#configure-access-settings">#</doc-anchor-trigger>
         <span>Configure Access Settings</span>
-    </h4>
+    </h3>
 </doc-anchor-target>
+<p>Configure access rights here.</p>
 <doc-anchor-target id="register-device">
-    <h4>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#register-device">#</doc-anchor-trigger>
         <span>Register Device</span>
-    </h4>
+    </h3>
 </doc-anchor-target>
+<p>Press &quot;Register&quot; on your device, then enter the code displayed under the &quot;Devices&quot; tab in the resource section.</p>
 </doc-tab>
 
                                 
