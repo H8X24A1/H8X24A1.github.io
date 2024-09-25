@@ -8,7 +8,7 @@ order: 1000
 - We are changing the way we work tomorrow in office spaces and in constant transition to other workplaces. We revolutionize the use of workplaces and devices and make buildings more efficient through intelligent automation.
 +++
 +++ Company Information
-- NT Technologies GmbH
+- NT Technologies GmbH a part of the NetTask GmbH
 - Zillplatz 9-10
 - 09337 Hohenstein-Ernstthal, Germany
 +++
