@@ -5,6 +5,24 @@ icon: paste
 order: 1100
 ---
 
+## v3.0.0
+Release date: 2024-09-25
+
++++ New :icon-shield-check:
+- [x] Introducing the new "First Aid Helpers" feature within Organizations.
+- [x] Upon first login, users are now presented with a series of onboarding introductory slides.
+
+
++++ Improved :icon-thumbsup:
+- [x] Redesigned "Available Resources" and "Favorites" pages, providing a more engaging user experience.
+- [x] Improved sync message layout for better visibility.
+
+
++++ Fixed :icon-bug:
+- [x] Fixes in the application layout.
+- [x] Fixes in the time format settings.
+
+
 ## v2.1.1
 Release date: 2024-09-20
 
