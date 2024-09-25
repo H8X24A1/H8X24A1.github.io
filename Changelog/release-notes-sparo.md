@@ -22,6 +22,7 @@ Release date: 2024-09-25
 - [x] Fixes in the application layout.
 - [x] Fixes in the time format settings.
 
++++
 
 ## v2.1.1
 Release date: 2024-09-20
