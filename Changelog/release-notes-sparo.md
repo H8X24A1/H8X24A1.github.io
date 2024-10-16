@@ -5,6 +5,28 @@ icon: paste
 order: 1100
 ---
 
+## v3.2.1
+Release date: 2024-09-25
+
++++ New :icon-shield-check:
+- [x] Redesigned Maps, My Bookings, and Invitations.
+- [x] Filters by location and categories.
+- [x] Info box on Maps page for resource details.
+- [x] Grid view for resources on all devices.
+- [x] Error alerts for booking issues.
+
++++ Improved :icon-thumbsup:
+- [x] Map preview shows resource availability/status.
+- [x] Faster loading for My Bookings.
+- [x] Declined bookings are now visible.
+- [x] Updated Sync button design.
+- [x] Tooltips for long names/locations.
+
++++ Fixed :icon-bug:
+- [x] Sync box triggers correctly.
+
++++
+
 ## v3.0.0
 Release date: 2024-09-25
 
