@@ -6,7 +6,7 @@ order: 1100
 ---
 
 ## v3.2.1
-Release date: 2024-10-16
+Release date: 2024-10-15
 
 +++ New :icon-shield-check:
 - [x] Redesigned Maps, My Bookings, and Invitations.
