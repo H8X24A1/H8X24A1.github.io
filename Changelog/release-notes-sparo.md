@@ -4,6 +4,13 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+## v3.2.2
+Release date: 2024-10-22
++++ Fixed :icon-bug:
+- [x] In certain situations, no new data could be retrieved or saved due to a token issue.
+
+
++++
 
 ## v3.2.1
 Release date: 2024-10-16
