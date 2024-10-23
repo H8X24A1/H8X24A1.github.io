@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.782913913152">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.782985649867">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>HXA.io DOCS - Sparo App user documentation</title>
     <meta name="title" content="HXA.io DOCS - Sparo App user documentation">
-    <meta name="description" content="Download and install the HXA Room Booking App via ">
+    <meta name="description" content="HXA Sparo is an application designed to integrate seamlessly with Microsoft 365, allowing organizations to manage and book resources efficiently.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/usage/sparo-user-documentation/">
@@ -20,23 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/usage/sparo-user-documentation/">
     <meta property="og:title" content="HXA.io DOCS - Sparo App user documentation">
-    <meta property="og:description" content="Download and install the HXA Room Booking App via ">
+    <meta property="og:description" content="HXA Sparo is an application designed to integrate seamlessly with Microsoft 365, allowing organizations to manage and book resources efficiently.">
     <meta property="og:image" content="https://docs.hxa.io/images/sparo/hxa.io_sparo_app_on_google_play.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.hxa.io/usage/sparo-user-documentation/">
     <meta property="twitter:title" content="HXA.io DOCS - Sparo App user documentation">
-    <meta property="twitter:description" content="Download and install the HXA Room Booking App via ">
+    <meta property="twitter:description" content="HXA Sparo is an application designed to integrate seamlessly with Microsoft 365, allowing organizations to manage and book resources efficiently.">
     <meta property="twitter:image" content="https://docs.hxa.io/images/sparo/hxa.io_sparo_app_on_google_play.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.782913913152" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.782985649867" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.782913913152" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.782985649867" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.782913913152" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.782985649867" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -180,6 +180,63 @@
     </h1>
 </doc-anchor-target>
 <doc-tabs>
+<doc-tab v-cloak id="overview">
+<template #title>Overview</template>
+<p><strong>HXA Sparo</strong> is an application designed to integrate seamlessly with Microsoft 365, allowing organizations to manage and book resources efficiently. It retrieves and displays resources set up by the organization, enabling users to quickly or schedule bookings, invite team members, and interact with <strong>HXA Portal</strong>.</p>
+<p>HXA Sparo offers a variety of features, including resource management, floor plan mapping, and integration with organizational directories like Microsoft Active Directory. The application’s authentication process is handled through Microsoft 365 credentials, providing a secure and streamlined login experience.</p>
+<doc-anchor-target id="key-features">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#key-features">#</doc-anchor-trigger>
+        <span>Key Features:</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><strong>Quick and Scheduled Booking</strong>: Instantly book available resources or schedule them for future use. You can either make a quick booking from the app’s interface or schedule a reservation for a later time.</li>
+<li><strong>Resource Management</strong>: Fetch, book, and manage organizational resources such as meeting rooms, equipment, and workspaces.</li>
+<li><strong>Floor Plan Integration</strong>: Link resources to specific areas on a floor plan and visually monitor their availability through a color-coded map.</li>
+<li><strong>Quick Bookings via QR Code</strong>: Book resources quickly by scanning a QR code placed at the physical location.</li>
+<li><strong>Emergency Teams</strong>: Access and contact your organization’s emergency response teams, viewing their availability and current location within the building.</li>
+<li><strong>Multi-language Support</strong>: Switch between German and English interfaces for ease of use.</li>
+</ul>
+<doc-anchor-target id="prerequisites">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#prerequisites">#</doc-anchor-trigger>
+        <span>Prerequisites</span>
+    </h2>
+</doc-anchor-target>
+<p>To use <strong>HXA Sparo</strong>, you need to:</p>
+<ul>
+<li>Purchase a license for <strong>HXA Portal</strong>.</li>
+<li>Have valid Microsoft 365 credentials for authentication.</li>
+</ul>
+<p>Once the license is activated, users can log into <strong>HXA Sparo</strong> via the Microsoft 365 gateway using their organization&#x27;s credentials.</p>
+<doc-anchor-target id="integration-with-hxa-portal">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#integration-with-hxa-portal">#</doc-anchor-trigger>
+        <span>Integration with HXA Portal</span>
+    </h2>
+</doc-anchor-target>
+<p><strong>HXA Sparo</strong> is deeply integrated with the <strong>HXA Portal</strong>, where administrators can manage resources and link them to floor plans. Resources such as meeting rooms, equipment, or areas on the floor map are linked to calendars, and their availability status is synced in real-time between the portal and <strong>HXA Sparo</strong>.</p>
+<p>Administrators can:</p>
+<ul>
+<li><strong>Assign Calendars</strong>: Link specific resource calendars to locations on the floor plan.</li>
+<li><strong>Manage Emergency Teams</strong>: Import teams from Active Directory or manually create them in the <strong>HXA Portal</strong>.</li>
+</ul>
+<doc-anchor-target id="security-and-authentication">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#security-and-authentication">#</doc-anchor-trigger>
+        <span>Security and Authentication</span>
+    </h2>
+</doc-anchor-target>
+<p>Authentication in <strong>HXA Sparo</strong> is handled via <strong>Microsoft 365</strong>, ensuring secure access to organizational resources. Users log in with their Microsoft 365 credentials through a gateway that grants access based on the organization&#x27;s license.</p>
+<doc-anchor-target id="conclusion">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#conclusion">#</doc-anchor-trigger>
+        <span>Conclusion</span>
+    </h2>
+</doc-anchor-target>
+<p><strong>HXA Sparo</strong> is a powerful tool for managing organizational resources, floor plans, and emergency contact teams, all while integrating seamlessly with Microsoft 365 and the <strong>HXA Portal</strong>. Its intuitive interface and efficient booking system make it an essential app for companies looking to streamline their resource management and meeting planning processes.</p>
+</doc-tab>
 <doc-tab v-cloak id="download">
 <template #title>Download</template>
 <doc-anchor-target id="get-sparo-app">
@@ -235,6 +292,18 @@
 </doc-tab>
 <doc-tab v-cloak id="login">
 <template #title>Login</template>
+<doc-anchor-target id="prerequisites-1">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#prerequisites-1">#</doc-anchor-trigger>
+        <span>Prerequisites</span>
+    </h2>
+</doc-anchor-target>
+<p>To use <strong>HXA Sparo</strong>, you need to:</p>
+<ul>
+<li>Purchase a license for <strong>HXA Portal</strong>.</li>
+<li>Have valid Microsoft 365 credentials for authentication.</li>
+</ul>
+<p>Once the license is activated, users can log into <strong>HXA Sparo</strong> via the Microsoft 365 gateway using their organization&#x27;s credentials.</p>
 <doc-anchor-target id="start-up-and-login">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#start-up-and-login">#</doc-anchor-trigger>
@@ -259,30 +328,176 @@
 </doc-tab>
 <doc-tab v-cloak id="favorites">
 <template #title>Favorites</template>
+<p>The <strong>Favorites Tab</strong> displays a list of resources that users have marked as favorites. These are often the most frequently used resources for quick access.</p>
+<img src="/images/sparo/favorites.jpeg" width="200">
 </doc-tab>
 <doc-tab v-cloak id="available-resources">
 <template #title>Available resources</template>
+<p>This tab shows all resources available within the organization, alongside their current status:</p>
+<ul>
+<li><strong>Available</strong></li>
+<li><strong>Busy</strong></li>
+<li><strong>Pending</strong></li>
+</ul>
 <p>Now you get shown a list of all current available rooms and workspaces of your company.</p>
-<img src="/images/sparo/hxa.io_sparo_list.png" width="200">
+<img src="/images/sparo/availableresources.jpeg" width="200">
 </doc-tab>
-<doc-tab v-cloak id="quick-booking">
-<template #title>Quick Booking</template>
-<p>You can see the capacity of each resource and by touching the booking button you can quick book the resource for now. Simply choose the planned duration and the resource is booked.</p>
-<img src="/images/sparo/hxa.io_sparo_quick_booking.png" width="200">
-</doc-tab>
-<doc-tab v-cloak id="scheduled-booking">
-<template #title>Scheduled Booking</template>
+<doc-tab v-cloak id="quick-booking-and-scheduled-bookings">
+<template #title>Quick Booking and Scheduled Bookings</template>
+<p>Instantly book available resources or schedule them for future use. You can either make a quick booking from the app’s interface or schedule a reservation for a later time.</p>
+<p>You can see the capacity of each resource and by touching the booking button, you can quickly book the resource for immediate use. Simply choose the planned duration, and the resource is booked.</p>
+<p>For scheduled bookings, users must use the fine filter to select specific times . to ensure the availability of the resource during the desired time. This helps refine search results for better scheduling accuracy.</p>
+<img src="/images/sparo/quickbooking.jpeg" width="200">
+<br></br>
+<img src="/images/sparo/scheduledbooking.jpeg" width="200">
 </doc-tab>
 <doc-tab v-cloak id="filter">
 <template #title>Filter</template>
-<p>If you want to book a resource for an appointment in the future, choose the filter option. There you can set a time frame to show all available resources in this time frame to book your meeting room or workspace.</p>
-<img src="/images/sparo/hxa.io_sparo_list_filter.jpg" width="200">
+<ul>
+<li><strong>Filter by Time/Location</strong>: Users can search for resources available at specific times or in particular locations.
+If you want to book a resource for an appointment in the future, choose the filter option. There you can set a time frame to show all available resources in this time frame to book your meeting room or workspace.</li>
+</ul>
+<img src="/images/sparo/filter.jpeg" width="200">
+<p><br></br>
+<img src="/images/sparo/locationfilter.jpeg" width="200"></p>
 </doc-tab>
 <doc-tab v-cloak id="series-booking">
 <template #title>Series Booking</template>
+<p>The <strong>Series Booking</strong> feature in <strong>HXA Sparo</strong> allows users to create recurring reservations for meeting rooms or workspaces, similar to Microsoft Teams or Outlook. Users can schedule recurring bookings based on different intervals, and the system will handle each occurrence individually, allowing for granular control over edits or deletions.</p>
+<doc-anchor-target id="how-to-create-a-series-booking">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-create-a-series-booking">#</doc-anchor-trigger>
+        <span>How to Create a Series Booking</span>
+    </h3>
+</doc-anchor-target>
+<p>To create a recurring (series) booking:
+Define the recurrence pattern:</p>
+<ul>
+<li><strong>Daily</strong>: Book the resource every day at the specified time.</li>
+<li><strong>Weekly</strong>: Book the resource on specific days of the week.</li>
+<li><strong>Workdays</strong>: Book the resource only on workdays (Monday through Friday).</li>
+<li><strong>Monthly</strong>: Book the resource on a particular day of each month.</li>
+</ul>
+<p>The system will automatically create individual bookings for each occurrence, and you can view the full series in the <strong>Bookings and Invitations Tab</strong> under <strong>My Bookings</strong>.</p>
+<doc-anchor-target id="managing-a-series-booking">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#managing-a-series-booking">#</doc-anchor-trigger>
+        <span>Managing a Series Booking</span>
+    </h3>
+</doc-anchor-target>
+<p>Once a series booking has been created, users can manage it as follows:</p>
+<doc-anchor-target id="1-edit-a-series">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#1-edit-a-series">#</doc-anchor-trigger>
+        <span>1. Edit a Series</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Navigate to <strong>My Bookings</strong> in the <strong>Bookings and Invitations</strong> tab.</li>
+<li>Select the series booking you wish to modify.</li>
+<li>You will be prompted to choose:
+<ul>
+<li><strong>Edit Entire Series</strong>: Apply changes to all occurrences (e.g., rescheduling the meeting time for every instance).</li>
+<li><strong>Edit Single Occurrence</strong>: Modify only one specific occurrence in the series (e.g., change the time for just one day).</li>
+</ul>
+</li>
+</ul>
+<doc-anchor-target id="2-delete-a-series">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#2-delete-a-series">#</doc-anchor-trigger>
+        <span>2. Delete a Series</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Navigate to the <strong>Bookings and Invitations</strong> tab and locate the series booking.</li>
+<li>You will be prompted to choose:
+<ul>
+<li><strong>Delete Entire Series</strong>: Cancel all future occurrences of the booking.</li>
+<li><strong>Delete Single Occurrence</strong>: Cancel only one specific occurrence without affecting the rest of the series.</li>
+</ul>
+</li>
+</ul>
+<img src="/images/sparo/seriesmeeting.jpeg" width="200">
 </doc-tab>
 <doc-tab v-cloak id="scan-qr-code">
 <template #title>Scan QR Code</template>
+<p>This tab allows users to book rooms by scanning QR codes placed in the physical locations. The app requires camera access for this functionality.
+<img src="/images/sparo/scanqr.jpeg" width="200"></p>
+</doc-tab>
+<doc-tab v-cloak id="side-menu-features">
+<template #title>Side Menu Features</template>
+<doc-anchor-target id="side-menu-features">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#side-menu-features">#</doc-anchor-trigger>
+        <span>Side Menu Features</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="1-my-profile">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#1-my-profile">#</doc-anchor-trigger>
+        <span>1. My Profile</span>
+    </h3>
+</doc-anchor-target>
+<p>The <strong>My Profile</strong> section displays user details fetched from the Microsoft 365 backend. The following fields are read-only:</p>
+<ul>
+<li>Name</li>
+<li>Surname</li>
+<li>Email</li>
+<li>Company Name</li>
+<li>Department</li>
+<li>Position</li>
+<li>Phone Number</li>
+<li>License Information</li>
+</ul>
+<img src="/images/sparo/profile.jpeg" width="200">
+<doc-anchor-target id="2-settings">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#2-settings">#</doc-anchor-trigger>
+        <span>2. Settings</span>
+    </h3>
+</doc-anchor-target>
+<p>The <strong>Settings</strong> section includes the following configurable options:</p>
+<ul>
+<li><strong>Language Switcher</strong>: Toggle between German and English interfaces.</li>
+<li><strong>Personal Status</strong>: Update personal availability status (Free, Working Elsewhere, Tentative, Busy, Out of Office). This status is reflected when others attempt to invite the user to meetings.</li>
+<li><strong>Working Time</strong>: This read-only information is pulled from the user&#x27;s Microsoft 365 profile and reflects their work hours.</li>
+<li><strong>Date and Time Format</strong>: Users can change the date and time format based on their location preferences, which will reflect in booking filters and other scheduling details.</li>
+</ul>
+<img src="/images/sparo/settings.jpeg" width="200">
+<doc-anchor-target id="3-about-the-application">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3-about-the-application">#</doc-anchor-trigger>
+        <span>3. About the Application</span>
+    </h3>
+</doc-anchor-target>
+<p>This section provides the <strong>Terms of Use</strong> and <strong>Privacy Policy</strong>, as set by NetTask.de, the provider of <strong>HXA Sparo</strong>.</p>
+<img src="/images/sparo/about.jpeg" width="200">
+<doc-anchor-target id="4-report-a-problemsuggest-ideas">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#4-report-a-problemsuggest-ideas">#</doc-anchor-trigger>
+        <span>4. Report a Problem/Suggest Ideas</span>
+    </h3>
+</doc-anchor-target>
+<p>Users can report issues or submit suggestions directly from the application through this feature.</p>
+<img src="/images/sparo/support.jpeg" width="200">
+<doc-anchor-target id="5-emergency-teams">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#5-emergency-teams">#</doc-anchor-trigger>
+        <span>5. Emergency Teams</span>
+    </h3>
+</doc-anchor-target>
+<p>The <strong>Emergency Teams</strong> feature displays a list of emergency contacts within the organization. Users can see the availability and location of team members (i.e., which room/resource they are currently in) and contact them by clicking on a phone icon next to their names.</p>
+<img src="/images/sparo/emergencyteam.jpeg" width="200">
+<doc-anchor-target id="details">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#details">#</doc-anchor-trigger>
+        <span>Details:</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The list of emergency teams is imported from <strong>Active Directory</strong> or created manually in the <strong>HXA Portal</strong> by administrators.</li>
+<li><strong>HXA Sparo</strong> simply renders these teams, while the portal manages their creation and import.</li>
+</ul>
 </doc-tab>
 </doc-tabs>
 
