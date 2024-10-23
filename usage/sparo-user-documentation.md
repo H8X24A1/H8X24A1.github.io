@@ -149,7 +149,8 @@ Once a series booking has been created, users can manage it as follows:
 +++ Scan QR Code
 
 This tab allows users to book rooms by scanning QR codes placed in the physical locations. The app requires camera access for this functionality.
-<img src="/images/sparo/scanqr.jpeg" width="200">
+
+<img src="/images/sparo/qrscan.jpeg" width="200">
 
 +++ Side Menu Features
 ## Side Menu Features
