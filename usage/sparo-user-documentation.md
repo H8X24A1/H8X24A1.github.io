@@ -1,10 +1,10 @@
 ---
-title: HXA.io DOCS - Sparo App user documentation
+title: Sparo App user documentation
 label: HXA Sparo
 icon: rocket
 order: 90
 ---
-+++ Overview 
+# Overview 
 **HXA Sparo** is an application designed to integrate seamlessly with Microsoft 365, allowing organizations to manage and book resources efficiently. It retrieves and displays resources set up by the organization, enabling users to quickly or schedule bookings, invite team members, and interact with **HXA Portal**.
 
 HXA Sparo offers a variety of features, including resource management, floor plan mapping, and integration with organizational directories like Microsoft Active Directory. The application’s authentication process is handled through Microsoft 365 credentials, providing a secure and streamlined login experience.
@@ -35,7 +35,8 @@ Authentication in **HXA Sparo** is handled via **Microsoft 365**, ensuring secur
 
 ## Conclusion
 **HXA Sparo** is a powerful tool for managing organizational resources, floor plans, and emergency contact teams, all while integrating seamlessly with Microsoft 365 and the **HXA Portal**. Its intuitive interface and efficient booking system make it an essential app for companies looking to streamline their resource management and meeting planning processes.
-+++ Download
+
+# Download
 
 ## Get Sparo App
 
@@ -46,7 +47,8 @@ Authentication in **HXA Sparo** is handled via **Microsoft 365**, ensuring secur
 [!ref target="blank" text="Google Play"](https://play.google.com/store/apps/details?id=com.hxa.sparo)  [!ref target="blank" text="Apple App Store"](https://apps.apple.com/de/app/hxa-sparo/id1672352267)
 
 [![](/images/sparo/hxa.io_sparo_app_on_google_play.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
-+++ Login
+
+# Login
 ## Prerequisites
 To use **HXA Sparo**, you need to:
 - Purchase a license for **HXA Portal**.
@@ -74,14 +76,15 @@ Once the license is activated, users can log into **HXA Sparo** via the Microsof
 <img src="/images/sparo/hxa.io_sparo_ms365_login.png" width="200">
 
 <br><br>
-+++ Favorites
+
+# Favorites
 
 The **Favorites Tab** displays a list of resources that users have marked as favorites. These are often the most frequently used resources for quick access.
 
 
 <img src="/images/sparo/favorites.jpeg" width="200">
 
-+++ Available resources
+# Available resources
 This tab shows all resources available within the organization, alongside their current status:
 - **Available**
 - **Busy**
@@ -102,7 +105,7 @@ For scheduled bookings, users must use the fine filter to select specific times 
 <br></br>
 <img src="/images/sparo/scheduledbooking.jpeg" width="200">
 
-+++ Filter
+# Filter
 
 - **Filter by Time/Location**: Users can search for resources available at specific times or in particular locations.
 If you want to book a resource for an appointment in the future, choose the filter option. There you can set a time frame to show all available resources in this time frame to book your meeting room or workspace.
@@ -112,7 +115,7 @@ If you want to book a resource for an appointment in the future, choose the filt
 <br></br>
 <img src="/images/sparo/locationfilter.jpeg" width="200">
 
-+++ Series Booking
+# Series Booking
 
 The **Series Booking** feature in **HXA Sparo** allows users to create recurring reservations for meeting rooms or workspaces, similar to Microsoft Teams or Outlook. Users can schedule recurring bookings based on different intervals, and the system will handle each occurrence individually, allowing for granular control over edits or deletions.
 
@@ -146,7 +149,7 @@ Once a series booking has been created, users can manage it as follows:
 
 <img src="/images/sparo/seriesmeeting.jpeg" width="200">
 
-+++ Scan QR Code
+# Scan QR Code
 
 This tab allows users to book rooms by scanning QR codes placed in the physical locations. The app requires camera access for this functionality.
 
@@ -200,4 +203,3 @@ The **Emergency Teams** feature displays a list of emergency contacts within the
 - The list of emergency teams is imported from **Active Directory** or created manually in the **HXA Portal** by administrators.
 - **HXA Sparo** simply renders these teams, while the portal manages their creation and import.
 
-+++
