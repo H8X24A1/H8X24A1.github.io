@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783015573737">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783018691089">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.783015573737" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.783018691089" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783015573737" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783018691089" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783015573737" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783018691089" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -350,9 +350,12 @@
 </ul>
 <p>Now you get shown a list of all current available rooms and workspaces of your company.</p>
 <img src="/images/sparo/availableresources.jpeg" width="200">
-<doc-tabs>
-<doc-tab v-cloak id="quick-booking-and-scheduled-bookings">
-<template #title>Quick Booking and Scheduled Bookings</template>
+<doc-anchor-target id="quick-booking-and-scheduled-bookings">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#quick-booking-and-scheduled-bookings">#</doc-anchor-trigger>
+        <span>Quick Booking and Scheduled Bookings</span>
+    </h1>
+</doc-anchor-target>
 <p>Instantly book available resources or schedule them for future use. You can either make a quick booking from the app’s interface or schedule a reservation for a later time.</p>
 <p>You can see the capacity of each resource and by touching the booking button, you can quickly book the resource for immediate use. Simply choose the planned duration, and the resource is booked.</p>
 <p>For scheduled bookings, users must use the fine filter to select specific times . to ensure the availability of the resource during the desired time. This helps refine search results for better scheduling accuracy.</p>
@@ -441,12 +444,15 @@ Define the recurrence pattern:</p>
 </doc-anchor-target>
 <p>This tab allows users to book rooms by scanning QR codes placed in the physical locations. The app requires camera access for this functionality.</p>
 <img src="/images/sparo/qrscan.jpeg" width="200">
-</doc-tab>
-<doc-tab v-cloak id="side-menu-features">
-<template #title>Side Menu Features</template>
 <doc-anchor-target id="side-menu-features">
-    <h2>
+    <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#side-menu-features">#</doc-anchor-trigger>
+        <span>Side Menu Features</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="side-menu-features-1">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#side-menu-features-1">#</doc-anchor-trigger>
         <span>Side Menu Features</span>
     </h2>
 </doc-anchor-target>
@@ -516,7 +522,6 @@ Define the recurrence pattern:</p>
 <li>The list of emergency teams is imported from <strong>Active Directory</strong> or created manually in the <strong>HXA Portal</strong> by administrators.</li>
 <li><strong>HXA Sparo</strong> simply renders these teams, while the portal manages their creation and import.</li>
 </ul>
-</doc-tab>
 
                                 
                                 <!-- Required only on API pages -->
