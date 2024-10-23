@@ -94,7 +94,7 @@ Now you get shown a list of all current available rooms and workspaces of your c
 
 <img src="/images/sparo/availableresources.jpeg" width="200">
 
-+++ Quick Booking and Scheduled Bookings
+# Quick Booking and Scheduled Bookings
 Instantly book available resources or schedule them for future use. You can either make a quick booking from the app’s interface or schedule a reservation for a later time.
 
 You can see the capacity of each resource and by touching the booking button, you can quickly book the resource for immediate use. Simply choose the planned duration, and the resource is booked.
@@ -155,7 +155,8 @@ This tab allows users to book rooms by scanning QR codes placed in the physical 
 
 <img src="/images/sparo/qrscan.jpeg" width="200">
 
-+++ Side Menu Features
+# Side Menu Features
+
 ## Side Menu Features
 ### 1. My Profile
 The **My Profile** section displays user details fetched from the Microsoft 365 backend. The following fields are read-only:
