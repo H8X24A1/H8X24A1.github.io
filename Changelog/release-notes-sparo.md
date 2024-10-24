@@ -4,6 +4,14 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+
+## v3.2.3
+Release date: 2024-10-24
++++ Fixed :icon-bug:
+- [x] Automatic app refresh when resuming from the background
+
+
++++
 ## v3.2.2
 Release date: 2024-10-22
 +++ Fixed :icon-bug:
