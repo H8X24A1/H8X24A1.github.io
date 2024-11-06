@@ -22,12 +22,14 @@ Release date: 2024-06-11
 - [x] New view for the Control Module.
 - [x] Ensure successful addition of devices to resources on the first attempt.
 - [x] Disable "View Map" if the customer deletes a map from a resource.
- 
+
 +++ Fixed :icon-bug:
 - [x] A Resource will only be possible to link to one map.
 - [x] Text Corrections.
 - [x] Fixes in layout for the Advertising in Room board section and First Aiders sections.
 - [x] Fixes in First Aid features.
+
++++
 
 ## v.0.9.20
 Release date: 2023-07-12
