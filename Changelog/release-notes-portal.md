@@ -14,6 +14,8 @@ Release date: 2024-06-11
 - [x] Add a toggle to enable the "View Map" feature for Room booking resource.
 - [x] Set up Door Connect resource to support Teams calling.
 - [x] Question about unsaved changes on page leave.
+
++++ Improvement :icon-thumbsup:
 - [x] Changes and introducing User permission role.
 - [x] Display the connector ID in the event log if applicable.
 - [x] Add information and warning messages.
