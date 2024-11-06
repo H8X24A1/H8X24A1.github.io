@@ -6,6 +6,28 @@ order: 1000
 ---
 
 
+## v.0.19.0
+Release date: 2024-06-11
++++ New :icon-shield-check:
+- [x] Feature to add Groups and import Groups from Microsoft 365.
+- [x] Introduce the Category (Room, Workspace, Workplace, Parking) when creating/editing a bookable resource.
+- [x] Add a toggle to enable the "View Map" feature for Room booking resource.
+- [x] Set up Door Connect resource to support Teams calling.
+- [x] Question about unsaved changes on page leave.
+- [x] Changes and introducing User permission role.
+- [x] Display the connector ID in the event log if applicable.
+- [x] Add information and warning messages.
+- [x] Display the Resource category in resources table.
+- [x] Add regex to normalise NFC tag numbers.
+- [x] New view for the Control Module.
+- [x] Ensure successful addition of devices to resources on the first attempt.
+- [x] Disable "View Map" if the customer deletes a map from a resource.
+ 
++++ Fixed :icon-bug:
+- [x] A Resource will only be possible to link to one map.
+- [x] Text Corrections.
+- [x] Fixes in layout for the Advertising in Room board section and First Aiders sections.
+- [x] Fixes in First Aid features.
 
 ## v.0.9.20
 Release date: 2023-07-12
