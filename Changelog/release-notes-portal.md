@@ -15,7 +15,7 @@ Release date: 2024-06-11
 - [x] Set up Door Connect resource to support Teams calling.
 - [x] Question about unsaved changes on page leave.
 
-+++ Improvement :icon-thumbsup:
++++ Improved :icon-thumbsup:
 - [x] Changes and introducing User permission role.
 - [x] Display the connector ID in the event log if applicable.
 - [x] Add information and warning messages.
