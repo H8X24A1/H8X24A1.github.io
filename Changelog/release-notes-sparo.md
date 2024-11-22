@@ -4,6 +4,20 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+## v3.3.0
+Release date: 2024-11-01
++++ New :icon-shield-check:
+- [x] Ability to change the language on the Welcome page. 
+- [x] Add vehicle plate number automatically to parking resource bookings.
+- [x] Option to show calendar view on the Booking Overview page.
+
++++ Improved :icon-thumbsup:
+- [x] Redesign of the applied filter information for Available Resources.
+- [x] Text corrections.
+
++++ Fixed :icon-bug:
+- [x] Layout problems.  
+- [x] Token issues.
 
 ## v3.2.3
 Release date: 2024-10-24
