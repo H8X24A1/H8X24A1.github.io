@@ -4,6 +4,21 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+## v3.4.0
+Release date: 2024-11-28
++++ New :icon-shield-check:
+- [x] Introduced two new methods to add maps to favorites.
+- [x] Added a refresh button to the "My Booking" overview.
+
++++ Improved :icon-thumbsup:
+- [x] Added the ability to close the filter by clicking the Filter icon.
+- [x] Automatically add the prefix "Plate number" to the plate number while booking a parking resource.
+- [x] Enhanced the calendar view.
+
++++ Fixed :icon-bug:
+- [x] Resolved layout issues on the QR and Available Resources page
+- [x] Updated the message displayed after applying the time filter.
+
 ## v3.3.0
 Release date: 2024-11-01
 +++ New :icon-shield-check:
