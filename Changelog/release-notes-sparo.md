@@ -19,6 +19,7 @@ Release date: 2024-11-28
 - [x] Resolved layout issues on the QR and Available Resources page
 - [x] Updated the message displayed after applying the time filter.
 
++++
 ## v3.3.0
 Release date: 2024-11-01
 +++ New :icon-shield-check:
