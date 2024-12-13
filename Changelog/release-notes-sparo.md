@@ -8,7 +8,7 @@ order: 1100
 Release date: 2024-12-12
 +++ New :icon-shield-check:
 - [x] Series bookings now support past dates.
-- [x] Added location filter and search on the First Aid page.
+- [x] Added location filter and search box on the First Aid page.
 
 +++ Improved :icon-thumbsup:
 - [x] Double-clicking the bottom menu now scrolls to the top.
