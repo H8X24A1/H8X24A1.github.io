@@ -4,6 +4,22 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+## v3.5.0
+Release date: 2024-12-12
++++ New :icon-shield-check:
+- [x] Series bookings now support past dates.
+- [x] Added location filter and search on the First Aid page.
+
++++ Improved :icon-thumbsup:
+- [x] Double-clicking the bottom menu now scrolls to the top.
+- [x] Enhanced app redirection.
+
++++ Fixed :icon-bug:
+- [x] Corrected issues with updating the end time.
+- [x] Improved the first feedback question.
+- [x] Adjusted layouts on Resources Favorites and the Filter menu.
+
++++
 ## v3.4.0
 Release date: 2024-11-28
 +++ New :icon-shield-check:
