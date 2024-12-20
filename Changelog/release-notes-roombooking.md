@@ -5,6 +5,49 @@ icon: paste
 order: 900
 ---
 
+
+## v3.2.1
+Platform: HXA Display  
+Release date: 2024-12-18
++++ Fixed :icon-bug:
+- [x] The map now immediately displays the status of all resources upon the first modal open.
++++
+
+
+## v3.2.1
+Platform: HXA Display  
+Release date: 2024-12-16
++++ New :icon-shield-check:
+- [x] Users can now view a map display of the resource.
++++ Improved :icon-thumbsup:
+- [x] Enhanced error handling on the login page: When a connection is lost on a specific network, users can easily switch networks by clicking the Wi-Fi button.
+- [x] Added a manual "Try to Connect Again" option on the Dashboard page for situations where automatic reconnection takes too long.
++++
+
+
+## v2.10.1
+Platform: Android OS | Apple iOS | Progressive web App | HXA Display | Microsoft Windows
+Release date: 2024-12-18
++++ Improved :icon-shield-check:
+- [x] Update the map's resource status instantly when users make a quick booking, without requiring the map modal to be closed and reopened.
+- [x] Change the design for the Blinking indicator of the resource on the Map.
+- [x] Automatically close the map modal after 90 seconds.
++++
+
+## v2.10.0
+Platform: Android OS | Apple iOS | Progressive web App | HXA Display | Microsoft Windows
+Release date: 2024-12-16
+
++++ New :icon-shield-check:
+- [x] Users can now view a map of the resource.
++++ Improved :icon-shield-check:
+- [x] Added a manual "Try to Connect Again" option on the Dashboard page for situations where automatic reconnection takes too long.
+
+
++++
+
+
+
 ## v3.2.1
 Platform: HXA Display  
 Release date: 2024-05-02
