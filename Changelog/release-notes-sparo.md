@@ -17,7 +17,7 @@ Release date: 2024-12-12
 +++ Fixed :icon-bug:
 - [x] Corrected issues with updating the end time
 - [x] Improved the first feedback question.
-- [x] Adjusted the layout on Resources Favorites and the Filter menu.
+- [x] Adjusted the layouts on Resources Favorites and the Filter menu.
 
 +++
 ## v3.4.0
