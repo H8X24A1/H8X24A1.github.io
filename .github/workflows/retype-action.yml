@@ -32,8 +32,7 @@ jobs:
 
       # Build the site using Retype (this uses retypeapp)
       - uses: retypeapp/action-build@latest
-        with:
-            retype-version: 3.6.0+6fe53cf630452bb1c91973116e3a4af3297f2556
+   
 
         
 
