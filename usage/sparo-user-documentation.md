@@ -5,9 +5,9 @@ icon: rocket
 order: 90
 ---
 # Overview 
-**HXA Sparo** is an application designed to integrate seamlessly with Microsoft 365, allowing organizations to manage and book resources efficiently. It retrieves and displays resources set up by the organization, enabling users to quickly or schedule bookings, invite team members, and interact with **HXA Portal**.
+**HXA Sparo** is an application designed to integrate seamlessly with Microsoft 365, allowing organizations to manage and book resources efficiently. It retrieves and displays resources set up by the organization, enabling users to quickly or schedule bookings, invite team members, and interact with **HXA.io Ecosystem**.
 
-HXA Sparo offers a variety of features, including resource management, floor plan mapping, and integration with organizational directories like Microsoft Active Directory. The application’s authentication process is handled through Microsoft 365 credentials, providing a secure and streamlined login experience.
+HXA Sparo offers a variety of features, including resource management, floor plan mapping, and integration with organizational directories like Microsoft Azure Active Directory (Entra ID). The application’s authentication process is handled through Microsoft 365 credentials (SSO), providing a secure and streamlined login experience.
 
 ## Key Features:
 - **Quick and Scheduled Booking**: Instantly book available resources or schedule them for future use. You can either make a quick booking from the app’s interface or schedule a reservation for a later time.
@@ -27,6 +27,7 @@ Once the license is activated, users can log into **HXA Sparo** via the Microsof
 **HXA Sparo** is deeply integrated with the **HXA Portal**, where administrators can manage resources and link them to floor plans. Resources such as meeting rooms, equipment, or areas on the floor map are linked to calendars, and their availability status is synced in real-time between the portal and **HXA Sparo**.
 
 Administrators can:
+- **Setup Resource Types**: Add types like Room, Workplace, Worspace, Parking and some more to resources.
 - **Assign Calendars**: Link specific resource calendars to locations on the floor plan.
 - **Manage Emergency Teams**: Import teams from Active Directory or manually create them in the **HXA Portal**.
 
@@ -40,13 +41,13 @@ Authentication in **HXA Sparo** is handled via **Microsoft 365**, ensuring secur
 
 ## Get Sparo App
 
-[![](/images/sparo/playstore256x80.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
+- [x] Download and install the HXA Sparo App via <br><br>
 
-- [x] Download and install the HXA Room Booking App via <br><br>
+[!ref target="blank" text="Google Play"](https://play.google.com/store/apps/details?id=com.hxa.sparo)
+[!ref target="blank" text="Apple App Store"](https://apps.apple.com/de/app/hxa-sparo/id1672352267)
+[!ref target="blank" text="Microsoft Store"](https://apps.microsoft.com/detail/9pbpb5spj2wt)
+[!ref target="blank" text="Web App"](https://app.sparo.hxa.io)
 
-[!ref target="blank" text="Google Play"](https://play.google.com/store/apps/details?id=com.hxa.sparo)  [!ref target="blank" text="Apple App Store"](https://apps.apple.com/de/app/hxa-sparo/id1672352267)
-
-[![](/images/sparo/hxa.io_sparo_app_on_google_play.png)](https://play.google.com/store/apps/details?id=com.hxa.sparo)
 
 # Login
 ## Prerequisites
