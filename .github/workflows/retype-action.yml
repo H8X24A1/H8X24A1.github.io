@@ -1,42 +1,38 @@
 name: Publish Retype powered website to GitHub Pages
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Allow triggering the workflow manually
   push:
     branches:
-      - main
+      - main  # Trigger the action on push to the `main` branch
 
 jobs:
   publish:
     name: Publish to retype branch
-
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use the latest Ubuntu image for the runner
 
     steps:
-      # Checkout the repository
+      # Checkout the repository (to access the code)
       - uses: actions/checkout@v2
 
-      # Set up .NET SDK (install the required 7.0.410 version)
+      # Set up .NET SDK with the correct version (7.0.410)
       - name: Set up .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.0.410'
+          dotnet-version: '7.0.410'  # Ensure the correct version is installed
 
-      # Install Retype tool globally using dotnet
+      # Install Retype tool globally using the .NET CLI
       - name: Install Retype globally
-        run: dotnet tool install --global retypeapp
+        run: dotnet tool install --global retypeapp --version 3.6.0  # Explicitly mention version 3.6.0
 
-      # Add .NET tools to the PATH for future steps
+      # Add the .NET tools to the PATH for future steps (necessary for the retype command to be found)
       - name: Add .NET tools to PATH
-        run: echo "/home/runner/.dotnet/tools" >> $GITHUB_PATH
+        run: echo "/home/runner/.dotnet/tools" >> $GITHUB_PATH  # Ensures retype is accessible
 
-      # Build the site using Retype (this uses retypeapp)
-      - uses: retypeapp/action-build@latest
-   
+      # Build the Retype-powered site (this runs the retype tool)
+      - uses: retypeapp/action-build@latest  # This action builds the website using Retype
 
-        
-
-      # Publish the site to GitHub Pages
+      # Publish the site to GitHub Pages (push to the `gh-pages` branch)
       - uses: retypeapp/action-github-pages@latest
         with:
-          update-branch: true
+          update-branch: true  # Automatically update the `gh-pages` branch (or another branch if needed)
