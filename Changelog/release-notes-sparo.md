@@ -15,7 +15,7 @@ Release date: 2024-12-12
 - [x] Enhanced app redirection.
 
 +++ Fixed :icon-bug:
-- [x] Corrected issues with updating the end time.
+- [x] Corrected issues with updating the end time
 - [x] Improved the first feedback question.
 - [x] Adjusted the layout on Resources Favorites and the Filter menu.
 
