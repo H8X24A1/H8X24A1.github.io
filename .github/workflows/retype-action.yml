@@ -24,7 +24,7 @@ jobs:
 
       # Install Retype tool globally using dotnet
       - name: Install Retype globally
-        run: dotnet tool install --global retypeapp
+        run: dotnet tool install --global retypeapp --version 3.6.0
 
       # Add .NET tools to the PATH for future steps
       - name: Add .NET tools to PATH
