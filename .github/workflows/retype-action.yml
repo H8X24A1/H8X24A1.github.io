@@ -1,5 +1,4 @@
 name: Publish Retype powered website to GitHub Pages
-
 on:
   workflow_dispatch:
   push:
@@ -12,34 +11,18 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
-      # Checkout the repository
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      # Set up .NET SDK (install the required 7.0.410 version)
-      - name: Set up .NET
-        uses: actions/setup-dotnet@v3
+      - uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '7.0.410'
-      # Uninstall any existing version of Retype
-      - name: Uninstall existing Retype
-        run: dotnet tool uninstall --global retypeapp || true
+          dotnet-version: 7.0.x
 
-      # Install Retype tool globally using dotnet
-      - name: Install Retype globally
-        run: dotnet tool install --global retypeapp --version 3.6.0
-
-      # Add .NET tools to the PATH for future steps
-      - name: Add .NET tools to PATH
-        run: echo "/home/runner/.dotnet/tools" >> $GITHUB_PATH
-
-      # Build the site using Retype (this uses retypeapp)
       - uses: retypeapp/action-build@latest
-   
 
-        
-
-      # Publish the site to GitHub Pages
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
