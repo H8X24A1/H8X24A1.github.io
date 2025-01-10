@@ -21,6 +21,9 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '7.0.410'
+      # Uninstall any existing version of Retype
+      - name: Uninstall existing Retype
+        run: dotnet tool uninstall --global retypeapp || true
 
       # Install Retype tool globally using dotnet
       - name: Install Retype globally
