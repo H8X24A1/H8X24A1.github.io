@@ -4,6 +4,21 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+
+## v3.6.0
+Release date: 2025-02-05
++++ New :icon-shield-check:
+- [x] Implement hybrid meetings by introducing Microsoft Teams Online meetings.
+
++++ Improved :icon-thumbsup:
+- [x] Update the layout for the Location filter.
+
++++ Fixed :icon-bug:
+- [x] Warning when leaving the booking pages revised.
+- [x] Improve Page-Refresh functionality.
+
+
++++
 ## v3.5.0
 Release date: 2024-12-12
 +++ New :icon-shield-check:
