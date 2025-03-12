@@ -4,7 +4,21 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+## v3.6.1
+Release date: 2025-03-11
++++ New :icon-shield-check:
+- [x]Resources selected from a list are now blinking on the map for better visibility.
+- [x] First Aider symbols are now displayed on the map.
 
++++ Improved :icon-thumbsup:
+- [x] Updated the App header and Sparo App with improved layout and colors.
+- [x] Enhanced sorting of First Aider officers to prioritise availability.
+
++++ Fixed :icon-bug:
+- [x] Resolved an issue with the refresh function and the unspecified location to some     resources on the "My Booking" page.
+
+
++++
 ## v3.6.0
 Release date: 2025-02-05
 +++ New :icon-shield-check:
