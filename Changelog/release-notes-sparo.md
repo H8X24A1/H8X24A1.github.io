@@ -6,7 +6,7 @@ order: 1100
 ---
 
 ## v3.6.2
-Release date: 2025-3-04-01
+Release date: 2025-04-01
 
 +++ Improved :icon-thumbsup:
 - [x] Users can now view the resource map from the Booking Overview page.
