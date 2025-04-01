@@ -7,12 +7,10 @@ order: 1100
 
 ## v3.6.2
 Release date: 2025-04-01
-
 +++ Improved :icon-thumbsup:
 - [x] Users can now view the resource map from the Booking Overview page.
 - [x] Ability to delete text in the subject field when booking a resource.
 - [x] Users can now search for resources by their location.
-
 
 +++ Fixed :icon-bug:
 - [x] Better alignment of the location icon and correction of location-related sentences in the resources.
@@ -20,7 +18,6 @@ Release date: 2025-04-01
 - [x] The plate number now appears on the parking resource, regardless of whether the resource is on-prem or from Graph.
 
 +++
-
 ## v3.6.1
 Release date: 2025-03-11
 +++ New :icon-shield-check:
