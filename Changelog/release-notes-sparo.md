@@ -4,6 +4,21 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+
+## v3.6.2
+Release date: 2025-3-04-01
+
++++ Improved :icon-thumbsup:
+- [x] Users can now view the resource map from the Booking Overview page.
+- [x] Ability to delete text in the subject field when booking a resource.
+- [x] Users can now search for resources by their location.
+
+
++++ Fixed :icon-bug:
+- [x] Better alignment of the location icon and correction of location-related sentences in the resources.
+- [x] Enhancement to the Preview Map chip layout on the map page.
+- [x] The plate number now appears on the parking resource, regardless of whether the resource is on-prem or from Graph.
+
 ## v3.6.1
 Release date: 2025-03-11
 +++ New :icon-shield-check:
@@ -15,7 +30,7 @@ Release date: 2025-03-11
 - [x] Enhanced sorting of First Aider officers to prioritise availability.
 
 +++ Fixed :icon-bug:
-- [x] Resolved an issue with the refresh function and the unspecified location to some     resources on the "My Booking" page.
+- [x] Resolved an issue with the refresh function and the unspecified location to some resources on the "My Booking" page.
 
 
 +++
