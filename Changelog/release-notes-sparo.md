@@ -19,6 +19,8 @@ Release date: 2025-3-04-01
 - [x] Enhancement to the Preview Map chip layout on the map page.
 - [x] The plate number now appears on the parking resource, regardless of whether the resource is on-prem or from Graph.
 
++++
+
 ## v3.6.1
 Release date: 2025-03-11
 +++ New :icon-shield-check:
