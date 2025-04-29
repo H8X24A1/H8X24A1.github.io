@@ -4,8 +4,30 @@ label: HXA Room Booking
 icon: paste
 order: 900
 ---
+## v3.4.0
+Platform: HXA Display 
+Release date: 2025-04-28
++++ New :icon-shield-check:
+- [x] Room Booking Screen Saver: A new screen saver is now available for room booking displays.
+- • Supports digital or analog clock styles (configurable by admin from the portal).
+- • Activates after a user-defined idle time(configurable by admin from the portal).
+- • Shows resource capacity and room status (Busy/Free).
++++ Improved :icon-thumbsup:
+- [x] Participant Modal Auto-Close: The participant modal will now auto-close after 15 seconds of inactivity.
++++
 
+## v2.11.0
+Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
+Release date: 2025-04-28
++++ New :icon-shield-check:
+- [x] Room Booking Screen Saver: A new screen saver is now available for room booking displays.
+- • Supports digital or analog clock styles (configurable by admin from the portal).
+- • Activates after a user-defined idle time(configurable by admin from the portal).
+- • Shows resource capacity and room status (Busy/Free).
++++ Improved :icon-thumbsup:
+- [x] Participant Modal Auto-Close: The participant modal will now auto-close after 15 seconds of inactivity.
 
++++
 ## v3.2.1
 Platform: HXA Display  
 Release date: 2024-12-18
