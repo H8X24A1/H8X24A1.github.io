@@ -14,7 +14,7 @@ Release date: 2025-04-29
 - • Application Header.
 - • Resource Filter.
 - • Quick & Scheduled Booking.
-- [x] A Sparo button has been added.
+- [x] A Sparo button has been added allowing direct access to the Dashboard ..
 - [x] Widgets in the Dashboard: You can now add or remove widgets based on your preferences:
 - • Weather Widget: Displays weather for your chosen city.
 - • Working Hours Widget: Shows your working hours.
