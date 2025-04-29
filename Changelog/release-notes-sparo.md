@@ -5,6 +5,24 @@ icon: paste
 order: 1100
 ---
 
+## v3.7.0
+Release date: 2025-04-29
++++  New :icon-shield-check:
+- [x] Introduced a new design for the application:
+• Side Menu.
+• Navigation Bar.
+• Application Header.
+• Resource Filter.
+• Quick & Scheduled Booking.
+- [x] A Sparo button has been added.
+- [x] Widgets in the Dashboard: You can now add or remove widgets based on your preferences:
+• Weather Widget: Displays weather for your chosen city.
+• Working Hours Widget: Shows your working hours.
+• Booking Widget: A summary of your bookings.
+• News Stream Widget: View announcements sent by your organization.
+
++++
+
 ## v3.6.2
 Release date: 2025-04-01
 +++ Improved :icon-thumbsup:
