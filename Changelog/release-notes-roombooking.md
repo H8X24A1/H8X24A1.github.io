@@ -6,9 +6,9 @@ order: 900
 ---
 ## v3.4.0
 Platform: HXA Display 
-Release date: 2025-04-28
+Release date: 2025-05-05
 +++ New :icon-shield-check:
-- [x] Room Booking Screen Saver: A new screen saver is now available for room booking displays.
+- [x] Room Booking Screen Saver: A new screen saver is now available.
 - • Supports digital or analog clock styles (configurable by admin from the portal).
 - • Activates after a user-defined idle time(configurable by admin from the portal).
 - • Shows resource capacity and room status (Busy/Free).
@@ -18,9 +18,9 @@ Release date: 2025-04-28
 
 ## v2.11.0
 Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
-Release date: 2025-04-28
+Release date: 2025-05-05
 +++ New :icon-shield-check:
-- [x] Room Booking Screen Saver: A new screen saver is now available for room booking displays.
+- [x] Room Booking Screen Saver: A new screen saver is now available.
 - • Supports digital or analog clock styles (configurable by admin from the portal).
 - • Activates after a user-defined idle time(configurable by admin from the portal).
 - • Shows resource capacity and room status (Busy/Free).
@@ -29,7 +29,7 @@ Release date: 2025-04-28
 
 +++
 ## v3.2.1
-Platform: HXA Display  
+Platform: HXA Display 
 Release date: 2024-12-18
 +++ Fixed :icon-bug:
 - [x] The map now immediately displays the status of all resources upon the first modal open.

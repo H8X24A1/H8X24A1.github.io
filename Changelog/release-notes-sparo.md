@@ -6,7 +6,7 @@ order: 1100
 ---
 
 ## v3.7.0
-Release date: 2025-04-29
+Release date: 2025-05-05
 +++  New :icon-shield-check:
 - [x] Introduced a new design for the application:
 - • Side Menu.
