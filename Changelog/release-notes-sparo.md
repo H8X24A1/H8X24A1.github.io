@@ -5,6 +5,26 @@ icon: paste
 order: 1100
 ---
 
+## v3.7.1
+Release date: 2025-06-10
++++ Improved :icon-thumbsup:
+- [x] You can clear your Available Resource filter with a Reset button.
+- [x] News articles show when they are created.
+- [x] The News Stream stays on screen longer now.
+- [x] “My Favorites” is replaced with a Dashboard button on the side menu.
+- [x] If there are no maps to Favorites, you’ll see a “No maps yet” message.
+- [x] Now the Dashboard is the new Homepage.
+
++++ Fixed :icon-bug:
+- [x] Dates now display correctly in the Booking Widget.
+- [x] The app layout looks and feels smoother.
+- [x] Switching languages works without hiccups.
+
+
++++
+
+
+
 ## v3.7.0
 Release date: 2025-05-05
 +++  New :icon-shield-check:
