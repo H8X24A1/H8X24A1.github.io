@@ -5,6 +5,34 @@ icon: paste
 order: 1100
 ---
 
+## v3.8.0
+Release date: 2025-09-08
++++  New :icon-shield-check:
+- [x] Introduced Smart Booking Assistant to suggest optimal resources based on user input.
+- [x] "My Bookings" now includes personal calendar events without assigned resources.
+- [x] Resources now display real images.
+- [x] Description and attachement are now fetched from the calaendar booking.
+
++++ Improved :icon-thumbsup:
+- [x] Booking summary updates instantly when editing recurrence or time.
+- [x] Calendars now start on Monday.
+- [x] Notifications also trigger for pending bookings.
+- [x] Ongoing bookings can be extended 15 minutes before end.
+- [x] Redesigned map filters and added reset option.
+- [x] News stream shows publication date and improved slide behavior.
+- [x] Sparo button now links directly to dashboard.
+- [x] Daily Overview widget redesigned for clarity.
+
++++ Fixed :icon-bug:
+- [x] Shows "No subject" for blank titles.
+- [x] Widget toggles no longer cause layout issues.
+- [x] Layout fixes across social wall, app bar, and calendar edit view.
+- [x] Unified date/time formats.
+- [x] Corrected UTC handling for meetings.
+- [x] Improved language switching and social wall scrolling.
++++
+
+
 ## v3.7.1
 Release date: 2025-06-10
 +++ Improved :icon-thumbsup:
@@ -19,10 +47,7 @@ Release date: 2025-06-10
 - [x] Dates now display correctly in the Booking Widget.
 - [x] The app layout looks and feels smoother.
 - [x] Switching languages works without hiccups.
-
-
 +++
-
 
 
 ## v3.7.0
