@@ -4,6 +4,26 @@ label: HXA Room Booking
 icon: paste
 order: 900
 ---
+## v3.5.0
+Platform: HXA Display 
+Release date: 2025-10-20
++++ New :icon-shield-check:
+- [x] Weather modal with current forecast and 5-day outlook.
++++ Fixed :icon-bug:
+- [x] Long-duration events now show time info directly.
+- [x] Map and info modals no longer auto-close unexpectedly.
++++
+
+## v2.12.0
+Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
+Release date: 2025-10-20
++++ New :icon-shield-check:
+- [x] Weather modal with current forecast and 5-day outlook.
++++ Fixed :icon-bug:
+- [x] Long-duration events now show time info directly.
+- [x] Map and info modals no longer auto-close unexpectedly.
++++
+
 ## v3.4.0
 Platform: HXA Display 
 Release date: 2025-05-05
