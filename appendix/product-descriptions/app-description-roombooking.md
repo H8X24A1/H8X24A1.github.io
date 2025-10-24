@@ -19,7 +19,7 @@ It consists of:
 
 - **HXA.io Service (Backend & Portal)** – The administrative and integration layer for Microsoft Exchange Online or on-premises environments.  
 - **HXA Room Booking App** – A multi-platform client (iOS, Android, Windows, Web) for booking, check-in/out, and visualization of room status.  
-- **HXA Display (optional)** – A 10.1" touch device with integrated LED status light and NFC, pre-installed with the Room Booking App and enhanced hardware functions [oai_citation:1‡HXA_EN_Room_Booking_App+System.pdf](sediment://file_00000000be906243a19dc73eb51b7159).
+- **HXA Display (optional)** – A 10.1" touch device with integrated LED status light and NFC, pre-installed with the Room Booking App and enhanced hardware functions.
 
 ### 1.2 Scope of Supply
 The vendor provides the HXA.io Service as a cloud service and the HXA Room Booking App as client software.  
@@ -69,7 +69,7 @@ Calendar synchronization is handled via Microsoft Graph (Exchange Online) or EWS
 
 ### 2.3 HXA Display (optional)
 
-#### Hardware Specifications  [oai_citation:2‡HXA_EN_Room_Booking_App+System.pdf](sediment://file_00000000be906243a19dc73eb51b7159)
+#### Hardware Specifications
 - **Display:** 10.1" touchscreen  
 - **LED Status Frame:** full surround, RGB-configurable  
 - **NFC:** for user Check-in / Check-out  
@@ -174,7 +174,7 @@ HXA.io and HXA Room Booking are products of **NT Technologies GmbH**, Germany.
 
 ---
 
-## Appendix A – Hardware Dimensions & Ports  [oai_citation:3‡HXA_EN_Room_Booking_App+System.pdf](sediment://file_00000000be906243a19dc73eb51b7159)
+## Appendix A – Hardware Dimensions & Ports
 
 | Dimension | Value |
 |------------|-------|
