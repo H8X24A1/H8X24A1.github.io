@@ -16,7 +16,7 @@ order: 1100
 ### 1.1 Definition
 
 **HXA Sparo** is the **mobile-first workspace booking application** of the HXA.io ecosystem.  
-It enables intuitive, fast, and intelligent reservation of desks, rooms, and shared spaces — seamlessly integrated with Microsoft 365 / Exchange calendars.  
+It enables intuitive, fast, and intelligent reservation of desks, rooms, shared spaces, as well as parking spaces — seamlessly integrated with Microsoft 365 / Exchange calendars.
 
 Sparo combines a **personalized dashboard** (news, weather, working hours, maps, daily bookings) with an **AI-driven Booking Assistant**, providing an adaptive, branded, and ecological booking experience.
 
