@@ -130,6 +130,7 @@ Allow HTTPS (443) traffic to:
 - iOS/Android smartphones (latest two OS generations)  
 - PWA on Windows/macOS  
 - Camera access required for QR check-in
+- Location access reqquired for Maps location
 
 ### 3.4 Map Drawings
 
@@ -178,18 +179,49 @@ Sparo uses **Microsoft Graph API** and **Microsoft Entra ID OIDC** for authentic
 - **Client Credentials** – for app-only connector operations.  
 - Optional **offline_access** scope for persistent sign-in.
 
-### 5.2 Microsoft Graph Permissions
+### 5.2 Microsoft Graph permissions used by HXA Sparo
 
-| Permission | Type | Description | Admin Consent |
-|-------------|------|-------------|----------------|
-| Calendars.Read / ReadWrite / ReadBasic.All | Application | Calendar access | Yes |
-| Directory.Read.All / ReadWrite.All | Application | Directory data | Yes |
-| Mail.Read / ReadWrite | Application | Mailbox access | Yes |
-| MailboxSettings.ReadWrite | Application | Working hours, language, time zone | Yes |
-| Place.Read.All | Application | Read places (rooms/desks) | Yes |
-| Schedule.Read.All / ReadWrite.All | Application | Schedule items | Yes |
-| User.Read.All | Application | User profile | Yes |
-| Group.*, People.*, User.* (delegated) | Delegated | For interactive booking & context | Mixed |
+The following Microsoft Graph permissions are required by HXA Sparo.  
+They vary depending on the connector type (Application or Delegated).  
+**Admin consent** is required where indicated as *Yes*.
+
+| API / Permissions name | Type | Description | Admin consent required |
+|-------------------------|------|--------------|------------------------|
+| Calendars.Read | Application | Read calendars in all mailboxes | Yes |
+| Calendars.Read | Delegated | Read user calendars | No |
+| Calendars.Read.Shared | Delegated | Read user and shared calendars | No |
+| Calendars.ReadBasic.All | Application | Read basic details of calendars in all mailboxes | Yes |
+| Calendars.ReadWrite | Application | Read and write calendars in all mailboxes | Yes |
+| Calendars.ReadWrite.Shared | Delegated | Read and write user and shared calendars | No |
+| Directory.Read.All | Application | Read directory data | Yes |
+| Directory.ReadWrite.All | Application | Read and write directory data | Yes |
+| Group.Read.All | Delegated | Read all groups | Yes |
+| Group.ReadWrite.All | Delegated | Read and write all groups | Yes |
+| GroupMember.Read.All | Delegated | Read group memberships | Yes |
+| GroupMember.ReadWrite.All | Delegated | Read and write group memberships | Yes |
+| Mail.Read | Application | Read mail in all mailboxes | Yes |
+| Mail.ReadWrite | Application | Read and write mail in all mailboxes | Yes |
+| MailboxSettings.Read | Delegated | Read user mailbox settings | No |
+| MailboxSettings.ReadWrite | Application | Read and write all user mailbox settings | Yes |
+| openid | Delegated | Sign users in | No |
+| People.Read | Delegated | Read users’ relevant people lists | No |
+| Place.Read.All | Delegated | Read all company places | Yes |
+| Place.Read.All | Application | Read all company places | Yes |
+| Place.ReadWrite.All | Delegated | Read and write organization places | Yes |
+| profile | Delegated | View users’ basic profile | No |
+| Schedule.Read.All | Application | Read all schedule items | Yes |
+| Schedule.ReadWrite.All | Application | Read and write all schedule items | Yes |
+| User.Read | Delegated | Sign in and read user profile | No |
+| User.Read.All | Application | Read all users’ full profiles | Yes |
+| User.ReadBasic.All | Delegated | Read all users’ basic profiles | No |
+| User.ReadWrite.All | Delegated | Read and write all users’ full profiles | Yes |
+
+**Notes:**
+- *Application permissions* are used by the **HXA.io backend connector** (app-only mode).  
+- *Delegated permissions* are used by **service connectors** operating on behalf of a user or service account.  
+- Always apply **Application Access Policies** or **RBAC for Applications** to restrict app-only access to specific resource mailboxes.  
+- Sparo uses the **Authorization Code Flow with PKCE** for PWA/native sign-ins and the **Client Credentials Flow** for background connector operations.  
+- The optional `offline_access` scope may be enabled where persistent sessions are required.
 
 > Apply **least privilege** and limit app-only access using **Application Access Policies** or **RBAC for Applications**.
 
