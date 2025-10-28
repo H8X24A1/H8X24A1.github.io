@@ -170,7 +170,7 @@ Maintenance windows, service availability, and renewal terms are defined per con
 
 ## 7 Legal Notes
 “Microsoft”, “Exchange”, “Microsoft 365”, and “Graph” are trademarks of Microsoft Corporation.  
-HXA.io and HXA Room Booking are products of **NT Technologies GmbH**, Germany.
+HXA.io and HXA Room Booking are products of **NT Technologies GmbH/ NetTask GmbH**, Germany.
 
 ---
 
