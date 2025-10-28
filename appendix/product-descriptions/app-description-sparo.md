@@ -262,4 +262,4 @@ Service availability, updates, and SLAs follow NT Technologies’ standard suppo
 
 ---
 
-**© 2025 NT Technologies GmbH – All rights reserved.**
+*© 2025 NT Technologies GmbH – All rights reserved.*
