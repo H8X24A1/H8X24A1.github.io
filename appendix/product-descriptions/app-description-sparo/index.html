@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.815005886250">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.815008263165">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.11.0.815005886250" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.11.0.815008263165" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.11.0.815005886250" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.11.0.815008263165" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.11.0.815005886250" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.11.0.815008263165" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -390,6 +390,7 @@ It enables intuitive, fast, and intelligent reservation of desks, rooms, shared 
 <li>iOS/Android smartphones (latest two OS generations)</li>
 <li>PWA on Windows/macOS</li>
 <li>Camera access required for QR check-in</li>
+<li>Location access reqquired for Maps location</li>
 </ul>
 <doc-anchor-target id="34-map-drawings">
     <h3>
@@ -469,74 +470,205 @@ It enables intuitive, fast, and intelligent reservation of desks, rooms, shared 
 <li><strong>Client Credentials</strong> – for app-only connector operations.</li>
 <li>Optional <strong>offline_access</strong> scope for persistent sign-in.</li>
 </ul>
-<doc-anchor-target id="52-microsoft-graph-permissions">
+<doc-anchor-target id="52-microsoft-graph-permissions-used-by-hxa-sparo">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#52-microsoft-graph-permissions">#</doc-anchor-trigger>
-        <span>5.2 Microsoft Graph Permissions</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#52-microsoft-graph-permissions-used-by-hxa-sparo">#</doc-anchor-trigger>
+        <span>5.2 Microsoft Graph permissions used by HXA Sparo</span>
     </h3>
 </doc-anchor-target>
+<p>The following Microsoft Graph permissions are required by HXA Sparo.<br />
+They vary depending on the connector type (Application or Delegated).<br />
+<strong>Admin consent</strong> is required where indicated as <em>Yes</em>.</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th>Permission</th>
+<th>API / Permissions name</th>
 <th>Type</th>
 <th>Description</th>
-<th>Admin Consent</th>
+<th>Admin consent required</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Calendars.Read / ReadWrite / ReadBasic.All</td>
+<td>Calendars.Read</td>
 <td>Application</td>
-<td>Calendar access</td>
+<td>Read calendars in all mailboxes</td>
 <td>Yes</td>
 </tr>
 <tr>
-<td>Directory.Read.All / ReadWrite.All</td>
+<td>Calendars.Read</td>
+<td>Delegated</td>
+<td>Read user calendars</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Calendars.Read.Shared</td>
+<td>Delegated</td>
+<td>Read user and shared calendars</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Calendars.ReadBasic.All</td>
 <td>Application</td>
-<td>Directory data</td>
+<td>Read basic details of calendars in all mailboxes</td>
 <td>Yes</td>
 </tr>
 <tr>
-<td>Mail.Read / ReadWrite</td>
+<td>Calendars.ReadWrite</td>
 <td>Application</td>
-<td>Mailbox access</td>
+<td>Read and write calendars in all mailboxes</td>
 <td>Yes</td>
+</tr>
+<tr>
+<td>Calendars.ReadWrite.Shared</td>
+<td>Delegated</td>
+<td>Read and write user and shared calendars</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Directory.Read.All</td>
+<td>Application</td>
+<td>Read directory data</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Directory.ReadWrite.All</td>
+<td>Application</td>
+<td>Read and write directory data</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Group.Read.All</td>
+<td>Delegated</td>
+<td>Read all groups</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Group.ReadWrite.All</td>
+<td>Delegated</td>
+<td>Read and write all groups</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>GroupMember.Read.All</td>
+<td>Delegated</td>
+<td>Read group memberships</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>GroupMember.ReadWrite.All</td>
+<td>Delegated</td>
+<td>Read and write group memberships</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Mail.Read</td>
+<td>Application</td>
+<td>Read mail in all mailboxes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Mail.ReadWrite</td>
+<td>Application</td>
+<td>Read and write mail in all mailboxes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>MailboxSettings.Read</td>
+<td>Delegated</td>
+<td>Read user mailbox settings</td>
+<td>No</td>
 </tr>
 <tr>
 <td>MailboxSettings.ReadWrite</td>
 <td>Application</td>
-<td>Working hours, language, time zone</td>
+<td>Read and write all user mailbox settings</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>openid</td>
+<td>Delegated</td>
+<td>Sign users in</td>
+<td>No</td>
+</tr>
+<tr>
+<td>People.Read</td>
+<td>Delegated</td>
+<td>Read users’ relevant people lists</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Place.Read.All</td>
+<td>Delegated</td>
+<td>Read all company places</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>Place.Read.All</td>
 <td>Application</td>
-<td>Read places (rooms/desks)</td>
+<td>Read all company places</td>
 <td>Yes</td>
 </tr>
 <tr>
-<td>Schedule.Read.All / ReadWrite.All</td>
-<td>Application</td>
-<td>Schedule items</td>
+<td>Place.ReadWrite.All</td>
+<td>Delegated</td>
+<td>Read and write organization places</td>
 <td>Yes</td>
+</tr>
+<tr>
+<td>profile</td>
+<td>Delegated</td>
+<td>View users’ basic profile</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Schedule.Read.All</td>
+<td>Application</td>
+<td>Read all schedule items</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Schedule.ReadWrite.All</td>
+<td>Application</td>
+<td>Read and write all schedule items</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>User.Read</td>
+<td>Delegated</td>
+<td>Sign in and read user profile</td>
+<td>No</td>
 </tr>
 <tr>
 <td>User.Read.All</td>
 <td>Application</td>
-<td>User profile</td>
+<td>Read all users’ full profiles</td>
 <td>Yes</td>
 </tr>
 <tr>
-<td>Group.<em>, People.</em>, User.* (delegated)</td>
+<td>User.ReadBasic.All</td>
 <td>Delegated</td>
-<td>For interactive booking &amp; context</td>
-<td>Mixed</td>
+<td>Read all users’ basic profiles</td>
+<td>No</td>
+</tr>
+<tr>
+<td>User.ReadWrite.All</td>
+<td>Delegated</td>
+<td>Read and write all users’ full profiles</td>
+<td>Yes</td>
 </tr>
 </tbody>
 </table>
 </div>
+<p><strong>Notes:</strong></p>
+<ul>
+<li><em>Application permissions</em> are used by the <strong>HXA.io backend connector</strong> (app-only mode).</li>
+<li><em>Delegated permissions</em> are used by <strong>service connectors</strong> operating on behalf of a user or service account.</li>
+<li>Always apply <strong>Application Access Policies</strong> or <strong>RBAC for Applications</strong> to restrict app-only access to specific resource mailboxes.</li>
+<li>Sparo uses the <strong>Authorization Code Flow with PKCE</strong> for PWA/native sign-ins and the <strong>Client Credentials Flow</strong> for background connector operations.</li>
+<li>The optional <code v-pre>offline_access</code> scope may be enabled where persistent sessions are required.</li>
+</ul>
 <blockquote>
 <p>Apply <strong>least privilege</strong> and limit app-only access using <strong>Application Access Policies</strong> or <strong>RBAC for Applications</strong>.</p>
 </blockquote>
