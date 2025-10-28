@@ -81,7 +81,7 @@ The vendor provides:
 - **Fast booking** (time-boxed or all-day) and **My Bookings** with live status.  
 - **QR Code Check-In** – instant reservation/check-in.  
 - **Favorites** – quickly access preferred desks/rooms.  
-- **Booking Assistant** – recommends best-fit resources (see § 2.2.1).
+- **Booking Assistant** – recommends best-fit resources (see point 2.2.1).
 
 ---
 
@@ -103,7 +103,7 @@ The assistant ranks all available resources and presents explainable suggestions
 
 ### 2.3 HXA Display (optional)
 
-Optional display panel to complement room signage or reflect the same map view and dashboard widgets (news, weather, logo) when combined with **HXA Room Booking**.
+Optional display panel to complement room signage or reflect the same map view and dashboard widgets (weather, logo) when combined with **HXA Room Booking**.
 
 ---
 
