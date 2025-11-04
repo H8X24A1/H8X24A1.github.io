@@ -15,130 +15,173 @@ order: 1100
 
 ### 1.1 Definition
 **HXA Room Board** is a visual dashboard application within the **HXA.io Ecosystem**, designed to display live booking and availability information for **Rooms, Workplaces, Workspaces, Parking Spaces, and other resources**.  
-It visualizes occupancy and availability data in either a **scrollable list** or an **interactive map view**, providing real-time transparency in office and building environments.
+It visualizes occupancy and availability data in either a **scrollable list** or an **interactive map view**, providing real-time transparency for office and building environments.
 
 The Room Board connects seamlessly to **Microsoft 365 Graph** and **Exchange Web Services (EWS)** through official **HXA.io Connectors**, supporting **hybrid configurations** that unify data from both cloud and on-premises systems.  
-This makes HXA Room Board the ideal solution for **modern workplaces**, **smart offices**, and **digital reception areas**.
+This makes HXA Room Board the ideal solution for **modern workplaces**, **smart offices**, and **digital reception or floor displays**.
+
+### 1.2 Scope of Supply
+The vendor provides the **HXA Room Board** as a **Progressive Web App (PWA)** for installation and use on supported devices and browsers.  
+The service requires connection to an **HXA.io Tenant** and uses existing **Microsoft 365** or **Exchange** infrastructure for data synchronization.  
+The optional **Advertising Feature** is available as a **licensed Add-on Module** and not included in the standard Room Board package.
 
 ---
 
-## 2 Key Features
+## 2 Service Components
 
-### 2.1 Multi-Source Booking Display
-- Displays real-time booking data from multiple resource types.  
-- Supports **hybrid Microsoft environments** (Exchange Online + Exchange On-Premises).  
-- Continuously synchronizes data for always up-to-date resource states.
+### 2.1 HXA.io Service (Backend & Portal)
 
-### 2.2 Dual Visualization Modes
-- **List View**: Compact, vertically scrollable list of resource bookings.  
-- **Map View**: Interactive layout showing rooms, desks, or areas by position and status.
+#### Main Functions
+- **Connector Management** – Integration of Microsoft Graph and Exchange EWS sources.  
+- **Resource Management** – Selection and configuration of rooms, desks, and workspaces for display.  
+- **Device Configuration** – Assignment of Room Board instances to devices via HXA.io Portal.  
+- **Branding & Media** – Management of background images, logos, and advertising content (Add-on).  
+- **Monitoring** – Logging of synchronization and connector health status.  
 
-### 2.3 Official Connector Integration
-- Uses official **HXA.io-managed connectors**:
-  - **Microsoft 365 Graph Connector**
-  - **Microsoft Exchange (EWS) Connector**
-- Supports mixed operation in hybrid infrastructures.  
-- Handles all authentication and synchronization processes automatically.
-
-### 2.4 Weather Integration
-- Displays current **weather information** based on the resource or building address.  
-- Automatically updates weather data at regular intervals.
-
-### 2.5 Advertising and Informational Content
-- Allows display of **images**, **YouTube videos**, and **web content** alongside booking information.  
-- Administrators can define **the display duration per media item** (e.g., 10–60 seconds) before automatic rotation.  
-- Enables **corporate communication**, **branding**, and **visitor information** directly on the Room Board.  
-- Supports smooth transitions between multiple content elements.
-
-### 2.6 Smart Pagination
-- Automatically divides long resource lists into multiple pages.  
-- Guarantees a clean, readable layout even on smaller displays.
-
-### 2.7 Progressive Web App (PWA)
-- Runs as a **Progressive Web App** in modern browsers with app-like behavior.  
-- Enables **offline caching**, **auto-refresh**, and **full-screen kiosk mode**.  
-- No native installation or platform-specific app required.
+#### Supported Connectors
+- **Exchange Online (Microsoft 365)** via **Microsoft Graph**  
+  - *Application Connector* (App-only) – Organization-wide access.  
+  - *Service Connector* (Delegated) – Access via a service account.  
+- **Exchange On-Premises (2013 and later)** via **EWS**.  
+- Hybrid Exchange environments are supported.
 
 ---
 
-## 3 Architecture and Data Flow
+### 2.2 HXA Room Board App
 
-1. **Connector Setup**  
-   Administrators configure backend systems using official HXA.io connectors for Microsoft 365 Graph and/or Exchange EWS.
+#### Availability
+- **Progressive Web App (PWA)** – runs on Chromium-based browsers (Chrome, Edge, Safari).  
+- Compatible with **HXA Display**, **iPad**, **Android tablets**, **Windows devices**, and **smart info screens**.  
+- Full-screen and kiosk operation supported for continuous display use.
 
-2. **Resource Synchronization**  
-   HXA.io automatically retrieves available resources from connected systems.
+#### Functional Highlights
+- Displays live availability for rooms, desks, or parking spaces.  
+- Switchable between **List View** and **Map View**.  
+- Supports **hybrid data aggregation** from Microsoft Graph and EWS.  
+- **Weather integration** based on building location.  
+- **Advertising and informational content rotation** *(Add-on Feature)*:  
+  - Supports display of **images**, **YouTube videos**, and **web content**.  
+  - Administrators can define **display duration per content item** (e.g., 10–60 seconds).  
+  - Enables **corporate communication**, **branding**, and **visitor information** directly on the Room Board.  
+  - Requires an **active Add-on license** to activate.  
+- **Smart pagination** for long resource lists.  
+- **Auto-refresh** and **offline caching** capabilities.
 
-3. **Resource Selection**  
-   Administrators select which rooms, desks, or workspaces will appear on the Room Board.
-
-4. **Configuration**  
-   - Choose between **List View** or **Map View**.  
-   - Enable **Weather** and/or **Advertising Content**.  
-   - Assign configuration to a display device.
-
-5. **Display Operation**  
-   The Room Board continuously updates resource and media data.  
-   Pagination and content rotation are managed dynamically.
-
----
-
-## 4 Microsoft Graph Permissions
-
-**HXA Room Board** uses the same Microsoft Graph permissions as **HXA Room Booking**, ensuring consistent integration and secure data access.
-
-> **Note:** In hybrid setups, Microsoft Graph handles cloud resources while EWS manages on-premises mailboxes.
+#### Exchange Integration
+Calendar and booking data are retrieved via the configured connectors using Microsoft Graph (Exchange Online) or EWS (Exchange On-Premises).
 
 ---
 
-## 5 Setup and Configuration
+## 3 Customer Responsibilities & System Requirements
 
-### 5.1 Prerequisites
-- Active **HXA.io Tenant**  
-- Configured **Microsoft 365 Graph** and/or **Exchange EWS Connector**  
-- Registered display device (HXA Display, iPad, Android Tablet, or Windows PWA client)
+### 3.1 Microsoft Environment
+- **Exchange Online (M365):** Setup of either an Application Connector (App-only) or a Service Connector (Delegated).  
+- **Exchange On-Premises (≥ 2013):** Accessible EWS endpoint (HTTPS) and a service account with `FullAccess` to room mailboxes.  
+- **Resource Mailboxes:** Created and configured with appropriate booking policies and visibility settings.  
 
-### 5.2 Configuration Steps
-1. Open **Devices → Room Board** in the HXA.io Admin Center.  
-2. Add and authorize one or more connectors.  
-3. Select available resources to show.  
-4. Choose **List View** or **Map View**.  
-5. Optionally enable:
-   - **Weather display**  
-   - **Advertising and informational content** (with individual duration per item)  
-6. Assign configuration to a display device and publish.
+### 3.2 Network
+- Outbound HTTPS (443) access must be allowed to:  
+  - `portal.hxa.io`  
+  - `graph.microsoft.com`  
+  - `login.microsoftonline.com`  
+  - and any configured Exchange/EWS endpoints.
 
-### 5.3 Optional Enhancements
-- **Map Layout Definition:** Assign coordinate positions to rooms or desks for spatial display.  
-- **Weather Data Source:** Uses location from resource metadata for automatic sync.  
-- **Media Display Rotation:** Define how long each media item remains visible before transition.
+### 3.3 Devices
+- Supported clients: **HXA Display**, **iPad**, **Android tablets**, **Windows devices**, and **info screens**.  
+- Devices require registration through the **HXA.io Portal** (navigate to *Resource → Add Device → Enter Registration Code*).
 
 ---
 
-## 6 Device Compatibility
+## 4 Provisioning & Operation
 
-**HXA Room Board** runs as a **Progressive Web App (PWA)** and is compatible with multiple platforms and form factors:
+### 4.1 Initial Setup
+1. Create or authorize a Connector (Application or Service).  
+2. Retrieve and select the desired resources from Microsoft 365 or Exchange.  
+3. Configure display mode (**List** or **Map View**) and optional Add-on modules.  
+4. Register the **HXA Room Board Application** in the **HXA.io Portal**.  
+5. Assign configuration and publish.  
 
-| Platform | Supported Environment |
-|-----------|------------------------|
-| **HXA Display** | Native integration and optimized rendering for lobby and meeting displays |
-| **iPad** | Safari or Chrome browser; supports full-screen kiosk mode |
-| **Android Tablets** | Chromium-based browsers (Chrome, Edge); kiosk mode compatible |
-| **Windows Devices** | Chrome, Edge, or installed as standalone PWA |
-| **Smart Displays / Info Screens** | Any device with a Chromium-compatible browser |
-
-> The Room Board automatically adjusts its layout based on screen size, orientation, and touch capability.
+### 4.2 Maintenance
+- Connector and synchronization health are monitored via portal event logs.  
+- Automatic updates for the PWA are delivered through the HXA.io update service.  
+- Weather and Add-on content are refreshed automatically per configuration interval.  
 
 ---
 
-## 7 Summary
+## 5 Security & Microsoft Graph Permissions
 
-**HXA Room Board** is the intelligent display surface of the HXA.io Platform — merging **room visibility**, **environmental context**, and **informational media** into one adaptive PWA experience.  
-By unifying Microsoft 365 and Exchange data, integrating weather and custom content, and running seamlessly across multiple device types, it delivers a transparent, flexible, and engaging interface for **smart workplaces and digital buildings**.
+### 5.1 Application Connector (App-only)
 
-## 8 Support & Lifecycle
+| Permission | Type | Description |
+|-------------|------|-------------|
+| Calendars.Read | Application | Read calendars for all mailboxes. |
+| Calendars.ReadBasic.All | Application | Read basic calendar data (free/busy). |
+| Calendars.ReadWrite | Application | Create, update, and delete calendar events. |
+| Directory.Read.All | Application | Read directory objects (users/groups). |
+| Directory.ReadWrite.All | Application (opt.) | Modify directory objects (rarely required). |
+| Place.Read.All | Application | Read room and place information. |
+| Schedule.Read.All | Application | Read organization-wide schedule availability. |
+| Schedule.ReadWrite.All | Application (opt.) | Modify schedules if required. |
+| User.Read.All | Application | Read all user profiles. |
 
-Service availability, updates, and SLAs follow NT Technologies’ standard support policy.
+**Best Practices**  
+- Restrict application scope using *Application Access Policies*.  
+- Prefer `Calendars.ReadBasic.All` for reduced data exposure.  
+- Document admin consent and limit optional permissions.
+
+---
+
+### 5.2 Service Connector (Delegated)
+
+| Permission | Type | Description |
+|-------------|------|-------------|
+| Calendars.ReadWrite.Shared | Delegated | Read/write delegated or shared calendars (room mailboxes). |
+| MailboxSettings.Read | Delegated | Read mailbox settings (working hours, timezone). |
+| offline_access | Delegated | Obtain refresh tokens for persistent sessions. |
+| openid | Delegated | OpenID Connect authentication. |
+| Place.Read.All | Delegated | Read room and place metadata. |
+| profile | Delegated | Retrieve user profile claims (OIDC). |
+| User.Read | Delegated | Sign in and read user profile (service context). |
+| User.ReadBasic.All | Delegated | Read basic profiles of all users (for name resolution). |
+
+**Notes & Best Practices**  
+- The service account must have `FullAccess` to relevant room mailboxes.  
+- Follow least-privilege principle for all delegated access.  
+- The `offline_access` grant allows continuous operation for unattended displays.
+
+---
+
+## 6 Support and Lifecycle
+Support, maintenance, and update services follow **NT Technologies GmbH’s standard SLA** and lifecycle management policies.  
+All cloud services are provided under defined availability and maintenance windows.  
+Add-on features such as **Advertising & Media Rotation** are maintained under their respective **Add-on license terms**.
+
+---
+
+## 7 Legal Notes
+“Microsoft”, “Exchange”, “Microsoft 365”, and “Graph” are trademarks of Microsoft Corporation.  
+HXA.io and HXA Room Board are products of **NT Technologies GmbH / NetTask GmbH**, Germany.
+
+---
+
+## Appendix A – Device Registration Process
+
+1. Install or open the **HXA Room Board** Progressive Web App.  
+2. On first launch, tap **Register Device** to display a registration code.  
+3. Open the **HXA.io Portal** → select the corresponding resource → **Add Device** → enter the code.  
+4. Confirm and verify the synchronization status in the Portal.
+
+---
+
+## Appendix B – Add-on License Activation Process
+
+1. Open the **HXA.io Portal** and navigate to **License Center**.  
+2. Select **Add-on Licenses** and choose **Advertising & Media Rotation**.  
+3. Assign the Add-on license to the tenant or specific Room Board application.  
+4. In the **Room Board configuration**, enable the **Advertising module** under *Display Settings → Content Rotation*.  
+5. Upload media files (images, videos) or enter web URLs to be displayed.  
+6. Define the **rotation duration per item** and publish changes.  
+7. The feature activates instantly after license validation and propagates to registered devices within minutes.
 
 ---
 
