@@ -24,37 +24,37 @@ This makes HXA Room Board the ideal solution for **modern workplaces**, **smart 
 
 ## 2 Key Features
 
-### 2.1 Multi-Source Booking Display**
+### 2.1 Multi-Source Booking Display
 - Displays real-time booking data from multiple resource types.  
 - Supports **hybrid Microsoft environments** (Exchange Online + Exchange On-Premises).  
 - Continuously synchronizes data for always up-to-date resource states.
 
-### 2.2 Dual Visualization Modes**
+### 2.2 Dual Visualization Modes
 - **List View**: Compact, vertically scrollable list of resource bookings.  
 - **Map View**: Interactive layout showing rooms, desks, or areas by position and status.
 
-### 2.3 Official Connector Integration**
+### 2.3 Official Connector Integration
 - Uses official **HXA.io-managed connectors**:
   - **Microsoft 365 Graph Connector**
   - **Microsoft Exchange (EWS) Connector**
 - Supports mixed operation in hybrid infrastructures.  
 - Handles all authentication and synchronization processes automatically.
 
-### 2.4 Weather Integration**
+### 2.4 Weather Integration
 - Displays current **weather information** based on the resource or building address.  
 - Automatically updates weather data at regular intervals.
 
-### 2.5 Advertising and Informational Content**
+### 2.5 Advertising and Informational Content
 - Allows display of **images**, **YouTube videos**, and **web content** alongside booking information.  
 - Administrators can define **the display duration per media item** (e.g., 10–60 seconds) before automatic rotation.  
 - Enables **corporate communication**, **branding**, and **visitor information** directly on the Room Board.  
 - Supports smooth transitions between multiple content elements.
 
-### 2.6 Smart Pagination**
+### 2.6 Smart Pagination
 - Automatically divides long resource lists into multiple pages.  
 - Guarantees a clean, readable layout even on smaller displays.
 
-### 2.7 Progressive Web App (PWA)**
+### 2.7 Progressive Web App (PWA)
 - Runs as a **Progressive Web App** in modern browsers with app-like behavior.  
 - Enables **offline caching**, **auto-refresh**, and **full-screen kiosk mode**.  
 - No native installation or platform-specific app required.
@@ -87,26 +87,18 @@ This makes HXA Room Board the ideal solution for **modern workplaces**, **smart 
 
 **HXA Room Board** uses the same Microsoft Graph permissions as **HXA Room Booking**, ensuring consistent integration and secure data access.
 
-| Permission | Type | Purpose |
-|-------------|------|----------|
-| `Calendars.Read` | Delegated / Application | Retrieve booking and availability data from resource calendars |
-| `User.Read.All` | Application | Identify and label room resources with metadata |
-| `Places.Read.All` | Application | Access structured data such as building, floor, and capacity |
-| `Files.Read.All` | Application | Retrieve map files, layout images, or linked assets from SharePoint/OneDrive |
-| `Group.Read.All` | Application | Access shared calendars and Microsoft 365 Group resource data |
-
 > **Note:** In hybrid setups, Microsoft Graph handles cloud resources while EWS manages on-premises mailboxes.
 
 ---
 
 ## 5 Setup and Configuration
 
-### 5.1 Prerequisites**
+### 5.1 Prerequisites
 - Active **HXA.io Tenant**  
 - Configured **Microsoft 365 Graph** and/or **Exchange EWS Connector**  
 - Registered display device (HXA Display, iPad, Android Tablet, or Windows PWA client)
 
-### 5.2 Configuration Steps**
+### 5.2 Configuration Steps
 1. Open **Devices → Room Board** in the HXA.io Admin Center.  
 2. Add and authorize one or more connectors.  
 3. Select available resources to show.  
@@ -116,7 +108,7 @@ This makes HXA Room Board the ideal solution for **modern workplaces**, **smart 
    - **Advertising and informational content** (with individual duration per item)  
 6. Assign configuration to a display device and publish.
 
-### 5.3 Optional Enhancements**
+### 5.3 Optional Enhancements
 - **Map Layout Definition:** Assign coordinate positions to rooms or desks for spatial display.  
 - **Weather Data Source:** Uses location from resource metadata for automatic sync.  
 - **Media Display Rotation:** Define how long each media item remains visible before transition.
