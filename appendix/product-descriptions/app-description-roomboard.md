@@ -141,3 +141,5 @@ By unifying Microsoft 365 and Exchange data, integrating weather and custom cont
 Service availability, updates, and SLAs follow NT Technologies’ standard support policy.
 
 ---
+
+*© 2025 NT Technologies GmbH – All rights reserved.*
