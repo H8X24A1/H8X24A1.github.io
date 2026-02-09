@@ -6,7 +6,7 @@ order: 1100
 ---
 
 ## v4.0.0
-Release date: 2026-01-19
+Release date: 2026-01-29
 +++  New :icon-shield-check:
 - [x] Enhance Speed and availiablity.
 - [x] Introduced the Location and Logo widget.
