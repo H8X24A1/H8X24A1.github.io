@@ -5,6 +5,38 @@ icon: paste
 order: 1100
 ---
 
+## v4.0.0
+Release date: 2026-01-19
++++  New :icon-shield-check:
+- [x] Enhance Speed and availiablity.
+- [x] Introduced the Location and Logo widget.
+- [x] Users are now able to book using their working hours.
+- [x] Ability to sync weather with the current location.
+- [x] Introduced the forward option to attendees and resources for bookings and invitations.
+- [x] New design for the splash loading page.
+- [x] Created a full calendar view.
+- [x] Applied cookies consent.
+- [x] Ability to check in/out to a booking through the app .
+- [x] View Booking details in the calendar view.
+
++++ Improved :icon-thumbsup:
+- [x] Block the use of  Booking Assistant until the application is fully loaded.
+- [x] Improve the design of the participants menu .
+- [x] Added a resizable Location widget.
+- [x] Users can now tap to view past bookings using “Show past bookings”.
+- [x] Added an informative tooltip for booked resources on the map .
+- [x] Enhanced search results to show only available resources.
+- [x] Enhance the error experience in the log in page.
+- [x] Add a google Map view to the resources.
+
++++ Fixed :icon-bug:
+- [x] Corrected error text for bookings.
+- [x] Fixed map zooming issue.
+- [x] Fixed the date and time format.
+- [x] Fixed the keyboard view when changing booking time.
+- [x] Show the correct avatar for resources.
++++
+
 ## v3.8.0
 Release date: 2025-09-08
 +++  New :icon-shield-check:

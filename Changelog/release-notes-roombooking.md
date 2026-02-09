@@ -4,6 +4,45 @@ label: HXA Room Booking
 icon: paste
 order: 900
 ---
+
+## v3.0.0
+Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
+Release date: 2026-01-29
++++ New :icon-shield-check:
+- [x] Enhance Speed and availability.
+
++++ Improved :icon-thumbsup:
+- [x] Screensaver disabled when Check-In/Check-Out is enabled.
+- [x] Automatic invitation acceptance when using NFC.
+- [x] Improve the standard size for the events block.
+
++++ Fixed :icon-bug:
+- [x] Screensaver layout and behavior corrected.
+- [x] Classic and Modern theme corrected.
+- [x] Improve Switching between Classic and Modern view .
+- [x] Double screensaver issue resolved.
+- [x] Design adjustments for 7-inch display.
++++
+
+## v4.0.0
+Platform: HXA Display 
+Release date: 2026-01-29
++++ New :icon-shield-check:
+- [x] Enhance Speed and availability.
+
++++ Improved :icon-thumbsup:
+- [x] Screensaver disabled when Check-In/Check-Out is enabled.
+- [x] Automatic invitation acceptance when using NFC.
+- [x] Improve the standard size for the events block.
+
++++ Fixed :icon-bug:
+- [x] Screensaver layout and behavior corrected.
+- [x] Classic and Modern theme corrected.
+- [x] Improve Switching between Classic and Modern view .
+- [x] Double screensaver issue resolved.
+- [x] Design adjustments for 7-inch display.
++++
+
 ## v3.5.0
 Platform: HXA Display 
 Release date: 2025-10-20
