@@ -7,7 +7,7 @@ order: 1100
 # HXA Room Booking – Application Service & HXA Display
 
 **Version:** 4.3  **Date:** 2025-10-20
-**Provider:** NT Technologies GmbH – powered by NetTask  
+**Provider:** NT Technologies GmbH – powered by NetTask
 
 ---
 
