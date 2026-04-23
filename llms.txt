@@ -1,0 +1,19 @@
+# HXA.io Documentation
+
+> HXA.io is a user-centric Building Operating System for commercial buildings. It connects Microsoft 365, room/resource booking, workplace management, access, displays, and building automation.
+
+## Key Documentation
+
+- [Getting Started](https://docs.hxa.io/getting-started/)
+- [HXA Room Booking](https://docs.hxa.io/appendix/product-descriptions/app-description-roombooking/)
+- [HXA Sparo](https://docs.hxa.io/)
+- [Licensing](https://docs.hxa.io/license/purchase-license/)
+- [Languages](https://docs.hxa.io/appendix/languages/)
+
+## Products
+
+HXA.io includes HXA Sparo, HXA Room Booking, HXA Room Board, HXA Displays, and HXA Door Connect for Microsoft Teams.
+
+## Target Users
+
+IT administrators, facility managers, workplace managers, building operators, Microsoft 365 administrators, and enterprise customers.
