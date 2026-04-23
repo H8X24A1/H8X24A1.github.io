@@ -1,99 +1,19 @@
-﻿# Welcome to the HXA.io Documentation Library
+# HXA.io Documentation
 
-> HXA.io is your [MDRN.WORK] solutions provider.
+> HXA.io is a user-centric Building Operating System for commercial buildings. It connects Microsoft 365, room/resource booking, workplace management, access, displays, and building automation.
 
-- [Welcome to the HXA.io Documentation Library](https://docs.hxa.io/readme.md): Welcome to the HXA.io Documentation Library
-- [About](https://docs.hxa.io/about.md): We are changing the way we work tomorrow in office spaces and in constant transition to other workplaces. We revolutionize the use of workplaces and devices and make buildings more efficient through intelligent automation.
-- [Getting started](https://docs.hxa.io/getting-started.md): This documentation supports the admin to carry out the necessary steps to do installation of the HXA.io applications and systems easily and quickly.
-- [Definitions](https://docs.hxa.io/definitions.md): An organzation is a type of container which contains the main information, users, subscriptions, licenses and all types of entities of a company.
+## Key Documentation
 
-## Setup
+- [Getting Started](https://docs.hxa.io/getting-started/)
+- [HXA Room Booking](https://docs.hxa.io/appendix/product-descriptions/app-description-roombooking/)
+- [HXA Sparo](https://docs.hxa.io/)
+- [Licensing](https://docs.hxa.io/license/purchase-license/)
+- [Languages](https://docs.hxa.io/appendix/languages/)
 
-- [Firewall Setup](https://docs.hxa.io/setup/firewall-setup.md): The HXA.io Devices need an unblocked communication betweeen the Local Network and the HXA.io API IP Address Ranges which are mentioned below:
+## Products
 
-### Microsoft Setup
+HXA.io includes HXA Sparo, HXA Room Booking, HXA Room Board, HXA Displays, and HXA Door Connect for Microsoft Teams.
 
-- [Create and manage room mailboxes - Microsoft Exchange - HXA.io DOCS](https://docs.hxa.io/setup/microsoft-setup/create_room-mailbox.md): In the Classic Exchange admin center, navigate to Recipients > Resources.
-- [Create and manage workspaces - Microsoft Exchange - HXA.io DOCS](https://docs.hxa.io/setup/microsoft-setup/create_workspace.md): Microsoft Workspace Resources are useful for managing shared spaces like meeting rooms, workspaces, and other resources in an organization. By creating a workspace resource, you can manage bookings and reservations in Outlook Online.
-- [Grant permission for service account- Microsoft Exchange - HXA.io DOCS](https://docs.hxa.io/setup/microsoft-setup/grant_permissions_for_service_account.md): When a resource mailbox is created in Microsoft Exchange a login disabled Active Directory user object will be made for this new resource mailbox. It is important, to hold this object disabled regarding the Microsoft licensing requirements.
-- [Create room distribution list - Microsoft Exchange - HXA.io DOCS](https://docs.hxa.io/setup/microsoft-setup/create_room-distributionlist.md): To summarize rooms and workspaces into groups you have to create a distribution group from type -RoomList via Exchange PowerShell. Room lists are specially marked distribution groups that you can use the same way you use distribution groups.
-- [Organization Settings](https://docs.hxa.io/setup/organization-settings.md): This page allows you to set up and manage important details about your organization. Keeping this information accurate ensures seamless communication, billing, and service management within the portal.
-- [Connector Setup](https://docs.hxa.io/setup/connector-setup.md): There are three types of connectors in HXA.io products to connect to Microsoft services:
+## Target Users
 
-### Resource Setup
-
-#### Room Booking Setup
-
-- [Add resource](https://docs.hxa.io/setup/resource-setup/room-booking-setup/resource-setup.md): To set up and link a device to a Microsoft Exchange On-Premise or Microsoft 365 resource you have to create a new resource inside the HXA Portal Resource Overview.
-- [How to setup the Quick Meeting Title](https://docs.hxa.io/setup/resource-setup/room-booking-setup/quick-meeting-title-setup.md): The Quick meeting title is a great feature to easily choose between meeting titles.
-- [How to setup the background image of your device](https://docs.hxa.io/setup/resource-setup/room-booking-setup/background-image-setup.md): To customize your Room Booking device you can change the background images of the Room Booking App.
-- [Environment Control Resource Setup](https://docs.hxa.io/setup/resource-setup/environment-control-resource-setup.md): We are excited to introduce our new service: HXA Environment Control.
-- [Room Board Setup](https://docs.hxa.io/setup/resource-setup/room-board-setup.md): You will be asked to register your device -> Click or press "Register"
-- [Door Connect for Microsoft Teams Setup](https://docs.hxa.io/setup/resource-setup/door-connect-for-microsoft-teams-setup.md): Open the Google Play Store on your device. Search for the app by entering its name in the search bar. Select the app from the list of results and click on Install.
-
-### Device Setup
-
-#### Room Booking
-
-- [How to setup the Room Booking App on your iOS device](https://docs.hxa.io/setup/device-setup/room-booking/ios.md): Download and install the HXA Room Booking App via AppStore
-- [How to setup the Room Booking App on your Android device](https://docs.hxa.io/setup/device-setup/room-booking/android.md): Download and install the HXA Room Booking App via Google Play
-- [Deploy HXA Room Booking WebApp on Raspberry Pi via Chromium Kiosk Mode (Bash-Script)](https://docs.hxa.io/setup/device-setup/room-booking/raspberry-pi.md): This is still a beta version. The Script just configures the Raspberry Pi to open Chromium automatically on boot, disables mouse cursor, panel and screensaver.
-- [HXA System](https://docs.hxa.io/setup/device-setup/room-booking/hxa-system.md)
-
-#### Room Board
-
-- [Mini PC Connect - HXA.io DOCS](https://docs.hxa.io/setup/device-setup/room-board/mini-pc.md): In this guide, we'll walk you through the process of connecting our mini PC to a display.
-
-### Automation Setup
-
-- [Setup Electric Control Modules](https://docs.hxa.io/setup/automation-setup/electric-control-modules.md): Control modules are devices like IP relays or smart lightbulbs. For example you can use them to turn on the lights in the meeting room at start automatically.
-- [Create a Control Module in HXA.io Portal](https://docs.hxa.io/setup/automation-setup/create-control-module.md): https://portal.hxa.io
-- [Finding the IP address of a Shelly device (Windows)](https://docs.hxa.io/setup/automation-setup/finding-the-ip-address-of-a-shelly-device-(windows).md): To find out the IP address of a device you need the "Advanced IP Scanner". Here you can find the download: Advanced IP Scanner
-- [Setup Triggers](https://docs.hxa.io/setup/automation-setup/triggers.md): Triggers are events that result in specific action. You can define these actions yourself.
-- [Room Service Setup](https://docs.hxa.io/setup/room-service-setup.md)
-- [HXA.io DOCS - User Setup](https://docs.hxa.io/setup/user-setup.md): HXA.io allows to create new User Accounts for colleagues or to import existing Accounts from Microsoft Azure AD (Entra ID).
-
-## Usage
-
-- [Sparo App user documentation](https://docs.hxa.io/usage/sparo-user-documentation.md): HXA Sparo is an application designed to integrate seamlessly with Microsoft 365, allowing organizations to manage and book resources efficiently. It
-
-## License
-
-- [Free License - HXA.io DOCS](https://docs.hxa.io/license/free-license.md): If you register an account for the first time you will get a 7-day premium trial license. The license will be converted automatically after the trial period to a free license with minimal functionality.
-- [HXA.io DOCS](https://docs.hxa.io/license/purchase-license.md): In our shop you can purchase the licenses for all the features you need.
-- [HXA.io DOCS - Assign License](https://docs.hxa.io/license/assign-license.md): HXA.io supports two license types:
-- [HXA.io DOCS - Buy Add-on](https://docs.hxa.io/license/buy-addon.md): HXA.io Add-ons offer an additional feature set that can be combined with an HXA Application.
-- [Buy Hardware - HXA.io DOCS](https://docs.hxa.io/license/buy-hardware.md): HXA.io Applications will support most of the common operating systems in the market via applications inside the App-Stores and as a web application.
-- [Huy System Bundle - HXA.io DOCS](https://docs.hxa.io/license/buy-system-bundle.md): We know to choose the right Hardware for an application can become a huge task. For this reason, we offer a Bundle package that will include modern and business requirement fitting hardware combined with a fully tested HXA.io Application.
-
-## Maintenance
-
-- [Event Logs](https://docs.hxa.io/maintenance/event-logs.md): The Event Log on HXA.io is an essential tool for administrators seeking to monitor and manage the performance of their connectors. It provides detailed information about the status and health of each connector, helping administrators identify and resolve potential issues.
-
-## Appendix
-
-- [Exchange Hybrid - HXA.io DOCS](https://docs.hxa.io/appendix/exchange-hybrid.md): A hybrid deployment allows organizations to extend the feature-rich experience and administrative authority they have with their existing on-premises Microsoft Exchange organization to the cloud.
-- [Languages - HXA.io DOCS](https://docs.hxa.io/appendix/languages.md): Our software is primarily offered in English and German language to cater to the needs of our target audience. These two languages are widely spoken and understood in many parts of the world, making them ideal for our global user base.
-- [Trial Expiration - HXA.io DOCS](https://docs.hxa.io/appendix/trial-expiration.md): All the HXA.io Applications are available as a 7-day premium trial. In this 7-day period, you can test the complete functionality of the application. After the trial period expires the trial license will be converted to a free.
-- [License Terms for the HXA.io Software Platform](https://docs.hxa.io/appendix/terms.md): These license terms ("License") are a legally binding agreement between you (the "Customer") and NT Technologies GmbH, operated by NetTask GmbH (the "Software Manufacturer").
-- [HXA.io DOCS - App Service Information](https://docs.hxa.io/appendix/app-service-information.md)
-- [Incident Reports - HXA.io DOCS](https://docs.hxa.io/appendix/incident-reports.md)
-- [HXA.io DOCS - Current Incidents](https://docs.hxa.io/appendix/current-incidents.md)
-
-### Product description
-
-- [HXA.io DOCS - HXA Room Board descripton](https://docs.hxa.io/appendix/product-descriptions/app-description-roomboard.md): Version: 1.7.0  Date: 2025-10-20 Provider: NT Technologies GmbH – powered by NetTask
-- [HXA.io DOCS - HXA Room Booking descripton](https://docs.hxa.io/appendix/product-descriptions/app-description-roombooking.md): Version: 4.3  Date: 2025-10-20 Provider: NT Technologies GmbH – powered by NetTask
-- [HXA.io DOCS - HXA Sparo App descripton](https://docs.hxa.io/appendix/product-descriptions/app-description-sparo.md): Version: 3.8  Date: 2025-10-20 Provider: NT Technologies GmbH – powered by NetTask
-
-## Life hacks
-
-- [Room and Desk Planner - HXA.io DOCS](https://docs.hxa.io/lifehacks/room-desk-planner.md): Microsoft Bookings let employees and all kind of people inside and outside of the organization track, manage and organize appointments in one place. This will lead us to use Microsoft Bookings to order a Room or an Workplace over a Web Page.
-
-## Changelog
-
-- [HXA Sparo](https://docs.hxa.io/changelog/release-notes-sparo.md): Release date: 2026-01-29
-- [HXA.io DOCS - HXA Portal](https://docs.hxa.io/changelog/release-notes-portal.md): Release date: 2024-06-11
-- [HXA.io DOCS - HXA Room Booking](https://docs.hxa.io/changelog/release-notes-roombooking.md): Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App Release date: 2026-01-29
-- [HXA Room Board](https://docs.hxa.io/changelog/release-notes-room-board.md): Platform: Microsoft Windows | Progressive Web App Release date: 2025-05-05
-- [HXA.io DOCS - HXA Door Connect for Microsoft Teams](https://docs.hxa.io/changelog/release-notes-door-connect.md): In the first quarter of 2024, we will offer a new application that shifts the functionality of classic doorbells into a new century to work together with Microsoft Teams.
+IT administrators, facility managers, workplace managers, building operators, Microsoft 365 administrators, and enterprise customers.
