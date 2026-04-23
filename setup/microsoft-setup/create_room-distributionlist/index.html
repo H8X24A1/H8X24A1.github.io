@@ -4,36 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.826493272624">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830295094602">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Create room distribution list - Microsoft Exchange - HXA.io DOCS</title>
     <meta name="title" content="Create room distribution list - Microsoft Exchange - HXA.io DOCS">
-    <meta name="description" content="To summarize rooms and workspaces into groups you have to create a distribution group from type -RoomList via Exchange PowerShell. Room lists are specially">
+    <meta name="description" content="To summarize rooms and workspaces into groups you have to create a distribution group from type -RoomList via Exchange PowerShell. Room lists are specially marked distribution groups that you can use the same way you use distribution groups.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/setup/microsoft-setup/create_room-distributionlist/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.hxa.io/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/setup/microsoft-setup/create_room-distributionlist/">
     <meta property="og:title" content="Create room distribution list - Microsoft Exchange - HXA.io DOCS">
-    <meta property="og:description" content="To summarize rooms and workspaces into groups you have to create a distribution group from type -RoomList via Exchange PowerShell. Room lists are specially">
+    <meta property="og:description" content="To summarize rooms and workspaces into groups you have to create a distribution group from type -RoomList via Exchange PowerShell. Room lists are specially marked distribution groups that you can use the same way you use distribution groups.">
     <meta property="og:site_name" content="HXA.io">
     <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.hxa.io/setup/microsoft-setup/create_room-distributionlist/">
+    <meta name="twitter:title" content="Create room distribution list - Microsoft Exchange - HXA.io DOCS">
+    <meta name="twitter:description" content="To summarize rooms and workspaces into groups you have to create a distribution group from type -RoomList via Exchange PowerShell. Room lists are specially marked distribution groups that you can use the same way you use distribution groups.">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.hxa.io/setup/microsoft-setup/create_room-distributionlist.md">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.1.0.826493272624" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.5.3.830295094602" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.1.0.826493272624" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.1.0.826493272624" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.1.0.826493272624" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.5.3.830295094602" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.5.3.830295094602" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.5.3.830295094602" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -50,7 +60,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.hxa.io/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HXA.io</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Documentation</span>
                 </div>
@@ -141,60 +151,32 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
-<doc-anchor-target id="create-room-distribution-list" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#create-room-distribution-list">#</doc-anchor-trigger>
-        <span>Create room distribution list</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="create-room-distribution-list">Create room distribution list</h1>
 <p>To summarize rooms and workspaces into groups you have to create a distribution group from type -RoomList via Exchange PowerShell. Room lists are specially marked distribution groups that you can use the same way you use distribution groups.</p>
-<doc-anchor-target id="exchange-onpremise-and-exchange-online">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#exchange-onpremise-and-exchange-online">#</doc-anchor-trigger>
-        <span>Exchange OnPremise and Exchange Online</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="use-exchange-powershell-to-create-a-room-list">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#use-exchange-powershell-to-create-a-room-list">#</doc-anchor-trigger>
-        <span>Use Exchange PowerShell to create a room list</span>
-    </h3>
-</doc-anchor-target>
+<h2 id="exchange-onpremise-and-exchange-online">Exchange OnPremise and Exchange Online</h2>
+<h3 id="use-exchange-powershell-to-create-a-room-list">Use Exchange PowerShell to create a room list</h3>
 <p>This example creates a room list for building 32.</p>
 <div id="use-exchange-powershell-to-create-a-room-list-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-powershell"><code v-pre class="language-powershell">New-DistributionGroup -Name &quot;Building 32 Conference Rooms&quot; -OrganizationalUnit &quot;contoso.com/rooms&quot; -RoomList</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="use-exchange-powershell-to-add-a-room-to-a-room-list">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#use-exchange-powershell-to-add-a-room-to-a-room-list">#</doc-anchor-trigger>
-        <span>Use Exchange PowerShell to add a room to a room list</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="use-exchange-powershell-to-add-a-room-to-a-room-list">Use Exchange PowerShell to add a room to a room list</h3>
 <p>This example adds confroom3223 to the building 32 room list.</p>
 <div id="use-exchange-powershell-to-add-a-room-to-a-room-list-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-powershell"><code v-pre class="language-powershell">Add-DistributionGroupMember -Identity &quot;Building 32 Conference Rooms&quot; -Member confroom3223@contoso.com</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="use-exchange-powershell-to-convert-a-distribution-group-to-a-room-list">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#use-exchange-powershell-to-convert-a-distribution-group-to-a-room-list">#</doc-anchor-trigger>
-        <span>Use Exchange PowerShell to convert a distribution group to a room list</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="use-exchange-powershell-to-convert-a-distribution-group-to-a-room-list">Use Exchange PowerShell to convert a distribution group to a room list</h3>
 <p>You may already have created distribution groups in the past that contain your conference rooms. You don&#x27;t need to recreate them; we can convert them quickly into a room list.</p>
 <p>This example converts the distribution group, building 34 conference rooms, to a room list.</p>
 <div id="use-exchange-powershell-to-convert-a-distribution-group-to-a-room-list-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-powershell"><code v-pre class="language-powershell">Set-DistributionGroup -Identity &quot;Building 34 Conference Rooms&quot; -RoomList</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="source-of-information">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#source-of-information">#</doc-anchor-trigger>
-        <span>Source of information</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="source-of-information">Source of information</h3>
 <p><a href="https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes#create-a-room-list" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-info-text bg-badge-info border border-badge-info-border hover:text-badge-info-text-hover hover:bg-badge-info-hover hover:border-badge-info-border-hover transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
     <span>Create a room list</span>
 </a></p>
@@ -264,6 +246,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Create room distribution list", level: 3, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Create room distribution list", level: 3, icon: "file", hasPrism: true, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/setup/microsoft-setup/create_room-distributionlist.md" }</script>
 </body>
 </html>

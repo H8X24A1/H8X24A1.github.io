@@ -4,35 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.826493272624">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830295094602">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Grant permission for service account- Microsoft Exchange - HXA.io DOCS</title>
     <meta name="title" content="Grant permission for service account- Microsoft Exchange - HXA.io DOCS">
-    <meta name="description" content="When a resource mailbox is created in Microsoft Exchange a login disabled Active Directory user object will be made for this new resource mailbox. It is">
+    <meta name="description" content="When a resource mailbox is created in Microsoft Exchange a login disabled Active Directory user object will be made for this new resource mailbox. It is important, to hold this object disabled regarding the Microsoft licensing requirements.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/setup/microsoft-setup/grant_permissions_for_service_account/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.hxa.io/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/setup/microsoft-setup/grant_permissions_for_service_account/">
     <meta property="og:title" content="Grant permission for service account- Microsoft Exchange - HXA.io DOCS">
-    <meta property="og:description" content="When a resource mailbox is created in Microsoft Exchange a login disabled Active Directory user object will be made for this new resource mailbox. It is">
+    <meta property="og:description" content="When a resource mailbox is created in Microsoft Exchange a login disabled Active Directory user object will be made for this new resource mailbox. It is important, to hold this object disabled regarding the Microsoft licensing requirements.">
     <meta property="og:site_name" content="HXA.io">
     <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.hxa.io/setup/microsoft-setup/grant_permissions_for_service_account/">
+    <meta name="twitter:title" content="Grant permission for service account- Microsoft Exchange - HXA.io DOCS">
+    <meta name="twitter:description" content="When a resource mailbox is created in Microsoft Exchange a login disabled Active Directory user object will be made for this new resource mailbox. It is important, to hold this object disabled regarding the Microsoft licensing requirements.">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.hxa.io/setup/microsoft-setup/grant_permissions_for_service_account.md">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.1.0.826493272624" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.5.3.830295094602" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.1.0.826493272624" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.1.0.826493272624" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.5.3.830295094602" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.5.3.830295094602" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -49,7 +59,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.hxa.io/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HXA.io</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Documentation</span>
                 </div>
@@ -140,30 +150,17 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
-<doc-anchor-target id="grant-permission-for-service-account" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#grant-permission-for-service-account">#</doc-anchor-trigger>
-        <span>Grant permission for service account</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="grant-permission-for-service-account">Grant permission for service account</h1>
 <p>When a resource mailbox is created in Microsoft Exchange a login disabled Active Directory user object will be made for this new resource mailbox. It is important, to hold this object disabled regarding the Microsoft licensing requirements. So the only way to access this kind of Mailboxes via an interface like HXA.io is to create a new logon allowed Active Directory user object that gets full permissions on the created resource mailbox. It&#x27;s later called Service Account or delegate. If you use Microsoft Office 365 (Exchange Online) and you want to usa a HXA.io App Connector then you have not to create this service account but you can.</p>
-<doc-anchor-target id="manage-permission-for-service-account">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#manage-permission-for-service-account">#</doc-anchor-trigger>
-        <span>Manage permission for service account</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="manage-permission-for-service-account">Manage permission for service account</h2>
 <p>In Exchange Server, you can use the Exchange admin center (EAC) or the Exchange Management Shell to assign permissions for a mailbox. In our case we need t assign &quot;Full access&quot; (Allows the delegate to open the mailbox, and view, add and remove the contents of the mailbox. Doesn&#x27;t allow the delegate to send messages from the mailbox. If you assign the Full Access permission to a mailbox that&#x27;s hidden from address lists, the delegate won&#x27;t be able to open the mailbox. By default, arbitration and discovery mailboxes are hidden from address lists.)</p>
-<doc-anchor-target id="use-the-eac-to-assign-permissions-to-resource-mailbox">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#use-the-eac-to-assign-permissions-to-resource-mailbox">#</doc-anchor-trigger>
-        <span>Use the EAC to assign permissions to resource mailbox</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="use-the-eac-to-assign-permissions-to-resource-mailbox">Use the EAC to assign permissions to resource mailbox</h3>
 <ol>
 <li>In the EAC, click Recipients in the feature pane. Depending on the type of mailbox that you want to assign permissions for, click on one of the following tabs:</li>
 </ol>
@@ -174,7 +171,8 @@
 <li>In the list of mailboxes, select the mailbox that you want to assign permissions for, and then click Edit.</li>
 <li>On the mailbox properties page that opens, click Mailbox delegation and configure one or more of the following permissions.
 <ul>
-<li><p>Full Access: The delegate can open the mailbox and do anything except send messages.</p>
+<li>
+<p>Full Access: The delegate can open the mailbox and do anything except send messages.</p>
 <p>To assign permissions to delegates, click Add Add icon. under the appropriate permission. A dialog box appears that lists the users or groups that can have the permission assigned to them. Select the user or group from the list, and then click Add. Repeat this process as many times as necessary. You can also search for users or groups in the search box by typing all or part of the name, and then clicking Search Search icon. When you&#x27;re finished selecting delegates, click OK.</p>
 <p>To remove a permission from a delegate, select the delegate in the list under the appropriate permission, and then click Remove Remove icon.</p>
 </li>
@@ -182,12 +180,7 @@
 </li>
 <li>When you&#x27;re finished, click Save.</li>
 </ol>
-<doc-anchor-target id="source-of-information">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#source-of-information">#</doc-anchor-trigger>
-        <span>Source of information</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="source-of-information">Source of information</h3>
 <p><a href="https://docs.microsoft.com/en-us/exchange/recipients/mailbox-permissions?view=exchserver-2019" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-info-text bg-badge-info border border-badge-info-border hover:text-badge-info-text-hover hover:bg-badge-info-hover hover:border-badge-info-border-hover transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
     <span>Manage permissions for recipients</span>
 </a></p>
@@ -257,6 +250,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Grant permission for service account", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Grant permission for service account", level: 3, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/setup/microsoft-setup/grant_permissions_for_service_account.md" }</script>
 </body>
 </html>

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.826493272624">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830295094602">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Create a Control Module in HXA.io Portal</title>
@@ -16,6 +16,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/setup/automation-setup/create-control-module/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.hxa.io/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -25,14 +26,23 @@
     <meta property="og:site_name" content="HXA.io">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.hxa.io/setup/automation-setup/create-control-module/">
+    <meta name="twitter:title" content="Create a Control Module in HXA.io Portal">
+    <meta name="twitter:description" content="https://portal.hxa.io">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.hxa.io/setup/automation-setup/create-control-module.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.1.0.826493272624" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.5.3.830295094602" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.1.0.826493272624" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.1.0.826493272624" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.5.3.830295094602" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.5.3.830295094602" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -49,7 +59,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.hxa.io/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HXA.io</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Documentation</span>
                 </div>
@@ -140,55 +150,32 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
-<doc-anchor-target id="create-a-control-module-in-hxaio-portal" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#create-a-control-module-in-hxaio-portal">#</doc-anchor-trigger>
-        <span>Create a Control Module in HXA.io Portal</span>
-    </h1>
-</doc-anchor-target>
-<doc-anchor-target id="1-login-to-hxaio-portal">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#1-login-to-hxaio-portal">#</doc-anchor-trigger>
-        <span>1. Login to HXA.io Portal.</span>
-    </h3>
-</doc-anchor-target>
+<h1 id="create-a-control-module-in-hxaio-portal">Create a Control Module in HXA.io Portal</h1>
+<h3 id="1-login-to-hxaio-portal">1. Login to HXA.io Portal.</h3>
 <ul>
 <li><a href="https://portal.hxa.io">https://portal.hxa.io</a></li>
 <li>Navigate to &quot;Automation&quot; -&gt; &quot;Control Module&quot;.</li>
 </ul>
-<doc-anchor-target id="2-click-the-green-button-add-control-module-and-choose-between">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#2-click-the-green-button-add-control-module-and-choose-between">#</doc-anchor-trigger>
-        <span>2. Click the green button &quot;Add control module&quot; and choose between:</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="2-click-the-green-button-add-control-module-and-choose-between">2. Click the green button &quot;Add control module&quot; and choose between:</h3>
 <ul>
 <li>Relay</li>
 <li>RGB/W (a controller for RGBW LED stripes)</li>
 <li>Bulb (a controllable LED lightbulb)</li>
 </ul>
-<doc-anchor-target id="3-setup-device">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#3-setup-device">#</doc-anchor-trigger>
-        <span>3. Setup device</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="3-setup-device">3. Setup device</h3>
 <ul>
 <li>Set a device name.</li>
 <li>Enter the IP address of your device.</li>
 <li>Enter the location of your device (optional).</li>
 <li>Choose device type (Shelly1, Shelly4Pro or Rutenbeck TCR IP 4).</li>
 </ul>
-<doc-anchor-target id="4-click-save">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#4-click-save">#</doc-anchor-trigger>
-        <span>4. Click Save</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="4-click-save">4. Click Save</h3>
 
                 
                 <!-- Required only on API pages -->
@@ -255,6 +242,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Create a Control Module in HXA.io Portal", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Create a Control Module in HXA.io Portal", level: 3, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/setup/automation-setup/create-control-module.md" }</script>
 </body>
 </html>

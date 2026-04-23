@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.826493272624">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830295094602">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Connector Setup</title>
@@ -16,6 +16,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/setup/connector-setup/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.hxa.io/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -25,14 +26,23 @@
     <meta property="og:site_name" content="HXA.io">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.hxa.io/setup/connector-setup/">
+    <meta name="twitter:title" content="Connector Setup">
+    <meta name="twitter:description" content="There are three types of connectors in HXA.io products to connect to Microsoft services:">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.hxa.io/setup/connector-setup.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.1.0.826493272624" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.3.830295094602" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.826493272624" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.826493272624" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.830295094602" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.830295094602" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -49,7 +59,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.hxa.io/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HXA.io</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Documentation</span>
                 </div>
@@ -140,16 +150,13 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
-<doc-anchor-target id="connector-setup" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#connector-setup">#</doc-anchor-trigger>
-        <span>Connector Setup</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="connector-setup">Connector Setup</h1>
 <p>There are three types of connectors in HXA.io products to connect to Microsoft services:</p>
 <ul>
 <li>Microsoft Exchange OnPremise (via EWS)</li>
@@ -157,23 +164,13 @@
 <li>Microsoft Entra ID [Supported Types: Application]</li>
 <li>Microsoft Teams [Supported Types: Service]</li>
 </ul>
-<doc-anchor-target id="microsoft-exchange-online-office-365">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#microsoft-exchange-online-office-365">#</doc-anchor-trigger>
-        <span>Microsoft Exchange Online (Office 365)</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="microsoft-exchange-online-office-365">Microsoft Exchange Online (Office 365)</h2>
 <p>There are two types of connectors to connect to Microsoft Exchange Online (Office 365):</p>
 <ul>
 <li>via Microsoft Office 365 Application account or</li>
 <li>via Microsoft Office 365 Service account with Application Impersonation Role Setuped</li>
 </ul>
-<doc-anchor-target id="setup-via-microsoft-office-365-application-account">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-via-microsoft-office-365-application-account">#</doc-anchor-trigger>
-        <span>Setup via Microsoft Office 365 Application account</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="setup-via-microsoft-office-365-application-account">Setup via Microsoft Office 365 Application account</h3>
 <p>Connecting the HXA.io Connector as an installed application using an application account is a very easy setup that you don&#x27;t have to worry about later. This method, which requires an account with the Global Administrator role, installs an application for HXA.io for the entire Microsoft Office 365 tenant. The benefit of this is that you don&#x27;t have to worry about keeping permissions up to date when adding new resource mailboxes, for example.</p>
 <p>Use a Microsoft 365 application account to access all information and accounts within your organization with a single connector.</p>
 <ul>
@@ -186,7 +183,7 @@
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
                     <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -199,12 +196,7 @@
         </div>
     </div>
 </div>
-<doc-anchor-target id="setup-via-microsoft-office-365-service-account">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-via-microsoft-office-365-service-account">#</doc-anchor-trigger>
-        <span>Setup via Microsoft Office 365 Service account</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="setup-via-microsoft-office-365-service-account">Setup via Microsoft Office 365 Service account</h3>
 <p>A Service account offers more configuration options and makes sense for organizations that want the highest level of control (e.g. over permissions, logs, etc.). The service account should have Application Impersonation access to all room calendars to be managed within the HXA.io tenant.</p>
 <p>Use a Microsoft 365 user/service account if you want to authorize a single connector to access custom and shared calendars.</p>
 <ul>
@@ -213,12 +205,7 @@
 <li>Connect an Office 365 connector and select the type User/Service account.</li>
 <li>A window then opens asking you to authenticate using a Microsoft account.</li>
 </ul>
-<doc-anchor-target id="microsoft-entra-id">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#microsoft-entra-id">#</doc-anchor-trigger>
-        <span>Microsoft Entra ID</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="microsoft-entra-id">Microsoft Entra ID</h2>
 <p>This connector type is required to set up the HXA Sparo application and only supports the application account type. A prerequisite for setting up this connector is that the account must be mail-enabled, meaning the account used to configure the connector requires at least a Microsoft Exchange Online Plan 1 license.</p>
 
                 
@@ -286,6 +273,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Connector Setup", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Connector Setup", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/setup/connector-setup.md" }</script>
 </body>
 </html>

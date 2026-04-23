@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.826493272624">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830295094602">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Sparo App user documentation</title>
@@ -16,6 +16,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/usage/sparo-user-documentation/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.hxa.io/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -25,14 +26,23 @@
     <meta property="og:site_name" content="HXA.io">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.hxa.io/usage/sparo-user-documentation/">
+    <meta name="twitter:title" content="Sparo App user documentation">
+    <meta name="twitter:description" content="HXA Sparo is an application designed to integrate seamlessly with Microsoft 365, allowing organizations to manage and book resources efficiently. It">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.hxa.io/usage/sparo-user-documentation.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.1.0.826493272624" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.3.830295094602" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.826493272624" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.826493272624" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.830295094602" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.830295094602" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -49,7 +59,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.hxa.io/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HXA.io</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Documentation</span>
                 </div>
@@ -140,24 +150,16 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
-<doc-anchor-target id="overview" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#overview">#</doc-anchor-trigger>
-        <span>Overview</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="overview">Overview</h1>
 <p><strong>HXA Sparo</strong> is an application designed to integrate seamlessly with Microsoft 365, allowing organizations to manage and book resources efficiently. It retrieves and displays resources set up by the organization, enabling users to quickly or schedule bookings, invite team members, and interact with <strong>HXA.io Ecosystem</strong>.</p>
 <p>HXA Sparo offers a variety of features, including resource management, floor plan mapping, and integration with organizational directories like Microsoft Azure Active Directory (Entra ID). The application’s authentication process is handled through Microsoft 365 credentials (SSO), providing a secure and streamlined login experience.</p>
-<doc-anchor-target id="key-features">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#key-features">#</doc-anchor-trigger>
-        <span>Key Features:</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="key-features">Key Features:</h2>
 <ul>
 <li><strong>Quick and Scheduled Booking</strong>: Instantly book available resources or schedule them for future use. You can either make a quick booking from the app’s interface or schedule a reservation for a later time.</li>
 <li><strong>Resource Management</strong>: Fetch, book, and manage organizational resources such as meeting rooms, equipment, and workspaces.</li>
@@ -166,24 +168,14 @@
 <li><strong>Emergency Teams</strong>: Access and contact your organization’s emergency response teams, viewing their availability and current location within the building.</li>
 <li><strong>Multi-language Support</strong>: Switch between German and English interfaces for ease of use.</li>
 </ul>
-<doc-anchor-target id="prerequisites">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#prerequisites">#</doc-anchor-trigger>
-        <span>Prerequisites</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="prerequisites">Prerequisites</h2>
 <p>To use <strong>HXA Sparo</strong>, you need to:</p>
 <ul>
 <li>Purchase a license for <strong>HXA Portal</strong>.</li>
 <li>Have valid Microsoft 365 credentials for authentication.</li>
 </ul>
 <p>Once the license is activated, users can log into <strong>HXA Sparo</strong> via the Microsoft 365 gateway using their organization&#x27;s credentials.</p>
-<doc-anchor-target id="integration-with-hxa-portal">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#integration-with-hxa-portal">#</doc-anchor-trigger>
-        <span>Integration with HXA Portal</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="integration-with-hxa-portal">Integration with HXA Portal</h2>
 <p><strong>HXA Sparo</strong> is deeply integrated with the <strong>HXA Portal</strong>, where administrators can manage resources and link them to floor plans. Resources such as meeting rooms, equipment, or areas on the floor map are linked to calendars, and their availability status is synced in real-time between the portal and <strong>HXA Sparo</strong>.</p>
 <p>Administrators can:</p>
 <ul>
@@ -191,40 +183,20 @@
 <li><strong>Assign Calendars</strong>: Link specific resource calendars to locations on the floor plan.</li>
 <li><strong>Manage Emergency Teams</strong>: Import teams from Active Directory or manually create them in the <strong>HXA Portal</strong>.</li>
 </ul>
-<doc-anchor-target id="security-and-authentication">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#security-and-authentication">#</doc-anchor-trigger>
-        <span>Security and Authentication</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="security-and-authentication">Security and Authentication</h2>
 <p>Authentication in <strong>HXA Sparo</strong> is handled via <strong>Microsoft 365</strong>, ensuring secure access to organizational resources. Users log in with their Microsoft 365 credentials through a gateway that grants access based on the organization&#x27;s license.</p>
-<doc-anchor-target id="conclusion">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#conclusion">#</doc-anchor-trigger>
-        <span>Conclusion</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="conclusion">Conclusion</h2>
 <p><strong>HXA Sparo</strong> is a powerful tool for managing organizational resources, floor plans, and emergency contact teams, all while integrating seamlessly with Microsoft 365 and the <strong>HXA Portal</strong>. Its intuitive interface and efficient booking system make it an essential app for companies looking to streamline their resource management and meeting planning processes.</p>
-<doc-anchor-target id="download">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#download">#</doc-anchor-trigger>
-        <span>Download</span>
-    </h1>
-</doc-anchor-target>
-<doc-anchor-target id="get-sparo-app">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#get-sparo-app">#</doc-anchor-trigger>
-        <span>Get Sparo App</span>
-    </h2>
-</doc-anchor-target>
+<h1 id="download">Download</h1>
+<h2 id="get-sparo-app">Get Sparo App</h2>
 <ul class="contains-task-list">
 <li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Download and install the HXA Sparo App via <br><br></li>
 </ul>
 <p>
 <div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
     <div class="flex items-center text-base-500">
-        <span class="inline-block mb-px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
         </span>
         <span class="inline-block font-medium ml-2">Google Play</span>
     </div>
@@ -235,8 +207,8 @@
 </div>
 <div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
     <div class="flex items-center text-base-500">
-        <span class="inline-block mb-px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
         </span>
         <span class="inline-block font-medium ml-2">Apple App Store</span>
     </div>
@@ -247,8 +219,8 @@
 </div>
 <div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
     <div class="flex items-center text-base-500">
-        <span class="inline-block mb-px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
         </span>
         <span class="inline-block font-medium ml-2">Microsoft Store</span>
     </div>
@@ -259,8 +231,8 @@
 </div>
 <div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
     <div class="flex items-center text-base-500">
-        <span class="inline-block mb-px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
         </span>
         <span class="inline-block font-medium ml-2">Web App</span>
     </div>
@@ -270,30 +242,15 @@
     <a href="https://app.sparo.hxa.io" target="_blank" class="absolute block inset-0"></a>
 </div>
 </p>
-<doc-anchor-target id="login">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#login">#</doc-anchor-trigger>
-        <span>Login</span>
-    </h1>
-</doc-anchor-target>
-<doc-anchor-target id="prerequisites-1">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#prerequisites-1">#</doc-anchor-trigger>
-        <span>Prerequisites</span>
-    </h2>
-</doc-anchor-target>
+<h1 id="login">Login</h1>
+<h2 id="prerequisites-1">Prerequisites</h2>
 <p>To use <strong>HXA Sparo</strong>, you need to:</p>
 <ul>
 <li>Purchase a license for <strong>HXA Portal</strong>.</li>
 <li>Have valid Microsoft 365 credentials for authentication.</li>
 </ul>
 <p>Once the license is activated, users can log into <strong>HXA Sparo</strong> via the Microsoft 365 gateway using their organization&#x27;s credentials.</p>
-<doc-anchor-target id="start-up-and-login">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#start-up-and-login">#</doc-anchor-trigger>
-        <span>Start up and login</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="start-up-and-login">Start up and login</h2>
 <ul class="contains-task-list">
 <li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Start the HXA Sparo App on your Android or iOS device</li>
 </ul>
@@ -309,20 +266,10 @@
 </ul>
 <img src="/images/sparo/hxa.io_sparo_ms365_login.png" width="200">
 <p><br><br></p>
-<doc-anchor-target id="favorites">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#favorites">#</doc-anchor-trigger>
-        <span>Favorites</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="favorites">Favorites</h1>
 <p>The <strong>Favorites Tab</strong> displays a list of resources that users have marked as favorites. These are often the most frequently used resources for quick access.</p>
 <img src="/images/sparo/favorites.jpeg" width="200">
-<doc-anchor-target id="available-resources">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#available-resources">#</doc-anchor-trigger>
-        <span>Available resources</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="available-resources">Available resources</h1>
 <p>This tab shows all resources available within the organization, alongside their current status:</p>
 <ul>
 <li><strong>Available</strong></li>
@@ -331,24 +278,14 @@
 </ul>
 <p>Now you get shown a list of all current available rooms and workspaces of your company.</p>
 <img src="/images/sparo/availableresources.jpeg" width="200">
-<doc-anchor-target id="quick-booking-and-scheduled-bookings">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#quick-booking-and-scheduled-bookings">#</doc-anchor-trigger>
-        <span>Quick Booking and Scheduled Bookings</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="quick-booking-and-scheduled-bookings">Quick Booking and Scheduled Bookings</h1>
 <p>Instantly book available resources or schedule them for future use. You can either make a quick booking from the app’s interface or schedule a reservation for a later time.</p>
 <p>You can see the capacity of each resource and by touching the booking button, you can quickly book the resource for immediate use. Simply choose the planned duration, and the resource is booked.</p>
 <p>For scheduled bookings, users must use the fine filter to select specific times . to ensure the availability of the resource during the desired time. This helps refine search results for better scheduling accuracy.</p>
 <img src="/images/sparo/quickbooking.jpeg" width="200">
 <br></br>
 <img src="/images/sparo/scheduledbooking.jpeg" width="200">
-<doc-anchor-target id="filter">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#filter">#</doc-anchor-trigger>
-        <span>Filter</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="filter">Filter</h1>
 <ul>
 <li><strong>Filter by Time/Location</strong>: Users can search for resources available at specific times or in particular locations.
 If you want to book a resource for an appointment in the future, choose the filter option. There you can set a time frame to show all available resources in this time frame to book your meeting room or workspace.</li>
@@ -356,19 +293,9 @@ If you want to book a resource for an appointment in the future, choose the filt
 <img src="/images/sparo/filter.jpeg" width="200">
 <p><br></br>
 <img src="/images/sparo/locationfilter.jpeg" width="200"></p>
-<doc-anchor-target id="series-booking">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#series-booking">#</doc-anchor-trigger>
-        <span>Series Booking</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="series-booking">Series Booking</h1>
 <p>The <strong>Series Booking</strong> feature in <strong>HXA Sparo</strong> allows users to create recurring reservations for meeting rooms or workspaces, similar to Microsoft Teams or Outlook. Users can schedule recurring bookings based on different intervals, and the system will handle each occurrence individually, allowing for granular control over edits or deletions.</p>
-<doc-anchor-target id="how-to-create-a-series-booking">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-create-a-series-booking">#</doc-anchor-trigger>
-        <span>How to Create a Series Booking</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="how-to-create-a-series-booking">How to Create a Series Booking</h3>
 <p>To create a recurring (series) booking:
 Define the recurrence pattern:</p>
 <ul>
@@ -378,19 +305,9 @@ Define the recurrence pattern:</p>
 <li><strong>Monthly</strong>: Book the resource on a particular day of each month.</li>
 </ul>
 <p>The system will automatically create individual bookings for each occurrence, and you can view the full series in the <strong>Bookings and Invitations Tab</strong> under <strong>My Bookings</strong>.</p>
-<doc-anchor-target id="managing-a-series-booking">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#managing-a-series-booking">#</doc-anchor-trigger>
-        <span>Managing a Series Booking</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="managing-a-series-booking">Managing a Series Booking</h3>
 <p>Once a series booking has been created, users can manage it as follows:</p>
-<doc-anchor-target id="1-edit-a-series">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#1-edit-a-series">#</doc-anchor-trigger>
-        <span>1. Edit a Series</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="1-edit-a-series">1. Edit a Series</h4>
 <ul>
 <li>Navigate to <strong>My Bookings</strong> in the <strong>Bookings and Invitations</strong> tab.</li>
 <li>Select the series booking you wish to modify.</li>
@@ -401,12 +318,7 @@ Define the recurrence pattern:</p>
 </ul>
 </li>
 </ul>
-<doc-anchor-target id="2-delete-a-series">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#2-delete-a-series">#</doc-anchor-trigger>
-        <span>2. Delete a Series</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="2-delete-a-series">2. Delete a Series</h4>
 <ul>
 <li>Navigate to the <strong>Bookings and Invitations</strong> tab and locate the series booking.</li>
 <li>You will be prompted to choose:
@@ -417,32 +329,12 @@ Define the recurrence pattern:</p>
 </li>
 </ul>
 <img src="/images/sparo/seriesmeeting.jpeg" width="200">
-<doc-anchor-target id="scan-qr-code">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#scan-qr-code">#</doc-anchor-trigger>
-        <span>Scan QR Code</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="scan-qr-code">Scan QR Code</h1>
 <p>This tab allows users to book rooms by scanning QR codes placed in the physical locations. The app requires camera access for this functionality.</p>
 <img src="/images/sparo/qrscan.jpeg" width="200">
-<doc-anchor-target id="side-menu-features">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#side-menu-features">#</doc-anchor-trigger>
-        <span>Side Menu Features</span>
-    </h1>
-</doc-anchor-target>
-<doc-anchor-target id="side-menu-features-1">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#side-menu-features-1">#</doc-anchor-trigger>
-        <span>Side Menu Features</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="1-my-profile">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#1-my-profile">#</doc-anchor-trigger>
-        <span>1. My Profile</span>
-    </h3>
-</doc-anchor-target>
+<h1 id="side-menu-features">Side Menu Features</h1>
+<h2 id="side-menu-features-1">Side Menu Features</h2>
+<h3 id="1-my-profile">1. My Profile</h3>
 <p>The <strong>My Profile</strong> section displays user details fetched from the Microsoft 365 backend. The following fields are read-only:</p>
 <ul>
 <li>Name</li>
@@ -455,12 +347,7 @@ Define the recurrence pattern:</p>
 <li>License Information</li>
 </ul>
 <img src="/images/sparo/profile.jpeg" width="200">
-<doc-anchor-target id="2-settings">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#2-settings">#</doc-anchor-trigger>
-        <span>2. Settings</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="2-settings">2. Settings</h3>
 <p>The <strong>Settings</strong> section includes the following configurable options:</p>
 <ul>
 <li><strong>Language Switcher</strong>: Toggle between German and English interfaces.</li>
@@ -469,36 +356,16 @@ Define the recurrence pattern:</p>
 <li><strong>Date and Time Format</strong>: Users can change the date and time format based on their location preferences, which will reflect in booking filters and other scheduling details.</li>
 </ul>
 <img src="/images/sparo/settings.jpeg" width="200">
-<doc-anchor-target id="3-about-the-application">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#3-about-the-application">#</doc-anchor-trigger>
-        <span>3. About the Application</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="3-about-the-application">3. About the Application</h3>
 <p>This section provides the <strong>Terms of Use</strong> and <strong>Privacy Policy</strong>, as set by NetTask.de, the provider of <strong>HXA Sparo</strong>.</p>
 <img src="/images/sparo/about.jpeg" width="200">
-<doc-anchor-target id="4-report-a-problemsuggest-ideas">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#4-report-a-problemsuggest-ideas">#</doc-anchor-trigger>
-        <span>4. Report a Problem/Suggest Ideas</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="4-report-a-problemsuggest-ideas">4. Report a Problem/Suggest Ideas</h3>
 <p>Users can report issues or submit suggestions directly from the application through this feature.</p>
 <img src="/images/sparo/support.jpeg" width="200">
-<doc-anchor-target id="5-emergency-teams">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#5-emergency-teams">#</doc-anchor-trigger>
-        <span>5. Emergency Teams</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="5-emergency-teams">5. Emergency Teams</h3>
 <p>The <strong>Emergency Teams</strong> feature displays a list of emergency contacts within the organization. Users can see the availability and location of team members (i.e., which room/resource they are currently in) and contact them by clicking on a phone icon next to their names.</p>
 <img src="/images/sparo/emergencyteam.jpeg" width="200">
-<doc-anchor-target id="details">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#details">#</doc-anchor-trigger>
-        <span>Details:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="details">Details:</h4>
 <ul>
 <li>The list of emergency teams is imported from <strong>Active Directory</strong> or created manually in the <strong>HXA Portal</strong> by administrators.</li>
 <li><strong>HXA Sparo</strong> simply renders these teams, while the portal manages their creation and import.</li>
@@ -569,6 +436,6 @@ Define the recurrence pattern:</p>
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "HXA Sparo", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "HXA Sparo", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/usage/sparo-user-documentation.md" }</script>
 </body>
 </html>
