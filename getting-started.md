@@ -53,8 +53,8 @@ Main steps:
 
 ## Next steps
 
-Continue with:
+#Continue with:
 
-- [Connector Setup](../connectors/)
-- [User Management](../users/)
-- [Resource Configuration](../resources/)
+#- [Connector Setup](../connectors/)
+#- [User Management](../users/)
+#- [Resource Configuration](../resources/)
