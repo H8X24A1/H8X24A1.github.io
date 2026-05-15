@@ -1,7 +1,7 @@
 ---
 label: Reconsent
 icon: repo-forked
-order: 200
+order: 98
 ---
 
 # Reconsent a Service Account Connector for HXA.io Door Connect (Microsoft Teams)
