@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832172306727">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832172375048">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../../favicon.ico" />
-    <link href="../../../../resources/css/retype.css?v=4.5.3.832172306727" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=4.5.3.832172375048" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.5.3.832172306727" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.5.3.832172375048" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.5.3.832172306727" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.5.3.832172375048" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -162,7 +162,7 @@
 <p>You can identify this directly in the <strong>Connectors</strong> page of the HXA.io Portal.</p>
 <p>If a reconsent is required, the connector status will display a <strong>red circular arrow icon</strong>. Click this icon to start the reconsent process.</p>
 <hr>
-<h1 id="step-1--open-the-connector-reconsent">Step 1 – Open the Connector Reconsent</h1>
+<h2 id="step-1--open-the-connector-reconsent">Step 1 – Open the Connector Reconsent</h2>
 <p>Navigate to:</p>
 <blockquote>
 <p><strong>HXA.io Portal → Connectors</strong></p>
@@ -175,7 +175,7 @@
 </ul>
 <p>Click the icon to continue.</p>
 <hr>
-<h1 id="step-2--initial-consent-information">Step 2 – Initial Consent Information</h1>
+<h2 id="step-2--initial-consent-information">Step 2 – Initial Consent Information</h2>
 <p>After clicking the reconsent icon, HXA.io will display the following information:</p>
 <blockquote>
 <p><strong>To add a Service Account Connector, follow these steps:</strong></p>
@@ -184,7 +184,7 @@
 </blockquote>
 <p>Click continue to open the Microsoft authentication window.</p>
 <hr>
-<h1 id="step-3--microsoft-login">Step 3 – Microsoft Login</h1>
+<h2 id="step-3--microsoft-login">Step 3 – Microsoft Login</h2>
 <p>A Microsoft login window will open from:</p>
 <p><code translate="no" v-pre>https://login.microsoftonline.com/</code></p>
 <p>At this step:</p>
@@ -193,7 +193,7 @@
 <li>This is typically an administrator or Azure application administrator account</li>
 </ul>
 <hr>
-<h1 id="step-4--admin-approval-if-required">Step 4 – Admin Approval (if required)</h1>
+<h2 id="step-4--admin-approval-if-required">Step 4 – Admin Approval (if required)</h2>
 <p>If the selected account does not have sufficient administrator rights, Microsoft will display an elevation request.</p>
 <p>Microsoft message example:</p>
 <blockquote>
@@ -212,7 +212,7 @@ HXA.io Door Connect needs permission to access resources in your organization th
 </li>
 </ul>
 <hr>
-<h1 id="step-5--grant-permissions">Step 5 – Grant Permissions</h1>
+<h2 id="step-5--grant-permissions">Step 5 – Grant Permissions</h2>
 <p>Microsoft will now display the permissions requested by <strong>HXA.io Door Connect</strong>.</p>
 <p>Example permissions:</p>
 <ul>
@@ -229,7 +229,7 @@ HXA.io Door Connect needs permission to access resources in your organization th
 <blockquote>
 <p><strong>Consent on behalf of your organization</strong></p>
 </blockquote>
-<h2 id="important">Important</h2>
+<h3 id="important">Important</h3>
 <p>You <strong>must</strong>:</p>
 <ul>
 <li>Enable the checkbox:
@@ -245,7 +245,7 @@ HXA.io Door Connect needs permission to access resources in your organization th
 </ul>
 <p>This grants the required permissions tenant-wide.</p>
 <hr>
-<h1 id="step-6--device-login-information">Step 6 – Device Login Information</h1>
+<h2 id="step-6--device-login-information">Step 6 – Device Login Information</h2>
 <p>After successful admin consent, HXA.io will display a device login information window.</p>
 <p>Example:</p>
 <blockquote>
@@ -268,7 +268,7 @@ and login with the account you wish to use as the service account.</p>
 </li>
 </ol>
 <hr>
-<h1 id="step-7--authenticate-the-service-account">Step 7 – Authenticate the Service Account</h1>
+<h2 id="step-7--authenticate-the-service-account">Step 7 – Authenticate the Service Account</h2>
 <p>Microsoft will now display:</p>
 <blockquote>
 <p><strong>Enter code to allow access</strong><br />
@@ -285,7 +285,7 @@ Once you enter the code displayed on your app or device, it will have access to 
 <p><strong>Continue</strong></p>
 </blockquote>
 <hr>
-<h1 id="step-8--confirm-the-application-access">Step 8 – Confirm the Application Access</h1>
+<h2 id="step-8--confirm-the-application-access">Step 8 – Confirm the Application Access</h2>
 <p>Microsoft will ask:</p>
 <blockquote>
 <p><strong>Are you trying to sign in to HXA.io Door Connect?</strong><br />
@@ -296,7 +296,7 @@ Only continue if you downloaded the app from a store or website that you trust.<
 <p><strong>Continue</strong></p>
 </blockquote>
 <hr>
-<h1 id="step-9--completion">Step 9 – Completion</h1>
+<h2 id="step-9--completion">Step 9 – Completion</h2>
 <p>After successful authentication, Microsoft will display:</p>
 <blockquote>
 <p><strong>HXA.io Door Connect</strong><br />
@@ -304,7 +304,7 @@ You have signed in to the HXA.io Door Connect application on your device. You ma
 </blockquote>
 <p>The reconsent process is now completed successfully.</p>
 <hr>
-<h1 id="result">Result</h1>
+<h2 id="result">Result</h2>
 <p>The Microsoft Teams service account connector is now:</p>
 <ul>
 <li>Reauthorized</li>
