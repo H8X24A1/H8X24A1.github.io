@@ -5,6 +5,129 @@ icon: paste
 order: 1100
 ---
 
+## v4.0.0
+Release date: 2026-01-29
++++  New :icon-shield-check:
+- [x] Enhance Speed and availiablity.
+- [x] Introduced the Location and Logo widget.
+- [x] Users are now able to book using their working hours.
+- [x] Ability to sync weather with the current location.
+- [x] Introduced the forward option to attendees and resources for bookings and invitations.
+- [x] New design for the splash loading page.
+- [x] Created a full calendar view.
+- [x] Applied cookies consent.
+- [x] Ability to check in/out to a booking through the app .
+- [x] View Booking details in the calendar view.
+
++++ Improved :icon-thumbsup:
+- [x] Block the use of  Booking Assistant until the application is fully loaded.
+- [x] Improve the design of the participants menu .
+- [x] Added a resizable Location widget.
+- [x] Users can now tap to view past bookings using “Show past bookings”.
+- [x] Added an informative tooltip for booked resources on the map .
+- [x] Enhanced search results to show only available resources.
+- [x] Enhance the error experience in the log in page.
+- [x] Add a google Map view to the resources.
+
++++ Fixed :icon-bug:
+- [x] Corrected error text for bookings.
+- [x] Fixed map zooming issue.
+- [x] Fixed the date and time format.
+- [x] Fixed the keyboard view when changing booking time.
+- [x] Show the correct avatar for resources.
++++
+
+## v3.8.0
+Release date: 2025-09-08
++++  New :icon-shield-check:
+- [x] Introduced Smart Booking Assistant to suggest optimal resources based on user input.
+- [x] "My Bookings" now includes personal calendar events without assigned resources.
+- [x] Resources now display real images.
+- [x] Description and attachement are now fetched from the calaendar booking.
+
++++ Improved :icon-thumbsup:
+- [x] Booking summary updates instantly when editing recurrence or time.
+- [x] Calendars now start on Monday.
+- [x] Notifications also trigger for pending bookings.
+- [x] Ongoing bookings can be extended 15 minutes before end.
+- [x] Redesigned map filters and added reset option.
+- [x] News stream shows publication date and improved slide behavior.
+- [x] Sparo button now links directly to dashboard.
+- [x] Daily Overview widget redesigned for clarity.
+
++++ Fixed :icon-bug:
+- [x] Shows "No subject" for blank titles.
+- [x] Widget toggles no longer cause layout issues.
+- [x] Layout fixes across social wall, app bar, and calendar edit view.
+- [x] Unified date/time formats.
+- [x] Corrected UTC handling for meetings.
+- [x] Improved language switching and social wall scrolling.
++++
+
+
+## v3.7.1
+Release date: 2025-06-10
++++ Improved :icon-thumbsup:
+- [x] You can clear your Available Resource filter with a Reset button.
+- [x] News articles show when they are created.
+- [x] The News Stream stays on screen longer now.
+- [x] “My Favorites” is replaced with a Dashboard button on the side menu.
+- [x] If there are no maps to Favorites, you’ll see a “No maps yet” message.
+- [x] Now the Dashboard is the new Homepage.
+
++++ Fixed :icon-bug:
+- [x] Dates now display correctly in the Booking Widget.
+- [x] The app layout looks and feels smoother.
+- [x] Switching languages works without hiccups.
++++
+
+
+## v3.7.0
+Release date: 2025-05-05
++++  New :icon-shield-check:
+- [x] Introduced a new design for the application:
+- • Side Menu.
+- • Navigation Bar.
+- • Application Header.
+- • Resource Filter.
+- • Quick & Scheduled Booking.
+- [x] A Sparo button has been added allowing direct access to the Dashboard .
+- [x] Widgets in the Dashboard: You can now add or remove widgets based on your preferences:
+- • Weather Widget: Displays weather for your chosen city.
+- • Working Hours Widget: Shows your working hours.
+- • Booking Widget: A summary of your bookings.
+- • News Stream Widget: View announcements sent by your organization.
+
++++
+
+## v3.6.2
+Release date: 2025-04-01
++++ Improved :icon-thumbsup:
+- [x] Users can now view the resource map from the Booking Overview page.
+- [x] Ability to delete text in the subject field when booking a resource.
+- [x] Users can now search for resources by their location.
+
++++ Fixed :icon-bug:
+- [x] Better alignment of the location icon and correction of location-related sentences in the resources.
+- [x] Enhancement to the Preview Map chip layout on the map page.
+- [x] The plate number now appears on the parking resource, regardless of whether the resource is on-prem or from Graph.
+
++++
+## v3.6.1
+Release date: 2025-03-11
++++ New :icon-shield-check:
+- [x]Resources selected from a list are now blinking on the map for better visibility.
+- [x] First Aider symbols are now displayed on the map.
+
++++ Improved :icon-thumbsup:
+- [x] Updated the App header and Sparo App with improved layout and colors.
+- [x] Enhanced sorting of First Aider officers to prioritise availability.
+
++++ Fixed :icon-bug:
+- [x] Resolved an issue with the refresh function and the unspecified location to some resources on the "My Booking" page.
+
+
++++
 ## v3.6.0
 Release date: 2025-02-05
 +++ New :icon-shield-check:

@@ -4,13 +4,18 @@ label: HXA Room Board
 icon: paste
 order: 800
 ---
+## v.1.6.0
+Platform: Microsoft Windows |  Progressive Web App
+Release date: 2025-05-05
++++ New :icon-shield-check:
+- [x] Advertising Sliders Introduced:
+- • The Roomboard display now shows videos, images, or web content alongside the scheduled events for the room.
++++
 
 ## v.1.4.0
 Platform: Microsoft Windows
 Release date: 2024-05-13
-
 +++ New :icon-shield-check:
-
 - [x] Release of HXA Room Board in Microsoft Store for Windows
 https://www.microsoft.com/store/productId/9P5GHWQ8TDBP?ocid=pdpshare
 +++

@@ -5,9 +5,90 @@ icon: paste
 order: 900
 ---
 
+## v3.0.0
+Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
+Release date: 2026-01-29
++++ New :icon-shield-check:
+- [x] Enhance Speed and availability.
 
++++ Improved :icon-thumbsup:
+- [x] Screensaver disabled when Check-In/Check-Out is enabled.
+- [x] Automatic invitation acceptance when using NFC.
+- [x] Improve the standard size for the events block.
+
++++ Fixed :icon-bug:
+- [x] Screensaver layout and behavior corrected.
+- [x] Classic and Modern theme corrected.
+- [x] Improve Switching between Classic and Modern view .
+- [x] Double screensaver issue resolved.
+- [x] Design adjustments for 7-inch display.
++++
+
+## v4.0.0
+Platform: HXA Display 
+Release date: 2026-01-29
++++ New :icon-shield-check:
+- [x] Enhance Speed and availability.
+
++++ Improved :icon-thumbsup:
+- [x] Screensaver disabled when Check-In/Check-Out is enabled.
+- [x] Automatic invitation acceptance when using NFC.
+- [x] Improve the standard size for the events block.
+
++++ Fixed :icon-bug:
+- [x] Screensaver layout and behavior corrected.
+- [x] Classic and Modern theme corrected.
+- [x] Improve Switching between Classic and Modern view .
+- [x] Double screensaver issue resolved.
+- [x] Design adjustments for 7-inch display.
++++
+
+## v3.5.0
+Platform: HXA Display 
+Release date: 2025-10-20
++++ New :icon-shield-check:
+- [x] Weather modal with current forecast and 5-day outlook.
++++ Fixed :icon-bug:
+- [x] Long-duration events now show time info directly.
+- [x] Map and info modals no longer auto-close unexpectedly.
++++
+
+## v2.12.0
+Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
+Release date: 2025-10-20
++++ New :icon-shield-check:
+- [x] Weather modal with current forecast and 5-day outlook.
++++ Fixed :icon-bug:
+- [x] Long-duration events now show time info directly.
+- [x] Map and info modals no longer auto-close unexpectedly.
++++
+
+## v3.4.0
+Platform: HXA Display 
+Release date: 2025-05-05
++++ New :icon-shield-check:
+- [x] Room Booking Screen Saver: A new screen saver is now available.
+- • Supports digital or analog clock styles (configurable by admin from the portal).
+- • Activates after a user-defined idle time(configurable by admin from the portal).
+- • Shows resource capacity and room status (Busy/Free).
++++ Improved :icon-thumbsup:
+- [x] Participant Modal Auto-Close: The participant modal will now auto-close after 15 seconds of inactivity.
++++
+
+## v2.11.0
+Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
+Release date: 2025-05-05
++++ New :icon-shield-check:
+- [x] Room Booking Screen Saver: A new screen saver is now available.
+- • Supports digital or analog clock styles (configurable by admin from the portal).
+- • Activates after a user-defined idle time(configurable by admin from the portal).
+- • Shows resource capacity and room status (Busy/Free).
++++ Improved :icon-thumbsup:
+- [x] Participant Modal Auto-Close: The participant modal will now auto-close after 15 seconds of inactivity.
+
++++
 ## v3.2.1
-Platform: HXA Display  
+Platform: HXA Display 
 Release date: 2024-12-18
 +++ Fixed :icon-bug:
 - [x] The map now immediately displays the status of all resources upon the first modal open.
