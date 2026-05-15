@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832160426513">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832161138422">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
-    <title>Required permissions</title>
-    <meta name="title" content="Required permissions">
+    <title>Microsoft Teams Connector Required Permissions for HXA.io Door Connect</title>
+    <meta name="title" content="Microsoft Teams Connector Required Permissions for HXA.io Door Connect">
+    <meta name="description" content="HXA.io Door Connect integrates with Microsoft Teams to provide communication workflows for chat-based and call-based scenarios.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/setup/connector-setup/microsoft-teams/required-permissions/">
@@ -20,14 +21,16 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/setup/connector-setup/microsoft-teams/required-permissions/">
-    <meta property="og:title" content="Required permissions">
+    <meta property="og:title" content="Microsoft Teams Connector Required Permissions for HXA.io Door Connect">
+    <meta property="og:description" content="HXA.io Door Connect integrates with Microsoft Teams to provide communication workflows for chat-based and call-based scenarios.">
     <meta property="og:site_name" content="HXA.io">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.hxa.io/setup/connector-setup/microsoft-teams/required-permissions/">
-    <meta name="twitter:title" content="Required permissions">
+    <meta name="twitter:title" content="Microsoft Teams Connector Required Permissions for HXA.io Door Connect">
+    <meta name="twitter:description" content="HXA.io Door Connect integrates with Microsoft Teams to provide communication workflows for chat-based and call-based scenarios.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://docs.hxa.io/setup/connector-setup/microsoft-teams/required-permissions.md">
@@ -35,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../../favicon.ico" />
-    <link href="../../../../resources/css/retype.css?v=4.5.3.832160426513" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=4.5.3.832161138422" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.5.3.832160426513" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.5.3.832161138422" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.5.3.832160426513" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.5.3.832161138422" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -153,7 +156,212 @@
                 <doc-page-actions></doc-page-actions>
 
                 <!-- Page content  -->
-<h1 id="required-permissions">Required permissions</h1>
+<h1 id="microsoft-teams-connector-required-permissions-for-hxaio-door-connect">Microsoft Teams Connector Required Permissions for HXA.io Door Connect</h1>
+<h2 id="overview">Overview</h2>
+<p>HXA.io Door Connect integrates with Microsoft Teams to provide communication workflows for chat-based and call-based scenarios.</p>
+<p>Depending on the selected connector type, different Microsoft Graph permissions are required.</p>
+<p>HXA.io Door Connect currently supports the following Microsoft Teams connector types:</p>
+<ul>
+<li><strong>Door Connect – Chat Agent</strong></li>
+<li><strong>Door Connect – Call Agent</strong></li>
+</ul>
+<p>Each connector type only requests the permissions required for its operational purpose.</p>
+<hr>
+<h1 id="connector-types">Connector Types</h1>
+<h2 id="door-connect--chat-agent">Door Connect – Chat Agent</h2>
+<p>The Chat Agent is used for Microsoft Teams messaging and channel-based communication workflows.</p>
+<p>Typical use cases include:</p>
+<ul>
+<li>Sending Teams messages</li>
+<li>Channel-based notifications</li>
+<li>Communication workflows</li>
+<li>Team and channel interaction</li>
+</ul>
+<p>The Chat Agent uses the connector type:</p>
+<blockquote>
+<p><strong>User/Service Account</strong></p>
+</blockquote>
+<hr>
+<h2 id="door-connect--call-agent">Door Connect – Call Agent</h2>
+<p>The Call Agent is used for Microsoft Teams calling workflows.</p>
+<p>Typical use cases include:</p>
+<ul>
+<li>Teams call handling</li>
+<li>Call routing</li>
+<li>Call transfer</li>
+<li>Door communication scenarios</li>
+<li>Teams-based calling interactions</li>
+</ul>
+<p>The Call Agent uses the connector type:</p>
+<blockquote>
+<p><strong>Teams Calling Agent (User/Service Account)</strong></p>
+</blockquote>
+<hr>
+<h1 id="required-permissions--chat-agent">Required Permissions – Chat Agent</h1>
+<p>The following permissions may be requested for the Chat Agent connector.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Permission</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Send channel messages</td>
+<td>Allows the connector to send messages into Microsoft Teams channels</td>
+</tr>
+<tr>
+<td>Read all groups</td>
+<td>Allows discovery of Microsoft 365 groups and Teams structures</td>
+</tr>
+<tr>
+<td>Read the names and descriptions of teams</td>
+<td>Allows access to Microsoft Teams metadata</td>
+</tr>
+<tr>
+<td>Read the names and descriptions of channels</td>
+<td>Allows access to channel metadata</td>
+</tr>
+<tr>
+<td>Read user channel messages</td>
+<td>Allows interaction with Teams channel messaging workflows</td>
+</tr>
+<tr>
+<td>Read all users&#x27; basic profiles</td>
+<td>Allows user identification and lookup</td>
+</tr>
+<tr>
+<td>View users&#x27; basic profile</td>
+<td>Allows the connector to identify the signed-in account</td>
+</tr>
+<tr>
+<td>Maintain access to data you have given it access to</td>
+<td>Allows persistent connector access without repeated manual sign-ins</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h1 id="required-permissions--call-agent">Required Permissions – Call Agent</h1>
+<p>The following permissions may be requested for the Call Agent connector.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Permission</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Manage calls in Teams</td>
+<td>Allows the connector to start, join, transfer, forward, and manage Teams calls</td>
+</tr>
+<tr>
+<td>Manage chats in Teams</td>
+<td>Allows interaction with Teams chat threads required for call-related workflows</td>
+</tr>
+<tr>
+<td>Maintain access to data you have given it access to</td>
+<td>Allows persistent connector access without repeated manual sign-ins</td>
+</tr>
+<tr>
+<td>View your basic profile</td>
+<td>Allows the connector to identify the signed-in account</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h1 id="administrator-consent">Administrator Consent</h1>
+<p>Depending on the Microsoft tenant configuration, administrator approval may be required.</p>
+<p>During setup or reconsent, Microsoft may display an administrator approval request.</p>
+<p>In this case, a Microsoft administrator must:</p>
+<ol>
+<li>Sign in with an administrator account</li>
+<li>Review the requested permissions</li>
+<li>
+<p>Enable:</p>
+<blockquote>
+<p><strong>Consent on behalf of your organization</strong></p>
+</blockquote>
+</li>
+<li>
+<p>Click:</p>
+<blockquote>
+<p><strong>Accept</strong></p>
+</blockquote>
+</li>
+</ol>
+<p>Without the required consent, the connector may not function correctly.</p>
+<hr>
+<h1 id="recommended-security-approach">Recommended Security Approach</h1>
+<p>For production environments, we strongly recommend using dedicated service accounts.</p>
+<h2 id="recommended-setup">Recommended Setup</h2>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Connector Type</th>
+<th>Recommended Account</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Door Connect – Chat Agent</td>
+<td>Dedicated Teams chat service account</td>
+</tr>
+<tr>
+<td>Door Connect – Call Agent</td>
+<td>Dedicated Teams calling service account</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>This approach helps to:</p>
+<ul>
+<li>Apply the least privilege principle</li>
+<li>Separate calling and messaging workflows</li>
+<li>Improve auditability</li>
+<li>Simplify troubleshooting</li>
+<li>Improve operational transparency</li>
+<li>Simplify reconsent handling</li>
+</ul>
+<hr>
+<h1 id="important-notes">Important Notes</h1>
+<h2 id="permissions-depend-on-the-connector-type">Permissions Depend on the Connector Type</h2>
+<p>The requested Microsoft permissions depend on the selected connector type.</p>
+<p>Not every connector requires the same Microsoft Graph scope.</p>
+<hr>
+<h2 id="microsoft-may-change-permission-labels">Microsoft May Change Permission Labels</h2>
+<p>Microsoft can rename or reorganize permission labels over time.</p>
+<p>The displayed wording inside the Microsoft consent dialog may therefore slightly differ depending on:</p>
+<ul>
+<li>Microsoft tenant version</li>
+<li>Microsoft Graph updates</li>
+<li>Microsoft Entra changes</li>
+<li>Regional settings</li>
+</ul>
+<hr>
+<h2 id="permissions-are-displayed-during-consent">Permissions Are Displayed During Consent</h2>
+<p>The currently requested permissions are always displayed directly inside the Microsoft consent window during:</p>
+<ul>
+<li>Initial setup</li>
+<li>Reconsent</li>
+<li>Connector recreation</li>
+</ul>
+<p>Administrators should review the displayed permissions before accepting the consent request.</p>
+<hr>
+<h1 id="related-documentation">Related Documentation</h1>
+<ul>
+<li>Microsoft Teams Connector Initial Setup</li>
+<li>Door Connect Service Account Reconsent</li>
+<li>Door Connect Chat Agent Setup</li>
+<li>Door Connect Call Agent Setup</li>
+<li>Connector Troubleshooting</li>
+</ul>
 
                 
                 <!-- Required only on API pages -->
@@ -163,20 +371,20 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../../setup/connector-setup/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../../setup/connector-setup/microsoft-teams/reconsent/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                <span class="block mt-1">Connector Setup</span>
+                                <span class="block mt-1">Reconsent</span>
                             </span>
                         </a>
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../../setup/connector-setup/microsoft-teams/reconsent/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../../setup/user-setup/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                <span class="block mt-1">Reconsent</span>
+                                <span class="block mt-1">User Setup</span>
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         </a>

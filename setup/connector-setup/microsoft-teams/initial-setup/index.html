@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832160426513">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832161138422">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
-    <title>Initial Setup</title>
-    <meta name="title" content="Initial Setup">
+    <title>Microsoft Teams Connector Initial Setup for HXA.io Door Connect</title>
+    <meta name="title" content="Microsoft Teams Connector Initial Setup for HXA.io Door Connect">
+    <meta name="description" content="HXA.io Door Connect uses Microsoft Teams to support communication workflows between door stations, visitors, users, and Teams users.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/setup/connector-setup/microsoft-teams/initial-setup/">
@@ -20,14 +21,16 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/setup/connector-setup/microsoft-teams/initial-setup/">
-    <meta property="og:title" content="Initial Setup">
+    <meta property="og:title" content="Microsoft Teams Connector Initial Setup for HXA.io Door Connect">
+    <meta property="og:description" content="HXA.io Door Connect uses Microsoft Teams to support communication workflows between door stations, visitors, users, and Teams users.">
     <meta property="og:site_name" content="HXA.io">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.hxa.io/setup/connector-setup/microsoft-teams/initial-setup/">
-    <meta name="twitter:title" content="Initial Setup">
+    <meta name="twitter:title" content="Microsoft Teams Connector Initial Setup for HXA.io Door Connect">
+    <meta name="twitter:description" content="HXA.io Door Connect uses Microsoft Teams to support communication workflows between door stations, visitors, users, and Teams users.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://docs.hxa.io/setup/connector-setup/microsoft-teams/initial-setup.md">
@@ -35,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../../favicon.ico" />
-    <link href="../../../../resources/css/retype.css?v=4.5.3.832160426513" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=4.5.3.832161138422" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.5.3.832160426513" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.5.3.832161138422" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.5.3.832160426513" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.5.3.832161138422" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -153,7 +156,174 @@
                 <doc-page-actions></doc-page-actions>
 
                 <!-- Page content  -->
-<h1 id="initial-setup">Initial Setup</h1>
+<h1 id="microsoft-teams-connector-initial-setup-for-hxaio-door-connect">Microsoft Teams Connector Initial Setup for HXA.io Door Connect</h1>
+<h2 id="overview">Overview</h2>
+<p>HXA.io Door Connect uses Microsoft Teams to support communication workflows between door stations, visitors, users, and Teams users.</p>
+<p>The Microsoft Teams connector can be configured in two different modes:</p>
+<ul>
+<li>
+<p><strong>User/Service Account</strong><br />
+Used for the Door Connect Chat Agent.</p>
+</li>
+<li>
+<p><strong>Teams Calling Agent (User/Service Account)</strong><br />
+Used for the Door Connect Call Agent.</p>
+</li>
+</ul>
+<p>Both connector types follow the same general setup flow. The required Microsoft permissions depend on the selected connector type and can be reviewed in the dedicated permissions documentation.</p>
+<p>For details, see:</p>
+<blockquote>
+<p><strong>Microsoft Teams Connector Required Permissions</strong></p>
+</blockquote>
+<hr>
+<h1 id="open-the-microsoft-teams-connector-setup">Open the Microsoft Teams Connector Setup</h1>
+<p>In the HXA.io Portal, go to:</p>
+<blockquote>
+<p><strong>Connectors → Add Connector</strong></p>
+</blockquote>
+<p>Select:</p>
+<blockquote>
+<p><strong>Office 365 – Teams</strong></p>
+</blockquote>
+<p>You will see two available connector options:</p>
+<ul>
+<li><strong>User/Service Account</strong></li>
+<li><strong>Teams Calling Agent (User/Service Account)</strong></li>
+</ul>
+<p>Choose the connector type you want to configure and click:</p>
+<blockquote>
+<p><strong>Connect</strong></p>
+</blockquote>
+<hr>
+<h1 id="connector-types">Connector Types</h1>
+<h2 id="door-connect--chat-agent">Door Connect – Chat Agent</h2>
+<p>Select:</p>
+<blockquote>
+<p><strong>User/Service Account</strong></p>
+</blockquote>
+<p>The Chat Agent is used for Microsoft Teams messaging and channel-based workflows.</p>
+<p>It enables HXA.io Door Connect to use a dedicated Microsoft Teams account for chat-based communication scenarios.</p>
+<hr>
+<h2 id="door-connect--call-agent">Door Connect – Call Agent</h2>
+<p>Select:</p>
+<blockquote>
+<p><strong>Teams Calling Agent (User/Service Account)</strong></p>
+</blockquote>
+<p>The Call Agent is used for Microsoft Teams calling workflows.</p>
+<p>It enables HXA.io Door Connect to use a dedicated Microsoft Teams account for call-based communication scenarios.</p>
+<hr>
+<h1 id="general-setup-flow">General Setup Flow</h1>
+<p>The setup flow is generally the same for both connector types.</p>
+<h2 id="step-1--select-the-connector-type">Step 1 – Select the Connector Type</h2>
+<p>On the <strong>Office 365 – Teams</strong> connector page, select one of the following options:</p>
+<ul>
+<li><strong>User/Service Account</strong></li>
+<li><strong>Teams Calling Agent (User/Service Account)</strong></li>
+</ul>
+<p>Then click:</p>
+<blockquote>
+<p><strong>Connect</strong></p>
+</blockquote>
+<hr>
+<h2 id="step-2--sign-in-with-microsoft">Step 2 – Sign in with Microsoft</h2>
+<p>A Microsoft login window opens from:</p>
+<div id="step-2--sign-in-with-microsoft-code-1" class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">https://login.microsoftonline.com/</code></pre>
+</doc-codeblock></div>
+<p>Sign in with the Microsoft account that should be used for the connector.</p>
+<p>For production environments, we recommend using a dedicated service account.</p>
+<hr>
+<h2 id="step-3--review-the-consent-request">Step 3 – Review the Consent Request</h2>
+<p>Microsoft displays a consent request for <strong>HXA.io Door Connect</strong>.</p>
+<p>The requested permissions depend on the selected connector type.</p>
+<p>The detailed permission scope is documented separately.</p>
+<p>For details, see:</p>
+<blockquote>
+<p><strong>Microsoft Teams Connector Required Permissions</strong></p>
+</blockquote>
+<hr>
+<h2 id="step-4--accept-the-consent-request">Step 4 – Accept the Consent Request</h2>
+<p>After reviewing the Microsoft consent request, click:</p>
+<blockquote>
+<p><strong>Accept</strong></p>
+</blockquote>
+<p>If administrator approval is required, sign in with a Microsoft administrator account and approve the consent request.</p>
+<hr>
+<h2 id="step-5--connector-created">Step 5 – Connector Created</h2>
+<p>After successful Microsoft authentication and consent, the connector is created in HXA.io.</p>
+<p>The connector can now be used by HXA.io Door Connect.</p>
+<hr>
+<h1 id="recommended-account-setup">Recommended Account Setup</h1>
+<p>For secure and transparent operation, we recommend using dedicated service accounts.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Connector Type</th>
+<th>Recommended Account</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Door Connect – Chat Agent</td>
+<td>Dedicated Teams chat service account</td>
+</tr>
+<tr>
+<td>Door Connect – Call Agent</td>
+<td>Dedicated Teams calling service account</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>This separation helps to:</p>
+<ul>
+<li>Separate messaging and calling workflows</li>
+<li>Apply the least privilege principle</li>
+<li>Simplify troubleshooting</li>
+<li>Make consent and reconsent processes easier</li>
+<li>Improve operational transparency</li>
+</ul>
+<hr>
+<h1 id="important-notes">Important Notes</h1>
+<h2 id="use-a-dedicated-service-account">Use a Dedicated Service Account</h2>
+<p>Do not use a personal user account for productive Door Connect integrations.</p>
+<p>A dedicated service account provides better:</p>
+<ul>
+<li>Stability</li>
+<li>Auditability</li>
+<li>Lifecycle management</li>
+<li>Permission control</li>
+</ul>
+<hr>
+<h2 id="administrator-approval-may-be-required">Administrator Approval May Be Required</h2>
+<p>Depending on the Microsoft tenant configuration and the selected connector type, administrator approval may be required.</p>
+<p>If Microsoft displays an admin approval request, an administrator must approve the request before the connector can be used.</p>
+<hr>
+<h2 id="permissions-are-documented-separately">Permissions Are Documented Separately</h2>
+<p>This page describes the initial setup process.</p>
+<p>The Microsoft permission scopes are maintained in a separate documentation page to keep setup instructions clear and easy to follow.</p>
+<p>For details, see:</p>
+<blockquote>
+<p><strong>Microsoft Teams Connector Required Permissions</strong></p>
+</blockquote>
+<hr>
+<h1 id="result">Result</h1>
+<p>After successful setup, the Microsoft Teams connector is available in HXA.io.</p>
+<p>Depending on the selected connector type, it can now be used for:</p>
+<ul>
+<li>Door Connect chat workflows</li>
+<li>Door Connect calling workflows</li>
+</ul>
+<p>The connector status should show as active and healthy in the HXA.io Portal.</p>
+<hr>
+<h1 id="related-documentation">Related Documentation</h1>
+<ul>
+<li>Microsoft Teams Connector Required Permissions</li>
+<li>Door Connect Service Account Reconsent</li>
+<li>Door Connect Chat Agent Setup</li>
+<li>Door Connect Call Agent Setup</li>
+<li>Connector Troubleshooting</li>
+</ul>
 
                 
                 <!-- Required only on API pages -->
@@ -163,20 +333,20 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../../setup/connector-setup/microsoft-teams/reconsent/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../../setup/connector-setup/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                <span class="block mt-1">Reconsent</span>
+                                <span class="block mt-1">Connector Setup</span>
                             </span>
                         </a>
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../../setup/user-setup/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../../setup/connector-setup/microsoft-teams/reconsent/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                <span class="block mt-1">User Setup</span>
+                                <span class="block mt-1">Reconsent</span>
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         </a>
