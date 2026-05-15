@@ -1,7 +1,7 @@
 ---
 label: Organization Settings
 icon: organization
-order: 1000
+order: 10000
 ---
 
 This page allows you to set up and manage important details about your organization. Keeping this information accurate ensures seamless communication, billing, and service management within the portal. 
