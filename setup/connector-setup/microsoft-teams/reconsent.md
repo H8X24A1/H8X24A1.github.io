@@ -16,7 +16,7 @@ If a reconsent is required, the connector status will display a **red circular a
 
 ---
 
-# Step 1 – Open the Connector Reconsent
+## Step 1 – Open the Connector Reconsent
 
 Navigate to:
 
@@ -33,7 +33,7 @@ Click the icon to continue.
 
 ---
 
-# Step 2 – Initial Consent Information
+## Step 2 – Initial Consent Information
 
 After clicking the reconsent icon, HXA.io will display the following information:
 
@@ -47,7 +47,7 @@ Click continue to open the Microsoft authentication window.
 
 ---
 
-# Step 3 – Microsoft Login
+## Step 3 – Microsoft Login
 
 A Microsoft login window will open from:
 
@@ -60,7 +60,7 @@ At this step:
 
 ---
 
-# Step 4 – Admin Approval (if required)
+## Step 4 – Admin Approval (if required)
 
 If the selected account does not have sufficient administrator rights, Microsoft will display an elevation request.
 
@@ -80,7 +80,7 @@ In this case:
 
 ---
 
-# Step 5 – Grant Permissions
+## Step 5 – Grant Permissions
 
 Microsoft will now display the permissions requested by **HXA.io Door Connect**.
 
@@ -99,7 +99,7 @@ You will also see the option:
 
 > **Consent on behalf of your organization**
 
-## Important
+### Important
 
 You **must**:
 
@@ -112,7 +112,7 @@ This grants the required permissions tenant-wide.
 
 ---
 
-# Step 6 – Device Login Information
+## Step 6 – Device Login Information
 
 After successful admin consent, HXA.io will display a device login information window.
 
@@ -134,7 +134,7 @@ At this point:
 
 ---
 
-# Step 7 – Authenticate the Service Account
+## Step 7 – Authenticate the Service Account
 
 Microsoft will now display:
 
@@ -153,7 +153,7 @@ Click:
 
 ---
 
-# Step 8 – Confirm the Application Access
+## Step 8 – Confirm the Application Access
 
 Microsoft will ask:
 
@@ -166,7 +166,7 @@ Click:
 
 ---
 
-# Step 9 – Completion
+## Step 9 – Completion
 
 After successful authentication, Microsoft will display:
 
@@ -177,7 +177,7 @@ The reconsent process is now completed successfully.
 
 ---
 
-# Result
+## Result
 
 The Microsoft Teams service account connector is now:
 
