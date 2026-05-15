@@ -1,6 +1,6 @@
 ---
 label: Initial Setup
-icon: repo-forked
+icon: boot-play
 order: 100
 ---
 

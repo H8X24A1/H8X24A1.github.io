@@ -1,6 +1,6 @@
 ---
 label: Required permissions
-icon: repo-forked
+icon: boot-file-break
 order: 90
 ---
 

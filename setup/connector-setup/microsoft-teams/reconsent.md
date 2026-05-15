@@ -1,6 +1,6 @@
 ---
 label: Reconsent
-icon: repo-forked
+icon: boot-arrow-clockwise
 order: 98
 ---
 
