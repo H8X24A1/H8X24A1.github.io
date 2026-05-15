@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832170345792">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832171124495">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../../favicon.ico" />
-    <link href="../../../../resources/css/retype.css?v=4.5.3.832170345792" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=4.5.3.832171124495" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.5.3.832170345792" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.5.3.832171124495" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.5.3.832170345792" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.5.3.832171124495" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -176,7 +176,7 @@ Used for the Door Connect Call Agent.</p>
 <p><strong>Microsoft Teams Connector Required Permissions</strong></p>
 </blockquote>
 <hr>
-<h1 id="open-the-microsoft-teams-connector-setup">Open the Microsoft Teams Connector Setup</h1>
+<h2 id="open-the-microsoft-teams-connector-setup">Open the Microsoft Teams Connector Setup</h2>
 <p>In the HXA.io Portal, go to:</p>
 <blockquote>
 <p><strong>Connectors → Add Connector</strong></p>
@@ -195,8 +195,8 @@ Used for the Door Connect Call Agent.</p>
 <p><strong>Connect</strong></p>
 </blockquote>
 <hr>
-<h1 id="connector-types">Connector Types</h1>
-<h2 id="door-connect--chat-agent">Door Connect – Chat Agent</h2>
+<h2 id="connector-types">Connector Types</h2>
+<h3 id="door-connect--chat-agent">Door Connect – Chat Agent</h3>
 <p>Select:</p>
 <blockquote>
 <p><strong>User/Service Account</strong></p>
@@ -204,7 +204,7 @@ Used for the Door Connect Call Agent.</p>
 <p>The Chat Agent is used for Microsoft Teams messaging and channel-based workflows.</p>
 <p>It enables HXA.io Door Connect to use a dedicated Microsoft Teams account for chat-based communication scenarios.</p>
 <hr>
-<h2 id="door-connect--call-agent">Door Connect – Call Agent</h2>
+<h3 id="door-connect--call-agent">Door Connect – Call Agent</h3>
 <p>Select:</p>
 <blockquote>
 <p><strong>Teams Calling Agent (User/Service Account)</strong></p>
@@ -212,9 +212,9 @@ Used for the Door Connect Call Agent.</p>
 <p>The Call Agent is used for Microsoft Teams calling workflows.</p>
 <p>It enables HXA.io Door Connect to use a dedicated Microsoft Teams account for call-based communication scenarios.</p>
 <hr>
-<h1 id="general-setup-flow">General Setup Flow</h1>
+<h2 id="general-setup-flow">General Setup Flow</h2>
 <p>The setup flow is generally the same for both connector types.</p>
-<h2 id="step-1--select-the-connector-type">Step 1 – Select the Connector Type</h2>
+<h3 id="step-1--select-the-connector-type">Step 1 – Select the Connector Type</h3>
 <p>On the <strong>Office 365 – Teams</strong> connector page, select one of the following options:</p>
 <ul>
 <li><strong>User/Service Account</strong></li>
@@ -225,7 +225,7 @@ Used for the Door Connect Call Agent.</p>
 <p><strong>Connect</strong></p>
 </blockquote>
 <hr>
-<h2 id="step-2--sign-in-with-microsoft">Step 2 – Sign in with Microsoft</h2>
+<h3 id="step-2--sign-in-with-microsoft">Step 2 – Sign in with Microsoft</h3>
 <p>A Microsoft login window opens from:</p>
 <div id="step-2--sign-in-with-microsoft-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">https://login.microsoftonline.com/</code></pre>
@@ -233,7 +233,7 @@ Used for the Door Connect Call Agent.</p>
 <p>Sign in with the Microsoft account that should be used for the connector.</p>
 <p>For production environments, we recommend using a dedicated service account.</p>
 <hr>
-<h2 id="step-3--review-the-consent-request">Step 3 – Review the Consent Request</h2>
+<h3 id="step-3--review-the-consent-request">Step 3 – Review the Consent Request</h3>
 <p>Microsoft displays a consent request for <strong>HXA.io Door Connect</strong>.</p>
 <p>The requested permissions depend on the selected connector type.</p>
 <p>The detailed permission scope is documented separately.</p>
@@ -242,18 +242,18 @@ Used for the Door Connect Call Agent.</p>
 <p><strong>Microsoft Teams Connector Required Permissions</strong></p>
 </blockquote>
 <hr>
-<h2 id="step-4--accept-the-consent-request">Step 4 – Accept the Consent Request</h2>
+<h3 id="step-4--accept-the-consent-request">Step 4 – Accept the Consent Request</h3>
 <p>After reviewing the Microsoft consent request, click:</p>
 <blockquote>
 <p><strong>Accept</strong></p>
 </blockquote>
 <p>If administrator approval is required, sign in with a Microsoft administrator account and approve the consent request.</p>
 <hr>
-<h2 id="step-5--connector-created">Step 5 – Connector Created</h2>
+<h3 id="step-5--connector-created">Step 5 – Connector Created</h3>
 <p>After successful Microsoft authentication and consent, the connector is created in HXA.io.</p>
 <p>The connector can now be used by HXA.io Door Connect.</p>
 <hr>
-<h1 id="recommended-account-setup">Recommended Account Setup</h1>
+<h2 id="recommended-account-setup">Recommended Account Setup</h2>
 <p>For secure and transparent operation, we recommend using dedicated service accounts.</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
@@ -284,8 +284,8 @@ Used for the Door Connect Call Agent.</p>
 <li>Improve operational transparency</li>
 </ul>
 <hr>
-<h1 id="important-notes">Important Notes</h1>
-<h2 id="use-a-dedicated-service-account">Use a Dedicated Service Account</h2>
+<h2 id="important-notes">Important Notes</h2>
+<h3 id="use-a-dedicated-service-account">Use a Dedicated Service Account</h3>
 <p>Do not use a personal user account for productive Door Connect integrations.</p>
 <p>A dedicated service account provides better:</p>
 <ul>
@@ -295,11 +295,11 @@ Used for the Door Connect Call Agent.</p>
 <li>Permission control</li>
 </ul>
 <hr>
-<h2 id="administrator-approval-may-be-required">Administrator Approval May Be Required</h2>
+<h3 id="administrator-approval-may-be-required">Administrator Approval May Be Required</h3>
 <p>Depending on the Microsoft tenant configuration and the selected connector type, administrator approval may be required.</p>
 <p>If Microsoft displays an admin approval request, an administrator must approve the request before the connector can be used.</p>
 <hr>
-<h2 id="permissions-are-documented-separately">Permissions Are Documented Separately</h2>
+<h3 id="permissions-are-documented-separately">Permissions Are Documented Separately</h3>
 <p>This page describes the initial setup process.</p>
 <p>The Microsoft permission scopes are maintained in a separate documentation page to keep setup instructions clear and easy to follow.</p>
 <p>For details, see:</p>
@@ -307,7 +307,7 @@ Used for the Door Connect Call Agent.</p>
 <p><strong>Microsoft Teams Connector Required Permissions</strong></p>
 </blockquote>
 <hr>
-<h1 id="result">Result</h1>
+<h2 id="result">Result</h2>
 <p>After successful setup, the Microsoft Teams connector is available in HXA.io.</p>
 <p>Depending on the selected connector type, it can now be used for:</p>
 <ul>
@@ -316,7 +316,7 @@ Used for the Door Connect Call Agent.</p>
 </ul>
 <p>The connector status should show as active and healthy in the HXA.io Portal.</p>
 <hr>
-<h1 id="related-documentation">Related Documentation</h1>
+<h2 id="related-documentation">Related Documentation</h2>
 <ul>
 <li>Microsoft Teams Connector Required Permissions</li>
 <li>Door Connect Service Account Reconsent</li>

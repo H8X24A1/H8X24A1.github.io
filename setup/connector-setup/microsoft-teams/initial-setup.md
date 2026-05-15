@@ -20,7 +20,7 @@ For details, see:
 
 ---
 
-# Open the Microsoft Teams Connector Setup
+## Open the Microsoft Teams Connector Setup
 
 In the HXA.io Portal, go to:
 
@@ -41,9 +41,9 @@ Choose the connector type you want to configure and click:
 
 ---
 
-# Connector Types
+## Connector Types
 
-## Door Connect – Chat Agent
+### Door Connect – Chat Agent
 
 Select:
 
@@ -55,7 +55,7 @@ It enables HXA.io Door Connect to use a dedicated Microsoft Teams account for ch
 
 ---
 
-## Door Connect – Call Agent
+### Door Connect – Call Agent
 
 Select:
 
@@ -67,11 +67,11 @@ It enables HXA.io Door Connect to use a dedicated Microsoft Teams account for ca
 
 ---
 
-# General Setup Flow
+## General Setup Flow
 
 The setup flow is generally the same for both connector types.
 
-## Step 1 – Select the Connector Type
+### Step 1 – Select the Connector Type
 
 On the **Office 365 – Teams** connector page, select one of the following options:
 
@@ -84,7 +84,7 @@ Then click:
 
 ---
 
-## Step 2 – Sign in with Microsoft
+### Step 2 – Sign in with Microsoft
 
 A Microsoft login window opens from:
 
@@ -98,7 +98,7 @@ For production environments, we recommend using a dedicated service account.
 
 ---
 
-## Step 3 – Review the Consent Request
+### Step 3 – Review the Consent Request
 
 Microsoft displays a consent request for **HXA.io Door Connect**.
 
@@ -112,7 +112,7 @@ For details, see:
 
 ---
 
-## Step 4 – Accept the Consent Request
+### Step 4 – Accept the Consent Request
 
 After reviewing the Microsoft consent request, click:
 
@@ -122,7 +122,7 @@ If administrator approval is required, sign in with a Microsoft administrator ac
 
 ---
 
-## Step 5 – Connector Created
+### Step 5 – Connector Created
 
 After successful Microsoft authentication and consent, the connector is created in HXA.io.
 
@@ -130,7 +130,7 @@ The connector can now be used by HXA.io Door Connect.
 
 ---
 
-# Recommended Account Setup
+## Recommended Account Setup
 
 For secure and transparent operation, we recommend using dedicated service accounts.
 
@@ -149,9 +149,9 @@ This separation helps to:
 
 ---
 
-# Important Notes
+## Important Notes
 
-## Use a Dedicated Service Account
+### Use a Dedicated Service Account
 
 Do not use a personal user account for productive Door Connect integrations.
 
@@ -164,7 +164,7 @@ A dedicated service account provides better:
 
 ---
 
-## Administrator Approval May Be Required
+### Administrator Approval May Be Required
 
 Depending on the Microsoft tenant configuration and the selected connector type, administrator approval may be required.
 
@@ -172,7 +172,7 @@ If Microsoft displays an admin approval request, an administrator must approve t
 
 ---
 
-## Permissions Are Documented Separately
+### Permissions Are Documented Separately
 
 This page describes the initial setup process.
 
@@ -184,7 +184,7 @@ For details, see:
 
 ---
 
-# Result
+## Result
 
 After successful setup, the Microsoft Teams connector is available in HXA.io.
 
@@ -197,7 +197,7 @@ The connector status should show as active and healthy in the HXA.io Portal.
 
 ---
 
-# Related Documentation
+## Related Documentation
 
 - Microsoft Teams Connector Required Permissions
 - Door Connect Service Account Reconsent
