@@ -4,7 +4,32 @@ label: HXA Sparo
 icon: paste
 order: 1100
 ---
+## v4.2.0
+Release date: 2026-08-04
++++  New :icon-shield-check:
+- [x] Users now receive notifications when a booking check-in is triggered.
+- [x] Proposed Time Flow: Attendees can propose alternative times for existing bookings directly from the calendar view.
+- [x] Pending Check-in State: Bookings now show a pending state until the user successfully checks in.
+- [x] All-Day Booking Creation: Users can create all-day resource bookings following Microsoft 365 logic.
+- [x] New Welcoming Page Design: New welcoming page with enhanced animations.
+- [x] Bottom Sheet Detail Views: Booking and invitation details now open in a bottom sheet.
+- [x] Card Details View: New card-based view for bookings and invitations showing attendee pictures and avatars.
 
+
++++ Improved :icon-thumbsup:
+- [x] Dashboard elements and text are now responsive and scale based on screen size.
+- [x] Booking list now auto-scrolls to the current time slot.
+- [x] Fixed the ability to select future days from the booking list page.
+
+
++++ Fixed :icon-bug:
+- [x] Fixed navigation bar disappearing when navigating to list view.
+- [x] Fixed incorrect state handling when swiping to delete.
+- [x] Fixed missing and incorrectly loading avatar icons for resources and users.
+- [x] Fixed duplicate booking entries appearing in the daily overview.
+- [x] Improved syncing of responded invitations to the My Bookings section.
+
++++
 ## v4.0.0
 Release date: 2026-01-29
 +++  New :icon-shield-check:
@@ -16,7 +41,7 @@ Release date: 2026-01-29
 - [x] New design for the splash loading page.
 - [x] Created a full calendar view.
 - [x] Applied cookies consent.
-- [x] Ability to check in/out to a booking through the app .
+- [x] Ability to check in/out to a booking through the app.
 - [x] View Booking details in the calendar view.
 
 +++ Improved :icon-thumbsup:
