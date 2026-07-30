@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832588013974">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.838724182474">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>HXA.io DOCS - HXA Sparo App descripton</title>
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.5.3.832588013974" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.6.0.838724182474" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.5.3.832588013974" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.5.3.832588013974" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.838724182474" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.838724182474" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -233,6 +233,12 @@ It enables intuitive, fast, and intelligent reservation of desks, rooms, shared 
 <hr>
 <h3 id="221-booking-assistant">2.2.1 Booking Assistant</h3>
 <p>The <strong>AI-based Booking Assistant</strong> recommends optimal resources by analyzing:</p>
+<retype-table copy-text="| Category | Example Signals |
+|-----------|-----------------|
+| Hard Requirements | capacity, time, equipment, window orientation |
+| Historical Preferences | previous bookings, feedback, user satisfaction |
+| Context | group/team membership, relevant colleagues (Graph People), office location |
+| Ecological Fit | energy-efficient zones, floor clustering to reduce HVAC/light usage |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -261,6 +267,7 @@ It enables intuitive, fast, and intelligent reservation of desks, rooms, shared 
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>The assistant ranks all available resources and presents explainable suggestions such as:</p>
 <blockquote>
 <p>“Closest to your team”, “Your usual workspace on Floor 2”, or “Energy-optimized zone”.</p>
@@ -339,6 +346,36 @@ It enables intuitive, fast, and intelligent reservation of desks, rooms, shared 
 <p>The following Microsoft Graph permissions are required by HXA Sparo.<br />
 They vary depending on the connector type (Application or Delegated).<br />
 <strong>Admin consent</strong> is required where indicated as <em>Yes</em>.</p>
+<retype-table copy-text="| API / Permissions name | Type | Description | Admin consent required |
+|-------------------------|------|--------------|------------------------|
+| Calendars.Read | Application | Read calendars in all mailboxes | Yes |
+| Calendars.Read | Delegated | Read user calendars | No |
+| Calendars.Read.Shared | Delegated | Read user and shared calendars | No |
+| Calendars.ReadBasic.All | Application | Read basic details of calendars in all mailboxes | Yes |
+| Calendars.ReadWrite | Application | Read and write calendars in all mailboxes | Yes |
+| Calendars.ReadWrite.Shared | Delegated | Read and write user and shared calendars | No |
+| Directory.Read.All | Application | Read directory data | Yes |
+| Directory.ReadWrite.All | Application | Read and write directory data | Yes |
+| Group.Read.All | Delegated | Read all groups | Yes |
+| Group.ReadWrite.All | Delegated | Read and write all groups | Yes |
+| GroupMember.Read.All | Delegated | Read group memberships | Yes |
+| GroupMember.ReadWrite.All | Delegated | Read and write group memberships | Yes |
+| Mail.Read | Application | Read mail in all mailboxes | Yes |
+| Mail.ReadWrite | Application | Read and write mail in all mailboxes | Yes |
+| MailboxSettings.Read | Delegated | Read user mailbox settings | No |
+| MailboxSettings.ReadWrite | Application | Read and write all user mailbox settings | Yes |
+| openid | Delegated | Sign users in | No |
+| People.Read | Delegated | Read users’ relevant people lists | No |
+| Place.Read.All | Delegated | Read all company places | Yes |
+| Place.Read.All | Application | Read all company places | Yes |
+| Place.ReadWrite.All | Delegated | Read and write organization places | Yes |
+| profile | Delegated | View users’ basic profile | No |
+| Schedule.Read.All | Application | Read all schedule items | Yes |
+| Schedule.ReadWrite.All | Application | Read and write all schedule items | Yes |
+| User.Read | Delegated | Sign in and read user profile | No |
+| User.Read.All | Application | Read all users’ full profiles | Yes |
+| User.ReadBasic.All | Delegated | Read all users’ basic profiles | No |
+| User.ReadWrite.All | Delegated | Read and write all users’ full profiles | Yes |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -521,6 +558,7 @@ They vary depending on the connector type (Application or Delegated).<br />
 </tbody>
 </table>
 </div>
+</retype-table>
 <p><strong>Notes:</strong></p>
 <ul>
 <li><em>Application permissions</em> are used by the <strong>HXA.io backend connector</strong> (app-only mode).</li>
@@ -546,6 +584,16 @@ They vary depending on the connector type (Application or Delegated).<br />
 <hr>
 <h2 id="appendices">Appendices</h2>
 <h3 id="a--dashboard-widgets--data-sources">A – Dashboard Widgets &amp; Data Sources</h3>
+<retype-table copy-text="| Widget | Data Source | Description |
+|---------|--------------|--------------|
+| News | HXA.io News Module | Internal company announcements |
+| Weather | External API + Maps Location | Local forecast for user’s current site |
+| Logo / Branding | HXA.io Portal | Custom logo and theme colors |
+| Working Hours | Microsoft Graph MailboxSettings | Shows user’s defined working hours |
+| Location | HXA Maps / User Profile | Displays building / floor assignment |
+| Daily Bookings | Microsoft Graph CalendarView | Lists today’s meetings/bookings |
+| Interactive Map | HXA Maps Module | Visual overview; Quick/Scheduled Booking |
+| Organizer/Subject | Graph Calendar | Displays organizer info on booked spaces |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -599,6 +647,7 @@ They vary depending on the connector type (Application or Delegated).<br />
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h3 id="b--map-drawing-engine">B – Map Drawing Engine</h3>
 <ul>
@@ -616,6 +665,12 @@ They vary depending on the connector type (Application or Delegated).<br />
 </ul>
 <hr>
 <h3 id="c--booking-assistant-scoring-model">C – Booking Assistant Scoring Model</h3>
+<retype-table copy-text="| Layer | Example Factors |
+|--------|-----------------|
+| Constraints | Time, capacity, required features |
+| Preferences | Historic booking patterns |
+| Context | Team proximity, building, people |
+| Ecological | Energy cluster efficiency |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -644,6 +699,7 @@ They vary depending on the connector type (Application or Delegated).<br />
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h3 id="d--quick-start-checklist">D – Quick-Start Checklist</h3>
 <ul class="contains-task-list">

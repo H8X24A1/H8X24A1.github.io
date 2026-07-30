@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832588013974">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.838724182474">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Microsoft Teams Connector Required Permissions for HXA.io Door Connect</title>
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../../favicon.ico" />
-    <link href="../../../../resources/css/retype.css?v=4.5.3.832588013974" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=4.6.0.838724182474" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.5.3.832588013974" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.5.3.832588013974" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.838724182474" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.838724182474" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -199,6 +199,16 @@
 <hr>
 <h1 id="required-permissions--chat-agent">Required Permissions – Chat Agent</h1>
 <p>The following permissions may be requested for the Chat Agent connector.</p>
+<retype-table copy-text="| Permission | Description |
+|---|---|
+| Send channel messages | Allows the connector to send messages into Microsoft Teams channels |
+| Read all groups | Allows discovery of Microsoft 365 groups and Teams structures |
+| Read the names and descriptions of teams | Allows access to Microsoft Teams metadata |
+| Read the names and descriptions of channels | Allows access to channel metadata |
+| Read user channel messages | Allows interaction with Teams channel messaging workflows |
+| Read all users' basic profiles | Allows user identification and lookup |
+| View users' basic profile | Allows the connector to identify the signed-in account |
+| Maintain access to data you have given it access to | Allows persistent connector access without repeated manual sign-ins |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -243,9 +253,16 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h1 id="required-permissions--call-agent">Required Permissions – Call Agent</h1>
 <p>The following permissions may be requested for the Call Agent connector.</p>
+<retype-table copy-text="| Permission | Description |
+|---|---|
+| Manage calls in Teams | Allows the connector to start, join, transfer, forward, and manage Teams calls |
+| Manage chats in Teams | Allows interaction with Teams chat threads required for call-related workflows |
+| Maintain access to data you have given it access to | Allows persistent connector access without repeated manual sign-ins |
+| View your basic profile | Allows the connector to identify the signed-in account |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -274,6 +291,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h1 id="administrator-consent">Administrator Consent</h1>
 <p>Depending on the Microsoft tenant configuration, administrator approval may be required.</p>
@@ -300,6 +318,10 @@
 <h1 id="recommended-security-approach">Recommended Security Approach</h1>
 <p>For production environments, we strongly recommend using dedicated service accounts.</p>
 <h2 id="recommended-setup">Recommended Setup</h2>
+<retype-table copy-text="| Connector Type | Recommended Account |
+|---|---|
+| Door Connect – Chat Agent | Dedicated Teams chat service account |
+| Door Connect – Call Agent | Dedicated Teams calling service account |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -320,6 +342,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>This approach helps to:</p>
 <ul>
 <li>Apply the least privilege principle</li>

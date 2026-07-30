@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832588013974">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.838724182474">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>HXA.io DOCS - HXA Room Booking descripton</title>
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.5.3.832588013974" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.6.0.838724182474" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.5.3.832588013974" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.5.3.832588013974" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.838724182474" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.838724182474" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -270,6 +270,17 @@ The <strong>HXA Display</strong> is optional hardware that can be purchased pre-
 <hr>
 <h2 id="5-security--microsoft-graph-permissions">5 Security &amp; Microsoft Graph Permissions</h2>
 <h3 id="51-application-connector-app-only">5.1 Application Connector (App-only)</h3>
+<retype-table copy-text="| Permission | Type | Description |
+|-------------|------|-------------|
+| Calendars.Read | Application | Read calendars for all mailboxes. |
+| Calendars.ReadBasic.All | Application | Read basic calendar data (free/busy). |
+| Calendars.ReadWrite | Application | Create, update, and delete calendar events. |
+| Directory.Read.All | Application | Read directory objects (users/groups). |
+| Directory.ReadWrite.All | Application (opt.) | Modify directory objects (rarely required). |
+| Place.Read.All | Application | Read room and place information. |
+| Schedule.Read.All | Application | Read organization-wide schedule availability. |
+| Schedule.ReadWrite.All | Application (opt.) | Modify schedules if required. |
+| User.Read.All | Application | Read all user profiles. |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -328,6 +339,7 @@ The <strong>HXA Display</strong> is optional hardware that can be purchased pre-
 </tbody>
 </table>
 </div>
+</retype-table>
 <p><strong>Best Practices</strong></p>
 <ul>
 <li>Restrict application scope via <em>Application Access Policies</em> to defined mailboxes.</li>
@@ -336,6 +348,16 @@ The <strong>HXA Display</strong> is optional hardware that can be purchased pre-
 </ul>
 <hr>
 <h3 id="52-service-connector-delegated">5.2 Service Connector (Delegated)</h3>
+<retype-table copy-text="| Permission | Type | Description |
+|-------------|------|-------------|
+| Calendars.ReadWrite.Shared | Delegated | Read/write delegated or shared calendars (room mailboxes). |
+| MailboxSettings.Read | Delegated | Read mailbox settings (working hours, timezone). |
+| offline_access | Delegated | Obtain refresh tokens for persistent sessions. |
+| openid | Delegated | OpenID Connect authentication. |
+| Place.Read.All | Delegated | Read room and place metadata. |
+| profile | Delegated | Retrieve user profile claims (OIDC). |
+| User.Read | Delegated | Sign in and read user profile (Service user context). |
+| User.ReadBasic.All | Delegated | Read basic profiles of all users (for name resolution/NFC). |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -389,6 +411,7 @@ The <strong>HXA Display</strong> is optional hardware that can be purchased pre-
 </tbody>
 </table>
 </div>
+</retype-table>
 <p><strong>Notes &amp; Best Practices</strong></p>
 <ul>
 <li>The service user must have FullAccess to the target room mailboxes in Exchange.</li>
@@ -405,6 +428,12 @@ Maintenance windows, service availability, and renewal terms are defined per con
 HXA.io and HXA Room Booking are products of <strong>NT Technologies GmbH/ NetTask GmbH</strong>, Germany.</p>
 <hr>
 <h2 id="appendix-a--hardware-dimensions--ports">Appendix A – Hardware Dimensions &amp; Ports</h2>
+<retype-table copy-text="| Dimension | Value |
+|------------|-------|
+| Width | 24.9 cm |
+| Height | 16.9 cm |
+| Depth | 2.4 cm |
+| Interfaces | DC-In, RJ45 (Ethernet/PoE), USB/OTG, MicroSD, Earphone, Serial Port |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -433,6 +462,7 @@ HXA.io and HXA Room Booking are products of <strong>NT Technologies GmbH/ NetTas
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h2 id="appendix-b--device-registration-process">Appendix B – Device Registration Process</h2>
 <ol>
