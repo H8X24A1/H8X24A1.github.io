@@ -5,7 +5,7 @@ icon: paste
 order: 900
 ---
 
-## v4.0.0
+## v4.4.0
 Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
 Release date: 2026-08-03
 +++ New :icon-shield-check:
@@ -29,7 +29,7 @@ Release date: 2026-08-03
 
 +++
 
-## v5.0.0
+## v5.4.0
 Platform: HXA Display 
 Release date: 2026-08-03
 +++ New :icon-shield-check:
