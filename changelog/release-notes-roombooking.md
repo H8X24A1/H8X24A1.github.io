@@ -1,3 +1,50 @@
+## v4.0.0
+Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
+Release date: 2026-08-03
++++ New :icon-shield-check:
+- [x] Timer feature implemented for both Modern and Classic designs with ringtone options.
+- [x] Loading popup added during check-in and order processes.
+- [x] Reminder popup with flashing extend button added at booking end.
+- [x] Extend option now available for 15 minutes after check-out.
+
++++ Improved :icon-thumbsup:
+- [x] Display optimised for screens below 7 inches (Raspberry).
+- [x] Floor plan position changed for better usability.
+- [x] Room Booking map rectangle locked to prevent unintended repositioning.
+- [x] Add-on license module created for Room Temperature.
+- [x] Room Service popup experience improved.
+
++++ Fixed :icon-bug:
+- [x] Fixed uploaded avatar and logo not showing in Room Booking.
+- [x] Fixed NFC tag functionality.
+- [x] Fixed check-in not syncing with Room Booking when initiated from Sparo.
+- [x] Multiple UI improvements for better user experience.
+
++++
+
+## v5.0.0
+Platform: HXA Display 
+Release date: 2026-08-03
++++ New :icon-shield-check:
+- [x] Timer feature implemented for both Modern and Classic designs with ringtone options.
+- [x] Loading popup added during check-in and order processes.
+- [x] Reminder popup with flashing extend button added at booking end.
+- [x] Extend option now available for 15 minutes after check-out.
+
++++ Improved :icon-thumbsup:
+- [x] Display optimised for screens below 7 inches (Raspberry).
+- [x] Floor plan position changed for better usability.
+- [x] Room Booking map rectangle locked to prevent unintended repositioning.
+- [x] Add-on license module created for Room Temperature under Admin Provider.
+- [x] Room Service popup experience improved.
+
++++ Fixed :icon-bug:
+- [x] Fixed uploaded avatar and logo not showing in Room Booking.
+- [x] Fixed NFC tag functionality.
+- [x] Fixed check-in not syncing with Room Booking when initiated from Sparo.
+- [x] Multiple UI improvements for better user experience.
++++
+
 ## v3.0.0
 Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
 Release date: 2026-01-29

@@ -1,3 +1,24 @@
+## v.3.1.0
+Release date: 2026-07-23
++++ New :icon-shield-check:
+- [x] Room Temperature Add-on License: New add-on license module to control Room Temperature.
+- [x] Valve Configuration in Automation: Valve added as a control module in the Automation Portal with Shelly Gen 3 TRV integration.
+- [x] Timer Add-on: New timer add-on feature introduced for Room Booking.
+
++++ Improved :icon-thumbsup:
+- [x] Side menu redesigned across Portal and Provider Portal with improved navigation for Licenses and Add-on Licenses.
+- [x] Create, Edit User, Category, and Items pages now use a right-side slider instead of traditional page navigation.
+- [x] Date format is now consistent across all Portal views and expiry colour on licenses has been adjusted.
+- [x] Loading page background appearance improved.
+- [x] Device Manager table now includes a column for platform filter with fixed iPhone platform filter functionality.
+
++++ Fixed :icon-bug:
+- [x] Fixed truncation of configuration titles in admin settings.
+- [x] Fixed non-scrollable button icon list in EVC configuration.
+- [x] Fixed overlapping error modules in Portal.
+
++++
+
 ## v.0.19.0
 Release date: 2024-06-11
 +++ New :icon-shield-check:
