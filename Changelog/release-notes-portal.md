@@ -5,8 +5,8 @@ icon: paste
 order: 1000
 ---
 
-## v.3.1.0
-Release date: 2026-07-23
+## v.3.2.0
+Release date: 2026-08-03
 +++ New :icon-shield-check:
 - [x] Room Temperature Add-on License: New add-on license module to control Room Temperature.
 - [x] Valve Configuration in Automation: Valve added as a control module in the Automation Portal with Shelly Gen 3 TRV integration.
