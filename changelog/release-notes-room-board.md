@@ -1,3 +1,18 @@
+## v.2.0.0
+Platform: Microsoft Windows |  Progressive Web App
+Release date: 2025-08-03
++++ New :icon-shield-check:
+- [x] Room Service Email Context: Organiser name and booking title are now included in Room Service email notifications.
+
++++ Improved :icon-thumbsup:
+- [x] Resource Name on Map: Resource names are now  displayed on the floor plan map.
+- [x] Info Page Layout: Multiple layout fixes applied to the info page.
+
++++ Fix :icon-bug:
+- [x] Server Disconnect: Resolved display server disconnect issues for improved stability.
+
++++
+
 ## v.1.6.0
 Platform: Microsoft Windows |  Progressive Web App
 Release date: 2025-05-05
