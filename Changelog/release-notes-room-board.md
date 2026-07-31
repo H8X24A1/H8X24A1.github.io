@@ -7,7 +7,7 @@ order: 800
 
 ## v.2.0.0
 Platform: Microsoft Windows |  Progressive Web App
-Release date: 2025-08-03
+Release date: 2026-08-03
 +++ New :icon-shield-check:
 - [x] Room Service Email Context: Organiser name and booking title are now included in Room Service email notifications.
 
