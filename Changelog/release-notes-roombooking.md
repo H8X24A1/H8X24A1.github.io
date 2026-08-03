@@ -12,7 +12,8 @@ Release date: 2026-08-03
 - [x] Timer feature implemented for both Modern and Classic designs with ringtone options.
 - [x] Loading popup added during check-in and order processes.
 - [x] Reminder popup with flashing extend button added at booking end.
-- [x] Extend option now available for 15 minutes after check-out.
+- [x] Extend option stay visible 15 minutes after check-out.
+
 
 +++ Improved :icon-thumbsup:
 - [x] Display optimised for screens below 7 inches (Raspberry).
