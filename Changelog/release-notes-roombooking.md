@@ -5,18 +5,18 @@ icon: paste
 order: 900
 ---
 
-## v4.4.0
+## v5.4.0
 Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
 Release date: 2026-08-03
 +++ New :icon-shield-check:
-- [x] Timer feature implemented for both Modern and Classic designs with ringtone options.
-- [x] Loading popup added during check-in and order processes.
-- [x] Reminder popup with flashing extend button added at booking end.
-- [x] Extend option stay visible 15 minutes after check-out.
+- [x] Timer function added for Modern and Classic designs with ringtone options.
+- [x] Loading popup added during check-in and roomservice-orders.
+- [x] Reminder popup with flashing extend button at booking end.
+- [x] Event-Extend option stay available till 15 minutes after check-out.
 
 
 +++ Improved :icon-thumbsup:
-- [x] Display optimised for screens below 7 inches (Raspberry).
+- [x] Display optimised for small screens.
 - [x] Floor plan position changed for better usability.
 - [x] Room Booking map rectangle locked to prevent unintended repositioning.
 - [x] Add-on license module created for Room Temperature.
@@ -34,10 +34,10 @@ Release date: 2026-08-03
 Platform: HXA Display 
 Release date: 2026-08-03
 +++ New :icon-shield-check:
-- [x] Timer feature implemented for both Modern and Classic designs with ringtone options.
-- [x] Loading popup added during check-in and order processes.
-- [x] Reminder popup with flashing extend button added at booking end.
-- [x] Extend option now available for 15 minutes after check-out.
+- [x] Timer function added for Modern and Classic designs with ringtone options.
+- [x] Loading popup added during check-in and roomservice-orders.
+- [x] Reminder popup with flashing extend button at booking end.
+- [x] Event-Extend option stay available till 15 minutes after check-out.
 
 +++ Improved :icon-thumbsup:
 - [x] Display optimised for screens below 7 inches (Raspberry).

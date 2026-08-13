@@ -9,7 +9,7 @@ Release date: 2026-08-04
 +++  New :icon-shield-check:
 - [x] Users now receive notifications when a booking check-in is triggered.
 - [x] Proposed Time Flow: Attendees can propose alternative times for existing bookings.
-- [x] Pending Check-in State: Bookings now show a pending state until the user successfully checks in.
+- [x] Pending Check-in State: Bookings now show a pending resource-state until check-in is completed.
 - [x] All-Day Booking Creation: Users can create all-day resource bookings following Microsoft 365 logic.
 - [x] New Welcoming Page Design: New welcoming page with enhanced animations.
 - [x] Bottom Sheet Detail Views: Booking and invitation details now open in a bottom sheet.
