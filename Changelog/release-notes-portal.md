@@ -12,7 +12,7 @@ Release date: 2026-10-23
 - [x] Insights Dashboard: a central view of usage statistics and booking data at a glance.
 - [x] TRMNL E-Paper Integration: display room information on energy-efficient e-paper displays.
 - [x] Extended user profile information:  additional profile fields for more detailed user management.
-- [x] HXA Calendar & Connector: improved calendar integration and a more stable connection to the Microsoft 365 Connector. (also reflected in Room Booking and Room Board).
+- [x] HXA Calendar & Connector: Organisations can now create their own HXA-hosted calendar, managed entirely on our infrastructure – as a standalone alternative to the existing Microsoft 365 integration. (also reflected in Room Booking and Room Board).
 
 +++ Fixed :icon-bug:
 - [x] Fixed the issue when edting a user.
