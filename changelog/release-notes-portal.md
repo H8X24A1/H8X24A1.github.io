@@ -1,3 +1,18 @@
+## v.3.3.0
+Release date: 2026-10-23
++++ New :icon-shield-check:
+- [x] Insights Dashboard: a central view of usage statistics and booking data at a glance.
+- [x] TRMNL E-Paper Integration: display room information on energy-efficient e-paper displays.
+- [x] Extended user profile information:  additional profile fields for more detailed user management.
+- [x] HXA Calendar & Connector: improved calendar integration and a more stable connection to the Microsoft 365 Connector. (also reflected in Room Booking and Room Board).
+
++++ Fixed :icon-bug:
+- [x] Fixed the issue when edting a user.
+- [x] Fixed the flow of purchasing a license.
+- [x] Fixed the add-on license when adding it to a resource.
+
++++
+
 ## v.3.2.0
 Release date: 2026-08-03
 +++ New :icon-shield-check:

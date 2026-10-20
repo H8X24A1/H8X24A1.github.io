@@ -1,3 +1,19 @@
+## v4.3.0
+Release date: 2026-10-24
++++  New :icon-shield-check:
+- [x] Resource Availability Calendar: a clear calendar view of all bookable resources across your workspace.
+- [x] Book working time directly from the floor plan: initiate bookings conveniently via the interactive building map.
+- [x] Sparo AI Assistant: intelligent support for booking and managing resources.
+
++++ Improved :icon-thumbsup:
+- [x] Enhance the scrolling behaviour to be more user friendly.
+
++++ Fixed :icon-bug:
+- [x] Fixed the issue with notifcations.
+- [x] Fixed the sycing between Sparo and Room Booking.
+- [x] Fixed the weather widget information.
++++
+
 ## v4.2.0
 Release date: 2026-08-04
 +++  New :icon-shield-check:

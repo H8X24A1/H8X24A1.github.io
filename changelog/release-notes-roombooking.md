@@ -1,3 +1,18 @@
+## v5.5.0
+Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
+Release date: 2026-10-24
++++ New :icon-shield-check:
+- [x] NFC Check-out: quickly and contactlessly release rooms and resources via NFC.
+- [x] Book from the floor plan via NFC scan: book rooms directly through the building plan modal using an NFC scan.
+
++++ Fixed :icon-bug:
+- [x] Fixed the LED Problem in the HXA Display.
+- [x] Establish consistancy between Classic and Modern Theme.
+- [x] Fixed Auto closing the modal and WI-FI setup for the Device.
+- [x] Fixes size layout for 7inch screens.
+
++++
+
 ## v5.4.0
 Platform: Android OS | Apple iOS | Microsoft Windows | Progressive web App 
 Release date: 2026-08-03
