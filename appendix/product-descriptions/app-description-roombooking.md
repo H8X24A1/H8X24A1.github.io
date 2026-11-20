@@ -54,10 +54,12 @@ The **HXA Display** is optional hardware that can be purchased pre-configured an
 - Room status display (free / reserved / occupied) and upcoming events.  
 - Planning directly on the display or via Outlook/Exchange calendar.  
 - Custom branding and background per room.  
-- Automatic sync with HXA.io Service and Exchange calendar.  
+- Calendar synchronization via Microsoft Graph, Microsoft Exchange Online EWS, Microsoft Exchange On-Premises EWS, or Local HXA.io Calendar, depending on the configured connection mode.
 
 #### Exchange Integration
 Calendar synchronization is handled via Microsoft Graph (Exchange Online) or EWS (Exchange On-Premises), depending on the connector type.  
+
+With the optional [local Exchange connection add-on](/setup/connector-setup/microsoft-exchange/local-ews-connection.md), HXA Room Booking on an HXA Display can also connect directly to an on-premises Exchange Server 2016, 2019, or Subscription Edition (SE) via EWS over the local network. In this mode, calendar data is not routed through HXA.io Services. Function settings, configuration, and licensing continue to use HXA.io Services, and the EWS connection details and credentials are configured directly on each display.
 
 ---
 
