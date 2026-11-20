@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848485833299">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848499595385">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Room Service Setup</title>
     <meta name="title" content="Room Service Setup">
-    <meta name="description" content="Coming soon...">
+    <meta name="description" content="Room Service combines a central catalog with activation on each Room Booking resource. Configure categories and articles first, then choose which articles and devices should offer the service.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/setup/room-service-setup/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/setup/room-service-setup/">
     <meta property="og:title" content="Room Service Setup">
-    <meta property="og:description" content="Coming soon...">
+    <meta property="og:description" content="Room Service combines a central catalog with activation on each Room Booking resource. Configure categories and articles first, then choose which articles and devices should offer the service.">
     <meta property="og:site_name" content="HXA.io">
     <meta property="og:locale" content="en_US">
 
@@ -30,7 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.hxa.io/setup/room-service-setup/">
     <meta name="twitter:title" content="Room Service Setup">
-    <meta name="twitter:description" content="Coming soon...">
+    <meta name="twitter:description" content="Room Service combines a central catalog with activation on each Room Booking resource. Configure categories and articles first, then choose which articles and devices should offer the service.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://docs.hxa.io/setup/room-service-setup.md">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.848485833299" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.848499595385" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.848485833299" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.848499595385" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.848485833299" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.848499595385" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -157,7 +157,44 @@
 
                 <!-- Page content  -->
 <h1 id="room-service-setup">Room Service Setup</h1>
-<p>Coming soon...</p>
+<p>Room Service combines a central catalog with activation on each Room Booking resource. Configure categories and articles first, then choose which articles and devices should offer the service.</p>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>Access to the Room service and resource-configuration areas in the <a href="https://portal.hxa.io">HXA.io Portal</a>.</li>
+<li>A configured <a href="../resource-setup/room-booking-setup/resource-setup/">Room Booking resource</a> with a connected display.</li>
+<li>The appropriate Room Service add-on license assigned to the resource. See <a href="../../license/assign-license/">License Assignment</a>.</li>
+<li>The email recipients intended to receive orders.</li>
+</ul>
+<h2 id="create-categories">Create categories</h2>
+<ol>
+<li>Open <strong>Room service &gt; Category</strong>.</li>
+<li>Choose <strong>Add category</strong>.</li>
+<li>Fill in the required <strong>Name</strong> and <strong>Sorting</strong> fields.</li>
+<li>Use <strong>Save</strong> and check the entry in the overview.</li>
+</ol>
+<p>The category overview lists <strong>Category name</strong> and <strong>Sorting</strong>, with an Options menu for each entry.</p>
+<h2 id="add-catalog-items">Add catalog items</h2>
+<ol>
+<li>Open <strong>Room service &gt; Item</strong>.</li>
+<li>Choose <strong>Add item</strong>.</li>
+<li>Enter <strong>Item</strong>, choose <strong>Category</strong> and <strong>Symbol</strong>, and set <strong>Sorting in the category</strong>.</li>
+<li>Review <strong>Show price</strong> and the pricing controls offered by the form if you want prices displayed.</li>
+<li>Use <strong>Save</strong> and check the article in the overview.</li>
+</ol>
+<p>The overview includes <strong>Item Name</strong>, <strong>Category</strong>, <strong>Price</strong>, <strong>Symbol</strong>, and <strong>Sorting</strong>. Creating an article in the central catalog is separate from activating it on a resource.</p>
+<h2 id="activate-room-service-on-a-resource">Activate Room Service on a resource</h2>
+<ol>
+<li>Open <strong>Resources &gt; Options &gt; Edit Resource</strong> for the intended Room Booking resource.</li>
+<li>Review the assigned license under <strong>Licensing - Add-ons</strong>.</li>
+<li>Find <strong>Add-On Licenses</strong> and select <strong>Room Service</strong>.</li>
+<li>Use <strong>Manage Devices</strong> to choose the displays on which the Room Service module should be activated.</li>
+<li>Enter <strong>E-mail recipient for orders</strong> and, if needed, <strong>E-mail copy recipient for orders</strong>.</li>
+<li>Review the article table and select the intended entries in <strong>Activate</strong>. The table identifies each article by Item Name, Item category, and Item price.</li>
+<li>Use the Room Service section&#x27;s <strong>Save and Update</strong> button.</li>
+</ol>
+<h2 id="verify-the-setup">Verify the setup</h2>
+<p>Reopen the resource to check the retained device, recipient, and article configuration. On an enabled display, check that the intended articles are offered. Arrange a test order with the receiving service team to verify delivery and any displayed prices.</p>
+<!-- Sources: authenticated portal inspection, 2026-11-20, P05–P07; existing Room Service add-on release notes. Empty category/item forms and an existing resource configuration were inspected. Creation, price controls after enabling Show price, device selection, saving, and order delivery were not tested. -->
 
                 
                 <!-- Required only on API pages -->
@@ -167,11 +204,11 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../setup/automation-setup/triggers/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../setup/floor-plan-setup/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                <span class="block mt-1">Triggers</span>
+                                <span class="block mt-1">Floor Plan Setup</span>
                             </span>
                         </a>
                     </div>

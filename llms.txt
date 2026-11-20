@@ -5,8 +5,18 @@
 ## Key Documentation
 
 - [Getting Started](https://docs.hxa.io/getting-started/)
+- [Portal Navigation](https://docs.hxa.io/setup/portal-navigation/)
+- [Connector Setup](https://docs.hxa.io/setup/connector-setup/)
+- [Microsoft Entra ID Setup](https://docs.hxa.io/setup/connector-setup/microsoft-entra-id/initial-setup/)
+- [Calendar Setup](https://docs.hxa.io/setup/calendar-setup/)
+- [User Setup](https://docs.hxa.io/setup/user-setup/)
+- [Role Setup](https://docs.hxa.io/setup/role-setup/)
+- [Floor Plan Setup](https://docs.hxa.io/setup/floor-plan-setup/)
+- [Room Service Setup](https://docs.hxa.io/setup/room-service-setup/)
+- [Device Monitoring](https://docs.hxa.io/maintenance/device-monitoring/)
+- [Event Logs](https://docs.hxa.io/maintenance/event-logs/)
 - [HXA Room Booking](https://docs.hxa.io/appendix/product-descriptions/app-description-roombooking/)
-- [HXA Sparo](https://docs.hxa.io/)
+- [HXA Sparo](https://docs.hxa.io/appendix/product-descriptions/app-description-sparo/)
 - [Licensing](https://docs.hxa.io/license/purchase-license/)
 - [Languages](https://docs.hxa.io/appendix/languages/)
 

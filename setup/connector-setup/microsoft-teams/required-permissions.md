@@ -163,8 +163,7 @@ Administrators should review the displayed permissions before accepting the cons
 
 # Related Documentation
 
-- Microsoft Teams Connector Initial Setup
-- Door Connect Service Account Reconsent
-- Door Connect Chat Agent Setup
-- Door Connect Call Agent Setup
-- Connector Troubleshooting
+- [Microsoft Teams Connector Initial Setup](/setup/connector-setup/microsoft-teams/initial-setup.md)
+- [Door Connect Service Account Reconsent](/setup/connector-setup/microsoft-teams/reconsent.md)
+- [Door Connect Resource Setup](/setup/resource-setup/door-connect-for-microsoft-teams-setup.md)
+- [Connector Troubleshooting in the Event Log](/maintenance/event-logs.md)

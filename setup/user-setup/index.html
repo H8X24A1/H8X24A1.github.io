@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848485833299">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848499595385">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>HXA.io DOCS - User Setup</title>
     <meta name="title" content="HXA.io DOCS - User Setup">
-    <meta name="description" content="HXA.io allows to create new User Accounts for colleagues or to import existing Accounts from Microsoft Azure AD (Entra ID).">
+    <meta name="description" content="Open Account > Users in the HXA.io Portal. Users, Roles, and Groups are separate pages in the Account menu.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.hxa.io/setup/user-setup/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hxa.io/setup/user-setup/">
     <meta property="og:title" content="HXA.io DOCS - User Setup">
-    <meta property="og:description" content="HXA.io allows to create new User Accounts for colleagues or to import existing Accounts from Microsoft Azure AD (Entra ID).">
+    <meta property="og:description" content="Open Account > Users in the HXA.io Portal. Users, Roles, and Groups are separate pages in the Account menu.">
     <meta property="og:site_name" content="HXA.io">
     <meta property="og:locale" content="en_US">
 
@@ -30,7 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.hxa.io/setup/user-setup/">
     <meta name="twitter:title" content="HXA.io DOCS - User Setup">
-    <meta name="twitter:description" content="HXA.io allows to create new User Accounts for colleagues or to import existing Accounts from Microsoft Azure AD (Entra ID).">
+    <meta name="twitter:description" content="Open Account > Users in the HXA.io Portal. Users, Roles, and Groups are separate pages in the Account menu.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://docs.hxa.io/setup/user-setup.md">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.848485833299" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.848499595385" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.848485833299" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.848499595385" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.848485833299" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.848499595385" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -156,19 +156,96 @@
                 <doc-page-actions></doc-page-actions>
 
                 <!-- Page content  -->
-<h1 id="hxaio-docs---user-setup">HXA.io DOCS - User Setup</h1>
-<h2 id="with-the-user-management-its-easy-to-let-colleagues-participate">With the User Management its easy to let colleagues participate.</h2>
-<p>HXA.io allows to create new User Accounts for colleagues or to import existing Accounts from Microsoft Azure AD (Entra ID).</p>
-<p>To create a new User please login to the <a href="https://portal.hxa.io">https://portal.hxa.io</a> and navigate to the &quot;Account&quot; section. Here you will find a Submenu entry &quot;User and Roles&quot; where you have the possibility to view, create, import, update, or delete users.</p>
-<h2 id="to-simplify-the-creation-of-users-we-allow-to-import-users-from-microsoft-azure-ad-new-entra-id">To simplify the creation of Users we allow to import Users from Microsoft Azure AD (New: Entra ID)</h2>
-<h3 id="import-azure-ad-user">Import Azure AD User</h3>
-<p>NOTE: Please ensure you have a Microsoft Azure AD (Entra ID) Connector setup before.</p>
-<ol>
-<li>Login to <a href="https://portal.hxa.io">https://portal.hxa.io</a></li>
-<li>Select &quot;Account&quot; and navigate to &quot;User and Roles&quot;</li>
-<li>Click on the Button &quot;Create user&quot; and select &quot;Import Azure AD User&quot;</li>
-<li>Select a User or Users to Import</li>
-</ol>
+<h1 id="user-setup">User Setup</h1>
+<p>Open <strong>Account &gt; Users</strong> in the <a href="https://portal.hxa.io">HXA.io Portal</a>. <strong>Users</strong>, <strong>Roles</strong>, and <strong>Groups</strong> are separate pages in the Account menu.</p>
+<h2 id="find-a-user">Find a user</h2>
+<p>Use <strong>Search</strong>, <strong>Filter</strong>, and <strong>Columns option</strong> to locate a profile. The user table includes:</p>
+<ul>
+<li>First name, Last name, and Email.</li>
+<li>Entra object ID and Entra ID information.</li>
+<li>Transponder-ID, marked <strong>BETA</strong>.</li>
+<li>Role, License Number, Status, and Last login To Portal.</li>
+</ul>
+<h2 id="create-or-import-users">Create or import users</h2>
+<p><strong>Create user</strong> opens a menu with two options:</p>
+<retype-table copy-text="| Option | Purpose |
+| --- | --- |
+| Create user | Open the portal's user-creation flow |
+| Import Azure AD User | Import users from Microsoft Entra ID; the menu retains the Azure AD name |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Option</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Create user</td>
+<td>Open the portal&#x27;s user-creation flow</td>
+</tr>
+<tr>
+<td>Import Azure AD User</td>
+<td>Import users from Microsoft Entra ID; the menu retains the Azure AD name</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<p>For directory import, configure the Microsoft Entra ID connector first. Open <strong>Create user &gt; Import Azure AD User</strong>, then select the users to import in the import workflow.</p>
+<p>The overview also provides <strong>Sync all users</strong> and <strong>Sync selected users</strong>. Select the intended profiles before using synchronization for selected users. Review the result in the user list; importing or synchronizing users is separate from assigning their HXA licenses.</p>
+<h2 id="edit-a-user">Edit a user</h2>
+<p>Open the user&#x27;s <strong>Options</strong> menu and choose <strong>Edit user</strong>.</p>
+<retype-table copy-text="| Section | Fields |
+| --- | --- |
+| BASIC INFO | First name, Last name, Department |
+| CONTACT | Email, Mobile Phone, Business Phone |
+| PREFERENCES &amp; ACCESS | Language, PIN |
+| VEHICLE &amp; IDENTIFICATION | Vehicle Registration Plate, Transponder-ID [BETA] |
+| PERMISSIONS | Role selection and user-license selection |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Section</th>
+<th>Fields</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BASIC INFO</td>
+<td>First name, Last name, Department</td>
+</tr>
+<tr>
+<td>CONTACT</td>
+<td>Email, Mobile Phone, Business Phone</td>
+</tr>
+<tr>
+<td>PREFERENCES &amp; ACCESS</td>
+<td>Language, PIN</td>
+</tr>
+<tr>
+<td>VEHICLE &amp; IDENTIFICATION</td>
+<td>Vehicle Registration Plate, Transponder-ID [BETA]</td>
+</tr>
+<tr>
+<td>PERMISSIONS</td>
+<td>Role selection and user-license selection</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<p>The PIN field displays an <strong>8–16 digit</strong> input hint. Availability of individual fields can vary; for example, contact fields can be read-only. Use <strong>Save and Update</strong> to save intended changes, then reopen the profile to check them.</p>
+<p>For HXA Sparo, assign the license to the user in this form. See <a href="../../license/assign-license/">License Assignment</a>.</p>
+<h2 id="roles-and-primary-contact">Roles and primary contact</h2>
+<p>Manage role permissions under <strong>Account &gt; Roles</strong>; see <a href="../role-setup/">Role Setup</a>.</p>
+<p>The user Options menu also contains <strong>Reset password</strong>, <strong>Delete User</strong>, and <strong>Set as a Primary contact</strong>. These are separate actions from editing profile details. For the organization&#x27;s primary contact, see <a href="../organization-settings/">Organization Settings</a>.</p>
+<h2 id="groups">Groups</h2>
+<p>Open <strong>Account &gt; Groups</strong> for <strong>Group Management</strong>. The table shows <strong>ID</strong>, <strong>Name</strong>, <strong>Type</strong>, and <strong>Entra ID</strong>, with Search, Filter, and Columns option.</p>
+<p><strong>Create Group</strong> offers <strong>Create Group</strong> and <strong>Import Azure AD Group</strong>. Groups can also be selected in the organization&#x27;s First Aid configuration; see <a href="../organization-settings/#emergency-and-safety-settings">Emergency and safety settings</a>.</p>
+<!-- Sources: authenticated portal inspection, 2026-11-20, P08–P10; existing Entra import and license-assignment documentation. No import, synchronization, access change, or contact transfer was performed. -->
 
                 
                 <!-- Required only on API pages -->
@@ -188,10 +265,10 @@
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../usage/sparo-user-documentation/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../setup/role-setup/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                <span class="block mt-1">HXA Sparo</span>
+                                <span class="block mt-1">Role Setup</span>
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         </a>

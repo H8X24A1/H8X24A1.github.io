@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848485833299">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848499595385">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../../favicon.ico" />
-    <link href="../../../../resources/css/retype.css?v=4.6.0.848485833299" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=4.6.0.848499595385" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.848485833299" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.848499595385" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.848485833299" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.848499595385" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -173,19 +173,19 @@ Used for the Door Connect Call Agent.</p>
 <p>Both connector types follow the same general setup flow. The required Microsoft permissions depend on the selected connector type and can be reviewed in the dedicated permissions documentation.</p>
 <p>For details, see:</p>
 <blockquote>
-<p><strong>Microsoft Teams Connector Required Permissions</strong></p>
+<p><a href="../required-permissions/">Microsoft Teams Connector Required Permissions</a></p>
 </blockquote>
 <hr>
 <h2 id="open-the-microsoft-teams-connector-setup">Open the Microsoft Teams Connector Setup</h2>
 <p>In the HXA.io Portal, go to:</p>
 <blockquote>
-<p><strong>Connectors → Add Connector</strong></p>
+<p><strong>Connectors → Create connector</strong></p>
 </blockquote>
 <p>Select:</p>
 <blockquote>
-<p><strong>Office 365 – Teams</strong></p>
+<p><strong>Office 365 - Teams → Connect</strong></p>
 </blockquote>
-<p>You will see two available connector options:</p>
+<p>The tile&#x27;s <strong>Connect</strong> action opens a panel with two options:</p>
 <ul>
 <li><strong>User/Service Account</strong></li>
 <li><strong>Teams Calling Agent (User/Service Account)</strong></li>
@@ -194,6 +194,8 @@ Used for the Door Connect Call Agent.</p>
 <blockquote>
 <p><strong>Connect</strong></p>
 </blockquote>
+<p>This is the second <strong>Connect</strong> button, on the account-type panel. Use <strong>Back</strong> to return to the connector selection without continuing with authentication.</p>
+<!-- Initial tile and account-type panel verified in the portal on 2026-11-20, P18. No mode was selected and the second Connect button was not submitted. The existing sign-in/consent guidance below was not operationally retested. -->
 <hr>
 <h2 id="connector-types">Connector Types</h2>
 <h3 id="door-connect--chat-agent">Door Connect – Chat Agent</h3>
@@ -239,7 +241,7 @@ Used for the Door Connect Call Agent.</p>
 <p>The detailed permission scope is documented separately.</p>
 <p>For details, see:</p>
 <blockquote>
-<p><strong>Microsoft Teams Connector Required Permissions</strong></p>
+<p><a href="../required-permissions/">Microsoft Teams Connector Required Permissions</a></p>
 </blockquote>
 <hr>
 <h3 id="step-4--accept-the-consent-request">Step 4 – Accept the Consent Request</h3>
@@ -309,7 +311,7 @@ Used for the Door Connect Call Agent.</p>
 <p>The Microsoft permission scopes are maintained in a separate documentation page to keep setup instructions clear and easy to follow.</p>
 <p>For details, see:</p>
 <blockquote>
-<p><strong>Microsoft Teams Connector Required Permissions</strong></p>
+<p><a href="../required-permissions/">Microsoft Teams Connector Required Permissions</a></p>
 </blockquote>
 <hr>
 <h2 id="result">Result</h2>
@@ -323,11 +325,10 @@ Used for the Door Connect Call Agent.</p>
 <hr>
 <h2 id="related-documentation">Related Documentation</h2>
 <ul>
-<li>Microsoft Teams Connector Required Permissions</li>
-<li>Door Connect Service Account Reconsent</li>
-<li>Door Connect Chat Agent Setup</li>
-<li>Door Connect Call Agent Setup</li>
-<li>Connector Troubleshooting</li>
+<li><a href="../required-permissions/">Microsoft Teams Connector Required Permissions</a></li>
+<li><a href="../reconsent/">Door Connect Service Account Reconsent</a></li>
+<li><a href="../../../resource-setup/door-connect-for-microsoft-teams-setup/">Door Connect Resource Setup</a></li>
+<li><a href="../../../../maintenance/event-logs/">Connector Troubleshooting in the Event Log</a></li>
 </ul>
 
                 

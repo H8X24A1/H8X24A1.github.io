@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848485833299">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848499595385">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.6.0.848485833299" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.848499595385" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.848485833299" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.848499595385" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.848485833299" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.848499595385" data-turbo-eval="false" defer></script>
 
     <link href="/static/custom.css" rel="stylesheet" />
 </head>
@@ -174,40 +174,72 @@ It connects Microsoft 365, room and workplace booking, resource management, acce
 <p>Before starting, ensure the following:</p>
 <ul>
 <li>Internet connectivity for all HXA.io components</li>
-<li>Access to a Microsoft 365 tenant or Exchange environment</li>
-<li>Global Administrator permissions (for initial setup)</li>
+<li>A calendar host appropriate for your setup: HXA.io-hosted calendars, Microsoft 365, or an Exchange environment</li>
+<li>Permissions for the relevant HXA.io portal areas and, when connecting Microsoft services, an account authorized for the required setup and consent</li>
 <li>Access to the HXA.io Portal: <a href="https://portal.hxa.io">https://portal.hxa.io</a></li>
 </ul>
 <h2 id="system-architecture-overview">System architecture overview</h2>
-<p>HXA.io does not store Microsoft 365 data independently.<br />
-Instead, it connects directly to Exchange resources and synchronizes data in real time.</p>
-<p>This ensures:</p>
-<ul>
-<li>No data duplication</li>
-<li>Real-time booking updates</li>
-<li>Native integration with Outlook and Microsoft Teams</li>
-</ul>
+<p>Choose the connection model that matches the resource:</p>
+<retype-table copy-text="| Calendar connection | Setup |
+| --- | --- |
+| HXA-hosted calendar | HXA.io Local Connector and the Calendars area in the portal |
+| Microsoft 365 room or equipment mailbox | Microsoft Office 365 Resources connector using Microsoft Graph |
+| Exchange calendar through the portal | Microsoft Exchange connector using EWS |
+| Direct access from an HXA Display to an on-premises Exchange server | Optional local EWS connection add-on, configured on the display |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Calendar connection</th>
+<th>Setup</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HXA-hosted calendar</td>
+<td>HXA.io Local Connector and the Calendars area in the portal</td>
+</tr>
+<tr>
+<td>Microsoft 365 room or equipment mailbox</td>
+<td>Microsoft Office 365 Resources connector using Microsoft Graph</td>
+</tr>
+<tr>
+<td>Exchange calendar through the portal</td>
+<td>Microsoft Exchange connector using EWS</td>
+</tr>
+<tr>
+<td>Direct access from an HXA Display to an on-premises Exchange server</td>
+<td>Optional local EWS connection add-on, configured on the display</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<p>In the direct display-to-Exchange mode, calendar data is exchanged locally; HXA.io Services remain involved in function settings, configuration, and licensing. See <a href="../setup/connector-setup/microsoft-exchange/local-ews-connection/">Local Exchange Connection via EWS</a>.</p>
+<p>The <strong>HXA.io Local Connector</strong> is the portal&#x27;s calendar-host option. Its name does not refer to the display&#x27;s local Exchange connection.</p>
 <h2 id="setup-process-high-level">Setup process (high-level)</h2>
 <p>The setup is performed centrally via the HXA.io Portal.</p>
 <p>Main steps:</p>
 <ol>
 <li>Create an HXA.io account at <a href="https://portal.hxa.io">https://portal.hxa.io</a></li>
-<li>Configure required connectors:
-<ul>
-<li>Microsoft Office 365 Resources</li>
-<li>Microsoft Entra ID (Azure AD)</li>
-<li>Microsoft Teams Chat/ Call</li>
-</ul>
-</li>
-<li>Grant admin consent for the application</li>
-<li>Import users from Microsoft 365</li>
-<li>Configure resources (rooms, workplaces, etc.)</li>
+<li>Choose the calendar host and configure the connectors required by the applications you use. Microsoft Entra ID supports directory integration and the floor-plan links editor; Teams connectors are used for Door Connect workflows.</li>
+<li>Complete the required Microsoft authorization when connecting Microsoft services.</li>
+<li>Import users if required and assign the appropriate user licenses.</li>
+<li>Configure resources, their calendars, resource licenses, and devices.</li>
+<li>Configure application options and verify the result on the intended clients.</li>
 </ol>
 <h2 id="next-steps">Next steps</h2>
-<p>#Continue with:</p>
-<p>#- <a href="../connectors/">Connector Setup</a>
-#- <a href="../users/">User Management</a>
-#- <a href="../resources/">Resource Configuration</a></p>
+<p>Continue with the documentation for your setup:</p>
+<ul>
+<li><a href="../setup/portal-navigation/">Portal Navigation</a></li>
+<li><a href="../setup/connector-setup/">Connector Setup</a></li>
+<li><a href="../setup/calendar-setup/">Calendar Setup</a></li>
+<li><a href="../setup/user-setup/">User Management</a></li>
+<li><a href="../setup/resource-setup/room-booking-setup/resource-setup/">Room Booking Resource Configuration</a></li>
+<li><a href="../license/assign-license/">License Assignment</a></li>
+<li><a href="../setup/connector-setup/microsoft-exchange/local-ews-connection/">Local Exchange Connection via EWS</a></li>
+</ul>
+<!-- Connection choices and portal navigation checked on 2026-11-20, P01, P03, P11, P12. Storage, caching, and retention policies cannot be inferred from these UI observations. -->
 
                 
                 <!-- Required only on API pages -->

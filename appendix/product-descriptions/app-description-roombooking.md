@@ -33,6 +33,7 @@ The **HXA Display** is optional hardware that can be purchased pre-configured an
 - **Monitoring** – Event logs for connector health, authentication, and synchronization status.  
 
 #### Supported Connectors
+- **HXA.io Local Connector** for HXA-hosted calendars. The portal describes this connector as automatically created for the organization; see [Calendar Setup](/setup/calendar-setup.md).
 - **Exchange Online (Microsoft 365)** via **Microsoft Graph**  
   - *Application Connector* (App-only) – Organization-level access.  
   - *Service Connector* (Delegated) – Access via a service account.  
@@ -108,6 +109,8 @@ With the optional [local Exchange connection add-on](/setup/connector-setup/micr
 2. Create the Room Resource and assign its calendar.  
 3. Register the device with the resource using its displayed code.  
 4. Configure branding and LED colors if desired.  
+
+For the current portal sections and field locations, see [Room Booking Resource Setup](/setup/resource-setup/room-booking-setup/resource-setup.md). It covers the six Advanced settings tabs, device information, resource images, and add-on configuration. Room Service configuration is described in [Room Service Setup](/setup/room-service-setup.md).
 
 ### 4.2 Maintenance
 - Connector and device status visible via Portal event logs.  

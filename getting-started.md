@@ -21,20 +21,24 @@ It includes:
 Before starting, ensure the following:
 
 - Internet connectivity for all HXA.io components
-- Access to a Microsoft 365 tenant or Exchange environment
-- Global Administrator permissions (for initial setup)
+- A calendar host appropriate for your setup: HXA.io-hosted calendars, Microsoft 365, or an Exchange environment
+- Permissions for the relevant HXA.io portal areas and, when connecting Microsoft services, an account authorized for the required setup and consent
 - Access to the HXA.io Portal: https://portal.hxa.io
 
 ## System architecture overview
 
-HXA.io does not store Microsoft 365 data independently.  
-Instead, it connects directly to Exchange resources and synchronizes data in real time.
+Choose the connection model that matches the resource:
 
-This ensures:
+| Calendar connection | Setup |
+| --- | --- |
+| HXA-hosted calendar | HXA.io Local Connector and the Calendars area in the portal |
+| Microsoft 365 room or equipment mailbox | Microsoft Office 365 Resources connector using Microsoft Graph |
+| Exchange calendar through the portal | Microsoft Exchange connector using EWS |
+| Direct access from an HXA Display to an on-premises Exchange server | Optional local EWS connection add-on, configured on the display |
 
-- No data duplication
-- Real-time booking updates
-- Native integration with Outlook and Microsoft Teams
+In the direct display-to-Exchange mode, calendar data is exchanged locally; HXA.io Services remain involved in function settings, configuration, and licensing. See [Local Exchange Connection via EWS](/setup/connector-setup/microsoft-exchange/local-ews-connection.md).
+
+The **HXA.io Local Connector** is the portal's calendar-host option. Its name does not refer to the display's local Exchange connection.
 
 ## Setup process (high-level)
 
@@ -43,18 +47,20 @@ The setup is performed centrally via the HXA.io Portal.
 Main steps:
 
 1. Create an HXA.io account at https://portal.hxa.io  
-2. Configure required connectors:
-   - Microsoft Office 365 Resources
-   - Microsoft Entra ID (Azure AD)
-   - Microsoft Teams Chat/ Call
-3. Grant admin consent for the application
-4. Import users from Microsoft 365
-5. Configure resources (rooms, workplaces, etc.)
+2. Choose the calendar host and configure the connectors required by the applications you use. Microsoft Entra ID supports directory integration and the floor-plan links editor; Teams connectors are used for Door Connect workflows.
+3. Complete the required Microsoft authorization when connecting Microsoft services.
+4. Import users if required and assign the appropriate user licenses.
+5. Configure resources, their calendars, resource licenses, and devices.
+6. Configure application options and verify the result on the intended clients.
 
 ## Next steps
 
-#Continue with:
+Continue with the documentation for your setup:
 
-#- [Connector Setup](../connectors/)
-#- [User Management](../users/)
-#- [Resource Configuration](../resources/)
+- [Portal Navigation](/setup/portal-navigation.md)
+- [Connector Setup](/setup/connector-setup/connector-setup.md)
+- [Calendar Setup](/setup/calendar-setup.md)
+- [User Management](/setup/user-setup.md)
+- [Room Booking Resource Configuration](/setup/resource-setup/room-booking-setup/resource-setup.md)
+- [License Assignment](/license/assign-license.md)
+- [Local Exchange Connection via EWS](/setup/connector-setup/microsoft-exchange/local-ews-connection.md)

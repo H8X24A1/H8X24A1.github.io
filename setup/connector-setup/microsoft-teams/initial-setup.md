@@ -16,7 +16,7 @@ Both connector types follow the same general setup flow. The required Microsoft 
 
 For details, see:
 
-> **Microsoft Teams Connector Required Permissions**
+> [Microsoft Teams Connector Required Permissions](/setup/connector-setup/microsoft-teams/required-permissions.md)
 
 ---
 
@@ -24,13 +24,13 @@ For details, see:
 
 In the HXA.io Portal, go to:
 
-> **Connectors → Add Connector**
+> **Connectors → Create connector**
 
 Select:
 
-> **Office 365 – Teams**
+> **Office 365 - Teams → Connect**
 
-You will see two available connector options:
+The tile's **Connect** action opens a panel with two options:
 
 - **User/Service Account**
 - **Teams Calling Agent (User/Service Account)**
@@ -38,6 +38,8 @@ You will see two available connector options:
 Choose the connector type you want to configure and click:
 
 > **Connect**
+
+This is the second **Connect** button, on the account-type panel. Use **Back** to return to the connector selection without continuing with authentication.
 
 ---
 
@@ -108,7 +110,7 @@ The detailed permission scope is documented separately.
 
 For details, see:
 
-> **Microsoft Teams Connector Required Permissions**
+> [Microsoft Teams Connector Required Permissions](/setup/connector-setup/microsoft-teams/required-permissions.md)
 
 ---
 
@@ -180,7 +182,7 @@ The Microsoft permission scopes are maintained in a separate documentation page 
 
 For details, see:
 
-> **Microsoft Teams Connector Required Permissions**
+> [Microsoft Teams Connector Required Permissions](/setup/connector-setup/microsoft-teams/required-permissions.md)
 
 ---
 
@@ -199,8 +201,7 @@ The connector status should show as active and healthy in the HXA.io Portal.
 
 ## Related Documentation
 
-- Microsoft Teams Connector Required Permissions
-- Door Connect Service Account Reconsent
-- Door Connect Chat Agent Setup
-- Door Connect Call Agent Setup
-- Connector Troubleshooting
+- [Microsoft Teams Connector Required Permissions](/setup/connector-setup/microsoft-teams/required-permissions.md)
+- [Door Connect Service Account Reconsent](/setup/connector-setup/microsoft-teams/reconsent.md)
+- [Door Connect Resource Setup](/setup/resource-setup/door-connect-for-microsoft-teams-setup.md)
+- [Connector Troubleshooting in the Event Log](/maintenance/event-logs.md)
