@@ -4,33 +4,31 @@ icon: calendar
 order: 900
 ---
 
-# How to setup the Quick Meeting Title
+# Quick Meeting Title Setup
 
-The Quick meeting title is a great feature to easily choose between meeting titles.
+Configure selectable meeting titles on the Room Booking resource.
 
-+++ 1. First step
-- [x] Go to [HXA.io Portal](https://portal.hxa.io) page and type in your username and password
-- [x] Once you log in go to "My Devices"
-- [x] Choose between the desired devices
-- [x] Once you choose the device which is desired you need to press on the options of this device
-- [x] Then edit devices as shown in the figures
+## Open the title settings
 
-![](https://community.hxa.io/uploads/default/original/1X/37652f1ff29fca3566c2c7ad8313fcf26c45ab6d.png)
-+++
+1. Sign in to the [HXA.io Portal](https://portal.hxa.io).
+2. Open **Resources** and find the intended Room Booking resource.
+3. Open **Options > Edit Resource**.
+4. Scroll to **Advanced settings** and select **Custom titles & event meta data**.
 
-+++ 2. Second step
-- [x] In device settings you will find "Event Titles". You can add as much as you need from events name as shown in the figure
-!!!
-Hint: do not forget to save
-!!!
+## Maintain the title list
 
-![](https://community.hxa.io/uploads/default/original/1X/2b06c40166645cc08d749ce0b5fbff11a0602481.png)
-+++
+1. Enable **Activate additional titles** when you want to offer predefined titles.
+2. Enter a title in **Additional names for events**, for example `Team meeting`.
+3. Use **Add** to add it to the list.
+4. Review the existing entries. The list provides reorder handles and a remove control for each entry.
+5. Set **Allow custom title** according to whether users should also be able to enter their own titles.
+6. Use **Save and Update** in Advanced settings.
 
+## Check the result
 
-+++ 3. Third Step
-:icon-shield-check: Enjoy this great feature when you press on Quick Event.
+Reopen the resource and check the retained title list. On a connected Room Booking display, open Quick Booking and verify that the intended title choices are available.
 
-![](https://community.hxa.io/uploads/default/original/1X/5a148fa1e309588a44e109d5b6da42b188958925.jpeg)
-+++
+The default display names for directly booked and scheduled events are separate fields under **Advanced settings > Events display options**. For quick-booking activation and duration, use **Booking & interaction**. See [Room Booking Resource Setup](/setup/resource-setup/room-booking-setup/resource-setup.md).
+
+<!-- Source: authenticated portal inspection, 2026-11-20, P05. Field locations verified; list changes and client behavior were not executed. -->
 
